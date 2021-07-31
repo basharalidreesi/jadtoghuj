@@ -1,8 +1,10 @@
 ---
-label: Site Logos
-hide_body: true
+label: Multi-File Upload
+hide_body: false
 fields:
-- name: logos
+- name: images
   type: image_gallery
   config: {}
-  label: List of Logos
+  label: Images
+pages:
+- _data/logos.yml
