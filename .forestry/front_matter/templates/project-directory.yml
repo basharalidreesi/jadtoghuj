@@ -68,3 +68,5 @@ fields:
     max: 
     labelField: project_name
   label: Projects
+pages:
+- _data/projectDirectory.yml
