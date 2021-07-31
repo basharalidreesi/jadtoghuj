@@ -44,6 +44,15 @@ fields:
       config:
         required: false
       label: Look name
+    - name: look_description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Look description
     - name: look_cover
       type: file
       config:
