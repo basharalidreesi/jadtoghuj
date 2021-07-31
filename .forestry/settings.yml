@@ -21,6 +21,11 @@ sections:
   match: "**/*"
 - type: heading
   label: Management
+- type: directory
+  path: _data
+  label: Data
+  create: all
+  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
