@@ -6,13 +6,9 @@ webhook_url:
 sections:
 - type: heading
   label: Pages
-- type: jekyll-pages
-  label: Outer pages
-  create: all
 - type: document
   path: about/index.html
   label: About
-  match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
   label: Styling & Creative Direction
