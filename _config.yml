@@ -21,20 +21,20 @@ collections:
     title: Styling & Creative Direction
     output: true
 defaults:
-- scope:
-    path: ''
-  values:
-    layout: main
-- scope:
-    path: ''
-    type: 'styling-and-creative-direction'
-  values:
-    layout: work
-- scope:
-    path: ''
-    type: 'social-media-and-content-creation'
-  values:
-    layout: work
+  - scope:
+      path: ''
+    values:
+      layout: main
+  - scope:
+      path: ''
+      type: 'styling-and-creative-direction'
+    values:
+      layout: work
+  - scope:
+      path: ''
+      type: 'social-media-and-content-creation'
+    values:
+      layout: work
 theme: null
 sass:
   sass_dir: _sass
