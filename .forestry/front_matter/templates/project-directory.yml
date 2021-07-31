@@ -20,6 +20,22 @@ fields:
       schema:
         format: markdown
     label: Project description
+  - name: project_page
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: styling-and-creative-direction
+        file: 
+        path: 
+    label: Project page
+  - name: project_tags
+    type: tag_list
+    default: []
+    label: Project tags
   - name: looks
     type: field_group
     config: {}
