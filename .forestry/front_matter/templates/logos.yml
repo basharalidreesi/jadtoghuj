@@ -1,4 +1,8 @@
 ---
-label: Logos
-hide_body: true
-fields: []
+label: Site Logos
+hide_body: false
+fields:
+- name: logos
+  type: image_gallery
+  config: {}
+  label: List of Logos
