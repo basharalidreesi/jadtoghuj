@@ -25,6 +25,10 @@ sections:
   path: _data/projectDirectory.yml
   label: Project Directory
 - type: document
+  path: _data/homepageShowcase.yml
+  label: Homepage Showcase
+  match: "**/*"
+- type: document
   path: _data/colors.yml
   label: Colors
 - type: document
