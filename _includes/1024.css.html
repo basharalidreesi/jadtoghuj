@@ -1,0 +1,11 @@
+                {%- if page.['page content'].['special styles < 1024'] != "none" %}
+		<!-- begin 1024.css.html -->
+		<style>
+			@media only screen and (max-width: 1024px) {
+                                .main_wrapper-special_content {
+                                        {{ page.['page content'].['special styles < 1024'] }}        
+                                }
+                        }
+		</style>
+		<!-- end 1024.css.html -->
+                {%- endif %}

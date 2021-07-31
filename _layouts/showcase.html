@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<!-- begin showcase.html -->
+					{%- comment -%}
+						<!-- begin content setup -->
+					{%- endcomment -%}
+						{%- capture content_html -%}
+							{%- include content.html -%}
+						{%- endcapture -%}
+					{%- comment -%}
+						<!-- end content setup -->
+					{%- endcomment -%}
+					{{ content_html | remove: "<!-- SPECIAL BLOCK BREAK -->" }}
+				<!-- end showcase.html -->

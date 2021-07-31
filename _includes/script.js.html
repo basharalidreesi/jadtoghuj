@@ -1,0 +1,41 @@
+
+		<!-- begin script.js.html -->
+		<script>
+			{%- assign override = page.['page header'].image | strip_newlines | strip %}			"use strict";
+			{%- if page.url == "/" %}
+			let home = true;
+			{%- else %}
+			let home = false;
+			{%- endif -%}
+			{%- if page.['page header'].['is central'] %}
+			let central = true;
+			{%- else %}
+			let central = false;
+			{%- endif -%}
+			{%- if override == empty %}
+			let override = false;
+			{%- else %}
+			let override = true;
+			{%- endif -%}
+			{%- if page.layout == "contact" %}
+			let contact = true;
+			{%- else %}
+			let contact = false;
+			{%- endif -%}
+			{%- if page.layout == "list" %}
+			let list = true;
+			{%- else %}
+			let list = false;
+			{%- endif -%}
+			{%- if page.layout == "cascade" %}
+			let cascade = true;
+			{%- else %}
+			let cascade = false;
+			{%- endif -%}
+			let headers = new Array(
+				{%- for header in site.['header images'] %}
+				"{{- site.baseurl -}}{{- header -}}"{%- unless forloop.last -%}, {%- endunless -%}
+				{%- endfor %}
+			);
+		</script>
+		<!-- end script.js.html -->

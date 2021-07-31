@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- begin contact.html -->
+					{%- comment -%}
+						<!-- begin content setup -->
+					{%- endcomment -%}
+						{%- capture content_html -%}
+							{%- include content.html -%}
+						{%- endcapture -%}
+					{%- comment -%}
+						<!-- end content setup -->
+					{%- endcomment -%}
+					{%- comment -%}
+						<!-- begin contact setup -->
+					{%- endcomment -%}
+						{%- capture contact %}
+					<form class="main_wrapper-contact_wrapper main_wrapper-special_content --article_section_styling" action="{{- site.['contact form action'] | strip -}}" method="post" itemprop="isPartOf" itemscope="itemscope" itemtype="https://schema.org/ContactPage">
+						<fieldset itemscope="itemscope" itemtype="https://schema.org/CommunicateAction">
+							<input name="Name" placeholder="Name" type="text" required dir="auto" itemprop="description">
+							<input name="E-mail" placeholder="E-mail" type="email" required dir="auto" itemprop="description">
+							<textarea name="Message" placeholder="Message" required dir="auto" itemprop="description"></textarea>
+							<button type="submit" data-submit="Sending..." dir="auto" itemprop="potentialAction" itemscope="itemscope" itemtype="https://schema.org/SendAction">Send</button>
+						</fieldset>
+					</form>
+						{%- endcapture -%}
+					{%- comment -%}
+						<!-- end contact setup -->
+					{%- endcomment -%}
+					{{ content_html | replace: "<!-- SPECIAL BLOCK BREAK -->", contact | remove: "<!-- SPECIAL BLOCK BREAK -->" }}
+				<!-- end contact.html -->

@@ -1,0 +1,27 @@
+:root {
+        // universals
+	--font_size: 15px;
+	--font_weight: 400;
+	--line_height: 100%;
+	--universal_answer: 1rem;
+	--universal_answer_multiplier: 2;
+	--single: (var(--universal_answer) * var(--universal_answer_multiplier) / 2);
+        // presets
+	--double: (var(--single) * 2);
+	--quadruple: (var(--single) * 4);
+	--half: (var(--single) / 2);
+	--quarter: (var(--single) / 4);
+	--single_negative: (var(--single) * -1);
+	--double_negative: (var(--single) * -2);
+	--quadruple_negative: (var(--single) * -4);
+	--half_negative: (var(--single) / -2);
+	--quarter_negative: (var(--single) / -4);
+        // measurements
+	--screen_height: (var(--vh) * 100);
+	--screen_height_half: (var(--screen_height) / 2);
+	--screen_width_third: 33.33333333333333333333vw;
+	--nav_height: (var(--double) + var(--single) + var(--double));
+	--header_height: (var(--nav_height));
+	--header_height_half: (var(--nav_height) / 2);
+	--cascade_height: (var(--screen_height) - var(--nav_height) - var(--header_height) - 1px);
+}

@@ -1,0 +1,152 @@
+		<!-- begin fonts.css.html -->
+		{%- assign fonts = site.static_files | where: "font", true -%}
+		{%- assign fonts_indexed = site.data.arr.arr -%}
+		{%- assign index = true %}
+		<style>
+			{%- for font in fonts -%}
+				{%- assign font_path = font.path | remove: "/assets/fonts/" | split: "/" -%}
+				{%- assign font_family = font_path[0] | replace: "_", " " -%}
+				{%- assign unicode_range = site.data.unicode.latin | join: ", " -%}
+				{%- assign unicode_range_comment = "latin" -%}
+				{%- assign this_instance = font.basename | prepend: "-" | prepend: font_path[2] -%}
+				{%- for node in fonts_indexed -%}
+					{%- if node == this_instance -%}
+						{%- assign index = false -%}
+						{%- break -%}
+					{%- else -%}
+						{%- assign index = true -%}
+					{%- endif -%}
+				{%- endfor -%}
+				{%- if font.basename contains "lang-" -%}
+					{%- assign index = false -%}
+				{%- endif -%}
+				{%- if index == true -%}
+					{%- if font.path contains "-thin." or font.path contains "-hairline." -%}
+						{%- assign font_weight = 100 -%}
+					{%- elsif font.path contains "-extra_light." or font.path contains "-ultra_light." or font.path contains "-extralight." or font.path contains "-ultralight." -%}
+						{%- assign font_weight = 200 -%}
+					{%- elsif font.path contains "-light." -%}
+						{%- assign font_weight = 300 -%}
+					{%- elsif font.path contains "-regular." or font.path contains "-normal." -%}
+						{%- assign font_weight = 400 -%}
+					{%- elsif font.path contains "-medium." -%}
+						{%- assign font_weight = 500 -%}
+					{%- elsif font.path contains "-semi_bold." or font.path contains "-demi_bold." or font.path contains "-semibold." or font.path contains "-demibold." -%}
+						{%- assign font_weight = 600 -%}
+					{%- elsif font.path contains "-bold." -%}
+						{%- assign font_weight = 700 -%}
+					{%- elsif font.path contains "-extra_bold." or font.path contains "-ultra_bold." or font.path contains "-extrabold." or font.path contains "-ultrabold." -%}
+						{%- assign font_weight = 800 -%}
+					{%- elsif font.path contains "-black." or font.path contains "-heavy." -%}
+						{%- assign font_weight = 900 -%}
+					{%- elsif font.path contains "-extra_black." or font.path contains "-ultra_black." or font.path contains "-extrablack." or font.path contains "-ultrablack." -%}
+						{%- assign font_weight = 950 -%}
+					{%- else -%}
+						{%- assign font_weight = 400 -%}
+					{%- endif -%}
+					{%- if font.path contains "italic" -%}
+						{%- assign font_style = "italic" -%}
+					{%- elsif font.path contains "oblique" -%}
+						{%- assign font_style = "oblique" -%}
+					{%- else -%}
+						{%- assign font_style = "normal" -%}
+					{%- endif -%}
+					{%- assign langs = site.static_files | where: "font", true -%}
+					{%- for lang in langs -%}
+						{%- if lang.path contains font_path[0] -%}
+							{%- if lang.basename == "lang-ar" -%}
+								{%- assign unicode_range = site.data.unicode.arabic | join: ", " -%}
+								{%- assign unicode_range_comment = "arabic" -%}
+							{%- elsif lang.basename == "lang-ar-latin" or lang.basename == "lang-latin-ar" -%}
+								{%- assign unicode_range = site.data.unicode.latin | concat: site.data.unicode.arabic | join: ", " -%}
+								{%- assign unicode_range_comment = "latin, arabic" -%}
+							{%- endif -%}
+						{%- endif -%}
+					{%- endfor %}
+			@font-face {
+				font-family: "{{- font_family -}}";
+				src:
+					{%- capture src -%}
+						{%- for node in fonts -%}
+							{%- assign node_path = node.path | remove: "/assets/fonts/" | split: "/" -%}
+							{%- assign node_family = node_path[0] | replace: "_", " " -%}
+							{%- if node_family == font_family and node.basename == font.basename -%}
+						url("{{- site.baseurl -}}{{- node.path -}}") format("{{- node.extname | remove_first: '.' -}}"),
+							{%- endif -%}
+						{%- endfor -%}
+					{%- endcapture -%}
+					{%- assign font_src = src | split: "," -%}
+					{%- for node in font_src %}
+					{{ node }}{%- unless forloop.last -%} , {%- else -%} ; {%- endunless %}
+					{%- endfor %}
+				font-weight: {{ font_weight -}};
+				font-style: {{ font_style -}};
+				font-display: block;
+				unicode-range: {{ unicode_range -}}; /* {{ unicode_range_comment }} */
+			}
+					{%- assign fonts_indexed = fonts_indexed | push: this_instance -%}
+				{%- endif -%}
+			{%- endfor %}
+			@font-face {
+				font-family: "--space_control";
+				src:
+					local("helvetica neue"),
+					local("helvetica"),
+					local("arial");
+				unicode-range: {{ site.data.unicode.control }};
+			}
+			@font-face {
+				font-family: "--system_sans_serif";
+				src:
+					local("-apple-system"),
+					local("BlinkMacSystemFont"),
+					local("avenir next"),
+					local("avenir"),
+					local("segoe ui"),
+					local("helvetica neue"),
+					local("helvetica"),
+					local("Ubuntu"),
+					local("roboto"),
+					local("noto"),
+					local("arial");
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: "--system_serif";
+				src:
+					local("Iowan Old Style"),
+					local("Apple Garamond"),
+					local("Baskerville"),
+					local("Times New Roman"),
+					local("Droid Serif"),
+					local("Times"),
+					local("Source Serif Pro"),
+					local("Apple Color Emoji"),
+					local("Segoe UI Emoji"),
+					local("Segoe UI Symbol");
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: "--system_monospace";
+				src:
+					local("Menlo"),
+					local("Consolas"),
+					local("Monaco"),
+					local("Liberation Mono"),
+					local("Lucida Console");
+			}
+			:root {
+				--font_1_stack_family: {{ page.['font families'].['font 1 stack'] | replace: "default",  site.['font families'].['font 1 stack'] }};
+				--font_2_stack_family: {{ page.['font families'].['font 2 stack'] | replace: "default",  site.['font families'].['font 2 stack'] }};
+				--font_3_stack_family: {{ page.['font families'].['font 3 stack'] | replace: "default",  site.['font families'].['font 3 stack'] }};
+				--font_1_stack_size: {{ page.['font sizes'].['font 1 stack'] | replace: "default",  site.['font sizes'].['font 1 stack'] }};
+				--font_2_stack_size: {{ page.['font sizes'].['font 2 stack'] | replace: "default",  site.['font sizes'].['font 2 stack'] }};
+				--font_3_stack_size: {{ page.['font sizes'].['font 3 stack'] | replace: "default",  site.['font sizes'].['font 3 stack'] }};
+				--font_1_stack_weight: {{ page.['font weights'].['font 1 stack'] | replace: "default",  site.['font weights'].['font 1 stack'] }};
+				--font_2_stack_weight: {{ page.['font weights'].['font 2 stack'] | replace: "default",  site.['font weights'].['font 2 stack'] }};
+				--font_3_stack_weight: {{ page.['font weights'].['font 3 stack'] | replace: "default",  site.['font weights'].['font 3 stack'] }};
+			}
+		</style>
+		<!-- end fonts.css.html -->

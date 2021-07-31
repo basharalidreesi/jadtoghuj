@@ -1,55 +1,136 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-theme: minima
+---
+title: Jad Toghuj
+timezone: UTC
+collections:
+  docs:
+    title: Docs
+    output: true
+    permalink: "/:collection/:path"
+  posts:
+    title: Posts
+    output: true
+  social-media-and-content-creation:
+    title: Social Media & Content Creation
+    output: true
+    permalink: "/:collection/:path"
+  styling-and-creative-direction:
+    title: Styling & Creative Direction
+    output: true
+    permalink: "/:collection/:path"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: article
+    colours:
+      bg 1 colour: default
+      bg 2 colour: default
+      glow 1 colour: default
+      glow 2 colour: default
+      text colour: default
+      border colour: default
+      placeholder colour: default
+    font families:
+      font 1 stack: default
+      font 2 stack: default
+      font 3 stack: default
+      transferrable: true
+    font sizes:
+      font 1 stack: default
+      font 2 stack: default
+      font 3 stack: default
+    font weights:
+      font 1 stack: default
+      font 2 stack: default
+      font 3 stack: default
+    page root:
+      styles: 
+    page header:
+      is central: false
+      image: 
+      styles: 
+    page nav:
+      styles: 
+    page title:
+      is displayed: true
+      title text: 
+      styles: 
+    page content:
+      content styles: 
+      special styles > 1024: 
+      special styles < 1024: none
+    page footer:
+      is displayed: true
+      footer text: 
+      styles: 
+- scope:
+    path: ''
+    type: pages
+  values:
+    permalink: "/:basename"
+    page nav:
+      is navigable: false
+- scope:
+    path: ''
+    type: docs
+  values:
+    hidden: true
+    sitemap: false
+- scope:
+    path: assets
+  values:
+    sitemap: false
+- scope:
+    path: assets/fonts
+  values:
+    font: true
+baseurl: 
+url: https://jadtoghuj.com
+description: Jad Toghuj | Editorial Stylist | Creative Director | Amman, Jordan
+author: Jad Toghuj
+email: jadtoghuj@gmail.com
+instagram: "@jad.toghuj"
+colours:
+  bg 1 colour: "#91a3b0"
+  bg 2 colour: "#ffffff"
+  glow 1 colour: var(--bg_1_colour)
+  glow 2 colour: var(--bg_2_colour)
+  text colour: "#000000"
+  border colour: "#000000"
+  placeholder colour: "#e1e1e1"
+font families:
+  font 1 stack: '"mplus 1p", "--space_control", "kawkab", "--system_sans_serif", sans-serif'
+  font 2 stack: '"margo", "--space_control", "dobb", "--system_serif", serif'
+  font 3 stack: '"code new roman", "--space_control", "kawkab", "--system_monospace",
+    monospace'
+font sizes:
+  font 1 stack: 1rem
+  font 2 stack: 4rem
+  font 3 stack: 1rem
+font weights:
+  font 1 stack: 400
+  font 2 stack: 500
+  font 3 stack: 400
+header images:
+- "/uploads/header-01.svg"
+- "/uploads/header-02.svg"
+- "/uploads/header-03.svg"
+- "/uploads/header-04.svg"
+- "/uploads/header-05.svg"
+- "/uploads/header-06.svg"
+- "/uploads/header-07.svg"
+- "/uploads/header-08.svg"
+- "/uploads/header-09.svg"
+- "/uploads/header-10.svg"
+- "/uploads/header-11.svg"
+- "/uploads/header-12.svg"
+- "/uploads/header-13.svg"
+contact form action: https://formspree.io/f/mvovjwlo
+footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
+  for <a class="--no_border" href="/">Batabeet</a>
 plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+- jekyll-feed
+- jekyll-sitemap
