@@ -47,25 +47,25 @@ defaults:
       font 2 stack: default
       font 3 stack: default
     page root:
-      styles: 
+      styles:
     page header:
       is central: false
-      image: 
-      styles: 
+      image:
+      styles:
     page nav:
-      styles: 
+      styles:
     page title:
       is displayed: true
-      title text: 
-      styles: 
+      title text:
+      styles:
     page content:
-      content styles: 
-      special styles > 1024: 
+      content styles:
+      special styles > 1024:
       special styles < 1024: none
     page footer:
       is displayed: true
-      footer text: 
-      styles: 
+      footer text:
+      styles:
 - scope:
     path: ''
     type: pages
@@ -87,7 +87,7 @@ defaults:
     path: assets/fonts
   values:
     font: true
-baseurl: 
+baseurl:
 url: https://jadtoghuj.com
 description: Jad Toghuj | Editorial Stylist | Creative Director | Amman, Jordan
 author: Jad Toghuj
@@ -114,23 +114,11 @@ font weights:
   font 1 stack: 400
   font 2 stack: 500
   font 3 stack: 400
-header images:
-- "/uploads/header-01.svg"
-- "/uploads/header-02.svg"
-- "/uploads/header-03.svg"
-- "/uploads/header-04.svg"
-- "/uploads/header-05.svg"
-- "/uploads/header-06.svg"
-- "/uploads/header-07.svg"
-- "/uploads/header-08.svg"
-- "/uploads/header-09.svg"
-- "/uploads/header-10.svg"
-- "/uploads/header-11.svg"
-- "/uploads/header-12.svg"
-- "/uploads/header-13.svg"
 contact form action: https://formspree.io/f/mvovjwlo
 footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
   for <a class="--no_border" href="/">Batabeet</a>
 plugins:
 - jekyll-feed
 - jekyll-sitemap
+include:
+- "/assets/graphics/_*"
