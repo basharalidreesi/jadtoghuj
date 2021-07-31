@@ -22,16 +22,6 @@
 // begin
 // general purpose functions
 
-	function checkUrl(redirect) {
-		if (redirect) {
-			let unchecked_url = window.location.href;
-			let checked_url = unchecked_url.replace(/^(.+?)\/*?$/, "$1");
-			if (checked_url !== unchecked_url && !home) {
-				window.location.replace(checked_url);
-			}
-		}
-	}
-
 	function setVh() {
 		let vh = window.innerHeight * 0.01;
 		document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -129,7 +119,6 @@
 // init
 
 	function initialise() {
-		checkUrl(true);
 		setVh();
 		reticulateSplines();
 		initialListen();
