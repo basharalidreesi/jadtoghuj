@@ -5,9 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
-- type: jekyll-pages
   label: Pages
+- type: jekyll-pages
+  label: Outer pages
   create: all
 - type: directory
   path: _social-media-and-content-creation
@@ -24,11 +24,6 @@ sections:
 - type: document
   path: _data/logos.yml
   label: Logos
-- type: directory
-  path: _data
-  label: Data
-  create: all
-  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
