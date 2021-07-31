@@ -1,4 +1,8 @@
 ---
 label: Logos
 hide_body: true
-fields: []
+fields:
+- name: logo_images
+  type: image_gallery
+  config: {}
+  label: Logo images
