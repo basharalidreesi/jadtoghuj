@@ -121,4 +121,8 @@ plugins:
 - jekyll-feed
 - jekyll-sitemap
 include:
-- "/assets/graphics/_*"
+- "_*.jpg"
+- "_*.jpeg"
+- "_*.png"
+- "_*.gif"
+- "_*.svg"
