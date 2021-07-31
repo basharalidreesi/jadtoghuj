@@ -1,8 +1,0 @@
----
-label: Multi-File Upload
-hide_body: false
-fields:
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
