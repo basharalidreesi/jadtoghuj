@@ -27,7 +27,6 @@ sections:
 - type: document
   path: _data/projectDirectory.yml
   label: Project Directory
-  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
