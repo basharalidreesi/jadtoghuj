@@ -10,13 +10,13 @@ sections:
   label: Outer pages
   create: all
 - type: directory
-  path: _social-media-and-content-creation
-  label: Social Media and Content Creation
+  path: _styling-and-creative-direction
+  label: Styling & Creative Direction
   create: all
   match: "**/*"
 - type: directory
-  path: _styling-and-creative-direction
-  label: Styling and Creative Direction
+  path: _social-media-and-content-creation
+  label: Social Media & Content Creation
   create: all
   match: "**/*"
 - type: heading
