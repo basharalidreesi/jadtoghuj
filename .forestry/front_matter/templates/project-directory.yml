@@ -1,4 +1,44 @@
 ---
 label: Project Directory
 hide_body: false
-fields: []
+fields:
+- name: project
+  type: field_group_list
+  fields:
+  - name: project_name
+    type: text
+    config:
+      required: false
+    label: Project Name
+  - name: looks
+    type: field_group
+    config: {}
+    fields:
+    - name: look
+      type: field_group_list
+      fields:
+      - name: look_name
+        type: text
+        config:
+          required: false
+        label: Look Name
+      - name: look_cover
+        type: file
+        config:
+          maxSize: 64
+        label: Look Cover
+      - name: look_images
+        type: image_gallery
+        config: {}
+        label: Look Images
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Look
+    label: Looks
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Project
