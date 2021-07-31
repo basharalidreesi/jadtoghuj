@@ -25,11 +25,11 @@ sections:
   path: _data/projectDirectory.yml
   label: Project Directory
 - type: document
-  path: _data/logos.yml
-  label: Logos
-- type: document
   path: _data/colors.yml
   label: Colors
+- type: document
+  path: _data/logos.yml
+  label: Logos
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
