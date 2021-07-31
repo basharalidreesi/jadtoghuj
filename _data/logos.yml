@@ -1,6 +1,4 @@
 ---
-logos:
-- "/assets/graphics/logos/header-01.svg"
 images:
 - "/assets/graphics/header-13.svg"
 - "/assets/graphics/header-12.svg"
@@ -14,4 +12,3 @@ images:
 - "/assets/graphics/header-04.svg"
 - "/assets/graphics/header-03.svg"
 - "/assets/graphics/header-02.svg"
-- "/assets/graphics/logos/header-01.svg"
