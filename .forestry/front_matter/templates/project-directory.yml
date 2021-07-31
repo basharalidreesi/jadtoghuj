@@ -2,14 +2,24 @@
 label: Project Directory
 hide_body: false
 fields:
-- name: project
+- name: projects
   type: field_group_list
   fields:
   - name: project_name
     type: text
     config:
+      required: true
+    label: Project name
+    default: ''
+  - name: project_description
+    type: textarea
+    default: ''
+    config:
       required: false
-    label: Project Name
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Project description
   - name: looks
     type: field_group
     config: {}
@@ -21,24 +31,24 @@ fields:
         type: text
         config:
           required: false
-        label: Look Name
+        label: Look name
       - name: look_cover
         type: file
         config:
           maxSize: 64
-        label: Look Cover
+        label: Look cover
       - name: look_images
         type: image_gallery
         config: {}
-        label: Look Images
+        label: Look images
       config:
         min: 
         max: 
-        labelField: 
+        labelField: look_name
       label: Look
     label: Looks
   config:
     min: 
     max: 
-    labelField: 
-  label: Project
+    labelField: project_name
+  label: Projects
