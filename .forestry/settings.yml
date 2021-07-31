@@ -24,7 +24,6 @@ sections:
 - type: document
   path: _data/logos.yml
   label: Logos
-  match: "**/*"
 - type: directory
   path: _data
   label: Data
