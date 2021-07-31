@@ -1,6 +1,6 @@
 ---
 label: Site Logos
-hide_body: false
+hide_body: true
 fields:
 - name: logos
   type: image_gallery
