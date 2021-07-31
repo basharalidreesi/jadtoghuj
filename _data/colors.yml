@@ -1,0 +1,16 @@
+---
+general:
+  top_color: "#FFFFFF"
+  bottom_color: "#91A3B0"
+about:
+  top_color: "#FFFFFF"
+  bottom_color: "#91A3B0"
+  customise: false
+styling_and_creative_direction:
+  top_color: "#FFFFFF"
+  bottom_color: "#91A3B0"
+  custom: false
+social_media_and_content_creation:
+  top_color: "#FFFFFF"
+  bottom_color: "#91A3B0"
+  custom: false
