@@ -9,8 +9,6 @@ url: https://jadtoghuj.com
 instagram: jad.toghuj
 timezone: JO
 notice:
-
-contact form action: https://formspree.io/f/mvovjwlo
 footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
   for <a class="--no_border" href="/">Batabeet</a>
 
@@ -37,14 +35,6 @@ defaults:
     type: 'social-media-and-content-creation'
   values:
     layout: work
-- scope:
-    path: assets
-  values:
-    sitemap: false
-- scope:
-    path: assets/fonts
-  values:
-    font: true
 theme: null
 sass:
   sass_dir: _sass
