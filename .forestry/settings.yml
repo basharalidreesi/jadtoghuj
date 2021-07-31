@@ -20,7 +20,7 @@ sections:
   create: all
   match: "**/*"
 - type: heading
-  label: Other
+  label: Management
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
