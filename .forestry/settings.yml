@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Pages
@@ -11,12 +11,12 @@ sections:
   create: all
 - type: directory
   path: _social-media-and-content-creation
-  label: Social Media and Content Creation
+  label: Social Media & Content Creation
   create: all
   match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
-  label: Styling and Creative Direction
+  label: Styling & Creative Direction
   create: all
   match: "**/*"
 - type: heading
