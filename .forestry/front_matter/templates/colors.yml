@@ -1,4 +1,107 @@
 ---
 label: Colors
 hide_body: true
-fields: []
+fields:
+- name: general
+  type: field_group
+  config: {}
+  fields:
+  - name: top_color
+    type: color
+    label: Top color
+    config:
+      required: true
+      color_format: Hex
+    default: "#FFFFFF"
+  - name: bottom_color
+    type: color
+    label: Bottom color
+    config:
+      required: true
+      color_format: Hex
+    default: "#91A3B0"
+  label: General
+- name: about
+  type: field_group
+  config: {}
+  fields:
+  - name: customise
+    type: boolean
+    label: Custom?
+  - name: top_color
+    type: color
+    config:
+      required: true
+      color_format: Hex
+    label: Top color
+    default: "#FFFFFF"
+    showOnly:
+      field: customise
+      value: true
+  - name: bottom_color
+    type: color
+    label: Bottom color
+    config:
+      required: true
+      color_format: Hex
+    default: "#91A3B0"
+    showOnly:
+      field: customise
+      value: true
+  label: About
+- name: styling_and_creative_direction
+  type: field_group
+  config: {}
+  fields:
+  - name: custom
+    type: boolean
+    label: Custom?
+  - name: top_color
+    type: color
+    label: Top color
+    config:
+      required: true
+      color_format: Hex
+    default: "#FFFFFF"
+    showOnly:
+      field: custom
+      value: true
+  - name: bottom_color
+    type: color
+    config:
+      required: true
+      color_format: Hex
+    label: Bottom color
+    default: "#91A3B0"
+    showOnly:
+      field: custom
+      value: true
+  label: Styling & Creative Direction
+- name: social_media_and_content_creation
+  type: field_group
+  config: {}
+  fields:
+  - name: custom
+    type: boolean
+    label: Custom?
+  - name: top_color
+    type: color
+    label: Top color
+    config:
+      required: true
+      color_format: Hex
+    default: "#FFFFFF"
+    showOnly:
+      field: custom
+      value: true
+  - name: bottom_color
+    type: color
+    label: Bottom color
+    config:
+      required: true
+      color_format: Hex
+    default: "#91A3B0"
+    showOnly:
+      field: custom
+      value: true
+  label: Social Media & Content Creation
