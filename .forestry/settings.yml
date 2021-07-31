@@ -11,12 +11,12 @@ sections:
   create: all
 - type: directory
   path: _social-media-and-content-creation
-  label: Social Media & Content Creation
+  label: Social Media and Content Creation
   create: all
   match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
-  label: Styling & Creative Direction
+  label: Styling and Creative Direction
   create: all
   match: "**/*"
 - type: heading
