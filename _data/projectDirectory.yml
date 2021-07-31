@@ -6,7 +6,7 @@ projects:
   project_tags:
   - editorial
   looks:
-  - look_name: ''
+  - look_name: Look 01
     look_cover: "/assets/graphics/66a2911.jpg"
     look_images:
     - "/assets/graphics/66a2914.jpg"
