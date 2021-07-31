@@ -1,2 +1,16 @@
 ---
-projects: []
+projects:
+- project_name: Salissant Charme
+  project_description: Dirty Glamour
+  project_page: _styling-and-creative-direction/sallisant-charme.markdown
+  project_tags:
+  - editorial
+  looks:
+    look:
+    - look_name: ''
+      look_cover: ''
+      look_images:
+      - "/assets/graphics/66a2884.jpg"
+      - "/assets/graphics/66a2911.jpg"
+      - "/assets/graphics/66a2914.jpg"
+      - "/assets/graphics/66a2915.jpg"
