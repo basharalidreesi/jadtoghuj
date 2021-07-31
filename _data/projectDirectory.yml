@@ -1,2 +1,15 @@
 ---
-projects: []
+projects:
+- project_name: Salissant Charme
+  project_description: Dirty Glamour w/ Fashion House Amman
+  project_page: _styling-and-creative-direction/salissant-charme.markdown
+  project_tags:
+  - editorial
+  looks:
+  - look_name: ''
+    look_cover: "/assets/graphics/66a2911.jpg"
+    look_images:
+    - "/assets/graphics/66a2914.jpg"
+    - "/assets/graphics/66a2915.jpg"
+    - "/assets/graphics/66a2911.jpg"
+    - "/assets/graphics/66a2884.jpg"
