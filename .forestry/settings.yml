@@ -17,11 +17,6 @@ sections:
   label: Styling and Creative Direction
   create: all
   match: "**/*"
-- type: directory
-  path: _uploads
-  label: Uploads
-  create: all
-  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
