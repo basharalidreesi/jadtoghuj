@@ -19,14 +19,6 @@ sections:
   label: Styling and Creative Direction
   create: all
   match: "**/*"
-- type: heading
-  label: Organisation
-- type: directory
-  path: _data
-  label: Data
-  create: all
-  match: "**/*"
-  new_doc_ext: yml
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
