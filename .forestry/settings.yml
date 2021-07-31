@@ -21,11 +21,6 @@ sections:
   match: "**/*"
 - type: heading
   label: Other
-- type: directory
-  path: assets/logos
-  label: Logos
-  create: documents
-  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
