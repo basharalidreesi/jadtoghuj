@@ -14,13 +14,13 @@ sections:
   label: Styling & Creative Direction
   create: documents
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: directory
   path: _social-media-and-content-creation
   label: Social Media & Content Creation
   create: documents
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: heading
   label: Management
 - type: document
