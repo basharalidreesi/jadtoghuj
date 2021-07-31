@@ -1,6 +1,0 @@
-User-agent: Googlebot-Image
-Disallow: /
-
-User-agent: *
-Disallow: /docs/
-Sitemap: https://jadtoghuj.com/sitemap.xml
