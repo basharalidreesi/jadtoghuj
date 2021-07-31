@@ -9,6 +9,10 @@ sections:
 - type: jekyll-pages
   label: Outer pages
   create: all
+- type: document
+  path: about/index.html
+  label: About
+  match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
   label: Styling & Creative Direction
@@ -30,7 +34,6 @@ sections:
 - type: document
   path: _data/colors.yml
   label: Colors
-  match: "**/*"
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
