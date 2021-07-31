@@ -4,31 +4,22 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Posts
-  create: all
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
 - type: directory
   path: _social-media-and-content-creation
-  label: Social media and content creation
+  label: Social Media and Content Creation
   create: all
   match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
-  label: Styling and creative direction
+  label: Styling and Creative Direction
   create: all
   match: "**/*"
 - type: directory
   path: _uploads
   label: Uploads
-  create: all
-  match: "**/*"
-- type: directory
-  path: _docs
-  label: Docs
   create: all
   match: "**/*"
 upload_dir: uploads
