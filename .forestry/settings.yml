@@ -12,13 +12,15 @@ sections:
 - type: directory
   path: _styling-and-creative-direction
   label: Styling & Creative Direction
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".html"
 - type: directory
   path: _social-media-and-content-creation
   label: Social Media & Content Creation
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".html"
 - type: heading
   label: Management
 - type: document
@@ -27,7 +29,6 @@ sections:
 - type: document
   path: _data/homepageShowcase.yml
   label: Homepage Showcase
-  match: "**/*"
 - type: document
   path: _data/colors.yml
   label: Colors
