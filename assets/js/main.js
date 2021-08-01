@@ -16,11 +16,11 @@ const jad = {
                         jad.viewport.reportViewportHeight();
                 },
                 reportViewportHeight: function() {
-                        let height = window.innerHeight * 0.01;
-                        jad.viewport.setViewportHeight(height);
+                        let viewportHeight = window.innerHeight * 0.01;
+                        jad.viewport.setViewportHeight(viewportHeight);
                 },
-                setViewportHeight: function(height) {
-                        jad.lexicon.root.style.setProperty("--vh", `${height}px`);
+                setViewportHeight: function(viewportHeight) {
+                        jad.lexicon.root.style.setProperty("--vh", `${viewportHeight}px`);
                 },
 
         },
