@@ -42,15 +42,18 @@
 			</a>
 		</header>
 		<nav id="nav">
-			<a href="/about/">
-				About
-			</a>
-			<a href="/styling-and-creative-direction/">
-				Styling & Creative Direction
-			</a>
-			<a href="/social-media-and-content-creation/">
-				Social Media & Content Creation
-			</a>
+			<input type="checkbox" id="nav__toggle" />
+			<label for="nav_toggle" id="nav__label">
+				<a href="/about/">
+					About
+				</a>
+				<a href="/styling-and-creative-direction/">
+					Styling & Creative Direction
+				</a>
+				<a href="/social-media-and-content-creation/">
+					Social Media & Content Creation
+				</a>
+			</label>
 		</nav>
 		<main id="main">
 			{{ content }}
