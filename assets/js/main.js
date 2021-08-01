@@ -1,13 +1,18 @@
+---
+---
+
 "use strict";
 
 const jad = {
 
         lexicon: {
                 root: document.documentElement,
+                logo: document.querySelector("#logo"),
         },
 
         initAllScripts: function() {
                 jad.viewport.initViewportScripts();
+                jad.header.initHeaderScripts();
         },
 
         viewport: {
@@ -24,6 +29,27 @@ const jad = {
                 },
                 setViewportHeight: function(viewportHeight) {
                         jad.lexicon.root.style.setProperty("--vh", `${viewportHeight}px`);
+                },
+
+        },
+
+        header: {
+
+                initHeaderScripts: function() {
+                        jad.header.pickRandomLogo();
+                },
+                pickRandomLogo: function() {
+                        let logos = new Array(
+                                {%- for logo in site.data.logos.logo_images %}
+                                "{{ logo }}" {%- unless forloop.last %}, {% endunless %}
+                                {%- endfor %}
+                        );
+                        let randomLogo = (Math.floor(Math.random() * logos.length));
+                        jad.header.setRandomLogo(randomLogo);
+                },
+                setRandomLogo: function(randomLogo) {
+                        jad.lexicon.logo.src = randomLogo;
+                        SVGInject(jad.lexicon.logo);
                 },
 
         },
