@@ -22,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/{{ style }}.css" media="all" />
 	{%- endfor -%}
 	{%- endif %}
+	<script defer src="/assets/js/svg-inject.min.js"></script>
 	<script defer src="/assets/js/main.js"></script>
 	<script defer data-domain="jadtoghuj.com" src="https://plausible.io/js/plausible.js"></script>
 	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
@@ -35,8 +36,22 @@
 	</div>
 	{%- endif %}
 	<div id="mother">
-		<header id="header" role="presentation" aria-hidden="true"></header>
-		<nav id="nav"></nav>
+		<header id="header" role="presentation" aria-hidden="true">
+			<a href="/">
+				<img src="{{ site.data.logos.logo_images[0] }}" />
+			</a>
+		</header>
+		<nav id="nav">
+			<a href="/about/">
+				About
+			</a>
+			<a href="/styling-and-creative-direction/">
+				Styling & Creative Direction
+			</a>
+			<a href="/social-media-and-content-creation">
+				Social Media & Content Creation
+			</a>
+		</nav>
 		<main id="main">
 			{{ content }}
 		</main>
