@@ -23,13 +23,13 @@
 // general purpose functions
 
 	function checkUrl(redirect) {
-		if (redirect) {
-			let unchecked_url = window.location.href;
-			let checked_url = unchecked_url.replace(/^(.+?)\/*?$/, "$1");
-			if (checked_url !== unchecked_url && !home) {
-				window.location.replace(checked_url);
-			}
-		}
+		// if (redirect) {
+		// 	let unchecked_url = window.location.href;
+		// 	let checked_url = unchecked_url.replace(/^(.+?)\/*?$/, "$1");
+		// 	if (checked_url !== unchecked_url && !home) {
+		// 		window.location.replace(checked_url);
+		// 	}
+		// }
 	}
 
 	function setVh() {
