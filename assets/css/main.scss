@@ -104,7 +104,7 @@ body {
 		position: sticky;
 		top: 2rem;
 		height: 10rem;
-		margin: calc(var(--vh, 1vh) * 100 - 1rem - 5rem) 1rem;
+		margin: calc(var(--vh, 1vh) * 50 - 1rem - 5rem) 1rem;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
@@ -112,7 +112,6 @@ body {
 		#logo {
 			height: 100%;
 		}
-
 	}
 
 	#nav { /* none yet! */ }
