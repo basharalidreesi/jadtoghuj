@@ -134,7 +134,9 @@ body {
 			height: 5rem;
 			background: var(--color-top);
 			box-shadow: 0 0 5rem 5rem var(--color-top);
-			& > a {
+			&__styling,
+			&__about,
+			&__social {
 				flex: 1;
 				padding: 2rem;
 				text-align: center;
@@ -145,6 +147,15 @@ body {
 						--color-text: red;
 					}
 				}
+			}
+			&__styling {
+				order: 1;
+			}
+			&__about {
+				order: 2;
+			}
+			&__social {
+				order: 3;
 			}
 		}
 	}
