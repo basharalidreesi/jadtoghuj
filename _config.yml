@@ -14,96 +14,17 @@ defaults:
 - scope:
     path: ''
   values:
-    layout: article
-    colours:
-      bg 1 colour: default
-      bg 2 colour: default
-      glow 1 colour: default
-      glow 2 colour: default
-      text colour: default
-      border colour: default
-      placeholder colour: default
-    font families:
-      font 1 stack: default
-      font 2 stack: default
-      font 3 stack: default
-      transferrable: true
-    font sizes:
-      font 1 stack: default
-      font 2 stack: default
-      font 3 stack: default
-    font weights:
-      font 1 stack: default
-      font 2 stack: default
-      font 3 stack: default
-    page root:
-      styles:
-    page header:
-      is central: false
-      image:
-      styles:
-    page nav:
-      styles:
-    page title:
-      is displayed: true
-      title text:
-      styles:
-    page content:
-      content styles:
-      special styles > 1024:
-      special styles < 1024: none
-    page footer:
-      is displayed: true
-      footer text:
-      styles:
-- scope:
-    path: ''
-    type: pages
-  values:
-    permalink: "/:basename"
-    page nav:
-      is navigable: false
-- scope:
-    path: ''
-    type: docs
-  values:
-    hidden: true
-    sitemap: false
+    layout: main
 - scope:
     path: assets
   values:
     sitemap: false
-- scope:
-    path: assets/fonts
-  values:
-    font: true
 baseurl:
 url: https://jadtoghuj.com
 description: Jad Toghuj | Editorial Stylist | Creative Director | Amman, Jordan
 author: Jad Toghuj
 email: jadtoghuj@gmail.com
 instagram: "@jad.toghuj"
-colours:
-  bg 1 colour: "#91a3b0"
-  bg 2 colour: "#ffffff"
-  glow 1 colour: var(--bg_1_colour)
-  glow 2 colour: var(--bg_2_colour)
-  text colour: "#000000"
-  border colour: "#000000"
-  placeholder colour: "#e1e1e1"
-font families:
-  font 1 stack: '"mplus 1p", "--space_control", "kawkab", "--system_sans_serif", sans-serif'
-  font 2 stack: '"margo", "--space_control", "dobb", "--system_serif", serif'
-  font 3 stack: '"code new roman", "--space_control", "kawkab", "--system_monospace",
-    monospace'
-font sizes:
-  font 1 stack: 1rem
-  font 2 stack: 4rem
-  font 3 stack: 1rem
-font weights:
-  font 1 stack: 400
-  font 2 stack: 500
-  font 3 stack: 400
 contact form action: https://formspree.io/f/mvovjwlo
 footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
   for <a class="--no_border" href="/">Batabeet</a>
