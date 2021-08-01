@@ -137,6 +137,15 @@ body {
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
+				&--about {
+					order: 1;
+				}
+				&--styling {
+					order: 2;
+				}
+				&--social {
+					order: 3;
+				}
 			}
 			&--styling,
 			&--about,
