@@ -32,8 +32,8 @@ fields:
 - name: footer_text
   type: textarea
   default: |-
-    By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
-      for <a class="--no_border" href="/">Batabeet</a>
+    By <a href="https://basharalidreesi.com">Basabees</a>
+      for <a href="/">Batabeet</a>
   config:
     required: false
     wysiwyg: false
