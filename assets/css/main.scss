@@ -134,6 +134,15 @@ body {
 			height: 5rem;
 			background: var(--color-top);
 			box-shadow: 0 0 5rem 5rem var(--color-top);
+			&--styling {
+				order: 1;
+			}
+			&--about {
+				order: 2;
+			}
+			&--social {
+				order: 3;
+			}
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
@@ -167,15 +176,6 @@ body {
 						--color-text: red;
 					}
 				}
-			}
-			&--styling {
-				order: 1;
-			}
-			&--about {
-				order: 2;
-			}
-			&--social {
-				order: 3;
 			}
 		}
 	}
