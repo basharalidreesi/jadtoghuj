@@ -134,9 +134,9 @@ body {
 			height: 5rem;
 			background: var(--color-top);
 			box-shadow: 0 0 5rem 5rem var(--color-top);
-			&__styling,
-			&__about,
-			&__social {
+			&--styling,
+			&--about,
+			&--social {
 				flex: 1;
 				padding: 2rem;
 				text-align: center;
@@ -148,13 +148,13 @@ body {
 					}
 				}
 			}
-			&__styling {
+			&--styling {
 				order: 1;
 			}
-			&__about {
+			&--about {
 				order: 2;
 			}
-			&__social {
+			&--social {
 				order: 3;
 			}
 		}
