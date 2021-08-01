@@ -134,9 +134,14 @@ body {
 			height: 5rem;
 			background: var(--color-top);
 			box-shadow: 0 0 5rem 5rem var(--color-top);
-			& > * {
+			& > a {
 				padding: 2rem;
 				font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+				@media (any-hover: hover) {
+					&:hover {
+						--color-text: red;
+					}
+				}
 			}
 		}
 	}
