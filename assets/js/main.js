@@ -46,7 +46,7 @@ const jad = {
                                 {%- endfor %}
                         );
                         let randomLogo = (Math.floor(Math.random() * logos.length));
-                        jad.header.setRandomLogo(randomLogo);
+                        jad.header.setRandomLogo(logos[randomLogo]);
                 },
                 setRandomLogo: function(randomLogo) {
                         jad.lexicon.logo.src = randomLogo;
