@@ -32,7 +32,6 @@ sections:
 - type: document
   path: _data/generalConfiguration.yml
   label: General Configuration
-  match: "**/*"
 - type: document
   path: _data/colors.yml
   label: Colors
