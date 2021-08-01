@@ -14,6 +14,9 @@ const jad = {
 
                 initViewportScripts: function() {
                         jad.viewport.reportViewportHeight();
+                        window.addEventListener("resize", () => {
+        			jad.util.debounce(jad.viewport.reportViewportHeight, 350);
+        		});
                 },
                 reportViewportHeight: function() {
                         let viewportHeight = window.innerHeight * 0.01;
