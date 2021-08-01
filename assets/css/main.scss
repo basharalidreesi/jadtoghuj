@@ -135,8 +135,11 @@ body {
 			background: var(--color-top);
 			box-shadow: 0 0 5rem 5rem var(--color-top);
 			& > a {
+				flex: 1;
 				padding: 2rem;
+				text-align: center;
 				font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+				font-weight: 300;
 				@media (any-hover: hover) {
 					&:hover {
 						--color-text: red;
