@@ -111,6 +111,7 @@ body {
 		justify-content: center;
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
+		z-index: 100;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
