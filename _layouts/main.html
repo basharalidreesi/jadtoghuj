@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- last pushed {{ site.time | date_to_long_string: "ordinal" }} -->
+<html lang="en-GB" dir="auto">
+<head>
+	<meta charset="utf-8">
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}">
+	<meta name="author" content="{{ site.author }}">
+	<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preload" href="/assets/css/font.css" as="style">
+	<link rel="preload" href="/assets/css/main.css" as="style">
+	{%- if layout.style -%}
+	{%- for style in layout.style %}
+	<link rel="preload" href="/assets/css/{{ style }}.css" as="style">
+	{%- endfor -%}
+	{%- endif %}
+	<link rel="stylesheet" type="text/css" href="/assets/css/font.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/main.css" media="all" />
+	{%- if layout.style -%}
+	{%- for style in layout.style %}
+	<link rel="stylesheet" type="text/css" href="/assets/css/{{ style }}.css" media="all" />
+	{%- endfor -%}
+	{%- endif %}
+	<script defer src="/assets/js/main.js"></script>
+	<script defer data-domain="jadtoghuj.com" src="https://plausible.io/js/plausible.js"></script>
+	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+</head>
+<body>
+        {%- if site.notice %}
+	<div id="notice">
+		{%- for notice in site.notice %}
+		{{ notice }}
+		{%- endfor %}
+	</div>
+	{%- endif %}
+	<div id="mother">
+		<header id="header" role="presentation" aria-hidden="true"></header>
+		<nav id="nav"></nav>
+		<main id="main">
+			{{ content }}
+		</main>
+                <footer id="footer"></footer>
+	</div>
+</body>
+</html>

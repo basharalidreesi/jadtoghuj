@@ -1,7 +1,133 @@
 ---
-permalink: assets/css/main.css
 ---
 
-@import "normalize";
-@import "impose";
-@import "vars";
+@charset "UTF-8";
+
+$font-size: 15px !default;
+
+:root {
+
+	--color-top: {{ site.data.colors.general.top_color }};
+        --color-bottom: {{ site.data.colors.general.bottom_color }};
+	@media (prefers-color-scheme: dark) { }
+
+}
+
+html,
+body {
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	font-size: $font-size;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.0;
+	text-align: left;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	color: var(--color-text);
+	font-synthesis: none;
+	text-align: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-size-adjust: none;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+	word-break: break-word;
+}
+
+img {
+	// pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+        text-decoration: none;
+}
+a[href*="//"]:not([href*="{{- site.url -}}{{- site.baseurl -}}"]), a[href*="mailto:"] {
+	cursor: alias;
+}
+a:focus {
+	// text-decoration: underline; // todo
+}
+:focus {
+	outline: none;
+}
+
+::-moz-selection,
+::selection { /* none yet! */ }
+
+body {
+	background: linear-gradient(to bottom, var(--color-top) 10%, var(--color-bottom) 100%);
+}
+
+#notice { /* none yet! */ }
+
+#mother {
+
+	display: flex;
+	flex-flow: column nowrap;
+	width: calc(100% - 2rem);
+	height: 100%;
+	min-height: 100vh;
+	margin: 1rem;
+	animation: fadeIn 1.5s;
+	@keyframes fadeIn {
+		from { opacity: 0; } to { opacity: 1; }
+	}
+	& > * {
+		margin: 1rem;
+	}
+
+	#header {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	#nav { /* none yet! */ }
+
+	#main { /* none yet! */ }
+
+        #footer { /* none yet! */ }
+
+	.generic--hidden {
+		position: absolute !important;
+		top: -9999px !important;
+		left: -9999px !important;
+	}
+
+	.generic--jsOnly {
+		display: none;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		* {
+			animation: none !important;
+			transition: none !important;
+		}
+	}
+
+}
