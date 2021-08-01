@@ -270,6 +270,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-coffeescript (~> 1.1, >= 1.1.1)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   tzinfo (~> 1.2)
