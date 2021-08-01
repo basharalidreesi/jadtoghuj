@@ -9,6 +9,7 @@ $font-size: 15px !default;
 
 	--color-top: {{ site.data.colors.general.top_color }};
         --color-bottom: {{ site.data.colors.general.bottom_color }};
+	--color-text: #000000;
 	@media (prefers-color-scheme: dark) { }
 
 }
@@ -124,7 +125,10 @@ body {
 			display: none;
 		}
 		&__label {
-
+			display: block;
+			height: 5rem;
+			background: var(--color-top);
+			box-shadow: 0 0 5rem 5rem var(--color-top);
 		}
 	}
 
