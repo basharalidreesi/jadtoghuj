@@ -1,14 +1,7 @@
 ---
 title: Jad Toghuj
-timezone: UTC
+timezone: JO
 collections:
-  docs:
-    title: Docs
-    output: true
-    permalink: "/:collection/:path"
-  posts:
-    title: Posts
-    output: true
   social-media-and-content-creation:
     title: Social Media & Content Creation
     output: true
@@ -17,9 +10,6 @@ collections:
     title: Styling & Creative Direction
     output: true
     permalink: "/:collection/:path"
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
@@ -120,9 +110,3 @@ footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabe
 plugins:
 - jekyll-feed
 - jekyll-sitemap
-include:
-- "_*.jpg"
-- "_*.jpeg"
-- "_*.png"
-- "_*.gif"
-- "_*.svg"
