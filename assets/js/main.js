@@ -8,7 +8,7 @@ const jad = {
 
         lexicon: {
                 root: document.documentElement,
-                logo: document.querySelector("#logo"),
+                logo: document.querySelector("#header__logo"),
         },
 
         initAllScripts: function() {

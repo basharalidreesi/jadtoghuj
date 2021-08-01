@@ -103,13 +103,17 @@ body {
 	#header {
 		position: sticky;
 		top: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		height: 10rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 5rem) 1rem;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		#logo {
+		&__anchor,
+		&__logo {
 			height: 100%;
 			max-width: 100%;
 		}
