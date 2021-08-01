@@ -40,3 +40,5 @@ fields:
     schema:
       format: markdown
   label: Footer text
+pages:
+- _data/generalConfiguration.yml
