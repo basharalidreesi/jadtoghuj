@@ -1,4 +1,42 @@
 ---
 label: General Configuration
 hide_body: true
-fields: []
+fields:
+- name: author
+  type: text
+  config:
+    required: true
+  label: Author
+  default: Jad Toghuj
+- name: description
+  type: textarea
+  default: Jad Toghuj | Editorial Stylist | Creative Director | Amman, Jordan
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: email
+  type: text
+  config:
+    required: true
+  label: Email
+  default: jadtoghuj@gmail.com
+- name: instagram
+  type: text
+  config:
+    required: true
+  label: Instagram
+  default: "@jad.toghuj"
+- name: footer_text
+  type: textarea
+  default: |-
+    By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
+      for <a class="--no_border" href="/">Batabeet</a>
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Footer text
