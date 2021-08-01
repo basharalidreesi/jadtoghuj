@@ -31,9 +31,7 @@ fields:
   default: "@jad.toghuj"
 - name: footer_text
   type: textarea
-  default: |-
-    By <a href="https://basharalidreesi.com">Basabees</a>
-      for <a href="/">Batabeet</a>
+  default: By <a href="https://basharalidreesi.com">Basabees</a> for <a href="/">Batabeet</a>
   config:
     required: false
     wysiwyg: false
