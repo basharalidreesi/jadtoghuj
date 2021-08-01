@@ -21,13 +21,6 @@ defaults:
     sitemap: false
 baseurl:
 url: https://jadtoghuj.com
-description: Jad Toghuj | Editorial Stylist | Creative Director | Amman, Jordan
-author: Jad Toghuj
-email: jadtoghuj@gmail.com
-instagram: "@jad.toghuj"
-contact form action: https://formspree.io/f/mvovjwlo
-footer text: By <a class="--no_border" href="https://basharalidreesi.com">Basabees</a>
-  for <a class="--no_border" href="/">Batabeet</a>
 plugins:
 - jekyll-feed
 - jekyll-sitemap
