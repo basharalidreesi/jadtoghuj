@@ -24,3 +24,4 @@ url: https://jadtoghuj.com
 plugins:
 - jekyll-feed
 - jekyll-sitemap
+- jekyll-coffeescript
