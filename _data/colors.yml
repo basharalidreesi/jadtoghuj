@@ -14,3 +14,7 @@ social_media_and_content_creation:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
   custom: false
+homepage:
+  custom: false
+  top_color: "#FFFFFF"
+  bottom_color: "#91A3B0"
