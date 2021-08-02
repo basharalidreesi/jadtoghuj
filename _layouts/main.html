@@ -59,7 +59,9 @@
 		<main id="main">
 			{{ content }}
 		</main>
+		{%- unless page.layout == "project" %}
                 <footer id="footer"></footer>
+		{%- endunless %}
 	</div>
 </body>
 </html>
