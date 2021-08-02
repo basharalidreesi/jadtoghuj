@@ -32,7 +32,6 @@ sections:
 - type: document
   path: _data/clientDirectory.yml
   label: Client Directory
-  match: "**/*"
 - type: heading
   label: Configuration
 - type: document

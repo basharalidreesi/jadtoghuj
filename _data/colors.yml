@@ -3,7 +3,7 @@ general:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
   text_color: "#000000"
-  special_color: "#0000FF"
+  special_color: "#FF00FF"
 about:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
