@@ -1,0 +1,17 @@
+---
+---
+
+@charset "UTF-8";
+
+$font-size: 15px !default;
+
+:root {
+
+        {%- if site.data.colors.social_media_and_content_creation.custom %}
+        --color-top: {{ site.data.colors.social_media_and_content_creation.top_color }};
+        --color-bottom: {{ site.data.colors.social_media_and_content_creation.bottom_color }};
+	--color-text: {{ site.data.colors.social_media_and_content_creation.text_color }};
+	--color-special: {{ site.data.colors.social_media_and_content_creation.special_color }};
+        {%- endif %}
+
+}
