@@ -21,6 +21,34 @@ fields:
       color_format: Hex
     default: "#91A3B0"
   label: General
+- name: homepage
+  type: field_group
+  config: {}
+  fields:
+  - name: custom
+    type: boolean
+    label: Custom?
+  - name: top_color
+    type: color
+    label: Top color
+    config:
+      required: true
+      color_format: Hex
+    default: "#FFFFFF"
+    showOnly:
+      field: custom
+      value: true
+  - name: bottom_color
+    type: color
+    label: Bottom color
+    config:
+      required: true
+      color_format: Hex
+    default: "#91A3B0"
+    showOnly:
+      field: custom
+      value: true
+  label: Homepage
 - name: about
   type: field_group
   config: {}
