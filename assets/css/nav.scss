@@ -24,8 +24,8 @@ $font-size: 15px !default;
                 &__label {
                         &::before,
         		&::after {
-                                height: 0px;
-                                opacity: 0;
+                                height: 0px !important;
+                                opacity: 0 !important;
                         }
                         & > .nav__label--active {
                                 pointer-events: none;
