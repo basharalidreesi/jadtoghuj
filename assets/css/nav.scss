@@ -17,6 +17,8 @@ $font-size: 15px !default;
                         & > *:not(.nav__label--active) {
                                 display: none;
                         }
+                }
+                &__label {
                         & > .nav__label--active {
                                 pointer-events: none;
                         }
