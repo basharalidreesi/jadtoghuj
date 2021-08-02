@@ -12,7 +12,6 @@ $font-size: 15px !default;
         --color-bottom: {{ site.data.colors.homepage.bottom_color }};
 	--color-text: {{ site.data.colors.homepage.text_color }};
 	--color-special: {{ site.data.colors.homepage.special_color }};
-        @media (prefers-color-scheme: dark) { }
         {%- endif %}
 
 }
@@ -20,14 +19,8 @@ $font-size: 15px !default;
 #mother {
 
         #header {
-                position: sticky;
-		top: 2rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
-		z-index: 100;
         }
 
         #nav {

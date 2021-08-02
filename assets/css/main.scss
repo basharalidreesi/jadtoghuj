@@ -106,6 +106,12 @@ body {
 
 	#header {
 		order: 1;
+		position: sticky;
+		top: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+                z-index: 100;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
