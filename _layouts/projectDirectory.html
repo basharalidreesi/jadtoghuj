@@ -4,3 +4,18 @@ style:
   - projectDirectory
   - nav
 ---
+
+<div id="projectDirectory" style="display: none;">
+        <div id="projectDirectory__project">
+                {%- for project in site.data.projectDirectory.projects %}
+                <span>{{ project.project_name }}</span>
+                {%- endfor %}
+        </div>
+        <div id="projectDirectory__look">
+                {%- for project in site.data.projectDirectory.projects -%}
+                {%- for look in project.looks %}
+                <span>{{ look.look_name }}</span>
+                {%- endfor -%}
+                {%- endfor %}
+        </div>
+</div>
