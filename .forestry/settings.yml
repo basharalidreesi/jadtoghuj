@@ -24,14 +24,20 @@ sections:
 - type: heading
   label: Management
 - type: document
-  path: _data/projectDirectory.yml
-  label: Project Directory
-- type: document
   path: _data/homepageShowcase.yml
   label: Homepage Showcase
 - type: document
+  path: _data/projectDirectory.yml
+  label: Project Directory
+- type: document
+  path: _data/clientDirectory.yml
+  label: Client Directory
+  match: "**/*"
+- type: heading
+  label: Configuration
+- type: document
   path: _data/generalConfiguration.yml
-  label: General Configuration
+  label: General
 - type: document
   path: _data/colors.yml
   label: Colors
