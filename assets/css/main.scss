@@ -167,6 +167,20 @@ body {
 				&--social {
 					order: 3;
 				}
+				&::before,
+				&::after {
+					content: "";
+					height: 1px;
+					width: calc(100% + 4rem);
+					background: var(--color-text);
+					opacity: 0.5;
+				}
+				&::before {
+					order: 2;
+				}
+				&::after {
+					order: 3;
+				}
 			}
 			&--styling,
 			&--about,
