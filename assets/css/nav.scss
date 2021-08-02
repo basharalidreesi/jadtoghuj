@@ -27,6 +27,9 @@ $font-size: 15px !default;
                                 & > *:not(.nav__label--active) {
                                         display: none;
                                 }
+                                & > .nav__label--active {
+                                        cursor: s-resize;
+                                }
                         }
 
                         &__toggle:checked + #nav__label {
@@ -45,6 +48,7 @@ $font-size: 15px !default;
                                 }
                                 & > .nav__label--active {
                                         order: 0;
+                                        cursor: n-resize;
                                 }
                         }
 
