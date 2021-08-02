@@ -12,13 +12,23 @@ collections:
     permalink: "/:collection/:path/"
 defaults:
 - scope:
-    path: ''
+    path: ""
   values:
     layout: main
 - scope:
     path: assets
   values:
     sitemap: false
+- scope:
+    path: ""
+    type: styling-and-creative-direction
+  values:
+    layout: project
+- scope:
+    path: ""
+    type: social-media-and-content-creation
+  values:
+    layout: client
 baseurl:
 url: https://jadtoghuj.com
 plugins:
