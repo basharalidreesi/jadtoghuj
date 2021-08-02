@@ -21,9 +21,9 @@ $font-size: 15px !default;
                 &__toggle:checked + #nav__label {
                         &::before,
         		&::after {
-                                order: 1;
-                                height: 1px;
-                                opacity: 0.5;
+                                // order: 1;
+                                // height: 1px;
+                                // opacity: 0.5;
                         }
                         & > *:not(.nav__label--active) {
                                 display: revert;
