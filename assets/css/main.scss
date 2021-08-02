@@ -92,12 +92,12 @@ body {
 			top: 0;
 			left: 0;
 			display: block;
-			height: 100vh;
+			height: calc(var(--vh, 1vh) * 100);
 			width: 100vw;
 			background: linear-gradient(to bottom, var(--color-top) 10%, var(--color-bottom) 100%);
 			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: 100vw 100vh;
+			background-attachment: initial;
+			background-size: 100vw calc(var(--vh, 1vh) * 100);
 			-webkit-user-select: none;
 			-moz-user-select: none;
 			-ms-user-select: none;
