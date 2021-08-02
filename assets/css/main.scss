@@ -9,8 +9,8 @@ $font-size: 15px !default;
 
 	--color-top: {{ site.data.colors.general.top_color }};
         --color-bottom: {{ site.data.colors.general.bottom_color }};
-	--color-text: black;
-	--color-special: blue;
+	--color-text: {{ site.data.colors.general.text_color }};
+	--color-special: {{ site.data.colors.general.special_color }};
 	@media (prefers-color-scheme: dark) { }
 
 }
@@ -105,23 +105,10 @@ body {
 	}
 
 	#header {
-		position: sticky;
-		top: 2rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 5rem;
-		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
-		z-index: 100;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		&__anchor,
-		&__logo {
-			height: 100%;
-			max-width: 100%;
-		}
 		&__logo {
 			fill: var(--color-text);
 			@media (any-hover: hover) {

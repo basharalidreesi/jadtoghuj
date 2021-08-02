@@ -4,3 +4,35 @@
 @charset "UTF-8";
 
 $font-size: 15px !default;
+
+:root {
+
+        {%- if site.data.colors.homepage.custom %}
+        --color-top: {{ site.data.colors.homepage.top_color }};
+        --color-bottom: {{ site.data.colors.homepage.bottom_color }};
+	--color-text: {{ site.data.colors.homepage.text_color }};
+	--color-special: {{ site.data.colors.homepage.special_color }};
+        @media (prefers-color-scheme: dark) { }
+        {%- endif %}
+
+}
+
+#mother {
+
+        #header {
+                position: sticky;
+		top: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 5rem;
+		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
+		z-index: 100;
+                &__anchor,
+		&__logo {
+			height: 100%;
+			max-width: 100%;
+		}
+        }
+
+}
