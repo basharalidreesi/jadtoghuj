@@ -20,6 +20,20 @@ fields:
       required: true
       color_format: Hex
     default: "#91A3B0"
+  - name: text_color
+    type: color
+    label: Text color
+    config:
+      required: true
+      color_format: Hex
+    default: "#000000"
+  - name: special_color
+    type: color
+    label: Special color
+    config:
+      required: true
+      color_format: Hex
+    default: "#0000FF"
   label: General
 - name: homepage
   type: field_group
@@ -45,6 +59,26 @@ fields:
       required: true
       color_format: Hex
     default: "#91A3B0"
+    showOnly:
+      field: custom
+      value: true
+  - name: text_color
+    type: color
+    label: Text color
+    config:
+      required: true
+      color_format: Hex
+    default: "#000000"
+    showOnly:
+      field: custom
+      value: true
+  - name: special_color
+    type: color
+    label: Special color
+    config:
+      required: true
+      color_format: Hex
+    default: "#0000FF"
     showOnly:
       field: custom
       value: true
@@ -76,6 +110,26 @@ fields:
     showOnly:
       field: customise
       value: true
+  - name: text_color
+    type: color
+    label: Text color
+    config:
+      required: true
+      color_format: Hex
+    default: "#000000"
+    showOnly:
+      field: customise
+      value: true
+  - name: special_color
+    type: color
+    label: Special color
+    config:
+      required: true
+      color_format: Hex
+    default: "#0000FF"
+    showOnly:
+      field: customise
+      value: true
   label: About
 - name: styling_and_creative_direction
   type: field_group
@@ -104,6 +158,26 @@ fields:
     showOnly:
       field: custom
       value: true
+  - name: text_color
+    type: color
+    label: Text color
+    config:
+      required: true
+      color_format: Hex
+    default: "#000000"
+    showOnly:
+      field: custom
+      value: true
+  - name: special_color
+    type: color
+    label: Special color
+    config:
+      required: true
+      color_format: Hex
+    default: "#0000FF"
+    showOnly:
+      field: custom
+      value: true
   label: Styling & Creative Direction
 - name: social_media_and_content_creation
   type: field_group
@@ -129,6 +203,26 @@ fields:
       required: true
       color_format: Hex
     default: "#91A3B0"
+    showOnly:
+      field: custom
+      value: true
+  - name: text_color
+    type: color
+    label: Text color
+    config:
+      required: true
+      color_format: Hex
+    default: "#000000"
+    showOnly:
+      field: custom
+      value: true
+  - name: special_color
+    type: color
+    label: Special color
+    config:
+      required: true
+      color_format: Hex
+    default: "#0000FF"
     showOnly:
       field: custom
       value: true
