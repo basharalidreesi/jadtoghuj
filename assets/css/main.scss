@@ -186,7 +186,7 @@ body {
 			&--social {
 				order: 3;
 			}
-			&--active {
+			.nav__lavel--active {
 				--color-text: var(--color-special);
 			}
 			@media (max-width: 768px) {
