@@ -186,6 +186,9 @@ body {
 			&--social {
 				order: 3;
 			}
+			&--active {
+				--color-text: var(--color-special);
+			}
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
