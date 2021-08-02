@@ -2,19 +2,29 @@
 general:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
+  text_color: "#000000"
+  special_color: "#0000FF"
 about:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
   customise: false
+  text_color: "#000000"
+  special_color: "#0000FF"
 styling_and_creative_direction:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
   custom: false
+  text_color: "#000000"
+  special_color: "#0000FF"
 social_media_and_content_creation:
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
   custom: false
+  text_color: "#000000"
+  special_color: "#0000FF"
 homepage:
   custom: false
   top_color: "#FFFFFF"
   bottom_color: "#91A3B0"
+  text_color: "#000000"
+  special_color: "#0000FF"
