@@ -11,6 +11,7 @@ $font-size: 15px !default;
                 &__toggle:not(:checked) + #nav__label {
                         &::before,
         		&::after {
+                                height: 0px;
                                 opacity: 0;
                         }
                         & > *:not(.nav__label--active) {
