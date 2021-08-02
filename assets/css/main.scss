@@ -104,6 +104,7 @@ body {
 			-ms-user-select: none;
 			user-select: none;
 			pointer-events: none;
+			z-index: -1;
 		}
 	}
 }
@@ -112,7 +113,7 @@ body {
 
 #mother {
 
-	position: relative;
+	// position: relative;
 	display: flex;
 	flex-flow: column nowrap;
 	width: calc(100% - 2rem);
