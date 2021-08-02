@@ -7,30 +7,34 @@ $font-size: 15px !default;
 
 @media (max-width: 768px) {
 
-        #nav {
-                &__toggle:not(:checked) + #nav__label {
-                        & > *:not(.nav__label--active) {
-                                display: none;
+        #mother {
+
+                #nav {
+                        &__toggle:not(:checked) + #nav__label {
+                                & > *:not(.nav__label--active) {
+                                        display: none;
+                                }
+                        }
+                        &__toggle:checked + #nav__label {
+                                & > *:not(.nav__label--active) {
+                                        display: revert;
+                                }
+                                & > .nav__label--active {
+                                        order: 0;
+                                }
+                        }
+                        &__label {
+                                &::before,
+                		&::after {
+                                        height: 0px;
+                                        opacity: 0;
+                                }
+                                & > .nav__label--active {
+                                        pointer-events: none;
+                                }
                         }
                 }
-                &__toggle:checked + #nav__label {
-                        & > *:not(.nav__label--active) {
-                                display: revert;
-                        }
-                        & > .nav__label--active {
-                                order: 0;
-                        }
-                }
-                &__label {
-                        &::before,
-        		&::after {
-                                height: 0px !important;
-                                opacity: 0 !important;
-                        }
-                        & > .nav__label--active {
-                                pointer-events: none;
-                        }
-                }
+
         }
 
 }
