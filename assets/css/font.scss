@@ -4,31 +4,40 @@
 @charset "UTF-8";
 
 @font-face {
-        font-family: "M+ 1c";
+        font-family: "Telegraf";
         src:
-                url("/assets/fonts/mplus_1c-light.woff") format("woff"),
-                url("/assets/fonts/mplus_1c-light.woff2") format("woff2");
+                url("/assets/fonts/telegraf-ultra_light.woff") format("woff"),
+                url("/assets/fonts/telegraf-ultra_light.woff2") format("woff2");
         font-weight: 300;
         font-style: normal;
         font-display: block;
 }
 
 @font-face {
-        font-family: "M+ 1c";
+        font-family: "Telegraf";
         src:
-                url("/assets/fonts/mplus_1c-regular.woff") format("woff"),
-                url("/assets/fonts/mplus_1c-regular.woff2") format("woff2");
+                url("/assets/fonts/telegraf-regular.woff") format("woff"),
+                url("/assets/fonts/telegraf-regular.woff2") format("woff2");
         font-weight: 400;
         font-style: normal;
         font-display: block;
 }
 
 @font-face {
-        font-family: "M+ 1c";
+        font-family: "Telegraf";
         src:
-                url("/assets/fonts/mplus_1c-bold.woff") format("woff"),
-                url("/assets/fonts/mplus_1c-bold.woff2") format("woff2");
+                url("/assets/fonts/telegraf-bold.woff") format("woff"),
+                url("/assets/fonts/telegraf-bold.woff2") format("woff2");
         font-weight: 700;
+        font-style: normal;
+        font-display: block;
+}
+@font-face {
+        font-family: "Telegraf";
+        src:
+                url("/assets/fonts/telegraf-ultra_bold.woff") format("woff"),
+                url("/assets/fonts/telegraf-ultra_bold.woff2") format("woff2");
+        font-weight: 800;
         font-style: normal;
         font-display: block;
 }
