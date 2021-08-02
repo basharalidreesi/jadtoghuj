@@ -1,0 +1,17 @@
+---
+---
+
+@charset "UTF-8";
+
+$font-size: 15px !default;
+
+:root {
+
+        {%- if site.data.colors.about.custom %}
+        --color-top: {{ site.data.colors.about.top_color }};
+        --color-bottom: {{ site.data.colors.about.bottom_color }};
+	--color-text: {{ site.data.colors.about.text_color }};
+	--color-special: {{ site.data.colors.about.special_color }};
+        {%- endif %}
+
+}
