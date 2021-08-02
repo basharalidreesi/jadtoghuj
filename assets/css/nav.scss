@@ -10,27 +10,38 @@ $font-size: 15px !default;
         #mother {
 
                 #nav {
-                        &__toggle:not(:checked) + #nav__label {
-                                & > *:not(.nav__label--active) {
-                                        display: none;
-                                }
-                        }
-                        &__toggle:checked + #nav__label {
-                                & > *:not(.nav__label--active) {
-                                        display: revert;
-                                }
-                                & > .nav__label--active {
-                                        order: 0;
-                                }
-                        }
                         &__label {
+                                position: relative;
+                                & > .nav__label--active {
+                                        pointer-events: none;
+                                }
+                        }
+                        &__toggle:not(:checked) + #nav__label {
                                 &::before,
                 		&::after {
                                         height: 0px;
                                         opacity: 0;
                                 }
+                                & > *:not(.nav__label--active) {
+                                        display: none;
+                                }
+                        }
+                        &__toggle:checked + #nav__label {
+                                &::before,
+                		&::after {
+                                        position: absolute;
+                                }
+                                &::before {
+                                        top: 5rem;
+                                }
+                                &::after {
+                                        top: 10rem;
+                                }
+                                & > *:not(.nav__label--active) {
+                                        display: revert;
+                                }
                                 & > .nav__label--active {
-                                        pointer-events: none;
+                                        order: 0;
                                 }
                         }
                 }
