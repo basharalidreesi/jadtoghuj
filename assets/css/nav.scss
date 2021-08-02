@@ -9,22 +9,11 @@ $font-size: 15px !default;
 
         #nav {
                 &__toggle:not(:checked) + #nav__label {
-                        &::before,
-        		&::after {
-                                height: 0px;
-                                opacity: 0;
-                        }
                         & > *:not(.nav__label--active) {
                                 display: none;
                         }
                 }
                 &__toggle:checked + #nav__label {
-                        &::before,
-        		&::after {
-                                // order: 1;
-                                // height: 1px;
-                                // opacity: 0.5;
-                        }
                         & > *:not(.nav__label--active) {
                                 display: revert;
                         }
@@ -33,6 +22,11 @@ $font-size: 15px !default;
                         }
                 }
                 &__label {
+                        &::before,
+        		&::after {
+                                height: 0px;
+                                opacity: 0;
+                        }
                         & > .nav__label--active {
                                 pointer-events: none;
                         }
