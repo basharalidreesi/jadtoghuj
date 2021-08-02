@@ -18,6 +18,16 @@ $font-size: 15px !default;
                                 display: none;
                         }
                 }
+                &__toggle:checked + #nav__label {
+                        &::before,
+        		&::after {
+                                height: 1px;
+                                opacity: 0.5;
+                        }
+                        & > *:not(.nav__label--active) {
+                                display: revert;
+                        }
+                }
                 &__label {
                         & > .nav__label--active {
                                 pointer-events: none;
