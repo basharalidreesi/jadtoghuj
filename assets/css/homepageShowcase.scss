@@ -28,11 +28,6 @@ $font-size: 15px !default;
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
 		z-index: 100;
-                &__anchor,
-		&__logo {
-			height: 100%;
-			max-width: 100%;
-		}
         }
 
         #nav {

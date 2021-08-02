@@ -110,6 +110,11 @@ body {
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
+		&__anchor,
+		&__logo {
+			height: 100%;
+			max-width: 100%;
+		}
 		&__logo {
 			fill: var(--color-text);
 			@media (any-hover: hover) {
