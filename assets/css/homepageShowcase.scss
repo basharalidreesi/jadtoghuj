@@ -35,4 +35,11 @@ $font-size: 15px !default;
 		}
         }
 
+        #nav {
+                &__label {
+                        background: var(--color-top);
+			box-shadow: 0 0 5rem 5rem var(--color-top);
+                }
+        }
+
 }

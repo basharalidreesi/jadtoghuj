@@ -105,6 +105,7 @@ body {
 	}
 
 	#header {
+		order: 1;
 		-webkit-user-select: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
@@ -120,6 +121,7 @@ body {
 	}
 
 	#nav {
+		order: 2;
 		&::before,
 		&::after {
 			content: "";
@@ -140,8 +142,6 @@ body {
 			align-items: center;
 			justify-content: center;
 			height: 5rem;
-			background: var(--color-top);
-			box-shadow: 0 0 5rem 5rem var(--color-top);
 			&--styling {
 				order: 1;
 			}
@@ -197,9 +197,13 @@ body {
 		}
 	}
 
-	#main { /* none yet! */ }
+	#main {
+		order: 3;
+	}
 
-        #footer { /* none yet! */ }
+        #footer {
+		order: 4;
+	}
 
 	.generic--hidden {
 		position: absolute !important;
