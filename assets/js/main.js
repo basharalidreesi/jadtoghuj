@@ -29,7 +29,7 @@ const jad = {
                 updateViewportHeight: function() {
                         let outerHeight = window.outerHeight;
                         if (outerHeight == initialOuterHeight) { return; }
-                        outerHeight = initialOuterHeight;
+                        initialOuterHeight = outerHeight;
                         jad.viewport.reportViewportHeight();
                 },
                 reportViewportHeight: function() {
