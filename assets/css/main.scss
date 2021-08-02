@@ -103,6 +103,7 @@ body {
 			-ms-user-select: none;
 			user-select: none;
 			pointer-events: none;
+			// overflow: hidden;
 			z-index: -1;
 		}
 	}
