@@ -124,6 +124,17 @@ body {
 	}
 
 	#nav {
+		&::before,
+		&::after {
+			content: "";
+			position: relative;
+			left: -2rem;
+			display: block;
+			height: 1px;
+			width: calc(100% + 4rem);
+			background: var(--color-text);
+			opacity: 0.5;
+		}
 		&__toggle {
 			display: none;
 		}
@@ -166,7 +177,7 @@ body {
 				font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 				font-weight: 200;
 				@media (max-width: 1280px) {
-					padding: 1rem;
+					padding: 2rem 1rem;
 				}
 				@media (max-width: 768px) {
 					padding: 2rem 0;
