@@ -84,7 +84,7 @@ body {
 	background: linear-gradient(to bottom, var(--color-top) 10%, var(--color-bottom) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	@media (any-hover: hover) {
+	@media (any-hover: none) {
 		&::before {
 			content: "";
 			position: fixed;
@@ -111,6 +111,7 @@ body {
 
 #mother {
 
+	position: relative;
 	display: flex;
 	flex-flow: column nowrap;
 	width: calc(100% - 2rem);
