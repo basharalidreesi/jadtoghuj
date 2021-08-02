@@ -4,12 +4,13 @@ layout: null
 
 "use strict";
 
+var initialOuterHeight = window.outerHeight;
+
 const jad = {
 
         lexicon: {
                 root: document.documentElement,
                 logo: document.querySelector("#header__logo"),
-                previousOuterHeight: window.outerHeight,
         },
 
         initAllScripts: function() {
@@ -27,8 +28,8 @@ const jad = {
                 },
                 updateViewportHeight: function() {
                         let outerHeight = window.outerHeight;
-                        if (outerHeight == jad.lexicon.previousOuterHeight) { return; }
-                        outerHeight = previousOuterHeight;
+                        if (outerHeight == initialOuterHeight) { return; }
+                        outerHeight = initialOuterHeight;
                         jad.viewport.reportViewportHeight();
                 },
                 reportViewportHeight: function() {
