@@ -9,9 +9,7 @@ $font-size: 15px !default;
 
         #nav {
                 &__label {
-                        &--about:not(.nav__label--active),
-                        &--styling:not(.nav__label--active),
-                        &--social:not(.nav__label--active) {
+                        & > *:not(.nav__label--active) {
                                 display: none;
                         }
                 }
