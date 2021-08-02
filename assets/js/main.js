@@ -9,6 +9,7 @@ const jad = {
         lexicon: {
                 root: document.documentElement,
                 logo: document.querySelector("#header__logo"),
+                previousOuterHeight: window.outerHeight,
         },
 
         initAllScripts: function() {
@@ -21,8 +22,14 @@ const jad = {
                 initViewportScripts: function() {
                         jad.viewport.reportViewportHeight();
                         window.addEventListener("resize", () => {
-        			jad.util.debounce(jad.viewport.reportViewportHeight, 350);
+        			jad.util.debounce(jad.viewport.updateViewportHeight, 350);
         		});
+                },
+                updateViewportHeight: function() {
+                        let outerHeight = window.outerHeight;
+                        if (outerHeight == jad.lexicon.previousOuterHeight) { return; }
+                        outerHeight = previousOuterHeight;
+                        jad.viewport.reportViewportHeight();
                 },
                 reportViewportHeight: function() {
                         let viewportHeight = window.innerHeight * 0.01;
