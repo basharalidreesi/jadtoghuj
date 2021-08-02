@@ -8,7 +8,11 @@ $font-size: 15px !default;
 @media (max-width: 768px) {
 
         #nav {
-                &__label {
+                &__toggle:not(:checked) + #nav__label {
+                        &::before,
+        		&::after {
+                                opacity: 0;
+                        }
                         & > *:not(.nav__label--active) {
                                 display: none;
                         }
