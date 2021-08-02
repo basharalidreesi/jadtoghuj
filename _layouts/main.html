@@ -45,13 +45,13 @@
 		<nav id="nav">
 			<input type="checkbox" id="nav__toggle" />
 			<label for="nav_toggle" id="nav__label">
-				<a id="nav__label--about" href="/about/">
+				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/">
 					About
 				</a>
 				<a id="nav__label--styling" {% if page.layout == "projectDirectory" -%} class="nav__label--active" {% endif -%} href="/styling-and-creative-direction/">
 					Styling & Creative Direction
 				</a>
-				<a id="nav__label--social" href="/social-media-and-content-creation/">
+				<a id="nav__label--social" {% if page.layout == "clientDirectory" -%} class="nav__label--active" {% endif -%} href="/social-media-and-content-creation/">
 					Social Media & Content Creation
 				</a>
 			</label>
