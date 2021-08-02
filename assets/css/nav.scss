@@ -28,10 +28,12 @@ $font-size: 15px !default;
                         & > *:not(.nav__label--active) {
                                 display: revert;
                         }
+                        & > .nav__label--active {
+                                order: 0;
+                        }
                 }
                 &__label {
                         & > .nav__label--active {
-                                order: 0;
                                 pointer-events: none;
                         }
                 }
