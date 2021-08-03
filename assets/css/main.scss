@@ -219,6 +219,9 @@ body {
 				text-align: center;
 				font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 				font-weight: 300;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
 				@media (max-width: 1280px) {
 					padding: 2rem 1rem;
 				}
