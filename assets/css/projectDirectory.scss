@@ -77,6 +77,9 @@
         				-moz-user-select: none;
         				-ms-user-select: none;
         				user-select: none;
+                                        span {
+                                                display: block;
+                                        }
                                 }
                         }
                 }
