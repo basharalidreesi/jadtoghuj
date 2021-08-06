@@ -46,6 +46,9 @@
 .projectDirectory {
 
         &__looks {
+
+                display: none;
+
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
