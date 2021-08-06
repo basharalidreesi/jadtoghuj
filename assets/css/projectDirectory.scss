@@ -45,14 +45,15 @@
 
 .projectDirectory {
 
+        display: none;
+
         &__looks {
+
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
                 justify-content: flex-start;
                 margin: -1rem;
-
-                display: none !important;
 
                 &__look {
                         padding: 1rem;
