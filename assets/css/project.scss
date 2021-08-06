@@ -31,7 +31,9 @@
                 }
                 &__label {
                         &--current {
-                                display: block;
+                                @media (max-width: 768px) {
+                                        display: block;
+                                }
                         }
                 }
         }
