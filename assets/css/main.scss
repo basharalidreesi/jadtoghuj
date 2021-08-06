@@ -186,6 +186,9 @@ body {
 			&--social {
 				order: 3;
 			}
+			.nav__label--parent {
+				order: 0;
+			}
 			.nav__label--active {
 				--color-text: var(--color-special);
 			}
