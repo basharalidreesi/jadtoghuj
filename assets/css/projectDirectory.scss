@@ -13,7 +13,7 @@
         {%- endif %}
 
         .projectDirectory {
-                /* display: block; */
+                display: none;
                 &__looks {
                         /* display: block; */
                         &__look {

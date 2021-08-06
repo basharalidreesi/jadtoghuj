@@ -5,11 +5,11 @@ style:
   - projectDirectory
 ---
 
-<div class="projectDirectory" style="display: none;">
+<div class="projectDirectory">
         <div class="projectDirectory__looks">
                 <span>By Look</span>
                 {%- for project in site.data.projectDirectory.projects -%}
-                {%- for look in project.looks %}
+                {%- for look in project.looks limit: site.data.projectDirectory.initial_looks_displayed %}
                 <div class="projectDirectory__looks__look">
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}">
                                 <figure class="projectDirectory__looks__look--image">
