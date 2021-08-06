@@ -57,10 +57,10 @@
 				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/">
 					About
 				</a>
-				<a id="nav__label--styling" {% if page.layout == "projectDirectory" or page.layout == "project" -%} class="nav__label--active" {% endif -%} href="/styling-and-creative-direction/">
+				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/">
 					Styling & Creative Direction
 				</a>
-				<a id="nav__label--social" {% if page.layout == "clientDirectory" or page.layout == "client" -%} class="nav__label--active" {% endif -%} href="/social-media-and-content-creation/">
+				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/">
 					Social Media & Content Creation
 				</a>
 			</label>
