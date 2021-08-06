@@ -12,4 +12,17 @@
 	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color }};
         {%- endif %}
 
+        .projectDirectory {
+                /* display: block; */
+                &__looks {
+                        /* display: block; */
+                        &__look {
+                                /* display: block; */
+                                &--image {
+                                        /* display: block; */
+                                }
+                        }
+                }
+        }
+
 }
