@@ -6,12 +6,12 @@ style:
 ---
 
 <div class="projectDirectory">
-        {%- assign lookLimit = site.data.projectDirectory.initial_looks_displayed | plus: 0 -%}
-        {%- assign projectLimit = site.data.projectDirectory.initial_projects_displayed | plus: 0 %}
+        {%- assign lookLimit = site.data.projectDirectory.initial_looks_displayed -%}
+        {%- assign projectLimit = site.data.projectDirectory.initial_projects_displayed %}
         <div class="projectDirectory__looks">
                 <!-- <span>By Look</span> -->
-                {%- for project in site.data.projectDirectory.projects -%}
-                {%- for look in project.looks limit: lookLimit %}
+                {%- for project in site.data.projectDirectory.projects limit: lookLimit -%}
+                {%- for look in project.looks %}
                 <div class="projectDirectory__looks__look">
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
                                 <figure class="projectDirectory__looks__look--image">
