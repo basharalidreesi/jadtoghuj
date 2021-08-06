@@ -177,9 +177,6 @@ body {
 			align-items: center;
 			justify-content: center;
 			height: 5rem;
-			&--current {
-				display: none;
-			}
 			&--styling {
 				order: 1;
 			}
@@ -191,18 +188,10 @@ body {
 			}
 			.nav__label--active {
 				--color-text: var(--color-special);
-				@media (max-width: 768px) {
-					--color-text: revert;
-				}
 			}
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
-				&--current {
-					display: revert;
-					order: 0;
-					--color-text: var(--color-special);
-				}
 				&--about {
 					order: 1;
 				}
@@ -222,9 +211,8 @@ body {
 					opacity: 0.5;
 				}
 			}
-			&--current,
-			&--about,
 			&--styling,
+			&--about,
 			&--social {
 				flex: 1;
 				padding: 2rem;
