@@ -191,6 +191,7 @@ body {
 			}
 			.nav__label--parent {
 				order: 0;
+				--color-text: var(--color-special);
 			}
 			.nav__label--active {
 				--color-text: var(--color-special);
@@ -209,6 +210,9 @@ body {
 				}
 				&--social {
 					order: 3;
+				}
+				.nav__label--parent {
+					--color-text: revert;
 				}
 				&::before,
 				&::after {
