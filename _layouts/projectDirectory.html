@@ -11,7 +11,7 @@ style:
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks limit: site.data.projectDirectory.initial_looks_displayed %}
                 <div class="projectDirectory__looks__look">
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
                                 <figure class="projectDirectory__looks__look--image">
                                         <img src="{{ look.look_cover }}" title="{{ project.project_name }}" />
                                 </figure>
