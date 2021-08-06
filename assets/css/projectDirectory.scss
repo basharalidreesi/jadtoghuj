@@ -46,11 +46,11 @@
 .projectDirectory {
 
         &__looks {
-
                 display: flex;
                 flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
                 margin: -1rem;
-
                 &__look {
                         padding: 1rem;
                         flex-basis: calc(100% / var(--columns-projectDirectory));
@@ -64,9 +64,7 @@
                                         height: 100%;
                                 }
                         }
-
                 }
-
         }
 
 }
