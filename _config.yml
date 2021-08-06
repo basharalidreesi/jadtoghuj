@@ -31,6 +31,8 @@ defaults:
     layout: client
 baseurl:
 url: https://jadtoghuj.com
+exclude:
+- assets/graphics/
 plugins:
 - jekyll-feed
 - jekyll-sitemap
