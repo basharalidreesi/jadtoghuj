@@ -46,6 +46,7 @@
 			<input type="checkbox" id="nav__toggle" />
 			<label for="nav__toggle" id="nav__label">
 				{%- if page.layout == "project" %}
+				{{ page.path }}
 				<span id="nav__label--current" class="nav__label--active">
 					{%- for project in site.data.projectDirectory -%}
 					{%- if project.project_page == page.path %}
