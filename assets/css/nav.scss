@@ -15,7 +15,6 @@
                                         pointer-events: none;
                                         &::before,
                                         &::after {
-                                                opacity: 0.5;
                                                 --color-text: var(--color-text--redundant);
                                         }
                                         &::before {
@@ -40,6 +39,7 @@
                                         &::before,
                                         &::after {
                                                 content: "\2193";
+                                                opacity: 0.5;
                                         }
                                 }
                         }
