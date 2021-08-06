@@ -25,9 +25,12 @@
                                 & > *:not(.nav__label--active) {
                                         display: none;
                                 }
-                                // & > .nav__label--active {
-                                //         cursor: s-resize;
-                                // }
+                                & > .nav__label--active {
+                                        &::before,
+                                        &::after {
+                                                content: "\2193";
+                                        }
+                                }
                         }
 
                         &__toggle:checked + #nav__label {
@@ -46,7 +49,10 @@
                                 }
                                 & > .nav__label--active {
                                         order: 0;
-                                        // cursor: n-resize;
+                                        &::before,
+                                        &::after {
+                                                content: "\2191";
+                                        }
                                 }
                         }
 
