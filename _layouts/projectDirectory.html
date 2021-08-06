@@ -6,16 +6,22 @@ style:
 ---
 
 <div id="projectDirectory" style="display: none;">
-        <div id="projectDirectory__look">
-                <span>Browse by Look</span>
+        <div id="projectDirectory__looks">
+                <span>By Look</span>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
-                <span>{{ look.look_name }}</span>
+                <div class="projectDirectory__looks__look">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}">
+                                <figure class="projectDirectory__looks__look--image">
+                                        <img src="{{ look.look_cover }}" title="look.look_name" />
+                                </figure>
+                        </a>
+                </div>
                 {%- endfor -%}
                 {%- endfor %}
         </div>
-        <div id="projectDirectory__project">
-                <span>Browse by Project</span>
+        <div id="projectDirectory__projects">
+                <span>By Project</span>
                 {%- for project in site.data.projectDirectory.projects %}
                 <span>{{ project.project_name }}</span>
                 {%- endfor %}
