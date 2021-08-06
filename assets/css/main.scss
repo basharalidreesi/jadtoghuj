@@ -192,6 +192,9 @@ body {
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
+				&--current {
+					order: 0;
+				}
 				&--about {
 					order: 1;
 				}
@@ -211,8 +214,9 @@ body {
 					opacity: 0.5;
 				}
 			}
-			&--styling,
+			&--current,
 			&--about,
+			&--styling,
 			&--social {
 				flex: 1;
 				padding: 2rem;
