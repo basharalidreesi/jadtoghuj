@@ -72,9 +72,9 @@ fields:
     max: 
     labelField: project_name
   label: Projects
-- name: initial_looks_displayed
+- name: initial_projects_displayed
   type: number
-  label: Initial looks displayed
+  label: Initial projects displayed
   description: ''
   default: 3
   required: true
@@ -83,9 +83,9 @@ fields:
     max: 
     step: 1
     required: true
-- name: initial_projects_displayed
+- name: initial_looks_displayed
   type: number
-  label: Initial projects displayed
+  label: Initial looks displayed
   description: ''
   default: 3
   required: true
