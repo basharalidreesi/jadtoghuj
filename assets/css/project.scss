@@ -20,4 +20,15 @@
                 flex: 1;
         }
 
+        #nav {
+                &__toggle:checked + #nav__label {
+                        &::before {
+                                top: 10rem;
+                        }
+                        &::after {
+                                top: 15rem;
+                        }
+                }
+        }
+
 }
