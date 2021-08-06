@@ -8,7 +8,7 @@ style:
 <div class="projectDirectory">
         <div class="projectDirectory__looks">
                 <!-- <span>By Look</span> -->
-                {%- assign lookLimit = site.data.projectDirectory.initial_looks_displayed -%}
+                {%- assign lookLimit = site.data.projectDirectory.initial_looks_displayed | plus: 0 -%}
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks limit: lookLimit %}
                 <div class="projectDirectory__looks__look">
