@@ -7,7 +7,9 @@ style:
 
 <div class="projectDirectory">
         <div class="projectDirectory__looks">
-                <!-- <span>By Look</span> -->
+                <header>
+                        Browse By Look
+                </header>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
                 <div class="projectDirectory__looks__look">
@@ -29,9 +31,11 @@ style:
                 {%- endfor %}
         </div>
         <div id="projectDirectory__projects">
-                <span>By Project</span>
+                <span>Browse By Project</span>
                 {%- for project in site.data.projectDirectory.projects %}
-                <span>{{ project.project_name }}</span>
+                <div class="projectDirectory__projects__project">
+                        <span>{{ project.project_name }}</span>
+                </div>
                 {%- endfor %}
         </div>
 </div>

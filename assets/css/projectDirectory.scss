@@ -55,6 +55,11 @@
                 justify-content: flex-start;
                 margin: -1rem;
 
+                header {
+                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                        font-weight: 700;
+                }
+
                 &__look {
                         padding: 1rem;
                         flex-basis: calc(100% / var(--columns-projectDirectory));
