@@ -213,6 +213,13 @@ body {
 				}
 				.nav__label--parent {
 					--color-text: revert;
+					&::before {
+						content: "\2191";
+						position: absolute;
+						left: 50%;
+						top: 5rem;
+						transform: translate(-50%, -50%);
+					}
 				}
 				&::before,
 				&::after {
