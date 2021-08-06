@@ -13,16 +13,16 @@
                                 position: relative;
                                 & > .nav__label--active {
                                         pointer-events: none;
-                                        &::before,
-                                        &::after {
-                                                --color-text: var(--color-text--redundant);
-                                        }
-                                        &::before {
-                                                padding: 0 1rem 0 0;
-                                        }
-                                        &::after {
-                                                padding: 0 0 0 1rem;
-                                        }
+                                        // &::before,
+                                        // &::after {
+                                        //         --color-text: var(--color-text--redundant);
+                                        // }
+                                        // &::before {
+                                        //         padding: 0 1rem 0 0;
+                                        // }
+                                        // &::after {
+                                        //         padding: 0 0 0 1rem;
+                                        // }
                                 }
                         }
 
@@ -36,11 +36,11 @@
                                         display: none;
                                 }
                                 & > .nav__label--active {
-                                        &::before,
-                                        &::after {
-                                                content: "\2193";
-                                                opacity: 0.5;
-                                        }
+                                        // &::before,
+                                        // &::after {
+                                        //         content: "\2193";
+                                        //         opacity: 0.5;
+                                        // }
                                 }
                         }
 
