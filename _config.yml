@@ -32,9 +32,17 @@ defaults:
 baseurl:
 url: https://jadtoghuj.com
 include:
-- _*.jpg
+- _*.apng
+- _*.avif
+- _*.gif
 - _*.jpeg
+- _*.jpg
 - _*.png
+- _*.svg
+- _*.webp
+- _*.bmp
+- _*.ico
+- _*.tiff
 plugins:
 - jekyll-feed
 - jekyll-sitemap
