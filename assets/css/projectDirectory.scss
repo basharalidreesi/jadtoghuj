@@ -56,12 +56,26 @@
                         flex-basis: calc(100% / var(--columns-projectDirectory));
                         a {
                                 display: block;
+                                @media (any-hover: hover) {
+                                        &:hover {
+                                                --color-text: var(--color-special);
+                                        }
+                                }
                         }
                         &--image {
                                 img {
                                         display: block;
                                         width: 100%;
                                         height: 100%;
+                                }
+                                figcaption {
+        				font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        				font-weight: 300;
+                                        text-align: center;
+                                        -webkit-user-select: none;
+        				-moz-user-select: none;
+        				-ms-user-select: none;
+        				user-select: none;
                                 }
                         }
                 }
