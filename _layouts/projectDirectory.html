@@ -16,7 +16,12 @@ style:
                                 <figure class="projectDirectory__looks__look--image">
                                         <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
                                         <figcaption>
-                                                {{ look.look_name }}, {{ project.project_name }}
+                                                <span>
+                                                        {{ look.look_name }}
+                                                </span>
+                                                <span>
+                                                        {{ project.project_name }}
+                                                </span>
                                         </figcaption>
                                 </figure>
                         </a>
