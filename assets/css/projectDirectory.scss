@@ -13,33 +13,33 @@
         {%- endif %}
 
         --columns-projectDirectory: 10;
-	@media (max-width: 4864px) {
+	@media (max-width: 4352px) {
 		--columns-projectDirectory: 9;
 	}
-	@media (max-width: 4352px) {
+	@media (max-width: 3840px) {
 		--columns-projectDirectory: 8;
 	}
-	@media (max-width: 3840px) {
+	@media (max-width: 3328px) {
 		--columns-projectDirectory: 7;
 	}
-	@media (max-width: 3328px) {
+	@media (max-width: 2816px) {
 		--columns-projectDirectory: 6;
 	}
-	@media (max-width: 2816px) {
+	@media (max-width: 2304px) {
 		--columns-projectDirectory: 5;
 	}
-	@media (max-width: 2304px) {
+	@media (max-width: 1792px) {
 		--columns-projectDirectory: 4;
 	}
-	@media (max-width: 1792px) {
+	@media (max-width: 1280px) {
 		--columns-projectDirectory: 3;
 	}
-	@media (max-width: 1280px) {
+	@media (max-width: 768px) {
 		--columns-projectDirectory: 2;
 	}
-	@media (max-width: 768px) {
-		--columns-projectDirectory: 1;
-	}
+        @media (max-width: 512px) {
+                --columns-projectDirectory: 1;
+        }
 
 }
 
