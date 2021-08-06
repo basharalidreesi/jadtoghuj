@@ -11,9 +11,9 @@
 
                         &__label {
                                 position: relative;
-                                // & > .nav__label--active {
-                                //         pointer-events: none;
-                                // }
+                                & > .nav__label--active {
+                                        pointer-events: none;
+                                }
                         }
 
                         &__toggle:not(:checked) + #nav__label {
