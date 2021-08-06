@@ -177,6 +177,9 @@ body {
 			align-items: center;
 			justify-content: center;
 			height: 5rem;
+			&--current {
+				display: none;
+			}
 			&--styling {
 				order: 1;
 			}

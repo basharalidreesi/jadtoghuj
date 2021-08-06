@@ -29,6 +29,11 @@
                                 top: 15rem;
                         }
                 }
+                &__label {
+                        &--current {
+                                display: block;
+                        }
+                }
         }
 
 }
