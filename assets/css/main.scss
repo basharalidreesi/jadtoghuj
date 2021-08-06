@@ -198,6 +198,9 @@ body {
 			@media (max-width: 768px) {
 				flex-flow: column nowrap;
 				height: auto;
+				&--current {
+					display: block;
+				}
 				&--about {
 					order: 1;
 				}

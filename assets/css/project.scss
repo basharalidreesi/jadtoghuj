@@ -29,13 +29,6 @@
                                 top: 15rem;
                         }
                 }
-                &__label {
-                        &--current {
-                                @media (max-width: 768px) {
-                                        display: block;
-                                }
-                        }
-                }
         }
 
 }
