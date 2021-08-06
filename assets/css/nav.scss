@@ -60,10 +60,10 @@
                                 }
                                 & > .nav__label--active {
                                         order: 0;
-                                        &::before,
-                                        &::after {
-                                                content: "\2191";
-                                        }
+                                        // &::before,
+                                        // &::after {
+                                        //         content: "\2191";
+                                        // }
                                 }
                         }
 
