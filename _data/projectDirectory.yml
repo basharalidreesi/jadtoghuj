@@ -9,7 +9,7 @@ projects:
   - experimental
   looks:
   - look_name: Look 01
-    look_cover: "/assets/graphics/_q3a4497_edited.png"
+    look_cover: "/assets/graphics/_q3a4497.jpg"
     look_images:
     - "/assets/graphics/_q3a4460.jpg"
     - "/assets/graphics/_q3a4497.jpg"
