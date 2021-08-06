@@ -13,23 +13,27 @@ projects:
     look_images:
     - "/assets/graphics/_q3a4460.jpg"
     - "/assets/graphics/_q3a4497.jpg"
+    look_description: ''
   - look_name: Look 02
     look_cover: "/assets/graphics/_q3a4103.jpg"
     look_images:
     - "/assets/graphics/_q3a4103.jpg"
     - "/assets/graphics/_q3a4108.jpg"
+    look_description: ''
   - look_name: Look 03
     look_cover: "/assets/graphics/_q3a4195.jpg"
     look_images:
     - "/assets/graphics/_q3a4195.jpg"
     - "/assets/graphics/_q3a4289.jpg"
     - "/assets/graphics/_q3a4273.jpg"
+    look_description: ''
   - look_name: ''
     look_cover: "/assets/graphics/_q3a4441edited.jpg"
     look_images:
     - "/assets/graphics/_q3a4353.jpg"
     - "/assets/graphics/_q3a4441edited.jpg"
     - "/assets/graphics/_q3a4424.jpg"
+    look_description: ''
 - project_name: Salissant Charme
   project_description: Dirty Glamour w/ Fashion House Amman
   project_page: _styling-and-creative-direction/salissant-charme.html
@@ -43,3 +47,6 @@ projects:
     - "/assets/graphics/66a2915.jpg"
     - "/assets/graphics/66a2911.jpg"
     - "/assets/graphics/66a2884.jpg"
+    look_description: ''
+initial_looks_displayed: 5
+initial_projects_displayed: 5
