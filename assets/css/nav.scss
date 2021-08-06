@@ -12,11 +12,11 @@
                         &__label {
                                 position: relative;
                                 & > .nav__label--active {
-                                        pointer-events: none;
                                         -webkit-user-select: none;
                                 	-moz-user-select: none;
                                 	-ms-user-select: none;
                                 	user-select: none;
+                                        pointer-events: none;
                                 }
                         }
 
@@ -29,9 +29,9 @@
                                 & > *:not(.nav__label--active) {
                                         display: none;
                                 }
-                                & > .nav__label--active {
-                                        cursor: s-resize;
-                                }
+                                // & > .nav__label--active {
+                                //         cursor: s-resize;
+                                // }
                         }
 
                         &__toggle:checked + #nav__label {
@@ -50,7 +50,7 @@
                                 }
                                 & > .nav__label--active {
                                         order: 0;
-                                        cursor: n-resize;
+                                        // cursor: n-resize;
                                 }
                         }
 
