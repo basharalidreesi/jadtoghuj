@@ -72,5 +72,32 @@ fields:
     max: 
     labelField: project_name
   label: Projects
+- name: card_aspect_ratio
+  type: field_group
+  config: {}
+  fields:
+  - name: width
+    type: number
+    label: Width
+    description: ''
+    default: 2
+    required: true
+    config:
+      min: 1
+      max: 
+      step: 
+      required: true
+  - name: height
+    type: number
+    label: Height
+    description: ''
+    default: 3
+    required: true
+    config:
+      min: 1
+      max: 
+      step: 
+      required: true
+  label: Card aspect ratio
 pages:
 - _data/projectDirectory.yml
