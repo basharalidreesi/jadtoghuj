@@ -108,9 +108,10 @@
 
                 &__lookCard {
                         &--outer {
+                                flex-basis: calc(100% / var(--columns-projectDirectory));
                                 position: relative;
                                 padding: 1rem;
-                                flex-basis: calc(100% / var(--columns-projectDirectory));
+                                animation: fadeIn 0.25s;
                                 &::before {
                                         content: "";
                                         display: block;
