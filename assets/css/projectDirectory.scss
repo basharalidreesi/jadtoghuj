@@ -85,8 +85,9 @@
                         top: 1rem;
                         left: 1rem;
                         display: flex;
-                        flex-flow: column nowrap;
-                        align-items: center;
+                        // flex-flow: column nowrap; // safari bug
+                        flex-flow: row wrap;
+                        // align-items: center; // safari bug
                         justify-content: center;
                         width: calc(100% - 2rem);
                         height: calc(100% - 2rem);
