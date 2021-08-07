@@ -36,15 +36,18 @@
 	</div>
 	{%- endif %}
 	<div id="mother">
-		<header id="header" role="presentation" aria-hidden="true">
-			<a id="header__anchor" href="/" title="Jad Toghuj">
+		<h1 id="header" role="presentation" aria-hidden="true">
+			<a id="header__anchor" href="/" title="Jad Toghuj" tabindex="0">
 				<!-- <img id="header__logo" src="{{ site.data.logos.logo_images[0] }}" /> -->
-				<img id="header__logo" src="" />
+				<img id="header__logo" src="" title="Jad Toghuj" />
 			</a>
-		</header>
+		</h1>
 		<nav id="nav">
+			<h2 class="generic--hidden">
+				Navigation
+			</h2>
 			<input type="checkbox" id="nav__toggle" />
-			<label for="nav__toggle" id="nav__label">
+			<label for="nav__toggle" id="nav__label" tabindex="0">
 				{%- if page.layout == "project" %}
 				<span id="nav__label--current" class="nav__label--active">
 					{%- for project in site.data.projectDirectory.projects -%}
@@ -54,13 +57,13 @@
 					{%- endfor %}
 				</span>
 				{%- endif %}
-				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/" title="About">
+				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/" title="About" tabindex="0">
 					About
 				</a>
-				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/" title="Styling & Creative Direction">
+				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/" title="Styling & Creative Direction" tabindex="0">
 					Styling & Creative Direction
 				</a>
-				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/" title="Social Media & Content Creation">
+				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/" title="Social Media & Content Creation" tabindex="0">
 					Social Media & Content Creation
 				</a>
 			</label>

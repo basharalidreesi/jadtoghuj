@@ -6,20 +6,20 @@ style:
 ---
 
 <article class="projectDirectory">
-        <h1 class="generic--hidden">
+        <h2 class="generic--hidden">
                 Styling & Creative Direction
-        </h1>
+        </h2>
         <section class="projectDirectory__looks">
-                <h2 class="generic--hidden">
+                <h3 class="generic--hidden">
                         Browse By Look
-                </h2>
+                </h3>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
                 <article class="projectDirectory__lookCard--outer">
-                        <h3 class="generic--hidden">
+                        <h4 class="generic--hidden">
                                 {{ look.look_name }}, {{ project.project_name }}
-                        </h3>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
+                        </h4>
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}" tabindex="0">
                                 <div class="projectDirectory__lookCard--inner">
                                         <figure class="projectDirectory__lookCard--image">
                                                 <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
@@ -39,15 +39,15 @@ style:
                 {%- endfor %}
         </section>
         <section id="projectDirectory__projects">
-                <h2 class="generic--hidden">
+                <h3 class="generic--hidden">
                         Browse By Project
-                </h2>
+                </h3>
                 {%- for project in site.data.projectDirectory.projects %}
                 <article class="projectDirectory__projectCard">
-                        <h3 class="generic--hidden">
+                        <h4 class="generic--hidden">
                                 {{ project.project_name }}
-                        </h3>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
+                        </h4>
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}" tabindex="0">
                         </a>
                 </article>
                 {%- endfor %}
