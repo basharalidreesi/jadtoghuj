@@ -12,6 +12,7 @@
 	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color }};
         {%- endif %}
 
+        --aspectRatio-projectDirectory: ({{ site.data.projectDirectory.card_aspect_ratio.width}} / {{ site.data.projectDirectory.card_aspect_ratio.height }})
         --columns-projectDirectory: 10;
 	@media (max-width: 4352px) {
 		--columns-projectDirectory: 9;
@@ -66,7 +67,7 @@
                         &::before {
                                 content: "";
                                 display: block;
-                                padding-top: calc(100% / (2 / 3));
+                                padding-top: calc(100% / var(--aspectRatio-projectDirectory));
                         }
                 }
                 &--inner {
