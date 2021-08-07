@@ -177,6 +177,7 @@ body {
 			align-items: center;
 			justify-content: center;
 			height: 5rem;
+			background: var(--color-text--light);
 			&--current {
 				display: none;
 			}
