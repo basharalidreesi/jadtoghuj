@@ -68,7 +68,7 @@
                         margin: -1rem;
                         #projectDirectory__lookToggle {
                                 display: none;
-                                &:not(:checked) ~ .projectDirectory__lookCard--outer {
+                                &:not(:checked) ~ .projectDirectory__lookCard--outer:nth-of-type(n+4) {
                                         display: none;
                                 }
                                 &:checked + #projectDirectory__lookLabel label {
