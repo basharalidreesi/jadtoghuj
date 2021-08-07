@@ -27,6 +27,7 @@
                         }
 
                         &__toggle:not(:checked) + #nav__label {
+                                cursor: s-resize;
                                 &::before,
                 		&::after {
                                         height: 0px;
@@ -45,6 +46,7 @@
                         }
 
                         &__toggle:checked + #nav__label {
+                                cursor: n-resize;
                                 &::before,
                 		&::after {
                                         position: absolute;
