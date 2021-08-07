@@ -54,101 +54,123 @@
 
 }
 
-.projectDirectory {
+#main {
 
-        &__looks {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                justify-content: flex-start;
-                margin: -1rem;
-                #projectDirectory__lookToggle {
-                        display: none;
-                        &:not(:checked) ~ .projectDirectory__lookCard--outer {
+        flex: 1;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        .projectDirectory {
+
+                &__looks {
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin: -1rem;
+                        #projectDirectory__lookToggle {
                                 display: none;
+                                &:not(:checked) ~ .projectDirectory__lookCard--outer {
+                                        display: none;
+                                }
+                                &:checked + #projectDirectory__lookLabel label {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);
+                                }
                         }
-                        &:checked + #projectDirectory__lookLabel label {
-                                --color-text: var(--color-special);
-                                --color-text--light: var(--color-special);
-                        }
-                }
-                #projectDirectory__lookLabel {
-                        flex-basis: 100%;
-                        label {
-                                font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                                padding: 1.5rem 2rem;
-                                border: 1px solid var(--color-text--light);
-                                border-radius: 9999px;
-                                box-shadow: inset 0 -1rem 0 0 var(--color-bottom--light);
-                                @media (any-hover: hover) {
-                                        &:hover {
-                                                --color-text: var(--color-special);
-                                                --color-text--light: var(--color-special);
+                        #projectDirectory__lookLabel {
+                                flex-basis: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 1rem;
+                                label {
+                                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                        padding: 1.5rem 2rem;
+                                        border: 1px solid var(--color-text--light);
+                                        border-radius: 9999px;
+                                        box-shadow: inset 0 -1rem 0 0 var(--color-bottom--light);
+                                        text-align: center;
+                                        white-space: nowrap;
+        				text-overflow: ellipsis;
+        				overflow: hidden;
+        				-webkit-user-select: none;
+        				-moz-user-select: none;
+        				-ms-user-select: none;
+        				user-select: none;
+                                        @media (any-hover: hover) {
+                                                &:hover {
+                                                        --color-text: var(--color-special);
+                                                        --color-text--light: var(--color-special);
+                                                }
                                         }
                                 }
                         }
                 }
-        }
 
-        &__lookCard {
-                &--outer {
-                        position: relative;
-                        padding: 1rem;
-                        flex-basis: calc(100% / var(--columns-projectDirectory));
-                        &::before {
-                                content: "";
-                                display: block;
-                                padding-top: calc(100% / var(--aspectRatio-projectDirectory));
-                        }
-                }
-                &--inner {
-                        position: absolute;
-                        top: 1rem;
-                        left: 1rem;
-                        display: flex;
-                        // flex-flow: column nowrap; // safari bug
-                        flex-flow: row wrap;
-                        // align-items: center; // safari bug
-                        justify-content: center;
-                        width: calc(100% - 2rem);
-                        height: calc(100% - 2rem);
-                        padding: 1rem;
-                        border: 1px solid var(--color-text--light);
-                        border-radius: 1rem;
-                        overflow: hidden;
-                        background: var(--color-top--light);
-                        @media (any-hover: hover) {
-                                &:hover {
-                                        border-color: var(--color-special);
-                                }
-                        }
-                }
-                &--image {
-                        // max-width: 100%;
-                        max-height: 100%;
-                        img {
-                                display: block;
-                                // width: 100%;
-                                height: 100%;
-                                // object-fit: contain;
-                                margin: auto;
-                                object-fit: cover;
-                                object-position: center;
-                        }
-                        figcaption {
-                                padding-top: 1rem;
-                                font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                                font-weight: 300;
-                                text-align: center;
-                                -webkit-user-select: none;
-                                -moz-user-select: none;
-                                -ms-user-select: none;
-                                user-select: none;
-                                span {
+                &__lookCard {
+                        &--outer {
+                                position: relative;
+                                padding: 1rem;
+                                flex-basis: calc(100% / var(--columns-projectDirectory));
+                                &::before {
+                                        content: "";
                                         display: block;
+                                        padding-top: calc(100% / var(--aspectRatio-projectDirectory));
+                                }
+                        }
+                        &--inner {
+                                position: absolute;
+                                top: 1rem;
+                                left: 1rem;
+                                display: flex;
+                                // flex-flow: column nowrap; // safari bug
+                                flex-flow: row wrap;
+                                // align-items: center; // safari bug
+                                justify-content: center;
+                                width: calc(100% - 2rem);
+                                height: calc(100% - 2rem);
+                                padding: 1rem;
+                                border: 1px solid var(--color-text--light);
+                                border-radius: 1rem;
+                                overflow: hidden;
+                                background: var(--color-top--light);
+                                @media (any-hover: hover) {
+                                        &:hover {
+                                                border-color: var(--color-special);
+                                        }
+                                }
+                        }
+                        &--image {
+                                // max-width: 100%;
+                                max-height: 100%;
+                                img {
+                                        display: block;
+                                        // width: 100%;
+                                        height: 100%;
+                                        // object-fit: contain;
+                                        margin: auto;
+                                        object-fit: cover;
+                                        object-position: center;
+                                }
+                                figcaption {
+                                        padding-top: 1rem;
+                                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                        font-weight: 300;
+                                        text-align: center;
+                                        -webkit-user-select: none;
+                                        -moz-user-select: none;
+                                        -ms-user-select: none;
+                                        user-select: none;
+                                        span {
+                                                display: block;
+                                        }
                                 }
                         }
                 }
+
         }
 
 }
