@@ -70,11 +70,15 @@
                 }
 
                 &__projects {
+                        position: relative;
                         margin-top: 2rem;
                         &::before {
                                 content: "";
-                                width: 100%;
+                                position: absolute;
+                                top: 0;
+                                width: calc(100% + 2rem);
                                 height: 1px;
+                                background: var(--color-text--light)
                         }
                 }
 
