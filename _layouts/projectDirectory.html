@@ -48,6 +48,12 @@ style:
                 <h3 class="generic--hidden">
                         Browse By Project
                 </h3>
+                <input type="checkbox" id="projectDirectory__projectToggle" />
+                <div id="projectDirectory__projectLabel">
+                        <label for="projectDirectory__projectToggle">
+                                Browse by Project
+                        </label>
+                </div>
                 {%- for project in site.data.projectDirectory.projects %}
                 <article class="projectDirectory__projectCard">
                         <h4 class="generic--hidden">
