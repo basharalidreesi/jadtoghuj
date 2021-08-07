@@ -57,14 +57,8 @@
 #main {
 
         flex: 1;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        justify-content: center;
 
         .projectDirectory {
-
-                width: 100%;
 
                 &__looks {
                         display: flex;
