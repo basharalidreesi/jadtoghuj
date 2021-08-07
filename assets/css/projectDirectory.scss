@@ -71,8 +71,10 @@
                         border-radius: 9999px;
                         box-shadow: inset 0 -1rem 0 0 var(--color-bottom);
                         @media (any-hover: hover) {
-                                --color-text: var(--color-special);
-                                --color-text--light: var(--color-special);
+                                &:hover {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);        
+                                }
                         }
                 }
         }
