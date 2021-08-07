@@ -6,19 +6,19 @@ style:
 ---
 
 <article class="projectDirectory">
-        <header class="generic--hidden">
+        <h1 class="generic--hidden">
                 Styling & Creative Direction
-        </header>
+        </h1>
         <section class="projectDirectory__looks">
-                <header class="generic--hidden">
+                <h2 class="generic--hidden">
                         Browse By Look
-                </header>
+                </h2>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
                 <article class="projectDirectory__lookCard--outer">
-                        <header class="generic--hidden">
+                        <h3 class="generic--hidden">
                                 {{ look.look_name }}, {{ project.project_name }}
-                        </header>
+                        </h3>
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
                                 <div class="projectDirectory__lookCard--inner">
                                         <figure class="projectDirectory__lookCard--image">
@@ -39,14 +39,14 @@ style:
                 {%- endfor %}
         </section>
         <section id="projectDirectory__projects">
-                <header class="generic--hidden">
+                <h2 class="generic--hidden">
                         Browse By Project
-                </header>
+                </h2>
                 {%- for project in site.data.projectDirectory.projects %}
                 <article class="projectDirectory__projectCard">
-                        <header class="generic--hidden">
+                        <h3 class="generic--hidden">
                                 {{ project.project_name }}
-                        </header>
+                        </h3>
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
                         </a>
                 </article>
