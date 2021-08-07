@@ -7,6 +7,7 @@
 
         {%- if site.data.colors.styling_and_creative_direction.custom %}
         --color-top: {{ site.data.colors.styling_and_creative_direction.top_color }};
+        --color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color }}38;
         --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color }};
 	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color }};
         --color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color }};
@@ -55,7 +56,7 @@
 .projectDirectory {
 
         // display: none;
-        
+
         &__looks {
                 display: flex;
                 flex-flow: row wrap;
