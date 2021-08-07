@@ -75,6 +75,9 @@
                         left: 1rem;
                         width: calc(100% - 2rem);
                         height: calc(100% - 2rem);
+                        border: 1px solid;
+                        border-radius: 1rem;
+                        overflow: hidden;
                         @media (any-hover: hover) {
                                 &:hover {
                                         --color-text: var(--color-special);
@@ -100,7 +103,7 @@
                                         display: block;
                                 }
                         }
-                }        
+                }
         }
 
 }
