@@ -40,7 +40,7 @@
 			{{ site.data.generalConfiguration.author }}
 		</h1>
 		<header id="header" role="presentation" aria-hidden="true">
-			<a id="header__anchor" href="/" title="{{ site.data.generalConfiguration.author }}" tabindex="0">
+			<a id="header__anchor" href="/" title="{{ site.data.generalConfiguration.author }}">
 				<!-- <img id="header__logo" src="{{ site.data.logos.logo_images[0] }}" title="{{ site.data.generalConfiguration.author }}" /> -->
 				<img id="header__logo" src="" title="{{ site.data.generalConfiguration.author }}" />
 			</a>
@@ -60,13 +60,13 @@
 					{%- endfor %}
 				</span>
 				{%- endif %}
-				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/" title="About" tabindex="0">
+				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/" title="About">
 					About
 				</a>
-				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/" title="Styling & Creative Direction" tabindex="0">
+				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/" title="Styling & Creative Direction">
 					Styling & Creative Direction
 				</a>
-				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/" title="Social Media & Content Creation" tabindex="0">
+				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/" title="Social Media & Content Creation">
 					Social Media & Content Creation
 				</a>
 			</label>

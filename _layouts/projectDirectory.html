@@ -19,7 +19,7 @@ style:
                         <h4 class="generic--hidden">
                                 {{ look.look_name }}, {{ project.project_name }}
                         </h4>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}" tabindex="0">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
                                 <div class="projectDirectory__lookCard--inner">
                                         <figure class="projectDirectory__lookCard--image">
                                                 <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
@@ -47,7 +47,7 @@ style:
                         <h4 class="generic--hidden">
                                 {{ project.project_name }}
                         </h4>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}" tabindex="0">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
                         </a>
                 </article>
                 {%- endfor %}
