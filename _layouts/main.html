@@ -37,7 +37,7 @@
 	{%- endif %}
 	<div id="mother">
 		<header id="header" role="presentation" aria-hidden="true">
-			<a id="header__anchor" href="/">
+			<a id="header__anchor" href="/" title="Jad Toghuj">
 				<!-- <img id="header__logo" src="{{ site.data.logos.logo_images[0] }}" /> -->
 				<img id="header__logo" src="" />
 			</a>
@@ -54,13 +54,13 @@
 					{%- endfor %}
 				</span>
 				{%- endif %}
-				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/">
+				<a id="nav__label--about" {% if page.layout == "about" -%} class="nav__label--active" {% endif -%} href="/about/" title="About">
 					About
 				</a>
-				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/">
+				<a id="nav__label--styling" {%- if page.layout == "projectDirectory" %} class="nav__label--active" {%- elsif page.layout == "project" %} class="nav__label--parent" {%- endif %} href="/styling-and-creative-direction/" title="Styling & Creative Direction">
 					Styling & Creative Direction
 				</a>
-				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/">
+				<a id="nav__label--social" {%- if page.layout == "clientDirectory" %} class="nav__label--active" {%- elsif page.layout == "client" %} class="nav__label--parent" {%- endif %} href="/social-media-and-content-creation/" title="Social Media & Content Creation">
 					Social Media & Content Creation
 				</a>
 			</label>
