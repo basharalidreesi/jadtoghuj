@@ -14,9 +14,11 @@ style:
                         Browse By Look
                 </h3>
                 <input type="checkbox" id="projectDirectory__lookToggle" />
-                <label for="projectDirectory__lookToggle" id="projectDirectory__lookLabel">
-                        Browse by Look
-                </label>
+                <div id="projectDirectory__lookLabel">
+                        <label for="projectDirectory__lookToggle">
+                                Browse by Look
+                        </label>
+                </div>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
                 <article class="projectDirectory__lookCard--outer">
