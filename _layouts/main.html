@@ -50,7 +50,7 @@
 				Navigation
 			</h2>
 			<input type="checkbox" id="nav__toggle" />
-			<label for="nav__toggle" id="nav__label" tabindex="0">
+			<label for="nav__toggle" id="nav__label" role="presentation">
 				{%- if page.layout == "project" %}
 				<span id="nav__label--current" class="nav__label--active">
 					{%- for project in site.data.projectDirectory.projects -%}
