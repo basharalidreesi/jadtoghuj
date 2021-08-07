@@ -127,7 +127,7 @@
                                 -moz-user-select: none;
                                 -ms-user-select: none;
                                 user-select: none;
-                                cursor: pointer;
+                                cursor: cell;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
