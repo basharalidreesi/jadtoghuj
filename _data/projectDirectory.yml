@@ -41,6 +41,8 @@ projects:
     - "/assets/graphics/66a2911.jpg"
     - "/assets/graphics/66a2884.jpg"
     look_description: ''
+initial_looks_displayed: 3
+initial_projects_displayed: 3
 card_aspect_ratio:
   width: 2
-  height: 3
+  height: 4
