@@ -55,17 +55,25 @@
 
 .projectDirectory {
 
-        // display: none;
-
         &__looks {
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
                 justify-content: flex-start;
                 margin: -1rem;
-                header {
+                #projectDirectory__lookToggle {
+                        display: none;
+                }
+                #projectDirectory__lookLabel {
                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                        font-weight: 700;
+                        padding: 1.5rem 2rem;
+                        border: 1px solid var(--color-text--light);
+                        border-radius: 9999px;
+                        box-shadow: inset 0 -1rem 0 0 var(--color-bottom);
+                        @media (any-hover: hover) {
+                                --color-text: var(--color-special);
+                                --color-text--light: var(--color-special);
+                        }
                 }
         }
 
