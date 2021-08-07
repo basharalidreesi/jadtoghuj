@@ -86,7 +86,7 @@
                         border: 1px solid var(--color-text--light);
                         border-radius: 1rem;
                         overflow: hidden;
-                        background: var(--color-top);
+                        // background: var(--color-top);
                         @media (any-hover: hover) {
                                 &:hover {
                                         border-color: var(--color-special);
