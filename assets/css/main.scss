@@ -8,11 +8,11 @@ $font-size: 15px !default;
 :root {
 
 	--color-top: {{ site.data.colors.general.top_color }};
-	--color-top--light: {{ site.data.colors.general.top_color }}38;
+	--color-top--light: {{ site.data.colors.general.top_color }}1A; // 10%
         --color-bottom: {{ site.data.colors.general.bottom_color }};
 	--color-text: {{ site.data.colors.general.text_color }};
 	--color-text--redundant: {{ site.data.colors.general.text_color }};
-	--color-text--light: {{ site.data.colors.general.text_color }}80;
+	--color-text--light: {{ site.data.colors.general.text_color }}80; // 50%
 	--color-special: {{ site.data.colors.general.special_color }};
 	@media (prefers-color-scheme: dark) { }
 
