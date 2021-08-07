@@ -7,9 +7,9 @@ style:
 
 <div class="projectDirectory">
         <div class="projectDirectory__looks">
-                <!-- <header>
+                <header class="generic--hidden">
                         Browse By Look
-                </header> -->
+                </header>
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
                 <article class="projectDirectory__lookCard--outer">
@@ -36,9 +36,9 @@ style:
                 {%- endfor %}
         </div>
         <div id="projectDirectory__projects">
-                <!-- <header>
+                <header class="generic--hidden">
                         Browse By Project
-                </header> -->
+                </header>
                 {%- for project in site.data.projectDirectory.projects %}
                 <article class="projectDirectory__projectCard">
                         <header class="generic--hidden">
