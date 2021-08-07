@@ -11,6 +11,7 @@ $font-size: 15px !default;
         --color-bottom: {{ site.data.colors.general.bottom_color }};
 	--color-text: {{ site.data.colors.general.text_color }};
 	--color-text--redundant: {{ site.data.colors.general.text_color }};
+	--color-text--light: {{ site.data.colors.general.text_color }}80;
 	--color-special: {{ site.data.colors.general.special_color }};
 	@media (prefers-color-scheme: dark) { }
 

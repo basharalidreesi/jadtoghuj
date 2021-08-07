@@ -9,6 +9,8 @@
         --color-top: {{ site.data.colors.styling_and_creative_direction.top_color }};
         --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color }};
 	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color }};
+        --color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color }};
+	--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color }}80;
 	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color }};
         {%- endif %}
 
@@ -81,13 +83,13 @@
                         width: calc(100% - 2rem);
                         height: calc(100% - 2rem);
                         padding: 1rem;
-                        border: 1px solid;
+                        border: 1px solid var(--color-text--light);
                         border-radius: 1rem;
                         overflow: hidden;
                         background: var(--color-top);
                         @media (any-hover: hover) {
                                 &:hover {
-                                        --color-text: var(--color-special);
+                                        border-color: var(--color-special);
                                 }
                         }
                 }
