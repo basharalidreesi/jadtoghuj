@@ -278,13 +278,9 @@ body {
 		left: -9999px !important;
 	}
 
-	.generic--jsOnly {
-		display: none;
-	}
-
-	.generic--noJs {
-		
-	}
+	// .generic--jsOnly {
+	// 	display: none;
+	// }
 
 	@keyframes fadeIn {
 		from { opacity: 0; } to { opacity: 1; }
