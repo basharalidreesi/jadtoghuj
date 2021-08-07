@@ -12,8 +12,11 @@ style:
                 </header> -->
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
-                <div class="projectDirectory__lookCard--outer">
+                <article class="projectDirectory__lookCard--outer">
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
+                                <header class="generic--hidden">
+                                        {{ look.look_name }}, {{ project.project_name }}
+                                </header>
                                 <div class="projectDirectory__lookCard--inner">
                                         <figure class="projectDirectory__lookCard--image">
                                                 <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
@@ -28,16 +31,20 @@ style:
                                         </figure>
                                 </div>
                         </a>
-                </div>
+                </article>
                 {%- endfor -%}
                 {%- endfor %}
         </div>
         <div id="projectDirectory__projects">
-                <span>Browse By Project</span>
+                <!-- <header>
+                        Browse By Project
+                </header> -->
                 {%- for project in site.data.projectDirectory.projects %}
-                <div class="projectDirectory__projects__project">
-                        <span>{{ project.project_name }}</span>
-                </div>
+                <article class="projectDirectory__projectCard">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
+                                <header>{{ project.project_name }}</header>
+                        </a>
+                </article>
                 {%- endfor %}
         </div>
 </div>
