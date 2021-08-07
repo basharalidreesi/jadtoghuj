@@ -82,6 +82,7 @@
                                 align-items: center;
                                 justify-content: center;
                                 margin: 1rem;
+                                max-width: calc(100% - 2rem);
                                 label {
                                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                         padding: 1.5rem 2rem;
