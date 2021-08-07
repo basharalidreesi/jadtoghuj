@@ -46,20 +46,16 @@
 .projectDirectory {
 
         display: none;
-
         &__looks {
-
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
                 justify-content: flex-start;
                 margin: -1rem;
-
                 header {
                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                         font-weight: 700;
                 }
-
         }
 
         &__lookCard {
@@ -85,7 +81,6 @@
                                 }
                         }
                 }
-                
                 &--image {
                         img {
                                 display: block;
@@ -105,7 +100,7 @@
                                         display: block;
                                 }
                         }
-                }
+                }        
         }
 
 }
