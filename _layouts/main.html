@@ -42,7 +42,15 @@
 		<header id="header" role="presentation" aria-hidden="true">
 			<a id="header__anchor" href="/" title="{{ site.data.generalConfiguration.author }}">
 				<!-- <img id="header__logo" src="{{ site.data.logos.logo_images[0] }}" title="{{ site.data.generalConfiguration.author }}" /> -->
-				<img id="header__logo" src="" title="{{ site.data.generalConfiguration.author }}" />
+				<img id="header__logo" class="generic--noJs" src="" title="{{ site.data.generalConfiguration.author }}" />
+				<noscript>
+					<img id="header__logo" src="{{ site.data.logos.logo_images[0] }}" title="{{ site.data.generalConfiguration.author }}" />
+					<style>
+						.generic--jsOnly {
+							display: none !important;
+						}
+					</style>
+				</noscript>
 			</a>
 		</header>
 		<nav id="nav">

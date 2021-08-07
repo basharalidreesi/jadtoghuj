@@ -282,6 +282,10 @@ body {
 		display: none;
 	}
 
+	.generic--noJs {
+		
+	}
+
 	@keyframes fadeIn {
 		from { opacity: 0; } to { opacity: 1; }
 	}
