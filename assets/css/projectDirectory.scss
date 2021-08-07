@@ -61,8 +61,14 @@
                 }
 
                 &__look {
+                        position: relative;
                         padding: 1rem;
                         flex-basis: calc(100% / var(--columns-projectDirectory));
+                        &::before {
+                                content: "";
+                                display: block;
+                                padding-top: calc(100% / (2 / 3));
+                        }
                         a {
                                 display: block;
                                 @media (any-hover: hover) {
