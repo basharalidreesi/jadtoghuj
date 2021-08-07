@@ -12,19 +12,21 @@ style:
                 </header> -->
                 {%- for project in site.data.projectDirectory.projects -%}
                 {%- for look in project.looks %}
-                <div class="projectDirectory__looks__look">
+                <div class="projectDirectory__lookCard--outer">
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
-                                <figure class="projectDirectory__looks__look--image">
-                                        <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
-                                        <!-- <figcaption>
-                                                <span>
-                                                        {{ look.look_name }}
-                                                </span>
-                                                <span>
-                                                        {{ project.project_name }}
-                                                </span>
-                                        </figcaption> -->
-                                </figure>
+                                <div class="projectDirectory__lookCard--inner">
+                                        <figure class="projectDirectory__lookCard--image">
+                                                <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
+                                                <!-- <figcaption>
+                                                        <span>
+                                                                {{ look.look_name }}
+                                                        </span>
+                                                        <span>
+                                                                {{ project.project_name }}
+                                                        </span>
+                                                </figcaption> -->
+                                        </figure>
+                                </div>
                         </a>
                 </div>
                 {%- endfor -%}
