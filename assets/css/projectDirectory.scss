@@ -60,7 +60,8 @@
 
         .projectDirectory {
 
-                &__looks {
+                &__looks,
+                &__projects {
                         display: flex;
                         flex-flow: row wrap;
                         align-items: center;
