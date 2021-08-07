@@ -60,6 +60,7 @@ style:
                                 {{ project.project_name }}
                         </h4>
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
+                                {{ project.project_name }}
                         </a>
                 </article>
                 {%- endfor %}
