@@ -94,9 +94,9 @@
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
                         }
-                        &:checked ~ #projectDirectory__allLooks {
-                                display: none;
-                        }
+                        // &:checked ~ #projectDirectory__allLooks {
+                        //         display: none;
+                        // }
                 }
                 #projectDirectory__projectToggle {
                         &:not(:checked) ~ .projectDirectory__projectCard--outer:nth-of-type(n+4) {
