@@ -121,6 +121,13 @@
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
                         }
+                        &:checked ~ #projectDirectory__allProjects {
+                                display: none;
+                                label {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);
+                                }
+                        }
                 }
                 #projectDirectory__lookLabel,
                 #projectDirectory__projectLabel {
