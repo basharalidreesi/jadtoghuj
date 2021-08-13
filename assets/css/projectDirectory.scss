@@ -170,7 +170,9 @@
                         &:nth-last-child(3),
                         &:nth-last-child(4),
                         &:nth-last-child(5) {
-                                pointer-events: none;
+                                label {
+                                        pointer-events: none;
+                                }
                         }
                 }
                 #projectDirectory__projectLabel {
