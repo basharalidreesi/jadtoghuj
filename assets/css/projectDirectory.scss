@@ -270,7 +270,7 @@
                                         }
                                 }
                         }
-                        &:nth-child(3) {
+                        &:nth-child(4) {
                                 display: none;
                         }
                 }
@@ -310,6 +310,9 @@
                 }
 
                 #projectDirectory__allProjects {
+                        &:nth-child(4) {
+                                display: none;
+                        }
                         label {
                                 display: block;
                                 padding: 1.5rem 0;
