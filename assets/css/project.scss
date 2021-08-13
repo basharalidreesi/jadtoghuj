@@ -6,19 +6,29 @@
 :root {
 
         {%- if site.data.colors.styling_and_creative_direction.custom %}
-        --color-top: {{ site.data.colors.styling_and_creative_direction.top_color }};
-        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color }};
-	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color }};
-	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color }};
+        --color-top: {{ site.data.colors.styling_and_creative_direction.top_color_light }};
+        --color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_light }}1A; // 10%
+        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }};
+        --color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }}40; // 25%
+	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+        --color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+	--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_light }}80; // 50%
+	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_light }};
+        @media (prefers-color-scheme: dark) {
+		--color-top: {{ site.data.colors.styling_and_creative_direction.top_color_dark }};
+		--color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_dark }}1A; // 10%
+	        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }};
+		--color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }}40; // 25%
+		--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}80; // 50%
+		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_dark }};
+	}
         {%- endif %}
 
 }
 
 #mother {
-
-        #main {
-                flex: 1;
-        }
 
         #nav {
                 &__toggle:checked + #nav__label {
@@ -29,6 +39,34 @@
                                 top: 15rem;
                         }
                 }
+        }
+
+        #main {
+
+                flex: 1;
+
+                .project {
+                        height: calc(100vh - 16rem);
+                        &__carousel {
+                                display: flex;
+                                flex-flow: row nowrap;
+                                height: 100%;
+                                overflow: scroll;
+                                scrollbar-width: none;
+                                -ms-overflow-style: none;
+                                &::-webkit-scrollbar {
+                                        display: none;
+                                }
+                        }
+                        &__image {
+                                height: 100%;
+                                img {
+                                        display: block;
+                                        height: 100%;
+                                }
+                        }
+                }
+
         }
 
 }
