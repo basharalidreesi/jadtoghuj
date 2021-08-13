@@ -61,7 +61,7 @@ body {
 	-ms-text-size-adjust: none;
 	text-size-adjust: none;
 	text-rendering: geometricPrecision;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
 	word-break: break-word;
 }
 
