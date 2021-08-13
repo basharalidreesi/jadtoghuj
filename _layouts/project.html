@@ -5,4 +5,12 @@ style:
   - project
 ---
 
-<div style="background: black; opacity: 0.25; height: 100%; width: 100%;"></div>
+        <article class="project">
+                                {%- for project in site.data.projectDirectory.projects -%}
+                                {%- if project.project_page == page.path %}
+                                <h2 class="generic--hidden">
+                                        {{ project.project_name }}
+                                </h2>
+                                {%- endif -%}
+                                {%- endfor %}
+                        </article>
