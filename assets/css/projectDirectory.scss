@@ -95,11 +95,8 @@
                                 --color-text--light: var(--color-special);
                         }
                         &:checked ~ #projectDirectory__allLooks label {
-                                // display: none;
-                                label {
-                                        --color-text: var(--color-special);
-                                        --color-text--light: var(--color-special);
-                                }
+                                --color-text: var(--color-special);
+                                --color-text--light: var(--color-special);
                         }
                 }
                 #projectDirectory__projectToggle {
