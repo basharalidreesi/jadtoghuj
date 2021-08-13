@@ -153,15 +153,15 @@
                                 position: relative;
                                 padding: 1rem;
                                 &:nth-of-type(n+4) {
-                                        animation: fadeIn 0.25s;
+                                        animation: fadeIn 0.5s;
                                 }
                                 &:nth-of-type(odd) {
-                                        &--inner {
+                                        .projectDirectory__lookCard--inner {
                                                 background: var(--color-top--light);
                                         }
                                 }
                                 &:nth-of-type(even) {
-                                        &--inner {
+                                        .projectDirectory__lookCard--inner {
                                                 background: var(--color-bottom--light);
                                         }
                                 }
