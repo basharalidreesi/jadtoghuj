@@ -171,6 +171,7 @@ body {
 		&::before,
 		&::after {
 			content: "";
+			position: relative;
 			display: block;
 			height: 1px;
 			width: 100%;
