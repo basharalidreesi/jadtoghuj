@@ -45,7 +45,7 @@ const jad = {
         header: {
 
                 initHeaderScripts: function() {
-                        jad.header.pickRandomLogo();
+                        // jad.header.pickRandomLogo();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
