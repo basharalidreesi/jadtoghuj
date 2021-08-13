@@ -257,12 +257,9 @@
 
                 &__projectCard {
                         width: 100%;
-                        &:first-of-type,
-                        & + .projectDirectory__projectCard {
+                        border-bottom: 1px solid var(--color-text--light);
+                        &:first-of-type {
                                 border-top: 1px solid var(--color-text--light);
-                        }
-                        &:last-of-type {
-                                border-bottom: 1px solid var(--color-text--light);
                         }
                         &:nth-of-type(odd) {
                                 background: var(--color-top--light);
@@ -272,9 +269,6 @@
                         }
                         &:nth-of-type(n+4) {
                                 animation: fadeIn 0.25s;
-                        }
-                        & + #projectDirectory__allProjects {
-                                border-top: none;
                         }
                         & > a {
                                 display: block;
