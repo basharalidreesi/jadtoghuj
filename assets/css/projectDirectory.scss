@@ -94,19 +94,19 @@
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
                         }
-                        // &:checked ~ #projectDirectory__allLooks {
-                        //         display: none;
-                        // }
+                        &:checked ~ #projectDirectory__allLooks label {
+                                // display: none;
+                                label {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);
+                                }
+                        }
                 }
                 #projectDirectory__projectToggle {
                         &:not(:checked) ~ .projectDirectory__projectCard--outer:nth-of-type(n+4) {
                                 display: none;
                         }
                         &:checked + #projectDirectory__projectLabel label {
-                                --color-text: var(--color-special);
-                                --color-text--light: var(--color-special);
-                        }
-                        &:checked ~ #projectDirectory__allLooks label {
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
                         }
