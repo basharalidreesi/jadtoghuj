@@ -181,6 +181,11 @@
                                         display: block;
                                         padding-top: calc(100% / var(--aspectRatio-projectDirectory));
                                 }
+                                &:first-of-type:nth-last-of-type(1) ~ #projectDirectory__allLooks,
+                                &:first-of-type:nth-last-of-type(2) ~ #projectDirectory__allLooks,
+                                &:first-of-type:nth-last-of-type(3) ~ #projectDirectory__allLooks {
+                                        display: none;
+                                }
                         }
                         &--inner {
                                 position: absolute;
