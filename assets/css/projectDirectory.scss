@@ -176,11 +176,20 @@
                                 border: 1px solid var(--color-text--light);
                                 border-radius: 1rem;
                                 overflow: hidden;
-                                background: var(--color-top--light);
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 border-color: var(--color-special);
                                         }
+                                }
+                        }
+                        &:nth-of-type(odd) {
+                                &--inner {
+                                        background: var(--color-top--light);
+                                }
+                        }
+                        &:nth-of-type(even) {
+                                &--inner {
+                                        background: var(--color-bottom--light);
                                 }
                         }
                         &--image {
