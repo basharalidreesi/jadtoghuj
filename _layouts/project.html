@@ -14,7 +14,7 @@ style:
                                 <div class="project__carousel">
                                         {%- for look in project.looks -%}
                                         {%- for image in look.look_images %}
-                                        <figure>
+                                        <figure class="project__image">
                                                 <img src="{{ image }}" title="{{ look.look_name }}" />
                                         </figure>
                                         {%- endfor -%}
