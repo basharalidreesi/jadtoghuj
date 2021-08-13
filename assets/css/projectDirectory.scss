@@ -183,12 +183,12 @@
                                 }
                         }
                         &:nth-of-type(odd) {
-                                &--inner {
+                                .projectDirectory__lookCard--inner {
                                         background: var(--color-top--light);
                                 }
                         }
                         &:nth-of-type(even) {
-                                &--inner {
+                                .projectDirectory__lookCard--inner {
                                         background: var(--color-bottom--light);
                                 }
                         }
