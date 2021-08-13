@@ -224,7 +224,6 @@
                                 font-weight: 300;
                                 font-size: 5rem;
                                 border-radius: 100%;
-                                border-color: var(--color-text--light);
                                 box-shadow: inset 0 -2.5rem 0 0 var(--color-bottom--light);
                                 cursor: cell;
                                 transition: box-shadow 0.25s, color 0.25s;
@@ -232,6 +231,7 @@
                                         &:hover {
                                                 box-shadow: inset 0 -1.25rem 0 0 var(--color-bottom--light);
                                                 --color-text: var(--color-special);
+                                                --color-text--light: var(--color-special);
                                         }
                                 }
                         }
