@@ -153,17 +153,7 @@
                                 position: relative;
                                 padding: 1rem;
                                 &:nth-of-type(n+4) {
-                                        animation: fadeIn 0.5s;
-                                }
-                                &:nth-of-type(odd) {
-                                        .projectDirectory__lookCard--inner {
-                                                background: var(--color-top--light);
-                                        }
-                                }
-                                &:nth-of-type(even) {
-                                        .projectDirectory__lookCard--inner {
-                                                background: var(--color-bottom--light);
-                                        }
+                                        animation: fadeIn 0.25s;
                                 }
                                 &::before {
                                         content: "";
@@ -186,6 +176,7 @@
                                 border: 1px solid var(--color-text--light);
                                 border-radius: 1rem;
                                 overflow: hidden;
+                                background: var(--color-top--light);
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 border-color: var(--color-special);
