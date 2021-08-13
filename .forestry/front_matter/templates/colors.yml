@@ -40,7 +40,7 @@ fields:
       required: true
       color_format: Hex
     label: Top color (dark)
-    default: "#778690"
+    default: "#91A3B0"
   - name: bottom_color_dark
     type: color
     label: Bottom color (dark)
