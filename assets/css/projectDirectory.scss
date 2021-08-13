@@ -163,6 +163,15 @@
                                         }
                                 }
                         }
+                        &:nth-last-child(1) {
+                                display: none;
+                        }
+                        &:nth-last-child(2),
+                        &:nth-last-child(3),
+                        &:nth-last-child(4),
+                        &:nth-last-child(5) {
+                                pointer-events: none;
+                        }
                 }
                 #projectDirectory__projectLabel {
                         margin: 2rem 0;
