@@ -6,14 +6,24 @@
 :root {
 
         {%- if site.data.colors.styling_and_creative_direction.custom %}
-        --color-top: {{ site.data.colors.styling_and_creative_direction.top_color }};
-        --color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color }}1A; // 10%
-        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color }};
-        --color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color }}40; // 25%
-	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color }};
-        --color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color }};
-	--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color }}80; // 50%
-	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color }};
+        --color-top: {{ site.data.colors.styling_and_creative_direction.top_color_light }};
+        --color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_light }}1A; // 10%
+        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }};
+        --color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }}40; // 25%
+	--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+        --color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+	--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_light }}80; // 50%
+	--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_light }};
+        @media (prefers-color-scheme: dark) {
+		--color-top: {{ site.data.colors.styling_and_creative_direction.top_color_dark }};
+		--color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_dark }}1A; // 10%
+	        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }};
+		--color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }}40; // 25%
+		--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}80; // 50%
+		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_dark }};
+	}
         {%- endif %}
 
         --aspectRatio-projectDirectory: ({{ site.data.projectDirectory.card_aspect_ratio.width}} / {{ site.data.projectDirectory.card_aspect_ratio.height }});
@@ -95,21 +105,21 @@
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
                         }
-                        &:checked ~ #projectDirectory__allLooks label {
-                                --color-text: var(--color-special);
-                                --color-text--light: var(--color-special);
+                        &:checked ~ #projectDirectory__allLooks {
+                                display: none;
+                                label {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);        
+                                }
                         }
                 }
                 #projectDirectory__projectToggle {
                         &:not(:checked) ~ .projectDirectory__projectCard--outer:nth-of-type(n+4) {
                                 display: none;
                         }
-                        &:checked + #projectDirectory__projectLabel {
-                                display: none;
-                                label {
-                                        --color-text: var(--color-special);
-                                        --color-text--light: var(--color-special);
-                                }
+                        &:checked + #projectDirectory__projectLabel label {
+                                --color-text: var(--color-special);
+                                --color-text--light: var(--color-special);
                         }
                 }
                 #projectDirectory__lookLabel,

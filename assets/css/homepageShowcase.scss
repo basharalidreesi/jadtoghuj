@@ -6,10 +6,24 @@
 :root {
 
         {%- if site.data.colors.homepage.custom %}
-        --color-top: {{ site.data.colors.homepage.top_color }};
-        --color-bottom: {{ site.data.colors.homepage.bottom_color }};
-	--color-text: {{ site.data.colors.homepage.text_color }};
-	--color-special: {{ site.data.colors.homepage.special_color }};
+        --color-top: {{ site.data.colors.homepage.top_color_light }};
+        --color-top--light: {{ site.data.colors.homepage.top_color_light }}1A; // 10%
+        --color-bottom: {{ site.data.colors.homepage.bottom_color_light }};
+        --color-bottom--light: {{ site.data.colors.homepage.bottom_color_light }}40; // 25%
+	--color-text: {{ site.data.colors.homepage.text_color_light }};
+        --color-text--redundant: {{ site.data.colors.homepage.text_color_light }};
+	--color-text--light: {{ site.data.colors.homepage.text_color_light }}80; // 50%
+	--color-special: {{ site.data.colors.homepage.special_color_light }};
+        @media (prefers-color-scheme: dark) {
+		--color-top: {{ site.data.colors.homepage.top_color_dark }};
+		--color-top--light: {{ site.data.colors.homepage.top_color_dark }}1A; // 10%
+	        --color-bottom: {{ site.data.colors.homepage.bottom_color_dark }};
+		--color-bottom--light: {{ site.data.colors.homepage.bottom_color_dark }}40; // 25%
+		--color-text: {{ site.data.colors.homepage.text_color_dark }};
+		--color-text--redundant: {{ site.data.colors.homepage.text_color_dark }};
+		--color-text--light: {{ site.data.colors.homepage.text_color_dark }}80; // 50%
+		--color-special: {{ site.data.colors.homepage.special_color_dark }};
+	}
         {%- endif %}
 
 }
