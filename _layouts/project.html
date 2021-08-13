@@ -11,6 +11,15 @@ style:
                                 <h2 class="generic--hidden">
                                         {{ project.project_name }}
                                 </h2>
+                                <div class="project__carousel">
+                                        {%- for look in project.looks -%}
+                                        {%- for image in look.look_images %}
+                                        <figure>
+                                                <img src="{{ image }}" title="{{ look.look_name }}" />
+                                        </figure>
+                                        {%- endfor -%}
+                                        {%- endfor %}
+                                </div>
                                 {%- endif -%}
                                 {%- endfor %}
                         </article>
