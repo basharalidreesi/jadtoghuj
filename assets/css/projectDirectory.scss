@@ -70,6 +70,7 @@
                 }
 
                 &__projects {
+                        flex-flow: column nowrap;
                         position: relative;
                         margin: 2rem 0 0 0;
                         &::before {
@@ -143,7 +144,7 @@
                         }
                 }
                 #projectDirectory__projectLabel {
-                        margin-top: 2rem;
+                        margin: 2rem 0;
                 }
 
                 &__lookCard {
@@ -235,7 +236,31 @@
                 }
 
                 &__projectCard {
-
+                        width: 100%;
+                        &:first-of-type,
+                        & + .projectDirectory__projectCard {
+                                border-top: 1px solid var(--color-text--light);
+                        }
+                        &:last-of-type {
+                                border-bottom: 1px solid var(--color-text--light);
+                        }
+                        &:nth-of-type(odd) {
+                                background: var(--color-top--light);
+                        }
+                        &:nth-of-type(even) {
+                                background: var(--color-bottom--light);
+                        }
+                        & > a {
+                                padding: 2rem;
+                                font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                font-size: 1.5rem;
+                                text-align: center;
+                                @media (any-hover: hover) {
+                                        &:hover {
+                                                --color-text: var(--color-special);
+                                        }
+                                }
+                        }
                 }
 
         }
