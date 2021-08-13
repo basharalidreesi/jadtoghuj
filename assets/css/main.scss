@@ -167,14 +167,13 @@ body {
 
 	#nav {
 		order: 2;
+		margin: 1rem -1rem;
 		&::before,
 		&::after {
 			content: "";
-			position: relative;
-			left: -2rem;
 			display: block;
 			height: 1px;
-			width: calc(100% + 4rem);
+			width: 100%;
 			background: var(--color-text--light);
 		}
 		&__toggle {
@@ -186,6 +185,7 @@ body {
 			align-items: center;
 			justify-content: center;
 			height: 5rem;
+			background: var(--color-top--light);
 			&--current {
 				display: none;
 			}
@@ -237,7 +237,7 @@ body {
 					content: "";
 					order: 2;
 					height: 1px;
-					width: calc(100% + 4rem);
+					width: 100%;
 					background: var(--color-text--light);
 				}
 			}
