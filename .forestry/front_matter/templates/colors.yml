@@ -6,34 +6,62 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: top_color
+  - name: top_color_light
     type: color
-    label: Top color
+    label: Top color (light)
     config:
       required: true
       color_format: Hex
     default: "#FFFFFF"
-  - name: bottom_color
+  - name: bottom_color_light
     type: color
-    label: Bottom color
+    label: Bottom color (light)
     config:
       required: true
       color_format: Hex
     default: "#91A3B0"
-  - name: text_color
+  - name: text_color_light
     type: color
-    label: Text color
+    label: Text color (light)
     config:
       required: true
       color_format: Hex
     default: "#000000"
-  - name: special_color
+  - name: special_color_light
     type: color
-    label: Special color
+    label: Special color (light)
     config:
       required: true
       color_format: Hex
     default: "#0000FF"
+  - name: top_color_dark
+    type: color
+    config:
+      required: true
+      color_format: Hex
+    label: Top color (dark)
+    default: "#91A3B0"
+  - name: bottom_color_dark
+    type: color
+    label: Bottom color (dark)
+    config:
+      required: true
+      color_format: Hex
+    default: "#474F54"
+  - name: text_color_dark
+    type: color
+    label: Text color (dark)
+    config:
+      required: true
+      color_format: Hex
+    default: "#FFFFFF"
+  - name: special_color_dark
+    type: color
+    label: Special color (dark)
+    config:
+      required: true
+      color_format: Hex
+    default: "#39FF14"
   label: General
 - name: homepage
   type: field_group
