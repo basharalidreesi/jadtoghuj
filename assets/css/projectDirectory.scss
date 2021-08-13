@@ -253,6 +253,10 @@
                                 box-shadow: inset 0 -2.5rem 0 0 var(--color-bottom--light);
                                 cursor: cell;
                                 transition: box-shadow 0.25s;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 box-shadow: inset 0 -1.25rem 0 0 var(--color-bottom--light);
@@ -292,6 +296,10 @@
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-size: 1.5rem;
                                 text-align: center;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
@@ -312,6 +320,10 @@
                                 font-size: 2.5rem;
                                 text-align: center;
                                 cursor: cell;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
