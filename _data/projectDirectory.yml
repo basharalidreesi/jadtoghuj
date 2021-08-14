@@ -27,6 +27,11 @@ projects:
     - "/assets/graphics/_q3a4289.jpg"
     - "/assets/graphics/_q3a4273.jpg"
     look_description: ''
+  miscellaneous_images:
+  - "/assets/graphics/_q3a4353.jpg"
+  - "/assets/graphics/_q3a4441edited.jpg"
+  - "/assets/graphics/_q3a4424.jpg"
+  videos: []
 - project_name: Salissant Charme
   project_description: Dirty Glamour w/ Fashion House Amman
   project_page: _styling-and-creative-direction/salissant-charme.html
@@ -41,6 +46,8 @@ projects:
     - "/assets/graphics/66a2911.jpg"
     - "/assets/graphics/66a2884.jpg"
     look_description: ''
+  miscellaneous_images: []
+  videos: []
 initial_looks_displayed: 3
 initial_projects_displayed: 3
 card_aspect_ratio:
