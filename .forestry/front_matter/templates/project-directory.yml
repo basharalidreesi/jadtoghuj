@@ -67,6 +67,17 @@ fields:
       max: 
       labelField: look_name
     label: Looks
+  - name: miscellaneous_images
+    type: image_gallery
+    config: {}
+    label: Miscellaneous images
+  - name: videos
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Videos
   config:
     min: 
     max: 
