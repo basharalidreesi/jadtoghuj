@@ -29,6 +29,10 @@ style:
                                                         </span>
                                                         {%- endif %}
                                                 </figcaption>
+                                                {%- else %}
+                                                <figcaption class="generic--hidden">
+                                                        {{ project.project_name }}
+                                                </figcaption>
                                                 {%- endif %}
                                         </figure>
                                         {%- endfor -%}
