@@ -16,24 +16,24 @@ style:
                                         {%- for image in look.look_images %}
                                         <figure class="project__image">
                                                 <img src="{{ image }}" title="{{ look.look_name }}" />
-                                                {%- if look.look_name or look.look_description %}
+                                                {%- unless look.look_name == "" or look.look_description == "" %}
                                                 <figcaption class="generic--hidden">
-                                                        {%- if look.look_name %}
+                                                        {%- unless look.look_name == "" %}
                                                         <span>
                                                                 {{ look.look_name }}
                                                         </span>
-                                                        {%- endif -%}
-                                                        {%- if look.look_description %}
+                                                        {%- endunless -%}
+                                                        {%- unless look.look_description == "" %}
                                                         <span>
                                                                 {{ look.look_description }}
                                                         </span>
-                                                        {%- endif %}
+                                                        {%- endunless %}
                                                 </figcaption>
                                                 {%- else %}
                                                 <figcaption class="generic--hidden">
                                                         {{ project.project_name }}
                                                 </figcaption>
-                                                {%- endif %}
+                                                {%- endunless %}
                                         </figure>
                                         {%- endfor -%}
                                         {%- endfor %}
