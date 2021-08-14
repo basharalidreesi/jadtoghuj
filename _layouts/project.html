@@ -16,12 +16,29 @@ style:
                                         {%- for image in look.look_images %}
                                         <figure class="project__image">
                                                 <img src="{{ image }}" title="{{ look.look_name }}" />
+                                                {%- if look.look_name or look.look_description %}
+                                                <figcaption class="generic--hidden">
+                                                        {%- if look.look_name %}
+                                                        <span>
+                                                                {{ look.look_name }}
+                                                        </span>
+                                                        {%- endif -%}
+                                                        {%- if look.look_description %}
+                                                        <span>
+                                                                {{ look.look_description }}
+                                                        </span>
+                                                        {%- endif %}
+                                                </figcaption>
+                                                {%- endif %}
                                         </figure>
                                         {%- endfor -%}
                                         {%- endfor %}
                                         {%- for image in project.miscellaneous_images %}
                                         <figure class="project__image">
                                                 <img src="{{ image }}" title="{{ project.project_name }}" />
+                                                <<figcaption class="generic--hidden">
+                                                        {{ project.project_name }}
+                                                </figcaption>
                                         </figure>
                                         {%- endfor %}
                                 </div>
