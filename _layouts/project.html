@@ -19,6 +19,11 @@ style:
                                         </figure>
                                         {%- endfor -%}
                                         {%- endfor %}
+                                        {%- for image in project.miscellaneous_images %}
+                                        <figure class="project__image">
+                                                <img src="{{ image }}" title="{{ project.project_name }}" />
+                                        </figure>
+                                        {%- endfor %}
                                 </div>
                                 {%- endif -%}
                                 {%- endfor %}
