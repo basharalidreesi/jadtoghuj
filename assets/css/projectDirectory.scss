@@ -26,7 +26,7 @@
 	}
         {%- endif %}
 
-        --aspectRatio-projectDirectory: ({{ site.data.projectDirectory.card_aspect_ratio.width}} / {{ site.data.projectDirectory.card_aspect_ratio.height }});
+        --aspectRatio-projectDirectory: (1 / 2);
         --columns-projectDirectory: 12;
         @media (max-width: 4864px) {
 		--columns-projectDirectory: 11;
