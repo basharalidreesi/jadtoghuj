@@ -77,7 +77,7 @@ const jad = {
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
                 transformTouchToWheel: function(event) {
-                        event.preventDevault();
+                        event.preventDefault();
                         let wheel = new Event("wheel");
                         window.dispatchEvent(wheel);
                 },
