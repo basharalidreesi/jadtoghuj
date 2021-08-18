@@ -36,48 +36,6 @@ fields:
     type: tag_list
     default: []
     label: Project tags
-  - name: looks
-    type: field_group_list
-    fields:
-    - name: look_name
-      type: text
-      config:
-        required: false
-      label: Look name
-    - name: look_description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Look description
-    - name: look_cover
-      type: file
-      config:
-        maxSize: 5
-      label: Look cover
-    - name: look_images
-      type: image_gallery
-      config: {}
-      label: Look images
-    config:
-      min: 
-      max: 
-      labelField: look_name
-    label: Looks
-  - name: miscellaneous_images
-    type: image_gallery
-    config: {}
-    label: Miscellaneous images
-  - name: videos
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: Videos
   - name: media
     type: blocks
     label: Media
