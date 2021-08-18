@@ -78,13 +78,13 @@ fields:
       min: 
       max: 
     label: Videos
-  - name: content
+  - name: media
     type: blocks
-    label: Content
+    label: Media
     template_types:
-    - project-directory-look
-    - project-directory-miscellaneous-image
-    - project-directory-video
+    - look
+    - image
+    - video
     config:
       min: 
       max: 
