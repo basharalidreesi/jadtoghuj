@@ -44,7 +44,7 @@ fields:
     - image
     - video
     config:
-      min: 
+      min: 1
       max: 
   config:
     min: 
