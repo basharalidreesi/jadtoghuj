@@ -41,7 +41,7 @@ fields:
     label: Media
     template_types:
     - look
-    - image
+    - image-s
     - video
     config:
       min: 1
