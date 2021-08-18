@@ -8,8 +8,8 @@ general:
   bottom_color_light: "#91A3B0"
   text_color_light: "#000000"
   special_color_light: "#FF00FF"
-  top_color_dark: "#91A3B0"
-  bottom_color_dark: "#5F6A72"
+  top_color_dark: "#778690"
+  bottom_color_dark: "#474F54"
   text_color_dark: "#FFFFFF"
   special_color_dark: "#39FF14"
 about:
