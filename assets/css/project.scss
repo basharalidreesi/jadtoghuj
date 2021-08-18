@@ -57,7 +57,7 @@ body {
                                 // height: 100%;
                                 margin: -2rem;
                                 height: calc(100% + 4rem);
-                                overflow: scroll;
+                                overflow-x: scroll;
                                 scrollbar-width: none;
                                 -ms-overflow-style: none;
                                 &::-webkit-scrollbar {
