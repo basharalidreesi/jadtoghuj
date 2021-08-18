@@ -11,11 +11,13 @@ const jad = {
         lexicon: {
                 root: document.documentElement,
                 logo: document.querySelector("#header__logo"),
+                carousel: document.querySelector(".project__carousel"),
         },
 
         initAllScripts: function() {
                 jad.viewport.initViewportScripts();
-                jad.header.initHeaderScripts();
+                // jad.header.initHeaderScripts();
+                jad.scroll.initScrollScripts();
         },
 
         viewport: {
@@ -45,7 +47,7 @@ const jad = {
         header: {
 
                 initHeaderScripts: function() {
-                        // jad.header.pickRandomLogo();
+                        jad.header.pickRandomLogo();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -61,6 +63,19 @@ const jad = {
                         SVGInject(jad.lexicon.logo);
                 },
 
+        },
+
+        scroll: {
+
+                initScrollScripts: function() {
+                        if (!jad.lexicon.carousel) { return; }
+                        window.addEventListener("wheel", transformScroll);
+                },
+                transformScroll: function(event) {
+                        if (!event.deltaY) { return; }
+                        jad.lexicon.carousel.scrollLeft += event.deltaY;
+                }
+                
         },
 
         util: {
