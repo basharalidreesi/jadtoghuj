@@ -78,6 +78,16 @@ fields:
       min: 
       max: 
     label: Videos
+  - name: content
+    type: blocks
+    label: Content
+    template_types:
+    - project-directory-look
+    - project-directory-miscellaneous-image
+    - project-directory-video
+    config:
+      min: 
+      max: 
   config:
     min: 
     max: 
