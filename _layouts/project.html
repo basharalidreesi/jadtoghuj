@@ -12,41 +12,36 @@ style:
                                         {{ project.project_name }}
                                 </h2>
                                 <div class="project__carousel">
-                                        {%- for look in project.looks -%}
-                                        {%- for image in look.look_images %}
+                                        {%- for media in project.media -%}
+                                        {%- if media.template == "look" -%}
+                                        {%- for image in media.look_images %}
                                         <figure class="project__image">
-                                                <img src="{{ image }}" title="{{ look.look_name }}" />
-                                                {%- unless look.look_name == "" or look.look_description == "" %}
+                                                <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
-                                                        {%- unless look.look_name == "" %}
                                                         <span>
-                                                                {{ look.look_name }}
+                                                                {{ media.look_name }}
                                                         </span>
-                                                        {%- endunless -%}
-                                                        {%- unless look.look_description == "" %}
                                                         <span>
-                                                                {{ look.look_description }}
+                                                                {{ media.look_description }}
                                                         </span>
-                                                        {%- endunless %}
                                                 </figcaption>
-                                                {%- else %}
-                                                <figcaption class="generic--hidden">
-                                                        {{ project.project_name }}
-                                                </figcaption>
-                                                {%- endunless %}
                                         </figure>
                                         {%- endfor -%}
-                                        {%- endfor %}
-                                        {%- for image in project.miscellaneous_images %}
+                                        {%- endif -%}
+                                        {%- if media.template == "image-s" -%}
+                                        {%- for image in media.images %}
                                         <figure class="project__image">
                                                 <img src="{{ image }}" title="{{ project.project_name }}" />
                                                 <figcaption class="generic--hidden">
-                                                        {{ project.project_name }}
+                                                        <span>
+                                                                {{ project.project_name }}
+                                                        </span>
                                                 </figcaption>
                                         </figure>
-                                        {%- endfor %}
-                                        {%- for video in project.videos %}
-                                        <div class="project__video"></div>
+                                        {%- endfor -%}
+                                        {%- endif -%}
+                                        {%- if media.template == "video" -%}
+                                        {%- endif -%}
                                         {%- endfor %}
                                 </div>
                                 {%- endif -%}
