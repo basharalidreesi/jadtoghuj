@@ -1,6 +1,7 @@
 ---
 label: Video
 hide_body: true
+display_field: video_url
 fields:
 - name: video_url
   type: text
