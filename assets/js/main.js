@@ -73,7 +73,7 @@ const jad = {
                         window.addEventListener("touchmove", jad.scroll.transformTouchToWheel, { passive: false });
                 },
                 transformScroll: function(event) {
-                        // if (!event.deltaY) { return; }
+                        if (!event.deltaY) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
                 transformTouchToWheel: function(event) {
