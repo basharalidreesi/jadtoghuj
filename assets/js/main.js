@@ -67,15 +67,15 @@ const jad = {
 
         scroll: {
 
+                transformScroll: function(event) {
+                        if (!event.deltaY) { return; }
+                        jad.lexicon.carousel.scrollLeft += event.deltaY;
+                },
                 initScrollScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", transformScroll);
                 },
-                transformScroll: function(event) {
-                        if (!event.deltaY) { return; }
-                        jad.lexicon.carousel.scrollLeft += event.deltaY;
-                }
-                
+
         },
 
         util: {
