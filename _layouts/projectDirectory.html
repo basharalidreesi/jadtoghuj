@@ -20,27 +20,29 @@ style:
                         </label>
                 </div>
                 {%- for project in site.data.projectDirectory.projects -%}
-                {%- for look in project.looks %}
+                {%- for media in project.media -%}
+                {%- if media.template == "look" %}
                 <article class="projectDirectory__lookCard--outer">
                         <h4 class="generic--hidden">
-                                {{ look.look_name }}, {{ project.project_name }}
+                                {{ media.look_name }}, {{ project.project_name }}
                         </h4>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ look.look_name }}, {{ project.project_name }}">
+                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ media.look_name }}, {{ project.project_name }}">
                                 <div class="projectDirectory__lookCard--inner">
                                         <figure class="projectDirectory__lookCard--image">
-                                                <img src="{{ look.look_cover }}" title="{{ look.look_name }}, {{ project.project_name }}" />
-                                                <!-- <figcaption>
+                                                <img src="{{ media.look_cover }}" title="{{ media.look_name }}, {{ project.project_name }}" />
+                                                <figcaption class="generic--hidden">
                                                         <span>
-                                                                {{ look.look_name }}
+                                                                {{ media.look_name }}
                                                         </span>
                                                         <span>
                                                                 {{ project.project_name }}
                                                         </span>
-                                                </figcaption> -->
+                                                </figcaption>
                                         </figure>
                                 </div>
                         </a>
                 </article>
+                {%- endif -%}
                 {%- endfor -%}
                 {%- endfor %}
                 <div id="projectDirectory__allLooks" class="projectDirectory__lookCard--outer">
