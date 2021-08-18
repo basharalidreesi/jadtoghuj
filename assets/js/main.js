@@ -70,7 +70,7 @@ const jad = {
                 initScrollScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.scroll.transformScroll);
-                        window.addEventListener("touchmove", jad.scroll.transformTouchToWheel, { passive: false });
+                        // window.addEventListener("touchmove", jad.scroll.transformTouchToWheel, { passive: false });
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
