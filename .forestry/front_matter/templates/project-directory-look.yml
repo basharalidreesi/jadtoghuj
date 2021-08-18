@@ -1,4 +1,27 @@
 ---
 label: Project Directory (Look)
 hide_body: true
-fields: []
+fields:
+- name: look_name
+  type: text
+  config:
+    required: true
+  label: Look name
+- name: look_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Look description
+- name: look_cover
+  type: file
+  config:
+    maxSize: 5
+  label: Look cover
+- name: look_images
+  type: image_gallery
+  config: {}
+  label: Look images
