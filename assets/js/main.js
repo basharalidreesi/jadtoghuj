@@ -70,10 +70,16 @@ const jad = {
                 initScrollScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.scroll.transformScroll);
+                        window.addEventListener("touchmove", jad.scroll.transformTouchToWheel);
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
+                },
+                transformTouchToWheel: function(event) {
+                        event.preventDevault();
+                        let wheel = new Event("wheel");
+                        window.dispatchEvent(wheel);
                 },
 
         },
