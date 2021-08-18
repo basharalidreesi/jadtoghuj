@@ -1,6 +1,7 @@
 ---
 label: Look
 hide_body: true
+display_field: look_name
 fields:
 - name: look_name
   type: text
