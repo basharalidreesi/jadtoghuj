@@ -1,4 +1,9 @@
 ---
 label: Project Directory (Miscellaneous Image)
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 5
+  label: Image
