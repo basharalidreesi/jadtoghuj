@@ -1,5 +1,44 @@
 ---
 projects:
+- project_name: Idreesi and Abdulla for MyKali
+  project_description: ''
+  project_page: []
+  project_tags:
+  - editorial
+  - experimental
+  - menswear
+  - client
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/image-142.jpg"
+    - "/assets/graphics/image-171.jpg"
+    - "/assets/graphics/image-144.jpg"
+    - "/assets/graphics/image-147.jpg"
+    - "/assets/graphics/image-182.jpg"
+    - "/assets/graphics/image-145.jpg"
+    - "/assets/graphics/image-135.jpg"
+    - "/assets/graphics/image-140.jpg"
+    - "/assets/graphics/image-176.jpg"
+    - "/assets/graphics/image-149.jpg"
+- project_name: An Editorial for Indira
+  project_description: ''
+  project_page: []
+  project_tags:
+  - client
+  - experimental
+  - editorial
+  - jewelry
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/d15.jpg"
+    - "/assets/graphics/d17.jpg"
+    - "/assets/graphics/d12.jpg"
+    - "/assets/graphics/d11.jpg"
+    - "/assets/graphics/d8.jpg"
+    - "/assets/graphics/d3.jpg"
+    - "/assets/graphics/d2.jpg"
 - project_name: Manal Wedding Glam
   project_description: ''
   project_page: []
