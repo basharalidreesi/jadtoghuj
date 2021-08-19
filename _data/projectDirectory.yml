@@ -1,5 +1,22 @@
 ---
 projects:
+- project_name: Le Chez Moi Perdu 1974
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/img_2326.JPG"
+    - "/assets/graphics/img_3485.JPG"
+    - "/assets/graphics/img_2923.JPG"
+    - "/assets/graphics/img_2325.JPG"
+    - "/assets/graphics/img_2906.JPG"
+    - "/assets/graphics/img_3487.JPG"
+    - "/assets/graphics/img_2924.JPG"
+    - "/assets/graphics/img_2327.JPG"
 - project_name: Editorial on Red
   project_description: ''
   project_page: []
