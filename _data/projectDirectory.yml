@@ -1,5 +1,21 @@
 ---
 projects:
+- project_name: White in Raw Nature
+  project_description: ''
+  project_page: []
+  project_tags:
+  - editorial
+  - experimental
+  - bridal
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_66a0173.jpg"
+    - "/assets/graphics/_66a9967.jpg"
+    - "/assets/graphics/_66a0361.jpg"
+    - "/assets/graphics/_66a0156.jpg"
+    - "/assets/graphics/_66a0141.jpg"
+    - "/assets/graphics/_66a0283.jpg"
 - project_name: Rogue Nation Gals
   project_description: ''
   project_page: []
