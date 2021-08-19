@@ -1,5 +1,17 @@
 ---
 projects:
+- project_name: Fly To Milan with Pandora
+  project_description: ''
+  project_page: []
+  project_tags:
+  - commercial
+  - client
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/adjustments-jpeg.jpg"
+    - "/assets/graphics/screen-shot-2019-11-29-at-11-34-19-pm-png.PNG"
+    - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
 - project_name: Le Chez Moi Perdu 1974
   project_description: ''
   project_page: []
