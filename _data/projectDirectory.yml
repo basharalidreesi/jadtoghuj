@@ -1,5 +1,26 @@
 ---
 projects:
+- project_name: Lola's Bridal Editorial
+  project_description: ''
+  project_page: []
+  project_tags:
+  - commercial
+  - client
+  - experimental
+  - editorial
+  - bridal
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_o7a4743b.jpg"
+    - "/assets/graphics/lola-282ag.jpg"
+    - "/assets/graphics/lola-226bh.jpg"
+    - "/assets/graphics/lola-143-hdr-1option12.jpg"
+    - "/assets/graphics/lola-379h.jpg"
+    - "/assets/graphics/lola-597i.jpg"
+    - "/assets/graphics/lola-328i-1.jpg"
+    - "/assets/graphics/lola-532b.jpg"
+    - "/assets/graphics/lola-522b.jpg"
 - project_name: Fly To Milan with Pandora
   project_description: ''
   project_page: []
