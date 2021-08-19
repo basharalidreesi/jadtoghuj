@@ -1,5 +1,25 @@
 ---
 projects:
+- project_name: Manal Wedding Glam
+  project_description: ''
+  project_page: []
+  project_tags:
+  - personal
+  - client
+  media:
+  - template: look
+    look_name: Look 1
+    look_cover: "/assets/graphics/look-1-manalo.png"
+    look_images:
+    - "/assets/graphics/4ce2453d-b9d1-4b3f-b72f-36e628aa0029.jpg"
+    - "/assets/graphics/18a0075c-c6da-4093-8109-75386369f177.jpg"
+    - "/assets/graphics/e18b9444-32c9-4cf4-9f21-1d6e0df44f10.jpg"
+    - "/assets/graphics/be5b6872-5449-42b2-96de-11636a601450.jpg"
+    look_description: ''
+  - template: image-s
+    images:
+    - "/assets/graphics/a1d462b4-a367-4ceb-9ee4-5874c2645e6f.jpg"
+    - "/assets/graphics/dd72d82c-36c7-4b4e-8206-c2c7d68544ee.jpg"
 - project_name: Simply Personal
   project_description: ''
   project_page: []
