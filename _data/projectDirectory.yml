@@ -1,5 +1,40 @@
 ---
 projects:
+- project_name: "\U0001F337 With a Bang \U0001F337"
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_5464.jpg"
+    - "/assets/graphics/img_3526.jpg"
+    - "/assets/graphics/dsc_55011.jpg"
+    - "/assets/graphics/dsc_5523-copy.jpg"
+    - "/assets/graphics/dsc_5518.jpg"
+    - "/assets/graphics/img_3500.jpg"
+    - "/assets/graphics/dsc_5542.jpg"
+    - "/assets/graphics/dsc_5582.jpg"
+- project_name: Ghada el Tally for Pandora
+  project_description: ''
+  project_page: []
+  project_tags:
+  - client
+  - commercial
+  - campaign
+  - personal
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/skirt-1-story-2-06-47-pm.jpg"
+    - "/assets/graphics/skirt-2-story-2-06-47-pm.jpg"
+    - "/assets/graphics/skirt-1-closeup-post-story-2-06-47-pm.jpg"
+    - "/assets/graphics/suit-1-story-2-06-47-pm.jpg"
+    - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
+    - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
+    - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
   project_page: []
@@ -97,6 +132,7 @@ projects:
   project_tags:
   - commercial
   - client
+  - campaign
   media:
   - template: image-s
     images:
