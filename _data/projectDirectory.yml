@@ -1,5 +1,16 @@
 ---
 projects:
+- project_name: Simply Personal
+  project_description: ''
+  project_page: []
+  project_tags: []
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/c.JPG"
+    - "/assets/graphics/b.JPG"
+    - "/assets/graphics/d.JPG"
+    - "/assets/graphics/a.JPG"
 - project_name: Lola's Bridal Editorial
   project_description: ''
   project_page: []
