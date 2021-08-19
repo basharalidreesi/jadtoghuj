@@ -1,5 +1,18 @@
 ---
 projects:
+- project_name: Rogue Nation Gals
+  project_description: ''
+  project_page: []
+  project_tags:
+  - editorial
+  - experimental
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_66a0673.jpg"
+    - "/assets/graphics/_66a0792.jpg"
+    - "/assets/graphics/_66a0648.jpg"
+    - "/assets/graphics/_66a0766.jpg"
 - project_name: All-Jordanian Fashion Editorial.
   project_description: ''
   project_page: []
