@@ -1,5 +1,48 @@
 ---
 projects:
+- project_name: 'Experimenting with Christina '
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/img_1109.jpg"
+    - "/assets/graphics/img_1104.jpg"
+    - "/assets/graphics/img_1107.jpg"
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/look-1-christina.png"
+    look_images:
+    - "/assets/graphics/img_1111.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/look-2-christina.png"
+    look_images:
+    - "/assets/graphics/img_1110.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/look-3-christina.png"
+    look_images:
+    - "/assets/graphics/img_1108.jpg"
+    - "/assets/graphics/img_1105.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 4
+    look_images:
+    - "/assets/graphics/img_1121.jpg"
+    look_cover: "/assets/graphics/look-4-christina.png"
+    look_description: ''
+  - template: look
+    look_name: Look 05
+    look_cover: "/assets/graphics/look-5-christina.png"
+    look_images:
+    - "/assets/graphics/img_1106.jpg"
+    look_description: ''
 - project_name: "\U0001F337 With a Bang \U0001F337"
   project_description: ''
   project_page: []
