@@ -3,7 +3,11 @@
 <html lang="en-GB" dir="auto">
 <head>
 	<meta charset="utf-8">
-	<title>{{ site.data.generalConfiguration.author }}</title>
+	<title>
+		{{ site.data.generalConfiguration.author }}
+		{%- unless page.layout == "homepageShowcase" and page.layout != "project" %} | {{ page.title }} {%- endunless -%}
+		{%- if page.layout == "project" %} | {% for project in site.data.projectDirectory.projects -%} {%- if project.project_page == page.path %} {{ project.project_name }} {%- endif -%}
+	</title>
 	<meta name="description" content="{{ site.data.generalConfiguration.description }}">
 	<meta name="author" content="{{ site.data.generalConfiguration.author }}">
 	<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
