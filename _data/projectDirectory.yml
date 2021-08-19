@@ -14,7 +14,7 @@ projects:
     - "/assets/graphics/1-edited-12.jpg"
     - "/assets/graphics/1-edited-3.jpg"
     look_description: ''
-    look_cover: ''
+    look_cover: "/assets/graphics/look-1-editorial-on-red.png"
   - template: look
     look_name: Look 02
     look_images:
