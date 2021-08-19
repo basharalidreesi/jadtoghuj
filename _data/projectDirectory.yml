@@ -1,5 +1,23 @@
 ---
 projects:
+- project_name: 'History Made: Young Arab Talents Unite for an All-Jordanian Fashion
+    Editorial.'
+  project_description: ''
+  project_page: []
+  project_tags:
+  - editorial
+  - experimental
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/1.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_description: ''
+    look_cover: ''
+    look_images: []
 - project_name: Club Kids of the 00s
   project_description: ''
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
@@ -43,10 +61,29 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/66a2884.jpg"
+    look_cover: "/assets/graphics/look-2.png"
     look_images:
-    - "/assets/graphics/66a2914.jpg"
-    - "/assets/graphics/66a2915.jpg"
-    - "/assets/graphics/66a2911.jpg"
-    - "/assets/graphics/66a2884.jpg"
-    look_description: ''
+    - "/assets/graphics/_66a2915.jpg"
+    - "/assets/graphics/_66a2935.jpg"
+    look_description: A contemporary take on luxury fashion, a white biker leather
+      jacket is styled with a luxury velour top and short set, finished with Casadei
+      pumps and a Roberto Cavali bag.
+  - template: look
+    look_name: Look 2
+    look_cover: "/assets/graphics/look-3.png"
+    look_images:
+    - "/assets/graphics/_66a3077.jpg"
+    - "/assets/graphics/_66a3089.jpg"
+    look_description: A chic yet daring look, a Balmain x HM blazer jacket styled
+      as a dress, belted with a vintage Moschino belt to accentuate the waist, the
+      look was accessorized with Jimmy Choo emerald suede pumps, a Gucci vintage ostrich
+      leather hand bag, and a Lanvin chunky stone & metal necklace.
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/look-1.png"
+    look_images:
+    - "/assets/graphics/_66a3146.jpg"
+    - "/assets/graphics/_66a3116.jpg"
+    look_description: A simple black crop top is styled with a pair of high waisted
+      plaid trousers, leopard print Dolce & Gabbana pumps, Celine phantom tote and
+      a YSL star bangle.
