@@ -1,5 +1,19 @@
 ---
 projects:
+- project_name: Conquering Magenta
+  project_description: ''
+  project_page: []
+  project_tags: []
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_q3a7553-edited.jpg"
+    - "/assets/graphics/_q3a7540-edited.jpg"
+    - "/assets/graphics/_q3a7880.jpg"
+    - "/assets/graphics/_q3a7783.jpg"
+    - "/assets/graphics/_q3a7426-edited.jpg"
+    - "/assets/graphics/_q3a7571.jpg"
+    - "/assets/graphics/_q3a7553-edited-bag-only.jpg"
 - project_name: White in Raw Nature
   project_description: ''
   project_page: []
