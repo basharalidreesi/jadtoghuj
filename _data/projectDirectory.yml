@@ -75,7 +75,7 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/look-2.png"
+    look_cover: "/assets/graphics/look-2-sallisant-charme.png"
     look_images:
     - "/assets/graphics/_66a2915.jpg"
     - "/assets/graphics/_66a2935.jpg"
@@ -84,7 +84,7 @@ projects:
       pumps and a Roberto Cavali bag.
   - template: look
     look_name: Look 2
-    look_cover: "/assets/graphics/look-3.png"
+    look_cover: "/assets/graphics/look-3-sallisant-charme.png"
     look_images:
     - "/assets/graphics/_66a3077.jpg"
     - "/assets/graphics/_66a3089.jpg"
@@ -94,7 +94,7 @@ projects:
       leather hand bag, and a Lanvin chunky stone & metal necklace.
   - template: look
     look_name: Look 03
-    look_cover: "/assets/graphics/look-1.png"
+    look_cover: "/assets/graphics/look-1-sallisant-charme.png"
     look_images:
     - "/assets/graphics/_66a3146.jpg"
     - "/assets/graphics/_66a3116.jpg"
