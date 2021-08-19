@@ -1,5 +1,37 @@
 ---
 projects:
+- project_name: Editorial on Red
+  project_description: ''
+  project_page: []
+  project_tags:
+  - editorial
+  - experimental
+  media:
+  - template: look
+    look_name: Look 1
+    look_images:
+    - "/assets/graphics/1-edited-1.jpg"
+    - "/assets/graphics/1-edited-12.jpg"
+    - "/assets/graphics/1-edited-3.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 02
+    look_images:
+    - "/assets/graphics/2-edited-1-1.jpg"
+    - "/assets/graphics/2-edited-2-1.jpg"
+    - "/assets/graphics/2-edited-3-1.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 03
+    look_images:
+    - "/assets/graphics/3-edited-1.jpg"
+    - "/assets/graphics/3-edited-4.jpg"
+    - "/assets/graphics/3-edited-3.jpg"
+    - "/assets/graphics/3-edited-11.jpg"
+    look_description: ''
+    look_cover: ''
 - project_name: Conquering Magenta
   project_description: ''
   project_page: []
