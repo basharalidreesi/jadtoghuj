@@ -76,14 +76,14 @@ projects:
     - "/assets/graphics/img_1105.jpg"
     look_description: ''
   - template: look
-    look_name: Look 4
+    look_name: Look 04
     look_images:
     - "/assets/graphics/img_1121.jpg"
-    look_cover: "/assets/graphics/look-4-christina.png"
+    look_cover: "/assets/graphics/look-4-christina-1.png"
     look_description: ''
   - template: look
     look_name: Look 05
-    look_cover: "/assets/graphics/look-5-christina.png"
+    look_cover: "/assets/graphics/look-5-christina-1.png"
     look_images:
     - "/assets/graphics/img_1106.jpg"
     look_description: ''
