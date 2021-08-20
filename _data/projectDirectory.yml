@@ -190,7 +190,7 @@ projects:
   - client
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_cover: "/assets/graphics/look-1-manalo-1.png"
     look_images:
     - "/assets/graphics/4ce2453d-b9d1-4b3f-b72f-36e628aa0029.jpg"
@@ -343,7 +343,7 @@ projects:
   - experimental
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_description: ''
     look_cover: "/assets/graphics/look-3-club-kids-1.png"
     look_images:
