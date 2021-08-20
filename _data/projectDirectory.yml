@@ -1,6 +1,13 @@
 ---
 projects:
-- project_name: All-Jordanian Fashion Editorial.
+- project_name: Zaid Khaled x The Synaptik - Lal Nour Music Video
+  project_description: ''
+  project_page: []
+  project_tags: []
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
+- project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: []
   project_tags:
