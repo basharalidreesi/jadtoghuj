@@ -46,7 +46,7 @@ projects:
     look_images: []
 - project_name: 'Experimenting with Christina '
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/experimenting-with-christina.html
   project_tags:
   - experimental
   - editorial
@@ -89,7 +89,7 @@ projects:
     look_description: ''
 - project_name: Lola's Bridal Editorial
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
   project_tags:
   - commercial
   - client
@@ -110,7 +110,7 @@ projects:
     - "/assets/graphics/lola-522b.jpg"
 - project_name: Ghada el Tally for Pandora
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/ghada-el-tally-for-pandora.html
   project_tags:
   - client
   - commercial
@@ -128,7 +128,7 @@ projects:
     - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
 - project_name: "\U0001F337 With a Bang \U0001F337"
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/with-a-bang.html
   project_tags:
   - experimental
   - editorial
@@ -145,7 +145,7 @@ projects:
     - "/assets/graphics/dsc_5582.jpg"
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/idreesi-and-abdulla-for-mykali.html
   project_tags:
   - editorial
   - experimental
@@ -166,7 +166,7 @@ projects:
     - "/assets/graphics/image-149.jpg"
 - project_name: An Editorial for Indira
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/an-editorial-for-indira.html
   project_tags:
   - client
   - experimental
@@ -184,7 +184,7 @@ projects:
     - "/assets/graphics/d2.jpg"
 - project_name: Manal Wedding Glam
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/manal-wedding-glam.html
   project_tags:
   - personal
   - client
@@ -204,7 +204,7 @@ projects:
     - "/assets/graphics/dd72d82c-36c7-4b4e-8206-c2c7d68544ee.jpg"
 - project_name: Simply Personal
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/simply-personal.html
   project_tags: []
   media:
   - template: image-s
@@ -215,7 +215,7 @@ projects:
     - "/assets/graphics/a.JPG"
 - project_name: Editorial on Red
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/editorial-on-red.html
   project_tags:
   - editorial
   - experimental
@@ -247,7 +247,7 @@ projects:
     look_cover: ''
 - project_name: Fly To Milan with Pandora
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/fly-to-milan-with-pandora.html
   project_tags:
   - commercial
   - client
@@ -260,7 +260,7 @@ projects:
     - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
 - project_name: Le Chez Moi Perdu 1974
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/le-chez-moi-perdu-1974.html
   project_tags:
   - experimental
   - editorial
@@ -277,7 +277,7 @@ projects:
     - "/assets/graphics/img_2327.JPG"
 - project_name: Conquering Magenta
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/conquering-magenta.html
   project_tags: []
   media:
   - template: image-s
@@ -291,7 +291,7 @@ projects:
     - "/assets/graphics/_q3a7553-edited-bag-only.jpg"
 - project_name: White in Raw Nature
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/white-in-raw-nature.html
   project_tags:
   - editorial
   - experimental
@@ -323,7 +323,7 @@ projects:
     look_images: []
 - project_name: Rogue Nation Gals
   project_description: ''
-  project_page: []
+  project_page: _styling-and-creative-direction/rogue-nation-gals.html
   project_tags:
   - editorial
   - experimental
