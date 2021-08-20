@@ -21,7 +21,7 @@
 		--color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }}40; // 25%
 		--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
 		--color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
-		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}80; // 50%
+		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}66; // 40%
 		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_dark }};
 	}
         {%- endif %}
@@ -204,8 +204,7 @@
                                 width: calc(100% - 2rem);
                                 height: calc(100% - 2rem);
                                 padding: 1rem;
-                                // border: 1px solid var(--color-text--light);
-                                border: 1px solid transparent;
+                                border: 1px solid var(--color-text--light);
                                 border-radius: 1rem;
                                 overflow: hidden;
                                 background: var(--color-top--light);
@@ -273,9 +272,9 @@
 
                 &__projectCard {
                         width: 100%;
-                        // border-bottom: 1px solid var(--color-text--light);
+                        border-bottom: 1px solid var(--color-text--light);
                         &:first-of-type {
-                                // border-top: 1px solid var(--color-text--light);
+                                border-top: 1px solid var(--color-text--light);
                         }
                         &:nth-of-type(odd) {
                                 background: var(--color-top--light);
