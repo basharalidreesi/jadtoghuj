@@ -204,7 +204,8 @@
                                 width: calc(100% - 2rem);
                                 height: calc(100% - 2rem);
                                 padding: 1rem;
-                                border: 1px solid var(--color-text--light);
+                                // border: 1px solid var(--color-text--light);
+                                border: 1px solid transparent;
                                 border-radius: 1rem;
                                 overflow: hidden;
                                 background: var(--color-top--light);
@@ -272,9 +273,9 @@
 
                 &__projectCard {
                         width: 100%;
-                        border-bottom: 1px solid var(--color-text--light);
+                        // border-bottom: 1px solid var(--color-text--light);
                         &:first-of-type {
-                                border-top: 1px solid var(--color-text--light);
+                                // border-top: 1px solid var(--color-text--light);
                         }
                         &:nth-of-type(odd) {
                                 background: var(--color-top--light);
