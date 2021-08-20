@@ -13,7 +13,7 @@ $font-size: 15px !default;
 	--color-bottom--light: {{ site.data.colors.general.bottom_color_light }}40; // 25%
 	--color-text: {{ site.data.colors.general.text_color_light }};
 	--color-text--redundant: {{ site.data.colors.general.text_color_light }};
-	--color-text--light: {{ site.data.colors.general.text_color_light }}80; // 50%
+	--color-text--light: {{ site.data.colors.general.text_color_light }}66; // 40%
 	--color-special: {{ site.data.colors.general.special_color_light }};
 	@media (prefers-color-scheme: dark) {
 		--color-top: {{ site.data.colors.general.top_color_dark }};
