@@ -70,7 +70,7 @@ projects:
     look_description: ''
   - template: look
     look_name: Look 03
-    look_cover: "/assets/graphics/look-3-christina.png"
+    look_cover: "/assets/graphics/look-3-christina-1.png"
     look_images:
     - "/assets/graphics/img_1108.jpg"
     - "/assets/graphics/img_1105.jpg"
