@@ -1,20 +1,21 @@
 ---
 projects:
-- project_name: A Very Pink October
+- project_name: All-Jordanian Fashion Editorial.
   project_description: ''
   project_page: []
   project_tags:
-  - personal
+  - editorial
+  - experimental
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/look-2-nina.png"
+    look_cover: "/assets/graphics/1.png"
     look_description: ''
     look_images: []
   - template: look
     look_name: Look 02
-    look_cover: "/assets/graphics/look-1-nina.png"
     look_description: ''
+    look_cover: ''
     look_images: []
 - project_name: 'Experimenting with Christina '
   project_description: ''
@@ -59,23 +60,27 @@ projects:
     look_images:
     - "/assets/graphics/img_1106.jpg"
     look_description: ''
-- project_name: "\U0001F337 With a Bang \U0001F337"
+- project_name: Lola's Bridal Editorial
   project_description: ''
   project_page: []
   project_tags:
+  - commercial
+  - client
   - experimental
   - editorial
+  - bridal
   media:
   - template: image-s
     images:
-    - "/assets/graphics/dsc_5464.jpg"
-    - "/assets/graphics/img_3526.jpg"
-    - "/assets/graphics/dsc_55011.jpg"
-    - "/assets/graphics/dsc_5523-copy.jpg"
-    - "/assets/graphics/dsc_5518.jpg"
-    - "/assets/graphics/img_3500.jpg"
-    - "/assets/graphics/dsc_5542.jpg"
-    - "/assets/graphics/dsc_5582.jpg"
+    - "/assets/graphics/_o7a4743b.jpg"
+    - "/assets/graphics/lola-282ag.jpg"
+    - "/assets/graphics/lola-226bh.jpg"
+    - "/assets/graphics/lola-143-hdr-1option12.jpg"
+    - "/assets/graphics/lola-379h.jpg"
+    - "/assets/graphics/lola-597i.jpg"
+    - "/assets/graphics/lola-328i-1.jpg"
+    - "/assets/graphics/lola-532b.jpg"
+    - "/assets/graphics/lola-522b.jpg"
 - project_name: Ghada el Tally for Pandora
   project_description: ''
   project_page: []
@@ -94,6 +99,23 @@ projects:
     - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
     - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
     - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
+- project_name: "\U0001F337 With a Bang \U0001F337"
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_5464.jpg"
+    - "/assets/graphics/img_3526.jpg"
+    - "/assets/graphics/dsc_55011.jpg"
+    - "/assets/graphics/dsc_5523-copy.jpg"
+    - "/assets/graphics/dsc_5518.jpg"
+    - "/assets/graphics/img_3500.jpg"
+    - "/assets/graphics/dsc_5542.jpg"
+    - "/assets/graphics/dsc_5582.jpg"
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
   project_page: []
@@ -164,57 +186,6 @@ projects:
     - "/assets/graphics/b.JPG"
     - "/assets/graphics/d.JPG"
     - "/assets/graphics/a.JPG"
-- project_name: Lola's Bridal Editorial
-  project_description: ''
-  project_page: []
-  project_tags:
-  - commercial
-  - client
-  - experimental
-  - editorial
-  - bridal
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/_o7a4743b.jpg"
-    - "/assets/graphics/lola-282ag.jpg"
-    - "/assets/graphics/lola-226bh.jpg"
-    - "/assets/graphics/lola-143-hdr-1option12.jpg"
-    - "/assets/graphics/lola-379h.jpg"
-    - "/assets/graphics/lola-597i.jpg"
-    - "/assets/graphics/lola-328i-1.jpg"
-    - "/assets/graphics/lola-532b.jpg"
-    - "/assets/graphics/lola-522b.jpg"
-- project_name: Fly To Milan with Pandora
-  project_description: ''
-  project_page: []
-  project_tags:
-  - commercial
-  - client
-  - campaign
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/adjustments-jpeg.jpg"
-    - "/assets/graphics/screen-shot-2019-11-29-at-11-34-19-pm-png.PNG"
-    - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
-- project_name: Le Chez Moi Perdu 1974
-  project_description: ''
-  project_page: []
-  project_tags:
-  - experimental
-  - editorial
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/img_2326.JPG"
-    - "/assets/graphics/img_3485.JPG"
-    - "/assets/graphics/img_2923.JPG"
-    - "/assets/graphics/img_2325.JPG"
-    - "/assets/graphics/img_2906.JPG"
-    - "/assets/graphics/img_3487.JPG"
-    - "/assets/graphics/img_2924.JPG"
-    - "/assets/graphics/img_2327.JPG"
 - project_name: Editorial on Red
   project_description: ''
   project_page: []
@@ -247,6 +218,36 @@ projects:
     - "/assets/graphics/3-edited-11.jpg"
     look_description: ''
     look_cover: ''
+- project_name: Fly To Milan with Pandora
+  project_description: ''
+  project_page: []
+  project_tags:
+  - commercial
+  - client
+  - campaign
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/adjustments-jpeg.jpg"
+    - "/assets/graphics/screen-shot-2019-11-29-at-11-34-19-pm-png.PNG"
+    - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
+- project_name: Le Chez Moi Perdu 1974
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/img_2326.JPG"
+    - "/assets/graphics/img_3485.JPG"
+    - "/assets/graphics/img_2923.JPG"
+    - "/assets/graphics/img_2325.JPG"
+    - "/assets/graphics/img_2906.JPG"
+    - "/assets/graphics/img_3487.JPG"
+    - "/assets/graphics/img_2924.JPG"
+    - "/assets/graphics/img_2327.JPG"
 - project_name: Conquering Magenta
   project_description: ''
   project_page: []
@@ -277,6 +278,22 @@ projects:
     - "/assets/graphics/_66a0156.jpg"
     - "/assets/graphics/_66a0141.jpg"
     - "/assets/graphics/_66a0283.jpg"
+- project_name: A Very Pink October
+  project_description: ''
+  project_page: []
+  project_tags:
+  - personal
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/look-2-nina.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/look-1-nina.png"
+    look_description: ''
+    look_images: []
 - project_name: Rogue Nation Gals
   project_description: ''
   project_page: []
@@ -290,23 +307,6 @@ projects:
     - "/assets/graphics/_66a0792.jpg"
     - "/assets/graphics/_66a0648.jpg"
     - "/assets/graphics/_66a0766.jpg"
-- project_name: All-Jordanian Fashion Editorial.
-  project_description: ''
-  project_page: []
-  project_tags:
-  - editorial
-  - experimental
-  media:
-  - template: look
-    look_name: Look 01
-    look_cover: "/assets/graphics/1.png"
-    look_description: ''
-    look_images: []
-  - template: look
-    look_name: Look 02
-    look_description: ''
-    look_cover: ''
-    look_images: []
 - project_name: Club Kids of the 00s
   project_description: ''
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
