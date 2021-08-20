@@ -221,13 +221,13 @@ projects:
   - experimental
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_images:
     - "/assets/graphics/1-edited-1.jpg"
     - "/assets/graphics/1-edited-12.jpg"
     - "/assets/graphics/1-edited-3.jpg"
     look_description: ''
-    look_cover: "/assets/graphics/look-1-editorial-on-red.png"
+    look_cover: "/assets/graphics/look-1-editorial-on-red-1.png"
   - template: look
     look_name: Look 02
     look_images:
