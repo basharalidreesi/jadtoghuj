@@ -43,7 +43,9 @@ style:
                                         {%- if media.template == "video" %}
                                         <figure class="project__image">
                                                 {%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" %}
-                                                <iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div>
+                                                        <iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
                                                 {%- elsif media.video_url contains "vimeo.com" %}
                                                 {%- endif %}
                                                 <figcaption class="generic--hidden">
