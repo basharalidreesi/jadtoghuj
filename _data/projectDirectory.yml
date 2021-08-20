@@ -313,12 +313,12 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/look-2-nina.png"
+    look_cover: "/assets/graphics/look-2-nina-1.png"
     look_description: ''
     look_images: []
   - template: look
     look_name: Look 02
-    look_cover: "/assets/graphics/look-1-nina.png"
+    look_cover: "/assets/graphics/look-1-nina-1.png"
     look_description: ''
     look_images: []
 - project_name: Rogue Nation Gals
