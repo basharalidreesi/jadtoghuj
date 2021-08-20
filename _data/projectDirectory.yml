@@ -1,9 +1,20 @@
 ---
 projects:
+- project_name: Zaid Khaled - Shoftek Abel Shwai Music Video
+  project_description: ''
+  project_page: []
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
 - project_name: Zaid Khaled x The Synaptik - Lal Nour Music Video
   project_description: ''
   project_page: []
-  project_tags: []
+  project_tags:
+  - menswear
+  - music video
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
