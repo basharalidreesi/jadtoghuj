@@ -50,14 +50,13 @@ body {
                 flex: 1;
 
                 .project {
-                        // height: calc(var(--vh, 1vh) * 100 - 16rem);
-                        height: calc(var(--vh, 1vh) * 100 - 14rem);
+                        height: calc(var(--vh, 1vh) * 100 - 10rem);
                         &__carousel {
                                 display: flex;
                                 flex-flow: row nowrap;
                                 // height: 100%;
                                 margin: -2rem;
-                                height: calc(100% + 4rem);
+                                height: 100%
                                 overflow-x: scroll;
                                 scrollbar-width: none;
                                 -ms-overflow-style: none;
