@@ -1,5 +1,14 @@
 ---
 projects:
+- project_name: Raja Otaqui - Dina Music Video
+  project_description: ''
+  project_page: []
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
 - project_name: Zaid Khaled - Shoftek Abel Shwai Music Video
   project_description: ''
   project_page: []
