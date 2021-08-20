@@ -65,7 +65,7 @@ body {
                                         display: none;
                                 }
                         }
-                        &__image {
+                        &__carouselItem {
                                 height: 100%;
                                 img {
                                         display: block;
@@ -75,6 +75,13 @@ body {
                 			-ms-user-select: none;
                 			user-select: none;
                                 }
+                        }
+                        &__carouselTitle {
+                                flex: 1 0 auto;
+                                width: 100vw;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                         }
                 }
 

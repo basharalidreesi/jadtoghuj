@@ -12,13 +12,13 @@ style:
                                         {{ project.project_name }}
                                 </h2>
                                 <div class="project__carousel">
-                                        <header class="project__image">
+                                        <header class="project__carouselItem project__carouselTitle">
                                                 {{ project.project_name }}
                                         </header>
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}
                                         {%- for image in media.look_images %}
-                                        <figure class="project__image">
+                                        <figure class="project__carouselItem">
                                                 <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
@@ -33,7 +33,7 @@ style:
                                         {%- endif -%}
                                         {%- if media.template == "image-s" -%}
                                         {%- for image in media.images %}
-                                        <figure class="project__image">
+                                        <figure class="project__carouselItem">
                                                 <img src="{{ image }}" title="{{ project.project_name }}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
@@ -44,7 +44,7 @@ style:
                                         {%- endfor -%}
                                         {%- endif -%}
                                         {%- if media.template == "video" %}
-                                        <figure class="project__image">
+                                        <figure class="project__carouselItem">
                                                 {%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" %}
                                                 <div>
                                                         <iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
