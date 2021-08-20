@@ -84,6 +84,9 @@ body {
                                 flex-flow: column nowrap;
                                 align-items: center;
                                 justify-content: center;
+                                span {
+                                        text-align: center;
+                                }
                                 span:not(:first-of-type):not(:last-of-type) {
                                         margin: auto;
                                 }
