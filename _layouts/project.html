@@ -13,7 +13,12 @@ style:
                                 </h2>
                                 <div class="project__carousel">
                                         <header class="project__carouselItem project__carouselTitle">
-                                                {{ project.project_name }}
+                                                <span>
+                                                        {{ project.project_name }}
+                                                </span>
+                                                <span>
+                                                        {{ project.project_description }}
+                                                </span>
                                         </header>
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}
