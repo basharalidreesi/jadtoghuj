@@ -122,12 +122,6 @@ body {
                 			-moz-user-select: none;
                 			-ms-user-select: none;
                 			user-select: none;
-                                        transition: width 0.5s;
-                                        @media (any-hover: hover) {
-                                                &:hover {
-                                                        width: 80%;
-                                                }
-                                        }
                                 }
                                 span:nth-of-type(2) {
                                         padding-top: 2rem;
