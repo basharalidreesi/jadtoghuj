@@ -191,7 +191,7 @@ projects:
   media:
   - template: look
     look_name: Look 1
-    look_cover: "/assets/graphics/look-1-manalo.png"
+    look_cover: "/assets/graphics/look-1-manalo-1.png"
     look_images:
     - "/assets/graphics/4ce2453d-b9d1-4b3f-b72f-36e628aa0029.jpg"
     - "/assets/graphics/18a0075c-c6da-4093-8109-75386369f177.jpg"
