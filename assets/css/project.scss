@@ -84,6 +84,15 @@ body {
                                 flex-flow: column nowrap;
                                 align-items: center;
                                 justify-content: center;
+                                span:not(:first-of-type):not(:last-of-type) {
+                                        margin: auto;
+                                }
+                                span:first-of-type {
+                                        margin: auto auto 0 auto;
+                                }
+                                span:last-of-type {
+                                        margin: 0 auto auto auto;
+                                }
                         }
                 }
 
