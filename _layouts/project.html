@@ -8,10 +8,13 @@ style:
         <article class="project">
                                 {%- for project in site.data.projectDirectory.projects -%}
                                 {%- if project.project_page == page.path %}
-                                <h2>
+                                <h2 class="generic--hidden">
                                         {{ project.project_name }}
                                 </h2>
                                 <div class="project__carousel">
+                                        <header class="project__image">
+                                                {{ project.project_name }}
+                                        </header>
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}
                                         {%- for image in media.look_images %}
