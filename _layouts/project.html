@@ -44,7 +44,7 @@ style:
                                         <figure class="project__image">
                                                 {%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" -%}
                                                 {%- assign id = media.video_url | split: "youtube.com/watch?v=" | split: "youtu.be/" %}
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ id[1] }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ id[0] }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 {%- elsif media.video_url contains "vimeo.com" %}
                                                 {%- endif %}
                                                 <figcaption class="generic--hidden">
