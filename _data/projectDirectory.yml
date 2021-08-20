@@ -345,21 +345,21 @@ projects:
   - template: look
     look_name: Look 1
     look_description: ''
-    look_cover: "/assets/graphics/look-3-club-kids.png"
+    look_cover: "/assets/graphics/look-3-club-kids-1.png"
     look_images:
     - "/assets/graphics/_q3a3658.jpg"
     - "/assets/graphics/_q3a3572.jpg"
     - "/assets/graphics/_q3a3452.jpg"
   - template: look
     look_name: Look 02
-    look_cover: "/assets/graphics/look-4-club-kids.png"
+    look_cover: "/assets/graphics/look-4-club-kids-1.png"
     look_images:
     - "/assets/graphics/_q3a4103.jpg"
     - "/assets/graphics/_q3a4051.jpg"
     look_description: ''
   - template: look
     look_name: Look 03
-    look_cover: "/assets/graphics/look-1-club-kids.png"
+    look_cover: "/assets/graphics/look-1-club-kids-1.png"
     look_images:
     - "/assets/graphics/_q3a3163.jpg"
     - "/assets/graphics/_q3a3138.jpg"
@@ -367,7 +367,7 @@ projects:
     look_description: ''
   - template: look
     look_name: Look 04
-    look_cover: "/assets/graphics/look-2-club-kids.png"
+    look_cover: "/assets/graphics/look-2-club-kids-1.png"
     look_images:
     - "/assets/graphics/_q3a3417.jpg"
     - "/assets/graphics/_q3a3382.jpg"
