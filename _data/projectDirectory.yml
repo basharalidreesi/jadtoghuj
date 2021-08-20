@@ -1,5 +1,49 @@
 ---
 projects:
+- project_name: Raja Otaqui - Dina Music Video
+  project_description: ''
+  project_page: []
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
+- project_name: Zaid Khaled - Shoftek Abel Shwai Music Video
+  project_description: ''
+  project_page: []
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
+- project_name: Zaid Khaled x The Synaptik - Lal Nour Music Video
+  project_description: ''
+  project_page: []
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
+- project_name: All-Jordanian Fashion Editorial
+  project_description: ''
+  project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
+  project_tags:
+  - editorial
+  - experimental
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/1.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_description: ''
+    look_cover: ''
+    look_images: []
 - project_name: 'Experimenting with Christina '
   project_description: ''
   project_page: _styling-and-creative-direction/experimenting-with-christina.html
@@ -32,7 +76,7 @@ projects:
     - "/assets/graphics/img_1105.jpg"
     look_description: ''
   - template: look
-    look_name: Look 04
+    look_name: Look 4
     look_images:
     - "/assets/graphics/img_1121.jpg"
     look_cover: "/assets/graphics/look-4-christina.png"
@@ -43,23 +87,27 @@ projects:
     look_images:
     - "/assets/graphics/img_1106.jpg"
     look_description: ''
-- project_name: "\U0001F337 With a Bang \U0001F337"
+- project_name: Lola's Bridal Editorial
   project_description: ''
-  project_page: _styling-and-creative-direction/with-a-bang.html
+  project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
   project_tags:
+  - commercial
+  - client
   - experimental
   - editorial
+  - bridal
   media:
   - template: image-s
     images:
-    - "/assets/graphics/dsc_5464.jpg"
-    - "/assets/graphics/img_3526.jpg"
-    - "/assets/graphics/dsc_55011.jpg"
-    - "/assets/graphics/dsc_5523-copy.jpg"
-    - "/assets/graphics/dsc_5518.jpg"
-    - "/assets/graphics/img_3500.jpg"
-    - "/assets/graphics/dsc_5542.jpg"
-    - "/assets/graphics/dsc_5582.jpg"
+    - "/assets/graphics/_o7a4743b.jpg"
+    - "/assets/graphics/lola-282ag.jpg"
+    - "/assets/graphics/lola-226bh.jpg"
+    - "/assets/graphics/lola-143-hdr-1option12.jpg"
+    - "/assets/graphics/lola-379h.jpg"
+    - "/assets/graphics/lola-597i.jpg"
+    - "/assets/graphics/lola-328i-1.jpg"
+    - "/assets/graphics/lola-532b.jpg"
+    - "/assets/graphics/lola-522b.jpg"
 - project_name: Ghada el Tally for Pandora
   project_description: ''
   project_page: _styling-and-creative-direction/ghada-el-tally-for-pandora.html
@@ -78,6 +126,23 @@ projects:
     - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
     - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
     - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
+- project_name: "\U0001F337 With a Bang \U0001F337"
+  project_description: ''
+  project_page: _styling-and-creative-direction/with-a-bang.html
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_5464.jpg"
+    - "/assets/graphics/img_3526.jpg"
+    - "/assets/graphics/dsc_55011.jpg"
+    - "/assets/graphics/dsc_5523-copy.jpg"
+    - "/assets/graphics/dsc_5518.jpg"
+    - "/assets/graphics/img_3500.jpg"
+    - "/assets/graphics/dsc_5542.jpg"
+    - "/assets/graphics/dsc_5582.jpg"
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
   project_page: _styling-and-creative-direction/idreesi-and-abdulla-for-mykali.html
@@ -125,7 +190,7 @@ projects:
   - client
   media:
   - template: look
-    look_name: Look 01
+    look_name: Look 1
     look_cover: "/assets/graphics/look-1-manalo.png"
     look_images:
     - "/assets/graphics/4ce2453d-b9d1-4b3f-b72f-36e628aa0029.jpg"
@@ -148,27 +213,38 @@ projects:
     - "/assets/graphics/b.JPG"
     - "/assets/graphics/d.JPG"
     - "/assets/graphics/a.JPG"
-- project_name: Lola's Bridal Editorial
+- project_name: Editorial on Red
   project_description: ''
-  project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
+  project_page: _styling-and-creative-direction/editorial-on-red.html
   project_tags:
-  - commercial
-  - client
-  - experimental
   - editorial
-  - bridal
+  - experimental
   media:
-  - template: image-s
-    images:
-    - "/assets/graphics/_o7a4743b.jpg"
-    - "/assets/graphics/lola-282ag.jpg"
-    - "/assets/graphics/lola-226bh.jpg"
-    - "/assets/graphics/lola-143-hdr-1option12.jpg"
-    - "/assets/graphics/lola-379h.jpg"
-    - "/assets/graphics/lola-597i.jpg"
-    - "/assets/graphics/lola-328i-1.jpg"
-    - "/assets/graphics/lola-532b.jpg"
-    - "/assets/graphics/lola-522b.jpg"
+  - template: look
+    look_name: Look 1
+    look_images:
+    - "/assets/graphics/1-edited-1.jpg"
+    - "/assets/graphics/1-edited-12.jpg"
+    - "/assets/graphics/1-edited-3.jpg"
+    look_description: ''
+    look_cover: "/assets/graphics/look-1-editorial-on-red.png"
+  - template: look
+    look_name: Look 02
+    look_images:
+    - "/assets/graphics/2-edited-1-1.jpg"
+    - "/assets/graphics/2-edited-2-1.jpg"
+    - "/assets/graphics/2-edited-3-1.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 03
+    look_images:
+    - "/assets/graphics/3-edited-1.jpg"
+    - "/assets/graphics/3-edited-4.jpg"
+    - "/assets/graphics/3-edited-3.jpg"
+    - "/assets/graphics/3-edited-11.jpg"
+    look_description: ''
+    look_cover: ''
 - project_name: Fly To Milan with Pandora
   project_description: ''
   project_page: _styling-and-creative-direction/fly-to-milan-with-pandora.html
@@ -199,38 +275,6 @@ projects:
     - "/assets/graphics/img_3487.JPG"
     - "/assets/graphics/img_2924.JPG"
     - "/assets/graphics/img_2327.JPG"
-- project_name: Editorial on Red
-  project_description: ''
-  project_page: _styling-and-creative-direction/editorial-on-red.html
-  project_tags:
-  - editorial
-  - experimental
-  media:
-  - template: look
-    look_name: Look 01
-    look_images:
-    - "/assets/graphics/1-edited-1.jpg"
-    - "/assets/graphics/1-edited-12.jpg"
-    - "/assets/graphics/1-edited-3.jpg"
-    look_description: ''
-    look_cover: "/assets/graphics/look-1-editorial-on-red.png"
-  - template: look
-    look_name: Look 02
-    look_images:
-    - "/assets/graphics/2-edited-1-1.jpg"
-    - "/assets/graphics/2-edited-2-1.jpg"
-    - "/assets/graphics/2-edited-3-1.jpg"
-    look_description: ''
-    look_cover: ''
-  - template: look
-    look_name: Look 03
-    look_images:
-    - "/assets/graphics/3-edited-1.jpg"
-    - "/assets/graphics/3-edited-4.jpg"
-    - "/assets/graphics/3-edited-3.jpg"
-    - "/assets/graphics/3-edited-11.jpg"
-    look_description: ''
-    look_cover: ''
 - project_name: Conquering Magenta
   project_description: ''
   project_page: _styling-and-creative-direction/conquering-magenta.html
@@ -261,6 +305,22 @@ projects:
     - "/assets/graphics/_66a0156.jpg"
     - "/assets/graphics/_66a0141.jpg"
     - "/assets/graphics/_66a0283.jpg"
+- project_name: A Very Pink October
+  project_description: ''
+  project_page: _styling-and-creative-direction/a-very-pink-october.html
+  project_tags:
+  - personal
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/look-2-nina.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/look-1-nina.png"
+    look_description: ''
+    look_images: []
 - project_name: Rogue Nation Gals
   project_description: ''
   project_page: _styling-and-creative-direction/rogue-nation-gals.html
@@ -274,23 +334,6 @@ projects:
     - "/assets/graphics/_66a0792.jpg"
     - "/assets/graphics/_66a0648.jpg"
     - "/assets/graphics/_66a0766.jpg"
-- project_name: All-Jordanian Fashion Editorial.
-  project_description: ''
-  project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
-  project_tags:
-  - editorial
-  - experimental
-  media:
-  - template: look
-    look_name: Look 01
-    look_cover: "/assets/graphics/1.png"
-    look_description: ''
-    look_images: []
-  - template: look
-    look_name: Look 02
-    look_description: ''
-    look_cover: ''
-    look_images: []
 - project_name: Club Kids of the 00s
   project_description: ''
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
@@ -300,7 +343,7 @@ projects:
   - experimental
   media:
   - template: look
-    look_name: Look 01
+    look_name: Look 1
     look_description: ''
     look_cover: "/assets/graphics/look-3-club-kids.png"
     look_images:
@@ -357,7 +400,7 @@ projects:
       jacket is styled with a luxury velour top and short set, finished with Casadei
       pumps and a Roberto Cavali bag.
   - template: look
-    look_name: Look 02
+    look_name: Look 2
     look_cover: "/assets/graphics/look-3-sallisant-charme.png"
     look_images:
     - "/assets/graphics/_66a3077.jpg"
