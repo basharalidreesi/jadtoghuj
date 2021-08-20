@@ -90,6 +90,14 @@ body {
         				font-weight: 300;
                                         text-align: center;
                                         padding: 0.5rem 0;
+                                        a {
+                                                text-decoration: underline;
+                                                @media (any-hover: hover) {
+                                                        &:hover {
+                                                                --color-text: var(--color-special);
+                                                        }
+                                                }
+                                        }
                                 }
                                 span:not(:first-of-type):not(:last-of-type) {
                                         margin: auto 0;
