@@ -58,7 +58,7 @@ projects:
     - "/assets/graphics/img_1107.jpg"
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/look-1-christina.png"
+    look_cover: "/assets/graphics/look-1-christina-1.png"
     look_images:
     - "/assets/graphics/img_1111.jpg"
     look_description: ''
