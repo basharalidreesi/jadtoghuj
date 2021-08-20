@@ -32,7 +32,7 @@ projects:
     - "/assets/graphics/img_1105.jpg"
     look_description: ''
   - template: look
-    look_name: Look 4
+    look_name: Look 04
     look_images:
     - "/assets/graphics/img_1121.jpg"
     look_cover: "/assets/graphics/look-4-christina.png"
@@ -125,7 +125,7 @@ projects:
   - client
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_cover: "/assets/graphics/look-1-manalo.png"
     look_images:
     - "/assets/graphics/4ce2453d-b9d1-4b3f-b72f-36e628aa0029.jpg"
@@ -207,7 +207,7 @@ projects:
   - experimental
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_images:
     - "/assets/graphics/1-edited-1.jpg"
     - "/assets/graphics/1-edited-12.jpg"
@@ -300,7 +300,7 @@ projects:
   - experimental
   media:
   - template: look
-    look_name: Look 1
+    look_name: Look 01
     look_description: ''
     look_cover: "/assets/graphics/look-3-club-kids.png"
     look_images:
@@ -357,7 +357,7 @@ projects:
       jacket is styled with a luxury velour top and short set, finished with Casadei
       pumps and a Roberto Cavali bag.
   - template: look
-    look_name: Look 2
+    look_name: Look 02
     look_cover: "/assets/graphics/look-3-sallisant-charme.png"
     look_images:
     - "/assets/graphics/_66a3077.jpg"
