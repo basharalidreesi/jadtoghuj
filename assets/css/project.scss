@@ -84,8 +84,10 @@ body {
                                 flex-flow: column nowrap;
                                 align-items: center;
                                 justify-content: center;
+                                overflow: hidden;
                                 span {
                                         text-align: center;
+                                        padding: 0.5rem 0;
                                 }
                                 span:not(:first-of-type):not(:last-of-type) {
                                         margin: auto 0;
