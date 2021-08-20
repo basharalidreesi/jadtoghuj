@@ -128,7 +128,7 @@ body {
 	position: relative;
 	display: flex;
 	flex-flow: column nowrap;
-	width: calc(100% - 2rem);
+	width: calc(100% - 2rem - env(safe-area-inset-left) - env(safe-area-inset-right));
 	height: 100%;
 	min-height: calc(var(--vh, 1vh) * 100 - 2rem);
 	margin-top: calc(1rem + env(safe-area-inset-top));
