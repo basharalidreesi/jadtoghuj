@@ -88,13 +88,13 @@ body {
                                         text-align: center;
                                 }
                                 span:not(:first-of-type):not(:last-of-type) {
-                                        margin: auto;
+                                        margin: auto 0;
                                 }
                                 span:first-of-type {
-                                        margin: auto auto 0 auto;
+                                        margin: auto 0 0 0;
                                 }
                                 span:last-of-type {
-                                        margin: 0 auto auto auto;
+                                        margin: 0 0 auto 0;
                                 }
                         }
                 }
