@@ -43,6 +43,17 @@ include:
 - _*.bmp
 - _*.ico
 - _*.tiff
+- _*.APNG
+- _*.AVIF
+- _*.GIF
+- _*.JPEG
+- _*.JPG
+- _*.PNG
+- _*.SVG
+- _*.WEBP
+- _*.BMP
+- _*.ICO
+- _*.TIFF
 plugins:
 - jekyll-feed
 - jekyll-sitemap
