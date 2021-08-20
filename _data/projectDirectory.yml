@@ -36,7 +36,7 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/1.png"
+    look_cover: "/assets/graphics/ien.png"
     look_description: ''
     look_images: []
   - template: look
