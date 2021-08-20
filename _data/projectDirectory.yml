@@ -64,7 +64,7 @@ projects:
     look_description: ''
   - template: look
     look_name: Look 02
-    look_cover: "/assets/graphics/look-2-christina.png"
+    look_cover: "/assets/graphics/look-2-christina-1.png"
     look_images:
     - "/assets/graphics/img_1110.jpg"
     look_description: ''
