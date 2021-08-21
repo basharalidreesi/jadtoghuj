@@ -14,13 +14,14 @@ const jad = {
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
+                counter: document.querySelector("#counter"),
         },
 
         initAllScripts: function() {
                 jad.viewport.initViewportScripts();
                 jad.main.initMainScripts();
                 jad.header.initHeaderScripts();
-                jad.scroll.initScrollScripts();
+                jad.carousel.initCarouselScripts();
         },
 
         main: {
@@ -83,22 +84,29 @@ const jad = {
 
         },
 
-        scroll: {
+        carousel: {
 
-                initScrollScripts: function() {
+                initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
-                        window.addEventListener("wheel", jad.scroll.transformScroll);
-                        // window.addEventListener("touchmove", jad.scroll.transformTouchToWheel, { passive: false });
+                        window.addEventListener("wheel", jad.carousel.transformScroll);
+                        jad.carousel.observeIntersections();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
-                transformTouchToWheel: function(event) {
-                        event.preventDefault();
-                        let wheel = new Event("wheel");
-                        window.dispatchEvent(wheel);
-                },
+                observeIntersections: function() {
+                        let observer = new IntersectionObserver((entries) => {
+                                entries.forEach((entry) => {
+                                        if (entry.isIntersecting) {
+                                                console.log(Array.from(entry.parentNode.children).indexOf(entry));
+                                        }
+                                });
+
+                        }, {
+                                rootMargin: "0px 0px 0px -50vw"
+                        });
+                }
 
         },
 
