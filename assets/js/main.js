@@ -99,7 +99,7 @@ const jad = {
                         window.addEventListener("scroll", () => {
                                 let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
                                 let navTop = document.querySelector("#nav").getBoundingClientRect().top;
-                                console.log(navTop - headerBottom);
+                                console.log((navTop - headerBottom) / ((window.innerHeight - jad.lexicon.header.getBoundingClientRect().height) / 2));
                         });
                 },
 
