@@ -46,8 +46,7 @@
 		background: red;
 	}
 	.header--smol {
-		height: 3rem !important;
-                margin: calc(var(--vh, 1vh) * 50 - 1rem - 1.5rem) 1rem !important;
+		padding: 1rem;
 	}
 
         #nav {
