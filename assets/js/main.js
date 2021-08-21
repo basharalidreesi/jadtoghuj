@@ -15,7 +15,8 @@ const jad = {
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
-                counter: document.querySelector("#project__counter"),
+                carouselCounter: document.querySelector("#project__counter"),
+                projectTitle: document.querySelector("#project__title"),
         },
 
         initAllScripts: function() {
@@ -90,11 +91,17 @@ const jad = {
                 initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.carousel.transformScroll);
+                        jad.carousel.activateTitle();
                         jad.carousel.observeIntersections();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
+                },
+                activateTitle: function() {
+                        jad.lexicon.projectTitle.addEventListener("click", () => {
+                                jad.lexicon.carousel.scrollLeft = jad.lexicon.carouselItems[1].offsetLeft;        
+                        });
                 },
                 observeIntersections: function() {
                         let observer = new IntersectionObserver((entries) => {
@@ -112,7 +119,7 @@ const jad = {
                         });
                 },
                 reportIntersections: function(entry) {
-                        jad.lexicon.counter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping:false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping:false });
+                        jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping:false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping:false });
                 },
 
         },
