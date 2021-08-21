@@ -76,9 +76,21 @@ body {
                                 iframe {
                                         display: block;
                                         pointer-events: none;
-                                        & + a {
-                                                display: block;
-                                        }
+                                        height: 100%;
+                                        width: 100%;
+                                }
+                        }
+                        &__carouselVideo {
+                                flex: 1 0 auto;
+                                position: relative;
+                                width: calc((var(--vh, 1vh) * 100 - 10rem) * 177.777778);
+                                a {
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        height: 100%;
+                                        width: 100%;
                                 }
                         }
                         &__carouselTitle,
