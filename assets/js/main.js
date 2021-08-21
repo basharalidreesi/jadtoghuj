@@ -10,6 +10,7 @@ const jad = {
 
         lexicon: {
                 root: document.documentElement,
+                jsOnly: document.querySelectorAll(".generic--jsOnly"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
@@ -17,9 +18,22 @@ const jad = {
 
         initAllScripts: function() {
                 jad.viewport.initViewportScripts();
+                jad.main.initMainScripts();
                 jad.header.initHeaderScripts();
                 jad.scroll.initScrollScripts();
         },
+
+        main: {
+		initMainScripts: function() {
+			jad.main.displayJsOnly();
+		},
+		displayJsOnly: function() {
+			if (!jad.lexicon.jsOnly) { return; }
+			jad.lexicon.jsOnly.forEach((jsOnly) => {
+				jsOnly.classList.remove("generic--jsOnly");
+			});
+		},
+	},
 
         viewport: {
 
