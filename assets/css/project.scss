@@ -191,6 +191,12 @@ body {
                         &__left,
                         &__right {
                                 margin: auto;
+                                font-size: 1.5rem;
+                                @media (any-hover: hover) {
+                                        &:hover {
+                                                --color-text: var(--color-special);
+                                        }
+                                }
                         }
                         &__left {
                                 cursor: w-resize;
