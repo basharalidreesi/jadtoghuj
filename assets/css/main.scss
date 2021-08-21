@@ -166,17 +166,6 @@ body {
 		}
 		margin: 0;
 		top: 1rem;
-		#headerSentinel {
-			position: absolute;
-			top: calc(-1rem - 1px);
-			height: 1px;
-			width: 1px;
-			background: red;
-		}
-	}
-
-	.header--smol {
-		height: 3rem;
 	}
 
 	#nav {
