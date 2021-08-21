@@ -48,6 +48,7 @@ const jad = {
                         jad.viewport.reportViewportHeight();
                         window.addEventListener("resize", () => {
         			jad.util.debounce(jad.viewport.updateViewportHeight, 350);
+                                jad.viewport.uncheckNavToggleOnWidthIncrease();
         		});
                 },
                 updateViewportHeight: function() {
@@ -63,6 +64,12 @@ const jad = {
                 setViewportHeight: function(viewportHeight) {
                         jad.lexicon.root.style.setProperty("--vh", `${viewportHeight}px`);
                 },
+                uncheckNavToggleOnWidthIncrease: function() {
+                        if (!jad.lexicon.navToggle) { return; }
+                        if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
+                                jad.lexicon.navToggle.checked = false;
+                        }
+                }
 
         },
 
