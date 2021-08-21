@@ -151,7 +151,7 @@ const jad = {
                         });
                 },
                 reportIntersections: function(entry) {
-                        jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false });
+                        jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + "<br />" + entry.getAttribute("data-jad-look-name");
                         if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) >= 1) {
                                 jad.lexicon.carouselLeft.classList.remove("generic--notVisible");
                         } else {

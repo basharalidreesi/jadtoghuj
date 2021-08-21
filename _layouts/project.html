@@ -36,7 +36,7 @@ style:
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}
                                         {%- for image in media.look_images %}
-                                        <figure class="project__carouselItem">
+                                        <figure class="project__carouselItem" data-jad-look-name="{{ media.look_name }}">
                                                 <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
