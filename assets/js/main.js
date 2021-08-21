@@ -69,7 +69,7 @@ const jad = {
                         if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
                                 jad.lexicon.navToggle.checked = false;
                         }
-                }
+                },
 
         },
 
