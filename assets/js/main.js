@@ -15,7 +15,7 @@ const jad = {
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
-                counter: document.querySelector("#counter"),
+                counter: document.querySelector("#project__counter"),
         },
 
         initAllScripts: function() {
