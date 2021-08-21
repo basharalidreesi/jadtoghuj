@@ -65,14 +65,6 @@ const jad = {
                         SVGInject(jad.lexicon.logo);
                 },
                 scaleHeader: function() {
-                        if (jad.lexicon.header.clientHeight == 45) { return; }
-                        window.addEventListener("scroll", () => {
-                                if (jad.lexicon.header.getBoundingClientRect().top <= 15) {
-                                        console.log(window.pageYOffset);
-                                        // let scaleRatio = jad.util.clamp(0.5, window.pageYOffset / window.innerHeight, 1);
-                                        // console.log(scaleRatio);
-                                }
-                        });
                 },
 
         },
