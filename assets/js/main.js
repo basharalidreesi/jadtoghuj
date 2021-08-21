@@ -68,7 +68,7 @@ const jad = {
                         if (jad.lexicon.header.clientHeight == 45) { return; }
                         window.addEventListener("scroll", () => {
                                 if (jad.lexicon.header.getBoundingClientRect().top <= 15) {
-                                        let scaleRatio = jad.util.clamp(0, (window.pageYOffset + 37.5) / window.innerHeight, 1);
+                                        let scaleRatio = jad.util.clamp(0, (window.pageYOffset / window.innerHeight) / 2, 1);
                                         console.log(scaleRatio);
                                 }
                         });
