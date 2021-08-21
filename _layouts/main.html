@@ -79,6 +79,9 @@
 			</a>
 		</header>
 		<nav id="nav">
+			<h2 class="generic--hidden">
+				Navigation
+			</h2>
 			<input type="checkbox" id="nav__toggle" />
 			<label for="nav__toggle" id="nav__label" role="presentation">
 				{%- if page.layout == "project" %}
@@ -106,6 +109,9 @@
 		</main>
 		{%- unless page.layout == "project" %}
                 <footer id="footer">
+			<h2 class="generic--hidden">
+				Footer
+			</h2>
 			{{ site.data.generalConfiguration.footer_text }}
 		</footer>
 		{%- endunless %}
