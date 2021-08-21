@@ -185,7 +185,7 @@ body {
                         user-select: none;
                         z-index: 100;
                         &__counter {
-                                // margin: auto;
+                                margin: auto 0;
                                 pointer-events: none;
                         }
                         &__left,
