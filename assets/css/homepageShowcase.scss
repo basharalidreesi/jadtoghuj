@@ -33,23 +33,11 @@
         #header {
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
-                transition: height 0.5s, margin 0.5s;
                 @media (max-width: 512px) {
                         height: 4rem;
                         margin: calc(var(--vh, 1vh) * 50 - 1rem - 2rem) 1rem;
                 }
         }
-        #headerSentinel {
-		position: absolute;
-		top: calc(-1rem - 2px);
-		height: 1px;
-		width: 1px;
-		background: red;
-	}
-	.header--smol {
-		height: 3rem !important;
-                margin: calc(var(--vh, 1vh) * 50 - 1rem - 1.5rem) 1rem !important;
-	}
 
         #nav {
                 &__label {
