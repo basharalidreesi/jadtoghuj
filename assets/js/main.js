@@ -67,13 +67,9 @@ const jad = {
                 },
                 observeSentinel: function() {
                         if (!jad.lexicon.sentinel) { return; }
-                        let observer = new IntersectionObserver((entries) => {
-                                if (entries[0].instersectionRatio === 0) {
-                                        jad.lexicon.header.classList.add(".header--smol");
-                                } else if (entries[0].instersectionRatio === 1) {
-                                        jad.lexicon.header.classList.remove(".header--smol");
-                                }
-                        }, { threshold: [0, 1] });
+                        let observer = new IntersectionObserver(([e]) => {
+                                jad.lexicon.header.classList.toggle('header--smol', e.intersectionRatio < 1), {threshold: [1]}
+                        });
                         observer.observe(jad.lexicon.sentinel);
                 }
 
