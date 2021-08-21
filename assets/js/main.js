@@ -99,9 +99,8 @@ const jad = {
                         window.addEventListener("scroll", () => {
                                 let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
                                 let navTop = document.querySelector("#nav").getBoundingClientRect().top;
-                                console.log(
-                                        jad.util.clamp(0, (navTop - headerBottom - 15) / ((window.innerHeight - 30 - jad.lexicon.header.getBoundingClientRect().height) / 2), 1)
-                                );
+                                let deltaRatio = jad.util.clamp(0, (navTop - headerBottom - 15) / ((window.innerHeight - 30 - jad.lexicon.header.getBoundingClientRect().height) / 2), 1);
+                                console.log(deltaRatio);
                         });
                 },
 
