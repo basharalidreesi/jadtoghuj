@@ -12,7 +12,6 @@ const jad = {
                 root: document.documentElement,
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
-                sentinel: document.querySelector("#headerSentinel"),
                 carousel: document.querySelector(".project__carousel"),
         },
 
@@ -66,6 +65,10 @@ const jad = {
                         SVGInject(jad.lexicon.logo);
                 },
                 scaleHeader: function() {
+                        if (jad.lexicon.header.clientHeight == 45) { return; }
+                        window.addEventListener("scroll", () => {
+                                console.log("damn");
+                        });
                 }
 
         },
