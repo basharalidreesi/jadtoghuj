@@ -163,7 +163,7 @@ body {
                         }
                 }
 
-                #project__counter {
+                #project__cp {
                         position: fixed;
                         top: calc(10rem + 2px);
                         left: 0;
@@ -183,6 +183,13 @@ body {
                         -ms-user-select: none;
                         user-select: none;
                         z-index: 100;
+                        &__counter {
+                                margin: auto;
+                        }
+                        &__left,
+                        &__right {
+                                margin: auto;
+                        }
                 }
 
         }
