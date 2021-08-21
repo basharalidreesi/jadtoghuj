@@ -13,6 +13,7 @@ const jad = {
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
+                navToggle: document.querySelector("nav__toggle"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
@@ -98,6 +99,7 @@ const jad = {
                         jad.carousel.displayCp();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
+                        jad.carousel.moveCpWhenNavIsChecked();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
@@ -151,6 +153,13 @@ const jad = {
                         } else {
                                 jad.lexicon.carouselRight.classList.remove("generic--notVisible");
                         }
+                },
+                moveCpWhenNavIsChecked: function() {
+                        jad.lexicon.navToggle.addEventListener("change", (event) => {
+                                if (event.target.checked) {
+                                        jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
+                                }
+                        }),
                 },
 
         },
