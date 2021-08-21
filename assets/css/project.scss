@@ -81,6 +81,10 @@ body {
                                         pointer-events: none;
                                         height: 100%;
                                         width: 100%;
+                                        -webkit-user-select: none;
+                			-moz-user-select: none;
+                			-ms-user-select: none;
+                			user-select: none;
                                 }
                         }
                         &__carouselVideo {
@@ -170,6 +174,14 @@ body {
                         text-align: center;
                         mix-blend-mode: difference;
                         color: white;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        pointer-events: none;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
                 }
 
         }
