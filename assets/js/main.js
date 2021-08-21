@@ -159,7 +159,7 @@ const jad = {
                                 if (event.target.checked) {
                                         jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
                                 }
-                        }),
+                        });
                 },
 
         },
