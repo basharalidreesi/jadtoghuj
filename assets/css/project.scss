@@ -208,7 +208,7 @@ body {
                         }
                 }
                 .project__cp--shifted {
-                        top: 25rem !important;
+                        top: calc(25rem + 2px) !important;
                 }
 
         }
