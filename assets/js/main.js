@@ -109,7 +109,8 @@ const jad = {
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
+                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.offsetLeft;
+                                // console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
                                 console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
