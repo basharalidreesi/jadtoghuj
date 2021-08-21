@@ -170,7 +170,7 @@ body {
                         display: flex;
                         flex-flow: row nowrap;
                         width: 100%;
-                        padding: 4rem 2rem;
+                        padding: 3rem 2rem;
                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                         font-weight: 300;
                         text-align: center;
@@ -185,12 +185,14 @@ body {
                         user-select: none;
                         z-index: 100;
                         transition: opacity 0.5s;
+                        touch-action: manipulation;
                         &__counter {
                                 margin: auto 0;
                         }
                         &__left,
                         &__right {
                                 margin: auto;
+                                padding: 1rem;
                                 font-size: 1.25rem;
                                 @media (any-hover: hover) {
                                         &:hover {
