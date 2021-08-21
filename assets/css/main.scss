@@ -137,6 +137,12 @@ body {
 		margin: 1rem;
 	}
 
+	#headerSentinel {
+		height: 1px;
+		width: 100%;
+		background: transparent;
+	}
+
 	#header {
 		order: 1;
 		position: sticky;
