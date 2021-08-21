@@ -192,6 +192,12 @@ body {
                         &__right {
                                 margin: auto;
                         }
+                        &__left {
+                                cursor: w-resize;
+                        }
+                        &__right {
+                                cursor: e-resize;
+                        }
                 }
 
         }
