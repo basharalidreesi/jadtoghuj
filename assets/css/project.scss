@@ -92,6 +92,8 @@ body {
                                         word-break: keep-all;
                                         a {
                                                 text-decoration: underline;
+                                                text-decoration-color: var(--color-text--light);
+                                                text-decoration-thickness: 2px;
                                                 word-break: keep-all;
                                                 @media (any-hover: hover) {
                                                         &:hover {
