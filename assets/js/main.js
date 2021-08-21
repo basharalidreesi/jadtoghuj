@@ -105,12 +105,11 @@ const jad = {
                                 });
 
                         }, {
-                                rootMargin: "0px 0px 0px -50%"
+                                rootMargin: "0px -50% 0px -50%"
                         });
                         jad.lexicon.carouselItems.forEach((item) => {
                                 observer.observe(item);
                         });
-
                 }
 
         },
