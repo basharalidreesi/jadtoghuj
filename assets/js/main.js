@@ -101,7 +101,6 @@ const jad = {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
                                                 jad.carousel.reportIntersections(entry.target);
-                                                console.log(Array.from(entry.target.parentNode.children).indexOf(entry.target));
                                         }
                                 });
 
