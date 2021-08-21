@@ -281,7 +281,8 @@ body {
 		position: relative;
 		display: flex;
 		flex-flow: column nowrap;
-		min-height: calc((var(--vh, 1vh) * 100) - 2rem + 1px);
+		min-height: calc((var(--vh, 1vh) * 100) + 1px);
+		margin-bottom: -1rem;
 		&::before {
 			content: "";
 			display: block;
