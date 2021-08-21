@@ -133,13 +133,15 @@ const jad = {
                 },
                 reportIntersections: function(entry) {
                         jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false });
-                        if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == 1) {
+                        if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == 0) {
                                 jad.lexicon.carouselLeft.style.visibility = "hidden";
-                        } else if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == jad.lexicon.carouselItems.length) {
+                        } else {
+                                jad.lexicon.carouselLeft.style.visiblility = "visible";
+                        }
+                        if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == jad.lexicon.carouselItems.length) {
                                 jad.lexicon.carouselRight.style.visibility = "hidden";
                         } else {
-                                jad.lexicon.carouselLeft.visiblility = "visible";
-                                jad.lexicon.carouselRight.visibility = "visible";
+                                jad.lexicon.carouselRight.style.visibility = "visible";
                         }
                 },
 
