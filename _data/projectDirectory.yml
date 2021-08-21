@@ -36,14 +36,48 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/ien.png"
+    look_cover: "/assets/graphics/savoire-flaire-look-1.png"
     look_description: ''
-    look_images: []
+    look_images:
+    - "/assets/graphics/a290811d-d4d5-4b30-b179-74ec06ae4115.jpg"
   - template: look
     look_name: Look 02
     look_description: ''
-    look_cover: ''
+    look_cover: "/assets/graphics/savoir-flaire-look-2.png"
+    look_images:
+    - "/assets/graphics/a290811d-d4d5-4b30-b179-74ec06ae4115.jpg"
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/savoir-flaire-look-3.png"
+    look_description: ''
     look_images: []
+  - template: look
+    look_name: Look 04
+    look_cover: "/assets/graphics/savoir-flaire-look-4.png"
+    look_images:
+    - "/assets/graphics/dsc_8048.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 05
+    look_cover: "/assets/graphics/savoir-flaire-look-5.png"
+    look_images:
+    - "/assets/graphics/img_7724.jpg"
+    - "/assets/graphics/img_7723.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 06
+    look_cover: "/assets/graphics/savoir-flaire-look-6.png"
+    look_images:
+    - "/assets/graphics/img_7724.jpg"
+    - "/assets/graphics/img_7723.jpg"
+    look_description: ''
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_8235.jpg"
+    - "/assets/graphics/img_7729.jpg"
+    - "/assets/graphics/img_7726.jpg"
+    - "/assets/graphics/dsc_8191.jpg"
+    - "/assets/graphics/dsc_8168.jpg"
 - project_name: 'Experimenting with Christina '
   project_description: ''
   project_page: _styling-and-creative-direction/experimenting-with-christina.html
