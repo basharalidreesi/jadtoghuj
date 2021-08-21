@@ -137,12 +137,6 @@ body {
 		margin: 1rem;
 	}
 
-	#headerSentinel {
-		height: 1px;
-		width: 100%;
-		background: transparent;
-	}
-
 	#header {
 		order: 1;
 		position: sticky;
@@ -171,6 +165,13 @@ body {
 		}
 		margin: 0;
 		top: 1rem;
+		#headerSentinel {
+			position: absolute;
+			top: calc(-1rem - 1px);
+			height: 1px;
+			width: 1px;
+			background: red;
+		}
 	}
 
 	#nav {
