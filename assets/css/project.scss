@@ -177,7 +177,6 @@ body {
                         white-space: nowrap;
                         text-overflow: ellipsis;
                         overflow: hidden;
-                        pointer-events: none;
                         -webkit-user-select: none;
                         -moz-user-select: none;
                         -ms-user-select: none;
@@ -185,6 +184,7 @@ body {
                         z-index: 100;
                         &__counter {
                                 margin: auto;
+                                pointer-events: none;
                         }
                         &__left,
                         &__right {
