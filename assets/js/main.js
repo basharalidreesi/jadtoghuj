@@ -110,6 +110,7 @@ const jad = {
                 },
                 displayCp: function() {
                         window.addEventListener("load", () => {
+                                jad.lexicon.carouselCp.classList.remove("generic--notVisible");
                                 jad.lexicon.carouselCp.classList.remove("generic--zeroOpacity");
                         });
                 },
