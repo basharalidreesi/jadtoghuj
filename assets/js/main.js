@@ -91,16 +91,16 @@ const jad = {
                 initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.carousel.transformScroll);
-                        jad.carousel.activateTitle();
+                        jad.carousel.activateTitleScroll();
                         jad.carousel.observeIntersections();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
-                activateTitle: function() {
+                activateTitleScroll: function() {
                         jad.lexicon.projectTitle.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = jad.lexicon.carouselItems[1].offsetLeft;        
+                                jad.lexicon.carousel.scrollLeft = jad.lexicon.carouselItems[1].offsetLeft;
                         });
                 },
                 observeIntersections: function() {
