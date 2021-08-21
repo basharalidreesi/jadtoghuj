@@ -73,6 +73,13 @@ body {
                 			-ms-user-select: none;
                 			user-select: none;
                                 }
+                                iframe {
+                                        display: block;
+                                        pointer-events: none;
+                                        & + a {
+                                                display: block;
+                                        }
+                                }
                         }
                         &__carouselTitle,
                         &__carouselFooter {
