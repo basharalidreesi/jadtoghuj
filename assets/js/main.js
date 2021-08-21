@@ -14,6 +14,7 @@ const jad = {
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
+                carouselItems: document.querySelectorAll(".project__carouselItem"),
                 counter: document.querySelector("#counter"),
         },
 
@@ -104,8 +105,12 @@ const jad = {
                                 });
 
                         }, {
-                                rootMargin: "0px 0px 0px -50vw"
+                                rootMargin: "0px 0px 0px -50%"
                         });
+                        jad.lexicon.carouselItems.forEach((item) => {
+                                observer.observe(item);
+                        });
+
                 }
 
         },
