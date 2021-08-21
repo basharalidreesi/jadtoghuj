@@ -108,7 +108,9 @@
 			{{ content }}
 		</main>
 		{%- unless page.layout == "project" %}
-                <footer id="footer"></footer>
+                <footer id="footer">
+			{{ site.data.generalConfiguration.footer_text }}
+		</footer>
 		{%- endunless %}
 	</div>
 </body>
