@@ -156,9 +156,7 @@ const jad = {
                 },
                 moveCpWhenNavIsChecked: function() {
                         jad.lexicon.navToggle.addEventListener("change", (event) => {
-                                if (event.target.checked) {
-                                        jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
-                                }
+                                jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
                         });
                 },
 
