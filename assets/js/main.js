@@ -112,7 +112,7 @@ const jad = {
                         window.addEventListener("load", () => {
                                 jad.lexicon.carouselCp.classList.remove("generic--zeroOpacity");
                         });
-                }
+                },
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
