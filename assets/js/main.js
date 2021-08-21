@@ -13,7 +13,7 @@ const jad = {
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
-                navToggle: document.querySelector("nav__toggle"),
+                navToggle: document.querySelector("#nav__toggle"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
