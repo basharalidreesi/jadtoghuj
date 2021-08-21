@@ -33,6 +33,10 @@
         #header {
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
+                @media (max-width: 512px) {
+                        height: 3rem;
+                        margin: calc(var(--vh, 1vh) * 50 - 1rem - 1.5rem) 1rem;
+                }
         }
 
         #nav {
