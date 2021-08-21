@@ -156,6 +156,19 @@ body {
                         }
                 }
 
+                #project__counter {
+                        position: fixed;
+                        top: calc(10rem + 2px);
+                        left: 0;
+                        width: 100%;
+                        padding: 2rem;
+                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                        font-weight: 300;
+                        text-align: center;
+                        mix-blend-mode: difference;
+                        color: white;
+                }
+
         }
 
 }
