@@ -134,14 +134,10 @@ const jad = {
                 reportIntersections: function(entry) {
                         jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false });
                         if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == 0) {
-                                jad.lexicon.carouselLeft.style.visibility = "hidden";
-                        } else {
-                                jad.lexicon.carouselLeft.style.visiblility = "visible";
+                                jad.lexicon.carouselLeft.classList.toggle("generic--notVisible");
                         }
                         if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == jad.lexicon.carouselItems.length) {
-                                jad.lexicon.carouselRight.style.visibility = "hidden";
-                        } else {
-                                jad.lexicon.carouselRight.style.visibility = "visible";
+                                jad.lexicon.carouselRight.classList.toggle("generic--notVisible");
                         }
                 },
 

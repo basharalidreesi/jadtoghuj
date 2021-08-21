@@ -333,8 +333,12 @@ body {
 		left: -9999px !important;
 	}
 
+	.generic--notVisible {
+		visibility: hidden !important;
+	}
+
 	.generic--jsOnly {
-		display: none;
+		display: none !important;
 	}
 
 	@keyframes fadeIn {
