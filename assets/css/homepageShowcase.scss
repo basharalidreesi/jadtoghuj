@@ -33,8 +33,6 @@
         #header {
 		height: 5rem;
 		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
-                padding: 0;
-                transition: padding 0.5s;
                 @media (max-width: 512px) {
                         height: 4rem;
                         margin: calc(var(--vh, 1vh) * 50 - 1rem - 2rem) 1rem;
@@ -46,9 +44,6 @@
 		height: 1px;
 		width: 1px;
 		background: red;
-	}
-	.header--smol {
-		padding: 1rem;
 	}
 
         #nav {
