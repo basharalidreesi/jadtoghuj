@@ -67,7 +67,7 @@ const jad = {
                 scaleHeader: function() {
                         if (jad.lexicon.header.clientHeight == 45) { return; }
                         window.addEventListener("scroll", () => {
-                                console.log("damn");
+                                console.log(jad.lexicon.header.getBoundingClientRect().top);
                         });
                 }
 
