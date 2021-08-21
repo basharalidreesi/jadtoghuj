@@ -68,7 +68,8 @@ const jad = {
                         if (jad.lexicon.header.clientHeight == 45) { return; }
                         window.addEventListener("scroll", () => {
                                 if (jad.lexicon.header.getBoundingClientRect().top <= 15) {
-                                        jad.lexicon.header.style.height = jad.util.clamp(45, jad.lexicon.header.getBoundingClientRect().top, 75);
+                                        let height = jad.util.clamp(45, jad.lexicon.header.getBoundingClientRect().top, 75);
+                                        jad.lexicon.header.style.height = '"' + height = 'px"';
                                 }
                         });
                 }
