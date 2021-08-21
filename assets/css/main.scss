@@ -292,6 +292,25 @@ body {
 			width: 100%;
 			background: var(--color-text--light);
 		}
+		span {
+			font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+			font-weight: 300;
+			text-align: center;
+			padding: 0.5rem 0;
+			word-break: keep-all;
+			a {
+				text-decoration: underline;
+				text-decoration-color: var(--color-text--light);
+				text-decoration-thickness: 2px;
+				word-break: keep-all;
+				@media (any-hover: hover) {
+					&:hover {
+						--color-text: var(--color-special);
+						--color-text--light: var(--color-special);
+					}
+				}
+			}
+		}
 		span:not(:first-of-type):not(:last-of-type) {
 			margin: auto 0;
 		}
