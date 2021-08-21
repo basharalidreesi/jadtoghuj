@@ -24,8 +24,8 @@ const jad = {
         },
 
         initAllScripts: function() {
-                jad.viewport.initViewportScripts();
                 jad.main.initMainScripts();
+                jad.viewport.initViewportScripts();
                 jad.header.initHeaderScripts();
                 jad.carousel.initCarouselScripts();
         },
@@ -79,7 +79,7 @@ const jad = {
 
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
-                        // jad.header.scaleHeader();
+                        jad.header.reportHeaderPosition();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -94,7 +94,13 @@ const jad = {
                         jad.lexicon.logo.src = randomLogo;
                         SVGInject(jad.lexicon.logo);
                 },
-                scaleHeader: function() {
+                reportHeaderPosition: function() {
+                        if (jad.lexicon.header.getBoundingClientRect().height < 60) { return; }
+                        window.addEventListener("scroll", () => {
+                                let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
+                                let navTop = document.querySelector("#nav").getBoundingClientRect().top;
+                                console.log(navTop - headerBottom);
+                        });
                 },
 
         },
