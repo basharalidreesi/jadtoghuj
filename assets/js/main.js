@@ -71,7 +71,7 @@ const jad = {
                                         console.log(jad.lexicon.header.getBoundingClientRect().top);
                                 }
                         });
-                }
+                },
 
         },
 
