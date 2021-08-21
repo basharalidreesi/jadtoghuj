@@ -67,8 +67,7 @@ const jad = {
                 uncheckNavToggleOnWidthIncrease: function() {
                         if (!jad.lexicon.navToggle) { return; }
                         if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
-                                jad.lexicon.navToggle.checked = false;
-                                jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
+                                jad.lexicon.navToggle.prop("checked", false).change();
                         }
                 },
 
