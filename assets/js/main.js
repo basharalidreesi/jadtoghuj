@@ -66,12 +66,10 @@ const jad = {
                 },
                 scaleHeader: function() {
                         if (jad.lexicon.header.clientHeight == 45) { return; }
-                        let scrollTop = jad.lexicon.header.scrollTop;
                         window.addEventListener("scroll", () => {
                                 if (jad.lexicon.header.getBoundingClientRect().top <= 15) {
-                                        // let scaleRatio = jad.util.clamp(0, window.pageYOffset / window.innerHeight, 1);
-                                        // console.log(scaleRatio);
-                                        console.log(window.pageYOffset - scrollTop);
+                                        let scaleRatio = jad.util.clamp(0, (window.pageYOffset + 37.5) / window.innerHeight, 1);
+                                        console.log(scaleRatio);
                                 }
                         });
                 },
