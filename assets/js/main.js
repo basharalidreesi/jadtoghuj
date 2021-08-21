@@ -67,7 +67,7 @@ const jad = {
                 uncheckNavToggleOnWidthIncrease: function() {
                         if (!jad.lexicon.navToggle) { return; }
                         if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
-                                jad.lexicon.navToggle.prop("checked", false).change();
+                                jad.lexicon.navToggle.prop("checked", false).trigger("change");
                         }
                 },
 
