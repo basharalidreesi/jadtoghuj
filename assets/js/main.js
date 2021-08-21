@@ -66,6 +66,7 @@ const jad = {
                         SVGInject(jad.lexicon.logo);
                 },
                 observeSentinel: function() {
+                        if (!jad.lexicon.sentinel) { return; }
                         let observer = new IntersectionObserver((entries) => {
                                 if (entries[0].instersectionRatio === 0) {
                                         jad.lexicon.header.classList.add(".header--smol");
