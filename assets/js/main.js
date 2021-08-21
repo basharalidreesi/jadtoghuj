@@ -109,10 +109,10 @@ const jad = {
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection));
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection));
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
                         });
                 },
                 observeIntersections: function() {
@@ -120,7 +120,7 @@ const jad = {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
                                                 jad.carousel.reportIntersections(entry.target);
-                                                currentIntersection = entry.target;
+                                                jad.carousel.currentIntersection = entry.target;
                                         }
                                 });
 
