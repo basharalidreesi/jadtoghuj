@@ -16,9 +16,11 @@ style:
                                                 <span>
                                                         {{ project.project_name }}
                                                 </span>
+                                                {%- if project.project_description and project.project_description.size != 0 %}
                                                 <span>
                                                         {{ project.project_description }}
                                                 </span>
+                                                {%- endif %}
                                         </header>
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}

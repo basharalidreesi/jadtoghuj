@@ -109,6 +109,9 @@ body {
                                 span:last-of-type {
                                         margin: 0 0 auto 0;
                                 }
+                                span:only-of-type {
+                                        margin: auto 0;
+                                }
                         }
                         &__carouselTitle {
                                 span:first-of-type {
