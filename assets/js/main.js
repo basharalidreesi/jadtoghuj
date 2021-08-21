@@ -108,10 +108,10 @@ const jad = {
                 },
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection);
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection));
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection);
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection));
                         });
                 },
                 currentIntersection: null,
