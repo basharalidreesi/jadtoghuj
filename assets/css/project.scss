@@ -62,6 +62,9 @@ body {
                                 &::-webkit-scrollbar {
                                         display: none;
                                 }
+                                @media (prefers-color-scheme: dark) {
+                                        isolation: isolate;
+                                }
                         }
                         &__carouselItem {
                                 height: 100%;
@@ -161,7 +164,7 @@ body {
                         top: calc(10rem + 2px);
                         left: 0;
                         width: 100%;
-                        padding: 2rem;
+                        padding: 4rem 2rem;
                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                         font-weight: 300;
                         text-align: center;
