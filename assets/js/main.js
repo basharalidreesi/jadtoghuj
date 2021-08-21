@@ -100,7 +100,7 @@ const jad = {
                         let observer = new IntersectionObserver((entries) => {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
-                                                console.log(Array.from(entry.parentNode.children).indexOf(entry));
+                                                console.log(Array.from(entry.target.parentNode.children).indexOf(entry.target));
                                         }
                                 });
 
