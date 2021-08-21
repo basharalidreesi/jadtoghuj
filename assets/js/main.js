@@ -16,6 +16,7 @@ const jad = {
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
+                carouselCp: document.querySelector("#project__cp"),
                 carouselCounter: document.querySelector("#project__cp__counter"),
                 carouselLeft: document.querySelector("#project__cp__left"),
                 carouselRight: document.querySelector("#project__cp__right"),
@@ -94,6 +95,7 @@ const jad = {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.carousel.transformScroll);
                         jad.carousel.activateTitleScroll();
+                        jad.carousel.displayCp();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
                 },
@@ -106,6 +108,11 @@ const jad = {
                                 jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[0].getBoundingClientRect().width / 2) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
                         });
                 },
+                displayCp: function() {
+                        window.addEventListener("load", () => {
+                                jad.lexicon.carouselCp.classList.remove("generic--zeroOpacity");
+                        });
+                }
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {

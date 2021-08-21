@@ -337,6 +337,10 @@ body {
 		visibility: hidden !important;
 	}
 
+	.generic--zeroOpacity {
+		opacity: 0 !important;
+	}
+
 	.generic--jsOnly {
 		display: none !important;
 	}

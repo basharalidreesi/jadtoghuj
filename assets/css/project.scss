@@ -184,6 +184,7 @@ body {
                         -ms-user-select: none;
                         user-select: none;
                         z-index: 100;
+                        transition: opacity 0.5s;
                         &__counter {
                                 margin: auto 0;
                         }
