@@ -98,6 +98,7 @@ body {
                                                 @media (any-hover: hover) {
                                                         &:hover {
                                                                 --color-text: var(--color-special);
+                                                                --color-text--light: var(--color-special);
                                                         }
                                                 }
                                         }
