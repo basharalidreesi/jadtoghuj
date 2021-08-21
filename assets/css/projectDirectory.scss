@@ -208,6 +208,9 @@
                                 overflow: hidden;
                                 background: var(--color-top--light);
                                 padding: 1rem;
+                                @media (min-width: 768px) {
+                                        padding: 2rem;
+                                }
                                 @media (min-width: 1280px) {
                                         padding: 3rem;
                                 }
