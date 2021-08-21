@@ -139,7 +139,9 @@ const jad = {
                                 jad.lexicon.carouselLeft.classList.add("generic--notVisible");
                         }
                         if (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) == (jad.lexicon.carouselItems.length - 1)) {
-                                jad.lexicon.carouselRight.classList.toggle("generic--notVisible");
+                                jad.lexicon.carouselRight.classList.remove("generic--notVisible");
+                        } else {
+                                jad.lexicon.carouselRight.classList.add("generic--notVisible");
                         }
                 },
 
