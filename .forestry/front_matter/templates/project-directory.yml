@@ -18,7 +18,7 @@ fields:
       required: false
       wysiwyg: false
       schema:
-        format: markdown
+        format: html
     label: Project description
   - name: project_page
     type: select
