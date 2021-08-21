@@ -10,13 +10,15 @@ const jad = {
 
         lexicon: {
                 root: document.documentElement,
+                header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
+                sentinel: document.querySelector("#headerSentinel"),
                 carousel: document.querySelector(".project__carousel"),
         },
 
         initAllScripts: function() {
                 jad.viewport.initViewportScripts();
-                // jad.header.initHeaderScripts();
+                jad.header.initHeaderScripts();
                 jad.scroll.initScrollScripts();
         },
 
@@ -47,7 +49,8 @@ const jad = {
         header: {
 
                 initHeaderScripts: function() {
-                        jad.header.pickRandomLogo();
+                        // jad.header.pickRandomLogo();
+                        jad.header.observeSentinel();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -62,6 +65,16 @@ const jad = {
                         jad.lexicon.logo.src = randomLogo;
                         SVGInject(jad.lexicon.logo);
                 },
+                observeSentinel: function() {
+                        let observer = new IntersectionObserver((entries) => {
+                                if (entries[0].instersectionRatio === 0) {
+                                        jad.lexicon.header.classList.add(".header--smol");
+                                } else if (entries[0].instersectionRatio === 1) {
+                                        jad.lexicon.header.classList.remove(".header--smol");
+                                }
+                        }, { threshold: [0, 1] });
+                        observer.observe(jad.lexicon.sentinel);
+                }
 
         },
 
