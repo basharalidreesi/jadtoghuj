@@ -316,9 +316,11 @@ body {
 		}
 		span:first-of-type {
 			margin: auto 0 0 0;
+			padding-top: 2rem;
 		}
 		span:last-of-type {
 			margin: 0 0 auto 0;
+			padding-bottom: 2rem;
 		}
 		span:only-of-type {
 			margin: auto 0;
