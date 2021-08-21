@@ -100,6 +100,7 @@ const jad = {
                         let observer = new IntersectionObserver((entries) => {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
+                                                jad.carousel.reportIntersections(entry.target);
                                                 console.log(Array.from(entry.target.parentNode.children).indexOf(entry.target));
                                         }
                                 });
@@ -110,7 +111,10 @@ const jad = {
                         jad.lexicon.carouselItems.forEach((item) => {
                                 observer.observe(item);
                         });
-                }
+                },
+                reportIntersections: function(entry) {
+                        jad.lexicon.counter.innerHTML = Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + " / " + jad.lexicon.carouselItems.length;
+                },
 
         },
 
