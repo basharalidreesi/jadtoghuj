@@ -7,7 +7,7 @@ general:
   top_color_light: "#FFFFFF"
   bottom_color_light: "#91A3B0"
   text_color_light: "#000000"
-  special_color_light: "#FF00FF"
+  special_color_light: "#6F00FF"
   top_color_dark: "#778690"
   bottom_color_dark: "#474F54"
   text_color_dark: "#FFFFFF"
