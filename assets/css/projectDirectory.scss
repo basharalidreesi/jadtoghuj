@@ -203,11 +203,14 @@
                                 justify-content: center;
                                 width: calc(100% - 2rem);
                                 height: calc(100% - 2rem);
-                                padding: 1rem;
                                 border: 1px solid var(--color-text--light);
                                 border-radius: 1rem;
                                 overflow: hidden;
                                 background: var(--color-top--light);
+                                padding: 1rem;
+                                @media (max-width: 1280px) {
+                                        padding: 3rem;
+                                }
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 border-color: var(--color-special);
