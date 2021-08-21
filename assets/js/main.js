@@ -108,18 +108,17 @@ const jad = {
                 },
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-
+                                console.log("Left");
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-
+                                console.log("Right");
                         });
                 },
                 observeIntersections: function() {
                         let observer = new IntersectionObserver((entries) => {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
-                                                jad.carousel.reportCurrentIntersection(entry.target);
-                                                jad.carousel.displayCurrentIntersection();
+                                                jad.carousel.reportIntersections(entry.target);
                                         }
                                 });
 
@@ -130,11 +129,8 @@ const jad = {
                                 observer.observe(item);
                         });
                 },
-                reportCurrentIntersection: function(entry) {
-                        return entry;
-                },
-                displayCurrentIntersection: function() {
-                        jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.reportCurrentIntersection()) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false });
+                reportIntersections: function(entry) {
+                        jad.lexicon.carouselCounter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1).toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false }) + " / " + jad.lexicon.carouselItems.length.toLocaleString('en-GB', { minimumIntegerDigits: 2, useGrouping: false });
                 },
 
         },
