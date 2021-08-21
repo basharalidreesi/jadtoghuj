@@ -14,9 +14,11 @@ const jad = {
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 carousel: document.querySelector(".project__carousel"),
+                projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
                 carouselCounter: document.querySelector("#project__cp__counter"),
-                projectTitle: document.querySelector("#project__title"),
+                carouselLeft: document.querySelector("#project__cp__left"),
+                carouselRight: document.querySelector("#project__cp__right"),
         },
 
         initAllScripts: function() {
