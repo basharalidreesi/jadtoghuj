@@ -100,7 +100,7 @@ const jad = {
                 },
                 activateTitleScroll: function() {
                         jad.lexicon.projectTitle.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[1].offsetLeft + 15) - (jad.lexicon.carouselItems[1].getBoundingClientRect().width * 2);
+                                jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[1].offsetLeft + 15) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
                         });
                 },
                 observeIntersections: function() {
