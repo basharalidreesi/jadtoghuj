@@ -113,7 +113,7 @@ const jad = {
                         });
                 },
                 reportIntersections: function(entry) {
-                        jad.lexicon.counter.innerHTML = Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + " / " + jad.lexicon.carouselItems.length;
+                        jad.lexicon.counter.innerHTML = (Array.prototype.indexOf.call(jad.lexicon.carouselItems, entry) + 1) + " / " + jad.lexicon.carouselItems.length;
                 },
 
         },
