@@ -208,7 +208,7 @@
                                 overflow: hidden;
                                 background: var(--color-top--light);
                                 padding: 1rem;
-                                @media (max-width: 1280px) {
+                                @media (min-width: 1280px) {
                                         padding: 3rem;
                                 }
                                 @media (any-hover: hover) {
