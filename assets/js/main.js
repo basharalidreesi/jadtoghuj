@@ -109,11 +109,12 @@ const jad = {
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.offsetLeft;
+                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.previousElementSibling.offsetLeft + 15 - (jad.carousel.currentIntersection.getBoundingClientRect().width / 2);
                                 // console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
+                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.nextElementSibling.offsetLeft + 15 - (jad.carousel.currentIntersection.getBoundingClientRect().width / 2);
+                                // console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, jad.carousel.currentIntersection));
                         });
                 },
                 observeIntersections: function() {
