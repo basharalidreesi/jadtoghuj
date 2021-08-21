@@ -108,17 +108,19 @@ const jad = {
                 },
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                console.log("Left");
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection);
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-                                console.log("Right");
+                                console.log(Array.prototype.indexOf.call(jad.lexicon.carouselItems, currentIntersection);
                         });
                 },
+                currentIntersection: null,
                 observeIntersections: function() {
                         let observer = new IntersectionObserver((entries) => {
                                 entries.forEach((entry) => {
                                         if (entry.isIntersecting) {
                                                 jad.carousel.reportIntersections(entry.target);
+                                                currentIntersection = entry.target;
                                         }
                                 });
 
