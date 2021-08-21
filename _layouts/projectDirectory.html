@@ -15,7 +15,7 @@ style:
                 </h3>
                 <input type="checkbox" id="projectDirectory__lookToggle" />
                 <div id="projectDirectory__lookLabel">
-                        <label for="projectDirectory__lookToggle" title="See all looks">
+                        <label for="projectDirectory__lookToggle" title="See all looks" tabindex="0">
                                 Browse by Look
                         </label>
                 </div>
@@ -46,7 +46,7 @@ style:
                 {%- endfor -%}
                 {%- endfor %}
                 <div id="projectDirectory__allLooks" class="projectDirectory__lookCard--outer">
-                        <label for="projectDirectory__lookToggle" title="See all looks" class="projectDirectory__lookCard--inner">
+                        <label for="projectDirectory__lookToggle" title="See all looks" class="projectDirectory__lookCard--inner" tabindex="0">
                                 +
                         </label>
                 </div>
@@ -57,7 +57,7 @@ style:
                 </h3>
                 <input type="checkbox" id="projectDirectory__projectToggle" />
                 <div id="projectDirectory__projectLabel">
-                        <label for="projectDirectory__projectToggle" title="See all projects">
+                        <label for="projectDirectory__projectToggle" title="See all projects" tabindex="0">
                                 Browse by Project
                         </label>
                 </div>
@@ -72,7 +72,7 @@ style:
                 </article>
                 {%- endfor %}
                 <div id="projectDirectory__allProjects" class="projectDirectory__projectCard">
-                        <label for="projectDirectory__projectToggle" title="See all projects">
+                        <label for="projectDirectory__projectToggle" title="See all projects" tabindex="0">
                                 +
                         </label>
                 </div>
