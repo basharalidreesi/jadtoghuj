@@ -84,6 +84,11 @@ body {
                                 flex: 1 0 auto;
                                 position: relative;
                                 width: calc((var(--vh, 1vh) * 100 - 10rem) * 177.777778); // 16:9
+                                height: calc(var(--vh, 1vh) * 100 - 10rem);
+                                div {
+                                        height: 100%;
+                                        width: 100%;
+                                }
                                 a {
                                         display: block;
                                         position: absolute;
