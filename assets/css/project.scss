@@ -50,7 +50,7 @@ body {
                 flex: 1;
 
                 .project {
-                        height: calc(var(--vh, 1vh) * 100 - 10rem);
+                        height: calc(var(--vh, 1vh) * 100 - 10rem - 2px);
                         &__carousel {
                                 display: flex;
                                 flex-flow: row nowrap;
@@ -90,7 +90,7 @@ body {
                         &__carouselVideo {
                                 flex: 1 0 auto;
                                 position: relative;
-                                width: calc((var(--vh, 1vh) * 100 - 10rem) * 1.77777778); // 16:9
+                                width: calc((var(--vh, 1vh) * 100 - 10rem - 2px) * 1.77777778); // 16:9
                                 div {
                                         height: 100%;
                                         width: 100%;

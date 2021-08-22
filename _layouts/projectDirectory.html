@@ -5,81 +5,81 @@ style:
   - projectDirectory
 ---
 
-<article class="projectDirectory">
-        <h2 class="generic--hidden">
-                Styling & Creative Direction
-        </h2>
-        <section class="projectDirectory__looks">
-                <h3 class="generic--hidden">
-                        Browse by Look
-                </h3>
-                <input type="checkbox" id="projectDirectory__lookToggle" />
-                <div id="projectDirectory__lookLabel">
-                        <label for="projectDirectory__lookToggle" title="See all looks" role="presentation">
-                                Browse by Look
-                        </label>
-                </div>
-                {%- for project in site.data.projectDirectory.projects -%}
-                {%- for media in project.media -%}
-                {%- if media.template == "look" %}
-                <article class="projectDirectory__lookCard--outer">
-                        <h4 class="generic--hidden">
-                                {{ media.look_name }}, {{ project.project_name }}
-                        </h4>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ media.look_name }}, {{ project.project_name }}">
-                                <div class="projectDirectory__lookCard--inner">
-                                        <figure class="projectDirectory__lookCard--image">
-                                                <img src="{{ media.look_cover }}" title="{{ media.look_name }}, {{ project.project_name }}" />
-                                                <figcaption class="generic--hidden">
-                                                        <span>
-                                                                {{ media.look_name }}
-                                                        </span>
-                                                        <span>
-                                                                {{ project.project_name }}
-                                                        </span>
-                                                </figcaption>
-                                        </figure>
-                                </div>
-                        </a>
-                </article>
-                {%- endif -%}
-                {%- endfor -%}
-                {%- endfor %}
-                <div id="projectDirectory__allLooks" class="projectDirectory__lookCard--outer">
-                        <label for="projectDirectory__lookToggle" title="See all looks" class="projectDirectory__lookCard--inner" role="presentation">
-                                +
-                        </label>
-                </div>
-        </section>
-        <section class="projectDirectory__projects">
-                <h3 class="generic--hidden">
-                        Browse by Project
-                </h3>
-                <input type="checkbox" id="projectDirectory__projectToggle" />
-                <div id="projectDirectory__projectLabel">
-                        <label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
-                                Browse by Project
-                        </label>
-                </div>
-                {%- for project in site.data.projectDirectory.projects %}
-                <article class="projectDirectory__projectCard">
-                        <h4 class="generic--hidden">
-                                {{ project.project_name }}
-                        </h4>
-                        <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
-                                {{ project.project_name }}
-                        </a>
-                        <span style="display: none;">
-                                {%- for tag in project.project_tags %}
-                                {{ tag }}
-                                {%- endfor %}
-                        </span>
-                </article>
-                {%- endfor %}
-                <div id="projectDirectory__allProjects" class="projectDirectory__projectCard">
-                        <label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
-                                +
-                        </label>
-                </div>
-        </section>
-</article>
+        <article class="projectDirectory">
+                                <h2 class="generic--hidden">
+                                        Styling & Creative Direction
+                                </h2>
+                                <section class="projectDirectory__looks">
+                                        <h3 class="generic--hidden">
+                                                Browse by Look
+                                        </h3>
+                                        <input type="checkbox" id="projectDirectory__lookToggle" />
+                                        <div id="projectDirectory__lookLabel">
+                                                <label for="projectDirectory__lookToggle" title="See all looks" role="presentation">
+                                                        Browse by Look
+                                                </label>
+                                        </div>
+                                        {%- for project in site.data.projectDirectory.projects -%}
+                                        {%- for media in project.media -%}
+                                        {%- if media.template == "look" %}
+                                        <article class="projectDirectory__lookCard--outer">
+                                                <h4 class="generic--hidden">
+                                                        {{ media.look_name }}, {{ project.project_name }}
+                                                </h4>
+                                                <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ media.look_name }}, {{ project.project_name }}">
+                                                        <div class="projectDirectory__lookCard--inner">
+                                                                <figure class="projectDirectory__lookCard--image">
+                                                                        <img src="{{ media.look_cover }}" title="{{ media.look_name }}, {{ project.project_name }}" />
+                                                                        <figcaption class="generic--hidden">
+                                                                                <span>
+                                                                                        {{ media.look_name }}
+                                                                                </span>
+                                                                                <span>
+                                                                                        {{ project.project_name }}
+                                                                                </span>
+                                                                        </figcaption>
+                                                                </figure>
+                                                        </div>
+                                                </a>
+                                        </article>
+                                        {%- endif -%}
+                                        {%- endfor -%}
+                                        {%- endfor %}
+                                        <div id="projectDirectory__allLooks" class="projectDirectory__lookCard--outer">
+                                                <label for="projectDirectory__lookToggle" title="See all looks" class="projectDirectory__lookCard--inner" role="presentation">
+                                                        +
+                                                </label>
+                                        </div>
+                                </section>
+                                <section class="projectDirectory__projects">
+                                        <h3 class="generic--hidden">
+                                                Browse by Project
+                                        </h3>
+                                        <input type="checkbox" id="projectDirectory__projectToggle" />
+                                        <div id="projectDirectory__projectLabel">
+                                                <label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
+                                                        Browse by Project
+                                                </label>
+                                        </div>
+                                        {%- for project in site.data.projectDirectory.projects %}
+                                        <article class="projectDirectory__projectCard">
+                                                <h4 class="generic--hidden">
+                                                        {{ project.project_name }}
+                                                </h4>
+                                                <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
+                                                        {{ project.project_name }}
+                                                </a>
+                                                <span style="display: none;">
+                                                        {%- for tag in project.project_tags %}
+                                                        {{ tag }}
+                                                        {%- endfor %}
+                                                </span>
+                                        </article>
+                                        {%- endfor %}
+                                        <div id="projectDirectory__allProjects" class="projectDirectory__projectCard">
+                                                <label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
+                                                        +
+                                                </label>
+                                        </div>
+                                </section>
+                        </article>
