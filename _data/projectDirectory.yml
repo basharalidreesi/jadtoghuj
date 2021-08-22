@@ -94,6 +94,23 @@ projects:
     look_images:
     - "/assets/graphics/img_1106.jpg"
     look_description: ''
+- project_name: "\U0001F337 With a Bang \U0001F337"
+  project_description: ''
+  project_page: _styling-and-creative-direction/with-a-bang.html
+  project_tags:
+  - experimental
+  - editorial
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_5464.jpg"
+    - "/assets/graphics/img_3526.jpg"
+    - "/assets/graphics/dsc_55011.jpg"
+    - "/assets/graphics/dsc_5523-copy.jpg"
+    - "/assets/graphics/dsc_5518.jpg"
+    - "/assets/graphics/img_3500.jpg"
+    - "/assets/graphics/dsc_5542.jpg"
+    - "/assets/graphics/dsc_5582.jpg"
 - project_name: Lola's Bridal Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
@@ -160,23 +177,6 @@ projects:
     - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
     - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
     - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
-- project_name: "\U0001F337 With a Bang \U0001F337"
-  project_description: ''
-  project_page: _styling-and-creative-direction/with-a-bang.html
-  project_tags:
-  - experimental
-  - editorial
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/dsc_5464.jpg"
-    - "/assets/graphics/img_3526.jpg"
-    - "/assets/graphics/dsc_55011.jpg"
-    - "/assets/graphics/dsc_5523-copy.jpg"
-    - "/assets/graphics/dsc_5518.jpg"
-    - "/assets/graphics/img_3500.jpg"
-    - "/assets/graphics/dsc_5542.jpg"
-    - "/assets/graphics/dsc_5582.jpg"
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
   project_page: _styling-and-creative-direction/idreesi-and-abdulla-for-mykali.html
