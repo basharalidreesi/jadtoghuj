@@ -106,12 +106,15 @@ const jad = {
                 },
                 scaleHeader: function(deltaRatio) {
                         var modifier = 0;
+                        var initialHeight = 0;
                         if (jad.util.queryMedia("(max-width: 512px)")) {
                                 modifier = 15;
+                                initialHeight = 60;
                         } else {
                                 modifier = 30;
+                                initialHeight = 75;
                         }
-                        let height = deltaRatio * modifier;
+                        let height = initialHeight + (deltaRatio * modifier);
                         let margin = "calc(var(--vh, 1vh) * 50 - 1rem - " + (height / 2) + ") 1rem";
                         jad.lexicon.header.style.setProperty("height", `${height}px`);
                         jad.lexicon.header.style.setProperty("margin", margin);
