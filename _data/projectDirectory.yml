@@ -1,32 +1,5 @@
 ---
 projects:
-- project_name: Raja Otaqui — Dina Music Video
-  project_description: ''
-  project_page: _styling-and-creative-direction/raja-otaqui-dina-music-video.html
-  project_tags:
-  - menswear
-  - music video
-  media:
-  - template: video
-    video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
-- project_name: Zaid Khaled — Shoftek Abel Shwai Music Video
-  project_description: ''
-  project_page: _styling-and-creative-direction/zaid-khaled-shoftek-abel-shway-music-video.html
-  project_tags:
-  - menswear
-  - music video
-  media:
-  - template: video
-    video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
-- project_name: Zaid Khaled x The Synaptik — Lal Nour Music Video
-  project_description: ''
-  project_page: _styling-and-creative-direction/zaid-khaled-x-the-synaptik-lal-nour-music-video.html
-  project_tags:
-  - menswear
-  - music video
-  media:
-  - template: video
-    video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
@@ -36,10 +9,10 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/savoire-flaire-look-1.png"
     look_description: ''
     look_images:
     - "/assets/graphics/a290811d-d4d5-4b30-b179-74ec06ae4115.jpg"
+    look_cover: "/assets/graphics/savoire-flaire-look-1.png"
   - template: look
     look_name: Look 02
     look_description: ''
@@ -142,6 +115,33 @@ projects:
     - "/assets/graphics/lola-328i-1.jpg"
     - "/assets/graphics/lola-532b.jpg"
     - "/assets/graphics/lola-522b.jpg"
+- project_name: Raja Otaqui — Dina Music Video
+  project_description: ''
+  project_page: _styling-and-creative-direction/raja-otaqui-dina-music-video.html
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
+- project_name: Zaid Khaled — Shoftek Abel Shwai Music Video
+  project_description: ''
+  project_page: _styling-and-creative-direction/zaid-khaled-shoftek-abel-shway-music-video.html
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
+- project_name: Zaid Khaled x The Synaptik — Lal Nour Music Video
+  project_description: ''
+  project_page: _styling-and-creative-direction/zaid-khaled-x-the-synaptik-lal-nour-music-video.html
+  project_tags:
+  - menswear
+  - music video
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
 - project_name: Ghada el Tally for Pandora
   project_description: ''
   project_page: _styling-and-creative-direction/ghada-el-tally-for-pandora.html
