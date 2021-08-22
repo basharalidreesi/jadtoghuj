@@ -69,6 +69,11 @@ style:
                         <a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
                                 {{ project.project_name }}
                         </a>
+                        <span style="display: none;">
+                                {%- for tag in project.project_tags %}
+                                {{ tag }}
+                                {%- endfor %}
+                        </span>
                 </article>
                 {%- endfor %}
                 <div id="projectDirectory__allProjects" class="projectDirectory__projectCard">

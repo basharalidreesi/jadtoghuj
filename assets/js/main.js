@@ -13,6 +13,7 @@ const jad = {
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
+                nav: document.querySelector("#nav"),
                 navToggle: document.querySelector("#nav__toggle"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
@@ -71,7 +72,7 @@ const jad = {
 
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
-                        jad.header.reportHeaderDelta();
+                        // jad.header.reportHeaderDelta();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -90,7 +91,7 @@ const jad = {
                         if (!document.querySelector(".homepageShowcase")) { return; }
                         window.addEventListener("scroll", () => {
                                 let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
-                                let navTop = document.querySelector("#nav").getBoundingClientRect().top;
+                                let navTop = jad.lexicon.nav.getBoundingClientRect().top;
                                 let deltaRatio = jad.util.clamp(0, (navTop - headerBottom - 15) / ((window.innerHeight - 30 - jad.lexicon.header.getBoundingClientRect().height) / 2), 1);
                                 jad.header.scaleHeader(deltaRatio);
                                 console.log(deltaRatio);
