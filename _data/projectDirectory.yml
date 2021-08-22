@@ -101,6 +101,21 @@ projects:
   - experimental
   - editorial
   media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/with-a-bang-look-01.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/with-a-bang-look-02.png"
+    look_description: ''
+    look_images: []
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/with-a-bang-look-03.png"
+    look_description: ''
+    look_images: []
   - template: image-s
     images:
     - "/assets/graphics/dsc_5464.jpg"
