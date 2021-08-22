@@ -95,7 +95,7 @@ const jad = {
                         SVGInject(jad.lexicon.logo);
                 },
                 reportHeaderDelta: function() {
-                        // if (jad.lexicon.header.getBoundingClientRect().height < 60) { return; }
+                        if (!document.querySelector(".homepageShowcase")) { return; }
                         window.addEventListener("scroll", () => {
                                 let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
                                 let navTop = document.querySelector("#nav").getBoundingClientRect().top;
