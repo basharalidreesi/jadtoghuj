@@ -48,7 +48,7 @@ const jad = {
                         jad.viewport.reportViewportHeight();
                         window.addEventListener("resize", () => {
         			jad.util.debounce(jad.viewport.updateViewportHeight, 350);
-                                jad.viewport.uncheckNavToggleOnWidthIncrease();
+                                jad.nav.uncheckNavToggleOnWidthIncrease();
         		});
                 },
                 updateViewportHeight: function() {
@@ -63,14 +63,6 @@ const jad = {
                 },
                 setViewportHeight: function(viewportHeight) {
                         jad.lexicon.root.style.setProperty("--vh", `${viewportHeight}px`);
-                },
-                uncheckNavToggleOnWidthIncrease: function() {
-                        if (!jad.lexicon.navToggle) { return; }
-                        if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
-                                let change = new Event("change");
-                                jad.lexicon.navToggle.checked = false;
-                                jad.lexicon.navToggle.dispatchEvent(change);
-                        }
                 },
 
         },
@@ -120,6 +112,17 @@ const jad = {
                         jad.lexicon.header.style.setProperty("margin", margin);
                 },
 
+        },
+
+        nav: {
+                uncheckNavToggleOnWidthIncrease: function() {
+                        if (!jad.lexicon.navToggle) { return; }
+                        if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
+                                let change = new Event("change");
+                                jad.lexicon.navToggle.checked = false;
+                                jad.lexicon.navToggle.dispatchEvent(change);
+                        }
+                },
         },
 
         carousel: {
