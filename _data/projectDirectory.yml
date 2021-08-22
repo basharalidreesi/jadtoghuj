@@ -20,16 +20,16 @@ projects:
     look_images:
     - "/assets/graphics/a290811d-d4d5-4b30-b179-74ec06ae4115.jpg"
   - template: look
-    look_name: Look 03
-    look_cover: "/assets/graphics/savoir-flaire-look-3.png"
-    look_description: ''
-    look_images: []
-  - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-4.png"
     look_images:
     - "/assets/graphics/dsc_8048.jpg"
     look_description: ''
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/savoir-flaire-look-3.png"
+    look_description: ''
+    look_images: []
   - template: look
     look_name: Look 05
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
