@@ -114,7 +114,7 @@ const jad = {
                                 modifier = 30;
                                 initialHeight = 75;
                         }
-                        let height = initialHeight + (deltaRatio * modifier);
+                        let height = (initialHeight - modifier) + (deltaRatio * modifier);
                         let margin = "calc(var(--vh, 1vh) * 50 - 1rem - " + (height / 2) + "px) 1rem";
                         jad.lexicon.header.style.setProperty("height", `${height}px`);
                         jad.lexicon.header.style.setProperty("margin", margin);
