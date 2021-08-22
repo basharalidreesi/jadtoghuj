@@ -1,5 +1,17 @@
 ---
 projects:
+- project_name: Nedaa Sharara for ET Bil Arabi
+  project_description: ''
+  project_page: _styling-and-creative-direction/nedaa-sharara-for-et-bil-arabi.html
+  project_tags: []
+  media:
+  - template: look
+    look_cover: "/assets/graphics/nedaa-et-look-01.png"
+    look_name: Look 01
+    look_images:
+    - "/assets/graphics/dsc_8210.jpg"
+    - "/assets/graphics/dsc_8261.jpg"
+    look_description: ''
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
