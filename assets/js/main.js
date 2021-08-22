@@ -79,7 +79,7 @@ const jad = {
 
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
-                        jad.header.reportHeaderPosition();
+                        jad.header.reportHeaderDelta();
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -94,14 +94,27 @@ const jad = {
                         jad.lexicon.logo.src = randomLogo;
                         SVGInject(jad.lexicon.logo);
                 },
-                reportHeaderPosition: function() {
-                        if (jad.lexicon.header.getBoundingClientRect().height < 60) { return; }
+                reportHeaderDelta: function() {
+                        // if (jad.lexicon.header.getBoundingClientRect().height < 60) { return; }
                         window.addEventListener("scroll", () => {
                                 let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
                                 let navTop = document.querySelector("#nav").getBoundingClientRect().top;
                                 let deltaRatio = jad.util.clamp(0, (navTop - headerBottom - 15) / ((window.innerHeight - 30 - jad.lexicon.header.getBoundingClientRect().height) / 2), 1);
+                                jad.header.scaleHeader(deltaRatio);
                                 console.log(deltaRatio);
                         });
+                },
+                scaleHeader: function(deltaRatio) {
+                        var modifier = 0;
+                        if (jad.util.queryMedia("(max-width: 512px)")) {
+                                modifier = 15;
+                        } else {
+                                modifier = 30;
+                        }
+                        let height = deltaRatio * modifier;
+                        let margin = "calc(var(--vh, 1vh) * 50 - 1rem - " + (height / 2) + ") 1rem";
+                        jad.lexicon.header.style.setProperty("height", `${height}px`);
+                        jad.lexicon.header.style.setProperty("margin", margin);
                 },
 
         },
