@@ -9,7 +9,9 @@ style:
                                         {%- for entry in site.data.homepageShowcase.entries -%}
                                         {%- assign indexTest = forloop.index | minus: 1 | modulo: 3 -%}
                                         {%- if forloop.index == 1 or indexTest == 0 %}
-                                        {{ entry }}
+                                        <div>
+                                                {{ entry }}
+                                        </div>
                                         {%- endif -%}
                                         {%- endfor %}
                                 </div>
@@ -17,7 +19,9 @@ style:
                                         {%- for entry in site.data.homepageShowcase.entries -%}
                                         {%- assign indexTest = forloop.index | minus: 2 | modulo: 3 -%}
                                         {%- if forloop.index == 2 or indexTest == 0 %}
-                                        {{ entry }}
+                                        <div>
+                                                {{ entry }}
+                                        </div>
                                         {%- endif -%}
                                         {%- endfor %}
                                 </div>
@@ -25,7 +29,9 @@ style:
                                         {%- for entry in site.data.homepageShowcase.entries -%}
                                         {%- assign indexTest = forloop.index | minus: 3 | modulo: 3 -%}
                                         {%- if forloop.index == 3 or indexTest == 0 %}
-                                        {{ entry }}
+                                        <div>
+                                                {{ entry }}
+                                        </div>
                                         {%- endif -%}
                                         {%- endfor %}
                                 </div>
