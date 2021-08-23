@@ -12,6 +12,11 @@ projects:
     - "/assets/graphics/dsc_8210.jpg"
     - "/assets/graphics/dsc_8261.jpg"
     look_description: ''
+  - template: image-s
+    images:
+    - "/assets/graphics/dsc_8355.jpg"
+    - "/assets/graphics/dsc_8418.jpg"
+    - "/assets/graphics/dsc_8338.jpg"
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
