@@ -18,18 +18,12 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Caption
+    label: Caption (optional)
   - name: link
     type: text
     config:
       required: false
-    label: Link
-  - name: background
-    type: color
-    label: Background
-    config:
-      required: false
-      color_format: Hex
+    label: Link (optional)
   config:
     min: 3
     max: 
