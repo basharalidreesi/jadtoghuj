@@ -17,6 +17,8 @@ projects:
     - "/assets/graphics/dsc_8355.jpg"
     - "/assets/graphics/dsc_8418.jpg"
     - "/assets/graphics/dsc_8338.jpg"
+  - template: video
+    video_url: https://etbilarabi.com/فاشن/نداء-شرارة-بإطلالة-عصرية-ومختلفة?fbclid=IwAR3AaTm732R4nOJgFguiuLQFMUu1B6ZQ-MbZowV-wk6RucwDvr_9aeUs2WI
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
