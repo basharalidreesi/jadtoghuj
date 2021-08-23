@@ -15,12 +15,14 @@ style:
                                         {%- if entry.entry_image and entry.entry_image.size != 0 %}
                                         <figure class="homepageShowcase__entry">
                                                 {%- if entry.entry_link and entry.entry_link.size != 0 %}
-                                                <a href="{{ entry.entry_link }}" title="{{ entry.entry_caption }}">
+                                                <a href="{{ entry.entry_link }}" title="{{ entry.entry_caption }}" {%- unless entry.entry_link contains site.url %} target="_blank" {%- endunless -%}>
                                                 {%- endif %}
                                                 <img src="{{ entry.entry_image }}" title="{{ entry.entry_caption }}" />
+                                                {%- if entry.entry_caption and entry_caption.size != 0 %}
                                                 <figcaption>
                                                         {{ entry.entry_caption }}
                                                 </figcaption>
+                                                {%- endif -%}
                                                 {%- if entry.entry_link and entry.entry_link.size != 0 %}
                                                 </a>
                                                 {%- endif %}
@@ -59,12 +61,14 @@ style:
                                         {%- if entry.entry_image and entry.entry_image.size != 0 %}
                                         <figure class="homepageShowcase__entry">
                                                 {%- if entry.entry_link and entry.entry_link.size != 0 %}
-                                                <a href="{{ entry.entry_link }}" title="{{ entry.entry_caption }}">
+                                                <a href="{{ entry.entry_link }}" title="{{ entry.entry_caption }}" {%- unless entry.entry_link contains site.url %} target="_blank" {%- endunless -%}>
                                                 {%- endif %}
                                                 <img src="{{ entry.entry_image }}" title="{{ entry.entry_caption }}" />
+                                                {%- if entry.entry_caption and entry_caption.size != 0 %}
                                                 <figcaption>
                                                         {{ entry.entry_caption }}
                                                 </figcaption>
+                                                {%- endif -%}
                                                 {%- if entry.entry_link and entry.entry_link.size != 0 %}
                                                 </a>
                                                 {%- endif %}
