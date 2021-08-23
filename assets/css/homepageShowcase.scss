@@ -86,6 +86,18 @@
                                                 margin-top: 1rem;
                                         }
                                 }
+                                & > a > figcaption {
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-text--light);
+                                        text-decoration-thickness: 2px;
+                                        word-break: keep-all;
+                                        @media (any-hover: hover) {
+                                                &:hover {
+                                                        --color-text: var(--color-special);
+                                                        --color-text--light: var(--color-special);
+                                                }
+                                        }
+                                }
                                 & + .homepageShowcase__entry {
                                         margin-top: 2rem;
                                         @media (max-width: 768px) {
