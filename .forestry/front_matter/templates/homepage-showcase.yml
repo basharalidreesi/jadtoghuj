@@ -5,12 +5,12 @@ fields:
 - name: entries
   type: field_group_list
   fields:
-  - name: image
+  - name: entry_image
     type: file
     config:
       maxSize: 2.5
-    label: Image
-  - name: caption
+    label: Entry image
+  - name: entry_caption
     type: textarea
     default: ''
     config:
@@ -18,12 +18,12 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Caption (optional)
-  - name: link
+    label: Entry caption (optional)
+  - name: entry_link
     type: text
     config:
       required: false
-    label: Link (optional)
+    label: Entry link (optional)
   config:
     min: 3
     max: 
