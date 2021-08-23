@@ -51,12 +51,14 @@
                 .homepageShowcase {
                         display: flex;
                         flex-flow: row nowrap;
+                        margin: -1rem;
                         &__left,
                         &__middle,
                         &__right {
                                 display: flex;
                                 flex-flow: column nowrap;
                                 width: 33.33333%;
+                                margin: 1rem;
                         }
                 }
 
