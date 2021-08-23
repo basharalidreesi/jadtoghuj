@@ -1,11 +1,2 @@
 ---
-entries:
-- entry_image: "/assets/graphics/with-a-bang-look-02.png"
-  entry_caption: Lorem ipsum dolor sit amet!
-  entry_link: ''
-- entry_image: "/assets/graphics/look-2-editorial-on-red.png"
-  entry_caption: ''
-  entry_link: https://google.com
-- entry_image: "/assets/graphics/look-2-sallisant-charme-1.png"
-  entry_caption: Bla bla bla
-  entry_link: ''
+entries: []
