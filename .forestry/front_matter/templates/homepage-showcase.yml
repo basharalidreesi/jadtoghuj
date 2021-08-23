@@ -25,7 +25,7 @@ fields:
       required: false
     label: Entry link (optional)
   config:
-    min: 3
+    min: 
     max: 
     labelField: 
   label: Entries
