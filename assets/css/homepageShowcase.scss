@@ -52,10 +52,6 @@
 
                         display: flex;
                         flex-flow: row nowrap;
-                        margin: -1rem;
-                        @media (max-width: 768px) {
-                                margin: -1.5rem;
-                        }
 
                         &__left,
                         &__middle,
@@ -63,10 +59,6 @@
                                 display: flex;
                                 flex-flow: column nowrap;
                                 width: 33.33333%;
-                                margin: 1rem;
-                                @media (max-width: 768px) {
-                                        margin: 0.5rem;
-                                }
                         }
                         &__entry {
                                 display: flex;
@@ -77,32 +69,7 @@
                                         width: 100%;
                                 }
                                 figcaption {
-                                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                                        font-weight: 300;
-                                        text-align: center;
-                                        word-break: keep-all;
-                                        margin-top: 2rem;
-                                        @media (max-width: 768px) {
-                                                margin-top: 1rem;
-                                        }
-                                }
-                                & > a > figcaption {
-                                        text-decoration: underline;
-                                        text-decoration-color: var(--color-text--light);
-                                        text-decoration-thickness: 2px;
-                                        word-break: keep-all;
-                                        @media (any-hover: hover) {
-                                                &:hover {
-                                                        --color-text: var(--color-special);
-                                                        --color-text--light: var(--color-special);
-                                                }
-                                        }
-                                }
-                                & + .homepageShowcase__entry {
-                                        margin-top: 2rem;
-                                        @media (max-width: 768px) {
-                                                margin: 1rem;
-                                        }
+                                        display: none;
                                 }
                         }
 
