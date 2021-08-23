@@ -46,4 +46,21 @@
                 }
         }
 
+        #main {
+
+                .homepageShowcase {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        &__left,
+                        &__middle,
+                        &__right {
+                                display: flex;
+                                flex-flow: column nowrap;
+                                width: 33.33333%;
+                                height: 1000px;
+                        }
+                }
+
+        }
+
 }

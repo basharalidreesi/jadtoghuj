@@ -5,5 +5,28 @@ style:
 ---
 
         <article class="homepageShowcase">
-                                <div style="background: black; opacity: 0.25; padding-top: 200%;"></div>
+                                <div class="homepageShowcase__left">
+                                        {%- for entry in site.data.homepageShowcase.entries -%}
+                                        {%- assign indexTest = forloop.index | minus: 1 | modulo: 3 -%}
+                                        {%- if forloop.index == 1 or indexTest == 0 %}
+                                        {{ entry }}
+                                        {%- endif -%}
+                                        {%- endfor %}
+                                </div>
+                                <div class="homepageShowcase__middle">
+                                        {%- for entry in site.data.homepageShowcase.entries -%}
+                                        {%- assign indexTest = forloop.index | minus: 2 | modulo: 3 -%}
+                                        {%- if forloop.index == 2 or indexTest == 0 %}
+                                        {{ entry }}
+                                        {%- endif -%}
+                                        {%- endfor %}
+                                </div>
+                                <div class="homepageShowcase__right">
+                                        {%- for entry in site.data.homepageShowcase.entries -%}
+                                        {%- assign indexTest = forloop.index | minus: 3 | modulo: 3 -%}
+                                        {%- if forloop.index == 3 or indexTest == 0 %}
+                                        {{ entry }}
+                                        {%- endif -%}
+                                        {%- endfor %}
+                                </div>
                         </article>
