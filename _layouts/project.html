@@ -61,11 +61,12 @@ style:
                                         </figure>
                                         {%- endfor -%}
                                         {%- endif -%}
-                                        {%- if media.template == "video" %}
+                                        {%- if media.template == "video" -%}
+                                        {%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" or media.video_url contains "vimeo.com" %}
                                         <figure class="project__carouselItem project__carouselVideo" data-jad-cp-label="">
                                                 {%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" %}
                                                 <div>
-                                                        <iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                        <iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" modestbranding="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                         <a href="{{ media.video_url }}" title="{{ project.project_name }}" target="_blank"></a>
                                                 </div>
                                                 {%- elsif media.video_url contains "vimeo.com" %}
@@ -76,6 +77,7 @@ style:
                                                         </span>
                                                 </figcaption>
                                         </figure>
+                                        {%- endif -%}
                                         {%- endif -%}
                                         {%- endfor %}
                                         <footer class="project__carouselItem project__carouselFooter" data-jad-cp-label="">
