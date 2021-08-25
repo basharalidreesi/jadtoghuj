@@ -55,7 +55,7 @@ style:
                                         {%- for image in media.images -%}
                                         {%- if image and image.size != 0 %}
                                         <figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}">
-                                                <img src="{{ image }}" title="{%- if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- else -%} {{ project.project_name }} {%- endif -%}" />
+                                                <img src="{{ image }}" title="{%- if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- endif -%}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
                                                                 {% if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- else -%} {{ project.project_name }} {%- endif %}
