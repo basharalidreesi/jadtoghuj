@@ -1,6 +1,7 @@
 ---
 label: Image(s)
 hide_body: true
+display_field: image_s_name
 fields:
 - name: image_s_name
   type: text
