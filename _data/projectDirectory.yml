@@ -17,6 +17,7 @@ projects:
     - "/assets/graphics/dsc_8355.jpg"
     - "/assets/graphics/dsc_8418.jpg"
     - "/assets/graphics/dsc_8338.jpg"
+    image_s_name: ''
   - template: video
     video_url: https://etbilarabi.com/فاشن/نداء-شرارة-بإطلالة-عصرية-ومختلفة?fbclid=IwAR3AaTm732R4nOJgFguiuLQFMUu1B6ZQ-MbZowV-wk6RucwDvr_9aeUs2WI
 - project_name: All-Jordanian Fashion Editorial
@@ -70,6 +71,7 @@ projects:
     - "/assets/graphics/img_7726.jpg"
     - "/assets/graphics/dsc_8191.jpg"
     - "/assets/graphics/dsc_8168.jpg"
+    image_s_name: ''
 - project_name: 'Experimenting with Christina '
   project_description: ''
   project_page: _styling-and-creative-direction/experimenting-with-christina.html
@@ -82,6 +84,7 @@ projects:
     - "/assets/graphics/img_1109.jpg"
     - "/assets/graphics/img_1104.jpg"
     - "/assets/graphics/img_1107.jpg"
+    image_s_name: ''
   - template: look
     look_name: Look 01
     look_cover: "/assets/graphics/look-1-christina-1.png"
@@ -145,6 +148,7 @@ projects:
     - "/assets/graphics/img_3500.jpg"
     - "/assets/graphics/dsc_5542.jpg"
     - "/assets/graphics/dsc_5582.jpg"
+    image_s_name: ''
 - project_name: Lola's Bridal Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
@@ -166,6 +170,7 @@ projects:
     - "/assets/graphics/lola-328i-1.jpg"
     - "/assets/graphics/lola-532b.jpg"
     - "/assets/graphics/lola-522b.jpg"
+    image_s_name: ''
 - project_name: Raja Otaqui — Dina Music Video
   project_description: ''
   project_page: _styling-and-creative-direction/raja-otaqui-dina-music-video.html
@@ -211,6 +216,7 @@ projects:
     - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
     - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
     - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
+    image_s_name: ''
 - project_name: Idreesi and Abdulla for MyKali
   project_description: ''
   project_page: _styling-and-creative-direction/idreesi-and-abdulla-for-mykali.html
@@ -232,6 +238,7 @@ projects:
     - "/assets/graphics/image-140.jpg"
     - "/assets/graphics/image-176.jpg"
     - "/assets/graphics/image-149.jpg"
+    image_s_name: ''
 - project_name: An Editorial for Indira
   project_description: ''
   project_page: _styling-and-creative-direction/an-editorial-for-indira.html
@@ -250,6 +257,7 @@ projects:
     - "/assets/graphics/d8.jpg"
     - "/assets/graphics/d3.jpg"
     - "/assets/graphics/d2.jpg"
+    image_s_name: ''
 - project_name: Manal Wedding Glam
   project_description: ''
   project_page: _styling-and-creative-direction/manal-wedding-glam.html
@@ -270,6 +278,7 @@ projects:
     images:
     - "/assets/graphics/a1d462b4-a367-4ceb-9ee4-5874c2645e6f.jpg"
     - "/assets/graphics/dd72d82c-36c7-4b4e-8206-c2c7d68544ee.jpg"
+    image_s_name: ''
 - project_name: Simply Personal
   project_description: ''
   project_page: _styling-and-creative-direction/simply-personal.html
@@ -281,6 +290,7 @@ projects:
     - "/assets/graphics/b.JPG"
     - "/assets/graphics/d.JPG"
     - "/assets/graphics/a.JPG"
+    image_s_name: ''
 - project_name: Editorial on Red
   project_description: ''
   project_page: _styling-and-creative-direction/editorial-on-red.html
@@ -326,6 +336,7 @@ projects:
     - "/assets/graphics/adjustments-jpeg.jpg"
     - "/assets/graphics/screen-shot-2019-11-29-at-11-34-19-pm-png.PNG"
     - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
+    image_s_name: ''
 - project_name: Le Chez Moi Perdu 1974
   project_description: ''
   project_page: _styling-and-creative-direction/le-chez-moi-perdu-1974.html
@@ -343,6 +354,7 @@ projects:
     - "/assets/graphics/img_3487.JPG"
     - "/assets/graphics/img_2924.JPG"
     - "/assets/graphics/img_2327.JPG"
+    image_s_name: ''
 - project_name: Conquering Magenta
   project_description: ''
   project_page: _styling-and-creative-direction/conquering-magenta.html
@@ -357,6 +369,7 @@ projects:
     - "/assets/graphics/_q3a7426-edited.jpg"
     - "/assets/graphics/_q3a7571.jpg"
     - "/assets/graphics/_q3a7553-edited-bag-only.jpg"
+    image_s_name: ''
 - project_name: White in Raw Nature
   project_description: ''
   project_page: _styling-and-creative-direction/white-in-raw-nature.html
@@ -373,6 +386,7 @@ projects:
     - "/assets/graphics/_66a0156.jpg"
     - "/assets/graphics/_66a0141.jpg"
     - "/assets/graphics/_66a0283.jpg"
+    image_s_name: ''
 - project_name: A Very Pink October
   project_description: ''
   project_page: _styling-and-creative-direction/a-very-pink-october.html
@@ -402,6 +416,7 @@ projects:
     - "/assets/graphics/_66a0792.jpg"
     - "/assets/graphics/_66a0648.jpg"
     - "/assets/graphics/_66a0766.jpg"
+    image_s_name: ''
 - project_name: Club Kids of the 00s
   project_description: ''
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
@@ -452,6 +467,7 @@ projects:
     - "/assets/graphics/_q3a3846.jpg"
     - "/assets/graphics/_q3a3802.jpg"
     - "/assets/graphics/_q3a3769.jpg"
+    image_s_name: Bunch of images
 - project_name: Salissant Charme
   project_description: Dirty Glamour w/ Fashion House Amman
   project_page: _styling-and-creative-direction/salissant-charme.html
