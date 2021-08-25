@@ -2,7 +2,7 @@
 label: Image(s)
 hide_body: true
 fields:
-- name: image_s_caption
+- name: image_s_name
   type: text
   config:
     required: false
