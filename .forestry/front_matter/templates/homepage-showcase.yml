@@ -10,20 +10,11 @@ fields:
     config:
       maxSize: 2.5
     label: Entry image
-  - name: entry_caption
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Entry caption (optional)
   - name: entry_link
     type: text
     config:
       required: false
-    label: Entry link (optional)
+    label: Entry link
   config:
     min: 
     max: 
