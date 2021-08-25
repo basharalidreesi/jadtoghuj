@@ -35,7 +35,8 @@ style:
                                         </header>
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" -%}
-                                        {%- for image in media.look_images %}
+                                        {%- for image in media.look_images -%}
+                                        {%- if image and image.size != 0 %}
                                         <figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}">
                                                 <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
@@ -47,10 +48,12 @@ style:
                                                         </span>
                                                 </figcaption>
                                         </figure>
+                                        {%- endif -%}
                                         {%- endfor -%}
                                         {%- endif -%}
                                         {%- if media.template == "image-s" -%}
-                                        {%- for image in media.images %}
+                                        {%- for image in media.images -%}
+                                        {%- if image and image.size != 0 %}
                                         <figure class="project__carouselItem" data-jad-cp-label="">
                                                 <img src="{{ image }}" title="{{ project.project_name }}" />
                                                 <figcaption class="generic--hidden">
@@ -59,6 +62,7 @@ style:
                                                         </span>
                                                 </figcaption>
                                         </figure>
+                                        {%- endif -%}
                                         {%- endfor -%}
                                         {%- endif -%}
                                         {%- if media.template == "video" -%}
