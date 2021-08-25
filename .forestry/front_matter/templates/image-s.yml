@@ -2,6 +2,11 @@
 label: Image(s)
 hide_body: true
 fields:
+- name: image_s_caption
+  type: text
+  config:
+    required: false
+  label: Image(s) name
 - name: images
   type: image_gallery
   config: {}
