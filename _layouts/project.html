@@ -37,7 +37,7 @@ style:
                                         {%- if media.template == "look" -%}
                                         {%- for image in media.look_images -%}
                                         {%- if image and image.size != 0 %}
-                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}" data-jad-cp-description="">
+                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}" data-jad-cp-description="{{ media.look_description }}">
                                                 <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
@@ -54,7 +54,7 @@ style:
                                         {%- if media.template == "image-s" -%}
                                         {%- for image in media.images -%}
                                         {%- if image and image.size != 0 %}
-                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}" data-jad-cp-description="">
+                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}" data-jad-cp-description="{{ media.image_s_description }}">
                                                 <img src="{{ image }}" title="{%- if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- endif -%}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
