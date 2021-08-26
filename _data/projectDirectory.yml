@@ -1,5 +1,17 @@
 ---
 projects:
+- project_name: Sara on a Mission
+  project_description: ''
+  project_page: []
+  project_tags:
+  - experimental
+  - personal
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/sara-on-a-mission-look-01.png"
+    look_description: ''
+    look_images: []
 - project_name: Nedaa Sharara for ET Bil Arabi
   project_description: ''
   project_page: _styling-and-creative-direction/nedaa-sharara-for-et-bil-arabi.html
