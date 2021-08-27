@@ -201,6 +201,10 @@ const jad = {
                         } else {
                                 jad.lexicon.carouselConsoleLabel.classList.add("generic--displayNone");
                                 jad.lexicon.carouselConsole.classList.remove("project__console--active");
+                                let change = new Event("change");
+                                jad.lexicon.carouselConsolePanel.innerHTML = "";
+                                jad.lexicon.carouselConsoleToggle.checked = false;
+                                jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
                         }
                 },
                 listenToConsoleChange: function() {
