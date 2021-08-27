@@ -218,7 +218,7 @@ const jad = {
                         });
                 },
                 listenToConsoleClick: function() {
-                        jad.lexicon.carouselConsole.addEventListener("click", () => {
+                        jad.lexicon.carouselConsolePanel.addEventListener("click", () => {
                                 jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                         });
                 },
