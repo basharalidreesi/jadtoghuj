@@ -196,10 +196,10 @@ const jad = {
                                 jad.lexicon.carouselRight.classList.remove("generic--notVisible");
                         }
                         if (entry.hasAttribute("data-jad-cp-description")) {
-                                jad.lexicon.carouselConsoleLabel.classList.remove("generic--displayNone");
+                                jad.lexicon.carouselConsole.classList.remove("generic--displayNone");
                                 jad.lexicon.carouselConsolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
                         } else {
-                                jad.lexicon.carouselConsoleLabel.classList.add("generic--displayNone");
+                                jad.lexicon.carouselConsole.classList.add("generic--displayNone");
                                 jad.lexicon.carouselConsole.classList.remove("project__console--active");
                                 // let change = new Event("change");
                                 // jad.lexicon.carouselConsolePanel.innerHTML = "";
