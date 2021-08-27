@@ -222,6 +222,9 @@ body {
                         z-index: 100;
                         &__descriptionToggle {
                                 display: none;
+                                &:not(:checked) + #project__console__descriptionPanel {
+                                        display: none;
+                                }
                         }
                         &__descriptionPanel {
                                 position: absolute;
