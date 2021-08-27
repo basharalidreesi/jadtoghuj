@@ -216,6 +216,8 @@ body {
                         top: calc(5rem - 1px);
                         left: 50%;
                         transform: translateX(-50%);
+                        --color-text: white;
+                        mix-blend-mode: difference;
                         z-index: 100;
                         &__descriptionToggle {
                                 display: none;
