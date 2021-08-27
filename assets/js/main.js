@@ -219,7 +219,11 @@ const jad = {
                 },
                 listenToConsoleClick: function() {
                         jad.lexicon.carouselConsolePanel.addEventListener("click", () => {
-                                jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
+                                if (jad.lexicon.carouselConsole.classList.contains("generic--halfOpacity")) {
+                                        jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
+                                } else {
+                                        jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
+                                }
                         });
                 },
 
