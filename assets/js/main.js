@@ -200,10 +200,7 @@ const jad = {
                                 jad.lexicon.carouselConsolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
                         } else {
                                 jad.lexicon.carouselConsoleLabel.classList.add("generic--displayNone");
-                                let change = new Event("change");
-                                jad.lexicon.carouselConsolePanel.innerHTML = "";
-                                jad.lexicon.carouselConsoleToggle.checked = false;
-                                jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
+                                jad.lexicon.carouselConsole.classList.remove("project__console--active");
                         }
                 },
                 listenToConsoleChange: function() {
