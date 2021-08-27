@@ -139,6 +139,7 @@ const jad = {
                         jad.carousel.displayCpAndConsole();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
+                        jad.carousel.listenToConsoleChange();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
@@ -204,6 +205,15 @@ const jad = {
                                 jad.lexicon.carouselConsoleToggle.checked = false;
                                 jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
                         }
+                },
+                listenToConsoleChange: function() {
+                        jad.lexicon.carouselConsole.addEventListener("change", () => {
+                                if (jad.lexicon.carouselConsoleToggle.checked) {
+                                        jad.lexicon.carouselConsole.classList.add("project__console--active");
+                                } else {
+                                        jad.lexicon.carouselConsole.classList.remove("project__console--active");
+                                }
+                        });
                 },
 
         },

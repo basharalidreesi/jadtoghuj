@@ -225,9 +225,6 @@ body {
                                 &:not(:checked) + #project__console__descriptionPanel {
                                         display: none;
                                 }
-                                &:checked ~ #project__console__descriptionLabel {
-                                        // background: var(--color-top);
-                                }
                         }
                         &__descriptionPanel {
                                 position: absolute;
@@ -237,7 +234,6 @@ body {
                                 width: 25vw;
                                 padding: 2rem;
                                 border: 1px solid var(--color-text);
-                                // background: var(--color-top);
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
                                 text-align: center;
@@ -253,7 +249,6 @@ body {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                // background: var(--color-top);
                                 border: 1px solid var(--color-text);
                                 border-radius: 100%;
                                 padding: 1rem;
@@ -272,6 +267,13 @@ body {
                                         }
                                 }
                         }
+                }
+                .project__console--active {
+                        --color-text: var(--color-text--redundant) !important;
+                        mix-blend-mode: normal;
+                        & > * {
+                                background: var(--color-top);
+                        }                        
                 }
 
         }
