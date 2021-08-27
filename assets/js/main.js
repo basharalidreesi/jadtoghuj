@@ -22,6 +22,7 @@ const jad = {
                 carouselCounter: document.querySelector("#project__cp__counter"),
                 carouselLeft: document.querySelector("#project__cp__left"),
                 carouselRight: document.querySelector("#project__cp__right"),
+                consoleToggle: document.querySelector("#project__console__descriptionToggle"),
                 consolePanel: document.querySelector("#project__console__descriptionPanel"),
                 consoleLabel: document.querySelector("#project__console__descriptionLabel"),
         },
@@ -196,7 +197,10 @@ const jad = {
                                 jad.lexicon.consolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
                         } else {
                                 jad.lexicon.consoleLabel.classList.add("generic--displayNone");
+                                let change = new Event("change");
                                 jad.lexicon.consolePanel.innerHTML = "";
+                                jad.lexicon.consoleToggle.checked = false;
+                                jad.lexicon.consoleToggle.dispatchEvent(change);
                         }
                 },
                 moveCpWhenNavIsChecked: function() {
