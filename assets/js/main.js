@@ -22,9 +22,10 @@ const jad = {
                 carouselCounter: document.querySelector("#project__cp__counter"),
                 carouselLeft: document.querySelector("#project__cp__left"),
                 carouselRight: document.querySelector("#project__cp__right"),
-                consoleToggle: document.querySelector("#project__console__descriptionToggle"),
-                consolePanel: document.querySelector("#project__console__descriptionPanel"),
-                consoleLabel: document.querySelector("#project__console__descriptionLabel"),
+                carouselConsole: document.querySelector("#project__console"),
+                carouselConsoleToggle: document.querySelector("#project__console__descriptionToggle"),
+                carouselConsolePanel: document.querySelector("#project__console__descriptionPanel"),
+                carouselConsoleLabel: document.querySelector("#project__console__descriptionLabel"),
         },
 
         initAllScripts: function() {
@@ -192,14 +193,14 @@ const jad = {
                                 jad.lexicon.carouselRight.classList.remove("generic--notVisible");
                         }
                         if (entry.hasAttribute("data-jad-cp-description")) {
-                                jad.lexicon.consoleLabel.classList.remove("generic--displayNone");
-                                jad.lexicon.consolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
+                                jad.lexicon.carouselConsoleLabel.classList.remove("generic--displayNone");
+                                jad.lexicon.carouselConsolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
                         } else {
-                                jad.lexicon.consoleLabel.classList.add("generic--displayNone");
+                                jad.lexicon.carouselConsoleLabel.classList.add("generic--displayNone");
                                 let change = new Event("change");
-                                jad.lexicon.consolePanel.innerHTML = "";
-                                jad.lexicon.consoleToggle.checked = false;
-                                jad.lexicon.consoleToggle.dispatchEvent(change);
+                                jad.lexicon.carouselConsolePanel.innerHTML = "";
+                                jad.lexicon.carouselConsoleToggle.checked = false;
+                                jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
                         }
                 },
 
