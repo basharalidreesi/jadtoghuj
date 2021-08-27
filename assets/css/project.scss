@@ -188,11 +188,6 @@ body {
                         touch-action: manipulation;
                         &__counter {
                                 margin: auto 0;
-                                @media (any-hover: hover) {
-                                        &:hover ~ #project__cp__description {
-                                                --color-text: var(--color-special);
-                                        }
-                                }
                         }
                         &__left,
                         &__right {
