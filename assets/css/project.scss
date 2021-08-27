@@ -223,7 +223,21 @@ body {
                         &__descriptionToggle {
                                 display: none;
                         }
+                        &__descriptionPanel {
+                                position: absolute;
+                                top: 1.25rem;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                width: 25vw;
+                                padding: 2rem;
+                                border: 1px solid;
+                                background: var(--color-top);
+                                font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                font-weight: 300;
+                                text-align: center;
+                        }
                         &__descriptionLabel {
+                                position: relative;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
@@ -240,9 +254,6 @@ body {
                                                 --color-text: var(--color-special);
                                         }
                                 }
-                        }
-                        &__description {
-                                display: none;
                         }
                 }
 
