@@ -38,17 +38,15 @@ style:
                                         {%- if media.template == "look" -%}
                                         {%- for image in media.look_images -%}
                                         {%- if image and image.size != 0 %}
-                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}" {%- if media.look_description and media.look_description.size != 0 %} data-jad-cp-hasdescription="true" {%- else } data-jad-cp-hasdescription="false" {%- endif %} data-jad-cp-description="{{ media.look_description }}">
+                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}" data-jad-cp-description="{{ media.look_description }}">
                                                 <img src="{{ image }}" title="{{ media.look_name }}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
                                                                 {{ media.look_name }}
                                                         </span>
-                                                        {%- if media.look_description and media.look_description.size != 0 %}
                                                         <span>
                                                                 {{ media.look_description }}
                                                         </span>
-                                                        {%- endif %}
                                                 </figcaption>
                                         </figure>
                                         {%- endif -%}
@@ -57,17 +55,12 @@ style:
                                         {%- if media.template == "image-s" -%}
                                         {%- for image in media.images -%}
                                         {%- if image and image.size != 0 %}
-                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}" {%- if media.image_s_description and media.image_s_description.size != 0 %} data-jad-cp-hasdescription="true" {%- else } data-jad-cp-hasdescription="false" {%- endif %} data-jad-cp-description="{{ media.image_s_description }}">
+                                        <figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}" data-jad-cp-description="{{ media.image_s_description }}">
                                                 <img src="{{ image }}" title="{%- if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- endif -%}" />
                                                 <figcaption class="generic--hidden">
                                                         <span>
                                                                 {% if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- else -%} {{ project.project_name }} {%- endif %}
                                                         </span>
-                                                        {%- if media.image_s_description and media.image_s_description.size != 0 %}
-                                                        <span>
-                                                                {{ media.image_s_description }}
-                                                        </span>
-                                                        {%- endif %}
                                                 </figcaption>
                                         </figure>
                                         {%- endif -%}
