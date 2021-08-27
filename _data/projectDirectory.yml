@@ -499,7 +499,7 @@ projects:
     - "/assets/graphics/_q3a3846.jpg"
     - "/assets/graphics/_q3a3802.jpg"
     - "/assets/graphics/_q3a3769.jpg"
-    image_s_name: Bunch of images
+    image_s_name: ''
     image_s_description: ''
 - project_name: Salissant Charme
   project_description: Dirty Glamour w/ Fashion House Amman
