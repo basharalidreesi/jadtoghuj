@@ -69,6 +69,10 @@ body {
                         }
                         &__carouselItem {
                                 height: 100%;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
                                 img {
                                         display: block;
                                         height: 100%;
@@ -156,10 +160,6 @@ body {
                                         border: 1px solid var(--color-text--light);
                                         border-radius: 100%;
                                         cursor: e-resize;
-                                        -webkit-user-select: none;
-                			-moz-user-select: none;
-                			-ms-user-select: none;
-                			user-select: none;
                                 }
                                 span:nth-of-type(2) {
                                         padding-top: 2rem;
