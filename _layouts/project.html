@@ -22,7 +22,6 @@ style:
                                                 <div id="project__cp__right" title="Next slide">
                                                         →
                                                 </div>
-                                                <div id="project__cp__description" class="generic--displayNone" title="Slide description"></div>
                                         </div>
                                         <header class="project__carouselItem project__carouselTitle" data-jad-cp-label="">
                                                 <span id="project__title" title="Next slide">
@@ -88,6 +87,11 @@ style:
                                         <footer class="project__carouselItem project__carouselFooter" data-jad-cp-label="">
                                                 {{ site.data.generalConfiguration.footer_text }}
                                         </footer>
+                                </div>
+                                <div id="project__console">
+                                        <input type="checkbox" id="project__console__descriptionToggle" />
+                                        <label for="project__console__descriptionToggle" id="project__console__descriptionLabel" class="generic--jsOnly generic--displayNone" title="Slide description"></label>
+                                        <div id="project__console__descriptionPanel"></div>
                                 </div>
                                 {%- endif -%}
                                 {%- endfor %}

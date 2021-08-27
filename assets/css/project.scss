@@ -50,6 +50,7 @@ body {
                 flex: 1;
 
                 .project {
+                        position: relative;
                         height: calc(var(--vh, 1vh) * 100 - 10rem - 2px);
                         &__carousel {
                                 display: flex;
@@ -208,7 +209,18 @@ body {
                         &__right {
                                 cursor: e-resize;
                         }
-                        &__description {
+                }
+                .project__cp--shifted {
+                        top: calc(25rem + 2px) !important;
+                }
+
+                #project__console {
+                        position: absolute;
+                        top: calc(5rem - 1px);
+                        &__descriptionToggle {
+                                display: none;
+                        }
+                        &__descriptionLabel {
                                 position: absolute;
                                 top: 5rem;
                                 left: 50%;
@@ -233,9 +245,9 @@ body {
                                         font-style: italic;
                                 }
                         }
-                }
-                .project__cp--shifted {
-                        top: calc(25rem + 2px) !important;
+                        &__description {
+                                display: none;
+                        }
                 }
 
         }
