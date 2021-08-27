@@ -225,6 +225,9 @@ body {
                                 &:not(:checked) + #project__console__descriptionPanel {
                                         display: none;
                                 }
+                                &:checked ~ #project__console__descriptionLabel {
+                                        background: var(--color-top);
+                                }
                         }
                         &__descriptionPanel {
                                 position: absolute;
