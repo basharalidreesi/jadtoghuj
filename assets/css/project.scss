@@ -273,7 +273,7 @@ body {
                         mix-blend-mode: normal !important;
                         & > * {
                                 background: var(--color-top) !important;
-                                border-color: var(--color-text--light);
+                                border-color: var(--color-text--light) !important;
                         }
                 }
 
