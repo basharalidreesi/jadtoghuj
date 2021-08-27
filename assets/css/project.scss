@@ -241,6 +241,7 @@ body {
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
                                 text-align: center;
+                                transition: background-color 0.5s;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 background: var(--color-top);
