@@ -140,6 +140,7 @@ const jad = {
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
                         jad.carousel.listenToConsoleChange();
+                        jad.carousel.listenToConsoleClick();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
@@ -200,11 +201,6 @@ const jad = {
                                 jad.lexicon.carouselConsolePanel.innerHTML = entry.getAttribute("data-jad-cp-description");
                         } else {
                                 jad.lexicon.carouselConsole.classList.add("generic--displayNone");
-                                // jad.lexicon.carouselConsole.classList.remove("project__console--active");
-                                // let change = new Event("change");
-                                // jad.lexicon.carouselConsolePanel.innerHTML = "";
-                                // jad.lexicon.carouselConsoleToggle.checked = false;
-                                // jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
                         }
                         if (jad.lexicon.carouselConsoleToggle.checked) {
                                 jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
@@ -213,12 +209,17 @@ const jad = {
                         }
                 },
                 listenToConsoleChange: function() {
-                        jad.lexicon.carouselConsole.addEventListener("change", () => {
-                                if (jad.lexicon.carouselConsoleToggle.checked) {
-                                        jad.lexicon.carouselConsole.classList.add("project__console--active");
-                                } else {
-                                        jad.lexicon.carouselConsole.classList.remove("project__console--active");
-                                }
+                        // jad.lexicon.carouselConsole.addEventListener("change", () => {
+                        //         if (jad.lexicon.carouselConsoleToggle.checked) {
+                        //                 jad.lexicon.carouselConsole.classList.add("project__console--active");
+                        //         } else {
+                        //                 jad.lexicon.carouselConsole.classList.remove("project__console--active");
+                        //         }
+                        // });
+                },
+                listenToConsoleClick: function() {
+                        jad.lexicon.carouselConsole.addEventListener("click", () => {
+                                jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                         });
                 },
 
