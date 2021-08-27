@@ -219,7 +219,7 @@ body {
                         --color-text: white;
                         mix-blend-mode: difference;
                         z-index: 100;
-                        transition: opacity 0.5s;
+                        transition: opacity 0.25s;
                         @media (any-hover: hover) {
                                 &:hover {
                                         opacity: 1 !important;
