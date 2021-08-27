@@ -209,13 +209,13 @@ const jad = {
                         }
                 },
                 listenToConsoleChange: function() {
-                        // jad.lexicon.carouselConsole.addEventListener("change", () => {
-                        //         if (jad.lexicon.carouselConsoleToggle.checked) {
-                        //                 jad.lexicon.carouselConsole.classList.add("project__console--active");
-                        //         } else {
-                        //                 jad.lexicon.carouselConsole.classList.remove("project__console--active");
-                        //         }
-                        // });
+                        jad.lexicon.carouselConsole.addEventListener("change", () => {
+                                if (jad.lexicon.carouselConsoleToggle.checked) {
+                                        jad.lexicon.carouselConsole.classList.add("project__console--active");
+                                } else {
+                                        jad.lexicon.carouselConsole.classList.remove("project__console--active");
+                                }
+                        });
                 },
                 listenToConsoleClick: function() {
                         jad.lexicon.carouselConsole.addEventListener("click", () => {
