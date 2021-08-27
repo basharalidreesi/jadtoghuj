@@ -225,7 +225,7 @@ body {
                                         display: none;
                                 }
                                 &:checked ~ #project__console__descriptionLabel {
-                                        background: var(--color-top);
+                                        // background: var(--color-top);
                                 }
                         }
                         &__descriptionPanel {
