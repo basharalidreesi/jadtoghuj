@@ -270,10 +270,10 @@ body {
                 }
                 .project__console--active {
                         --color-text: var(--color-text--redundant) !important;
-                        mix-blend-mode: normal;
+                        mix-blend-mode: normal !important;
                         & > * {
-                                background: var(--color-top);
-                        }                        
+                                background: var(--color-top) !important;
+                        }
                 }
 
         }
