@@ -138,7 +138,6 @@ const jad = {
                         jad.carousel.displayCp();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
-                        jad.carousel.moveCpWhenNavIsChecked();
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
@@ -202,11 +201,6 @@ const jad = {
                                 jad.lexicon.consoleToggle.checked = false;
                                 jad.lexicon.consoleToggle.dispatchEvent(change);
                         }
-                },
-                moveCpWhenNavIsChecked: function() {
-                        jad.lexicon.navToggle.addEventListener("change", (event) => {
-                                jad.lexicon.carouselCp.classList.toggle("project__cp--shifted");
-                        });
                 },
 
         },
