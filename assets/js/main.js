@@ -136,7 +136,7 @@ const jad = {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.carousel.transformScroll);
                         jad.carousel.activateTitleScroll();
-                        jad.carousel.displayCp();
+                        jad.carousel.displayCpAndConsole();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
                 },
@@ -149,10 +149,12 @@ const jad = {
                                 jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[0].getBoundingClientRect().width / 2) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
                         });
                 },
-                displayCp: function() {
+                displayCpAndConsole: function() {
                         window.addEventListener("load", () => {
                                 jad.lexicon.carouselCp.classList.remove("generic--notVisible");
                                 jad.lexicon.carouselCp.classList.remove("generic--zeroOpacity");
+                                jad.lexicon.carouselConsole.classList.remove("generic--notVisible");
+                                jad.lexicon.carouselConsole.classList.remove("generic--zeroOpacity");
                         });
                 },
                 currentIntersection: null,
