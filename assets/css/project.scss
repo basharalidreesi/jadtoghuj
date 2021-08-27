@@ -220,6 +220,11 @@ body {
                         mix-blend-mode: difference;
                         z-index: 100;
                         transition: opacity 0.5s;
+                        @media (any-hover: hover) {
+                                &:hover {
+                                        opacity: 1 !important;
+                                }
+                        }
                         &__descriptionToggle {
                                 display: none;
                                 &:not(:checked) + #project__console__descriptionPanel {
