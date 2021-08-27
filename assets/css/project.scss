@@ -255,6 +255,10 @@ body {
                                 font-style: italic;
                                 line-height: 0.25;
                                 cursor: help;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
