@@ -206,7 +206,20 @@ body {
                                 cursor: e-resize;
                         }
                         &__description {
-                                /* display: none; */
+                                position: absolute;
+                                top: 5rem;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                width: 2rem;
+                                height: 2rem;
+                                border: 1px solid var(--color-text);
+                                border-radius: 100%;
+                                &::before {
+                                        content: "i";
+                                        font-family: "Times", "Times New Roman", serif;
+                                        font-weight: 400;
+                                        font-style: italic;
+                                }
                         }
                 }
                 .project__cp--shifted {
