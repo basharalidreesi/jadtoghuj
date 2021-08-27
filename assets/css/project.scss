@@ -231,6 +231,10 @@ body {
                                 &:not(:checked) + #project__console__descriptionPanel {
                                         display: none;
                                 }
+                                &:checked ~ #project__console__descriptionLabel {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);
+                                }
                         }
                         &__descriptionPanel {
                                 position: absolute;
