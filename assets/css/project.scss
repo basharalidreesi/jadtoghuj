@@ -168,8 +168,8 @@ body {
                 }
 
                 #project__cp {
-                        position: fixed;
-                        top: calc(10rem + 2px);
+                        position: absolute;
+                        top: -1px;
                         left: 0;
                         display: flex;
                         flex-flow: row nowrap;
