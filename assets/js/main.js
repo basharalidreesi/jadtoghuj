@@ -208,6 +208,8 @@ const jad = {
                         }
                         if (jad.lexicon.carouselConsoleToggle.checked) {
                                 jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
+                        } else {
+                                jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                         }
                 },
                 listenToConsoleChange: function() {
