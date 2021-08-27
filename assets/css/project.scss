@@ -87,9 +87,9 @@ body {
                 			-ms-user-select: none;
                 			user-select: none;
                                 }
-                                &[data-jad-cp-description] {
-                                        cursor: help;
-                                }
+                                // &[data-jad-cp-description] {
+                                //         cursor: help;
+                                // }
                         }
                         &__carouselVideo {
                                 flex: 1 0 auto;
@@ -217,14 +217,12 @@ body {
                 #project__console {
                         position: absolute;
                         top: calc(5rem - 1px);
+                        left: 50%;
+                        transform: translateX(-50%);
                         &__descriptionToggle {
                                 display: none;
                         }
                         &__descriptionLabel {
-                                position: absolute;
-                                top: 5rem;
-                                left: 50%;
-                                transform: translateX(-50%);
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
