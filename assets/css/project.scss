@@ -241,6 +241,12 @@ body {
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
                                 text-align: center;
+                                @media (max-width: 768px) {
+                        		width: 50vw;
+                        	}
+                                @media (max-width: 512px) {
+                                        width: calc(100vw - 4rem);
+                                }
                         }
                         &__descriptionLabel {
                                 position: relative;
