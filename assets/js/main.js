@@ -214,6 +214,7 @@ const jad = {
                                         jad.lexicon.carouselConsole.classList.add("project__console--active");
                                 } else {
                                         jad.lexicon.carouselConsole.classList.remove("project__console--active");
+                                        jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                                 }
                         });
                 },
