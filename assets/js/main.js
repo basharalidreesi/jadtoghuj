@@ -206,6 +206,9 @@ const jad = {
                                 jad.lexicon.carouselConsoleToggle.checked = false;
                                 jad.lexicon.carouselConsoleToggle.dispatchEvent(change);
                         }
+                        if (jad.lexicon.carouselConsoleToggle.checked) {
+                                jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
+                        }
                 },
                 listenToConsoleChange: function() {
                         jad.lexicon.carouselConsole.addEventListener("change", () => {
