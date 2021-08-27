@@ -220,6 +220,7 @@ body {
                         mix-blend-mode: difference;
                         z-index: 100;
                         transition: opacity 0.25s;
+                        touch-action: manipulation;
                         @media (any-hover: hover) {
                                 &:hover {
                                         opacity: 1 !important;
@@ -243,6 +244,7 @@ body {
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
                                 text-align: center;
+                                cursor: default;
                                 @media (max-width: 1280px) {
                         		width: 50vw;
                         	}
