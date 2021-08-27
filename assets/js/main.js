@@ -202,11 +202,11 @@ const jad = {
                         } else {
                                 jad.lexicon.carouselConsole.classList.add("generic--displayNone");
                         }
-                        if (jad.lexicon.carouselConsoleToggle.checked) {
-                                jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
-                        } else {
-                                jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
-                        }
+                        // if (jad.lexicon.carouselConsoleToggle.checked) {
+                        //         jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
+                        // } else {
+                        //         jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
+                        // }
                 },
                 listenToConsoleChange: function() {
                         jad.lexicon.carouselConsole.addEventListener("change", () => {
