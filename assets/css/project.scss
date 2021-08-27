@@ -234,6 +234,7 @@ body {
                                 font-style: italic;
                                 line-height: 0.25;
                                 cursor: help;
+                                z-index: 100;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
