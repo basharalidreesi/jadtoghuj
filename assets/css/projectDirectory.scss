@@ -181,7 +181,7 @@
                                 position: relative;
                                 padding: 1rem;
                                 &:nth-of-type(n+4) {
-                                        animation: fadeIn 0.25s;
+                                        animation: fadeIn 0.5s;
                                 }
                                 &::before {
                                         content: "";
@@ -289,7 +289,7 @@
                                 background: linear-gradient(to right, transparent, var(--color-bottom--light), transparent);
                         }
                         &:nth-of-type(n+4) {
-                                animation: fadeIn 0.25s;
+                                animation: fadeIn 0.5s;
                         }
                         &:first-of-type:nth-last-of-type(1) ~ #projectDirectory__allProjects,
                         &:first-of-type:nth-last-of-type(2) ~ #projectDirectory__allProjects,
