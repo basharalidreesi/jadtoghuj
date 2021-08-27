@@ -226,8 +226,6 @@ body {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                width: 2rem;
-                                height: 2rem;
                                 border: 1px solid var(--color-text);
                                 border-radius: 100%;
                                 cursor: help;
@@ -238,9 +236,11 @@ body {
                                 }
                                 &::before {
                                         content: "i";
+                                        padding: 1rem;
                                         font-family: "Times", "Times New Roman", serif;
                                         font-weight: 400;
                                         font-style: italic;
+                                        line-height: 0.25;
                                 }
                         }
                         &__description {
