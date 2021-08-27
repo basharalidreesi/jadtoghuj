@@ -213,9 +213,9 @@ body {
 
                 #project__console {
                         position: absolute;
-                        top: calc(5rem - 1px);
+                        bottom: 0;
                         left: 50%;
-                        transform: translateX(-50%);
+                        transform: translate(-50%, -100%);
                         --color-text: white;
                         mix-blend-mode: difference;
                         z-index: 100;
@@ -238,7 +238,7 @@ body {
                         }
                         &__descriptionPanel {
                                 position: absolute;
-                                top: 1.25rem;
+                                bottom: 1.25rem;
                                 left: 50%;
                                 transform: translateX(-50%);
                                 width: 25vw;
