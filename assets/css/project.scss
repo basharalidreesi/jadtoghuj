@@ -205,6 +205,9 @@ body {
                         &__right {
                                 cursor: e-resize;
                         }
+                        &__description {
+                                /* display: none; */
+                        }
                 }
                 .project__cp--shifted {
                         top: calc(25rem + 2px) !important;
