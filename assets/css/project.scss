@@ -218,6 +218,7 @@ body {
                                 border: 1px solid var(--color-text);
                                 border-radius: 100%;
                                 animation: fadeIn 0.5s;
+                                cursor: help;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
