@@ -219,6 +219,7 @@ body {
                         top: calc(5rem - 1px);
                         left: 50%;
                         transform: translateX(-50%);
+                        z-index: 100;
                         &__descriptionToggle {
                                 display: none;
                         }
@@ -234,7 +235,6 @@ body {
                                 font-style: italic;
                                 line-height: 0.25;
                                 cursor: help;
-                                z-index: 100;
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
