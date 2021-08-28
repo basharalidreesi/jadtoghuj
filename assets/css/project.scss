@@ -221,11 +221,11 @@ body {
                         z-index: 100;
                         transition: opacity 0.25s;
                         touch-action: manipulation;
-                        @media (any-hover: hover) {
-                                &:hover {
-                                        opacity: 1 !important;
-                                }
-                        }
+                        // @media (any-hover: hover) {
+                        //         &:hover {
+                        //                 opacity: 1 !important;
+                        //         }
+                        // }
                         &__descriptionToggle {
                                 display: none;
                                 &:not(:checked) + #project__console__descriptionPanel {
@@ -242,7 +242,7 @@ body {
                                 left: 50%;
                                 transform: translateX(-50%);
                                 width: 25vw;
-                                padding: 1.25rem;
+                                padding: 2rem 1.25rem;
                                 border: 1px solid var(--color-text);
                                 border-radius: 0.75rem;
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -254,6 +254,18 @@ body {
                         	}
                                 @media (max-width: 512px) {
                                         width: calc(100vw - 4rem);
+                                        padding: 1.25rem;
+                                }
+                                a {
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-text--light);
+                                        text-decoration-thickness: 2px;
+                                        @media (any-hover: hover) {
+                                                &:hover {
+                                                        --color-text: var(--color-special);
+                                                        --color-text--light: var(--color-special);
+                                                }
+                                        }
                                 }
                         }
                         &__descriptionLabel {
