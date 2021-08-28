@@ -55,9 +55,6 @@ body {
                         @media (prefers-color-scheme: dark) {
                                 isolation: isolate;
                         }
-                        * {
-                                touch-action: manipulation !important;
-                        }
                         &__carousel {
                                 display: flex;
                                 flex-flow: row nowrap;
