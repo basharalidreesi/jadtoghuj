@@ -55,6 +55,9 @@ body {
                         @media (prefers-color-scheme: dark) {
                                 isolation: isolate;
                         }
+                        * {
+                                touch-action: manipulation !important;
+                        }
                         &__carousel {
                                 display: flex;
                                 flex-flow: row nowrap;
@@ -189,7 +192,6 @@ body {
                         user-select: none;
                         z-index: 50;
                         transition: opacity 0.5s;
-                        touch-action: manipulation;
                         &__counter {
                                 margin: auto 0;
                         }
@@ -220,7 +222,6 @@ body {
                         mix-blend-mode: difference;
                         z-index: 100;
                         transition: opacity 0.25s;
-                        touch-action: manipulation;
                         // @media (any-hover: hover) {
                         //         &:hover {
                         //                 opacity: 1 !important;
