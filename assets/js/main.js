@@ -135,7 +135,7 @@ const jad = {
                 initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         window.addEventListener("wheel", jad.carousel.transformScroll);
-                        jad.carousel.activateTitleScroll();
+                        // jad.carousel.activateTitleScroll();
                         jad.carousel.displayCpAndConsole();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
@@ -148,9 +148,9 @@ const jad = {
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
                 activateTitleScroll: function() {
-                        jad.lexicon.projectTitle.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[0].getBoundingClientRect().width / 2) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
-                        });
+                        // jad.lexicon.projectTitle.addEventListener("click", () => {
+                        //         jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[0].getBoundingClientRect().width / 2) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
+                        // });
                 },
                 displayCpAndConsole: function() {
                         window.addEventListener("load", () => {
@@ -163,10 +163,10 @@ const jad = {
                 currentIntersection: null,
                 activateCpScroll: function() {
                         jad.lexicon.carouselLeft.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.previousElementSibling.offsetLeft + 15 - (window.innerWidth / 2) + (jad.carousel.currentIntersection.previousElementSibling.getBoundingClientRect().width / 2);
+                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.previousElementSibling.offsetLeft + (15 / 2) - (window.innerWidth / 2) + (jad.carousel.currentIntersection.previousElementSibling.getBoundingClientRect().width / 2);
                         });
                         jad.lexicon.carouselRight.addEventListener("click", () => {
-                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.nextElementSibling.offsetLeft + 15 - (window.innerWidth / 2) + (jad.carousel.currentIntersection.nextElementSibling.getBoundingClientRect().width / 2);
+                                jad.lexicon.carousel.scrollLeft = jad.carousel.currentIntersection.nextElementSibling.offsetLeft + (15 / 2) - (window.innerWidth / 2) + (jad.carousel.currentIntersection.nextElementSibling.getBoundingClientRect().width / 2);
                         });
                 },
                 observeIntersections: function() {
