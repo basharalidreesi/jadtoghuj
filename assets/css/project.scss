@@ -287,6 +287,9 @@ body {
                                 -moz-user-select: none;
                                 -ms-user-select: none;
                                 user-select: none;
+                                &::before {
+                                        content: "i";
+                                }
                                 @media (any-hover: hover) {
                                         &:hover {
                                                 --color-text: var(--color-special);
