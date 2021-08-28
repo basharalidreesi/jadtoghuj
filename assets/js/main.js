@@ -144,6 +144,7 @@ const jad = {
                 },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
+                        if (event.target.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
                 activateTitleScroll: function() {
