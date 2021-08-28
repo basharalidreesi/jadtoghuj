@@ -252,9 +252,11 @@ body {
                                 @media (max-width: 1280px) {
                         		width: 50vw;
                         	}
+                                @media (max-width: 768px) {
+                                        padding: 1.25rem;
+                                }
                                 @media (max-width: 512px) {
                                         width: calc(100vw - 4rem);
-                                        padding: 1.25rem;
                                 }
                                 a {
                                         text-decoration: underline;
