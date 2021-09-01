@@ -155,7 +155,7 @@ const jad = {
                         var touchX = 0;
                         var touchY = 0;
                         window.addEventListener("touchstart", (event) => {
-                                jad.carousel.touchElement = event.touchPoint.target;
+                                jad.carousel.touchElement = event.target;
                                 touchX = event.touches[0].clientX;
                                 touchY = event.touches[0].clientY;
                         }, { passive: true });
