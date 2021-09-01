@@ -77,6 +77,22 @@ const jad = {
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
                         // jad.header.reportHeaderDelta();
+                        jad.header.trackHeaderY();
+                },
+                trackHeaderY: function() {
+                        if (!document.querySelector(".homepageShowcase")) { return; }
+                        window.addEventListener("scroll", () => {
+                                let headerOffsetTop = jad.lexicon.header.offsetTop;
+                                let headerHeight = jad.lexicon.header.getBoundingClientRect().height;
+                                let windowHeight = window.innerHeight;
+                                let headerYPos = (15 + headerOffsetTop + (headerHeight / 2)) / windowHeight;
+                                let headerYRatio = (headerYPos - 0.5) * 2;
+                                let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
+                                jad.header.reportHeaderY(clampedHeaderYRatio);
+                        }, { passive: true });
+                },
+                reportHeaderY: function(clampedHeaderYRatio) {
+                        console.log(clampedHeaderYRatio);
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
