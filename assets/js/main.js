@@ -87,14 +87,15 @@ const jad = {
                                 let windowHeight = window.innerHeight;
                                 let headerYPos = (15 + headerOffsetTop + (headerHeight / 2)) / windowHeight;
                                 let headerYRatio = (headerYPos - 0.5) * 2;
-                                let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
+                                let invertedHeaderYRatio = 1 / headerYRatio;
+                                let clampedHeaderYRatio = jad.util.clamp(0 , invertedHeaderYRatio, 1);
                                 jad.header.reportHeaderY(clampedHeaderYRatio);
                         }, { passive: true });
                 },
                 reportHeaderY: function(clampedHeaderYRatio) {
                         let oldRange = 1;
                         let newRange = 0.4;
-                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + 0.6;
+                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + (oldRange - newRange);
                         console.log(scaleRatio);
                 },
                 pickRandomLogo: function() {
