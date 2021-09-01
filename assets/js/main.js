@@ -161,10 +161,11 @@ const jad = {
                                 let transformedTouchX = event.changedTouches[0].clientX - touchX;
                                 let transformedTouchY = event.changedTouches[0].clientY - touchY;
                                 jad.carousel.transformTouch(transformedTouchX, transformedTouchY);
-                        });
+                        }, { passive: false });
                 },
-                transformTouch: function(transformedTouchX, transformedTouchY) {
+                transformTouch: function(transformedTouchX, transformedTouchY, event) {
                         if (Math.abs(transformedTouchX) > Math.abs(transformedTouchY)) { return; }
+                        event.preventDefault();
                         let retardationValue = -5;
                         jad.lexicon.carousel.scrollLeft += transformedTouchY / retardationValue;
                 },
