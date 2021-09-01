@@ -150,10 +150,12 @@ const jad = {
                         if (event.target.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
+                touchElement: null,
                 trackTouch: function() {
                         var touchX = 0;
                         var touchY = 0;
                         window.addEventListener("touchstart", (event) => {
+                                jad.carousel.touchElement = event.touchPoint.target;
                                 touchX = event.touches[0].clientX;
                                 touchY = event.touches[0].clientY;
                         }, { passive: true });
@@ -164,6 +166,7 @@ const jad = {
                         }, { passive: false });
                 },
                 transformTouch: function(transformedTouchX, transformedTouchY, event) {
+                        if (jad.carousel.touchElement && jad.carousel.touchElement.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         if (Math.abs(transformedTouchX) > Math.abs(transformedTouchY)) { return; }
                         event.preventDefault();
                         let retardationValue = -10;
