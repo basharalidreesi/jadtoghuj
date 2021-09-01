@@ -166,6 +166,7 @@ const jad = {
                         });
                 },
                 transformTouch: function(transformedTouchX, transformedTouchY) {
+                        if (transformedTouchX > transformedTouchY) { return; }
                         let retardationValue = -5;
                         jad.lexicon.carousel.scrollLeft += (transformedTouchX + transformedTouchY) / retardationValue;
                 },
