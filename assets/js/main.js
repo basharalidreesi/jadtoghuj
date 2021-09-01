@@ -101,7 +101,7 @@ const jad = {
                                 let headerYRatio = (headerYPos - 0.5) * 2;
                                 let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
                                 jad.header.processHeaderY(clampedHeaderYRatio);
-                        }, { passive: true });
+                        });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
                         var lineSlope = 0;
@@ -158,7 +158,7 @@ const jad = {
                                 jad.carousel.touchElement = event.target;
                                 touchX = event.touches[0].clientX;
                                 touchY = event.touches[0].clientY;
-                        }, { passive: true });
+                        });
                         window.addEventListener("touchmove", (event) => {
                                 let transformedTouchX = event.changedTouches[0].clientX - touchX;
                                 let transformedTouchY = event.changedTouches[0].clientY - touchY;
