@@ -92,7 +92,10 @@ const jad = {
                         }, { passive: true });
                 },
                 reportHeaderY: function(clampedHeaderYRatio) {
-                        console.log(clampedHeaderYRatio);
+                        let oldRange = 1;
+                        let newRange = 0.4;
+                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + 0.6;
+                        console.log(scaleRatio);
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
