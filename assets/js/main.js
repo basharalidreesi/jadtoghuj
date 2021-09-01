@@ -104,7 +104,7 @@ const jad = {
                         }, { passive: true });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
-                        let scaleRatio = jad.util.linear(-0.4, clampedHeaderYRatio, 0.6);
+                        let scaleRatio = jad.util.linear(-0.4, clampedHeaderYRatio, 1);
                         console.log(scaleRatio);
                 },
 
