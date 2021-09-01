@@ -135,6 +135,7 @@ const jad = {
                 initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
                         jad.carousel.trackWheel();
+                        jad.carousel.trackTouch();
                         jad.carousel.displayCpAndConsole();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
@@ -142,12 +143,31 @@ const jad = {
                         jad.carousel.listenToConsoleClick();
                 },
                 trackWheel: function() {
-                        window.addEventListener("wheel", jad.carousel.transformScroll);
+                        window.addEventListener("wheel", jad.carousel.transformWheel);
                 },
-                transformScroll: function(event) {
+                transformWheel: function(event) {
                         if (!event.deltaY) { return; }
                         if (event.target.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
+                },
+                transformedTouchX: 0,
+                transformedTouchY: 0,
+                trackTouch: function() {
+                        var touchX = 0;
+                        var touchY = 0;
+                        window.addEventListener("touchstart", (event) => {
+                                touchX = event.touches[0].clientX;
+                                touchY = event.touches[0].clientY;
+                        }, { passive: true });
+                        window.addEventListener("touchmove", (event) => {
+                                jad.carousel.transformedTouchX = event.changedTouches[0].clientX - touchX;
+                                jad.carousel.transformedTouchY = event.changedTouches[0].clientY - touchY;
+                                jad.carousel.transformTouch(jad.carousel.transformedTouchX, jad.carousel.transformedTouchY);
+                        });
+                },
+                transformTouch: function(transformedTouchX, transformedTouchY) {
+                        let retardationValue = 5;
+                        jad.lexicon.carousel.scrollLeft += (transformedTouchX + transformedTouchY) / retardationValue;
                 },
                 displayCpAndConsole: function() {
                         window.addEventListener("load", () => {
