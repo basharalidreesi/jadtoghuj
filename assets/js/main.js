@@ -79,17 +79,17 @@ const jad = {
                         jad.header.trackHeaderY();
                 },
                 pickRandomLogo: function() {
-                        let logos = new Array(
+                        // let logos = new Array(
                                 {%- for logo in site.data.logos.logo_images %}
-                                "{{ logo }}" {%- unless forloop.last %}, {% endunless %}
+                                // "{{ logo }}" {%- unless forloop.last %}, {% endunless %}
                                 {%- endfor %}
-                        );
-                        let randomLogo = (Math.floor(Math.random() * logos.length));
-                        jad.header.setRandomLogo(logos[randomLogo]);
+                        // );
+                        // let randomLogo = (Math.floor(Math.random() * logos.length));
+                        // jad.header.setRandomLogo(logos[randomLogo]);
                 },
                 setRandomLogo: function(randomLogo) {
-                        jad.lexicon.logo.src = randomLogo;
-                        SVGInject(jad.lexicon.logo);
+                        // jad.lexicon.logo.src = randomLogo;
+                        // SVGInject(jad.lexicon.logo);
                 },
                 trackHeaderY: function() {
                         if (!document.querySelector(".homepageShowcase")) { return; }
@@ -122,7 +122,7 @@ const jad = {
         nav: {
                 uncheckNavToggleOnWidthIncrease: function() {
                         if (!jad.lexicon.navToggle) { return; }
-                        if (window.innerWidth >= 768 && jad.lexicon.navToggle.checked) {
+                        if (jad.util.queryMedia("(max-width: 768px)") && jad.lexicon.navToggle.checked) {
                                 let change = new Event("change");
                                 jad.lexicon.navToggle.checked = false;
                                 jad.lexicon.navToggle.dispatchEvent(change);
@@ -134,23 +134,20 @@ const jad = {
 
                 initCarouselScripts: function() {
                         if (!jad.lexicon.carousel) { return; }
-                        window.addEventListener("wheel", jad.carousel.transformScroll);
-                        // jad.carousel.activateTitleScroll();
+                        jad.carousel.trackWheel();
                         jad.carousel.displayCpAndConsole();
                         jad.carousel.activateCpScroll();
                         jad.carousel.observeIntersections();
                         jad.carousel.listenToConsoleChange();
                         jad.carousel.listenToConsoleClick();
                 },
+                trackWheel: function() {
+                        window.addEventListener("wheel", jad.carousel.transformScroll);
+                },
                 transformScroll: function(event) {
                         if (!event.deltaY) { return; }
                         if (event.target.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
-                },
-                activateTitleScroll: function() {
-                        // jad.lexicon.projectTitle.addEventListener("click", () => {
-                        //         jad.lexicon.carousel.scrollLeft = (jad.lexicon.carouselItems[0].getBoundingClientRect().width / 2) + (jad.lexicon.carouselItems[1].getBoundingClientRect().width / 2);
-                        // });
                 },
                 displayCpAndConsole: function() {
                         window.addEventListener("load", () => {
@@ -203,11 +200,6 @@ const jad = {
                         } else {
                                 jad.lexicon.carouselConsole.classList.add("generic--displayNone");
                         }
-                        // if (jad.lexicon.carouselConsoleToggle.checked) {
-                        //         jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
-                        // } else {
-                        //         jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
-                        // }
                 },
                 listenToConsoleChange: function() {
                         jad.lexicon.carouselConsole.addEventListener("change", () => {
