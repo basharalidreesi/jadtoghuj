@@ -106,9 +106,8 @@ const jad = {
                 processHeaderY: function(clampedHeaderYRatio) {
                         let oldRange = 1;
                         let newRange = 0.4;
-                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + (oldRange - newRange);
-                        console.log("Header Y Ratio: " + clampedHeaderYRatio);
-                        console.log("Scale Ratio:    " + scaleRatio);
+                        let scaleRatio = ((newRange * -1) * clampedHeaderYRatio) + (oldRange - newRange);
+                        console.log(scaleRatio);
                 },
 
         },
