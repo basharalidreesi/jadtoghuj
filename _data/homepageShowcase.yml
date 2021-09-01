@@ -2,13 +2,13 @@
 entries:
 - entry_image: "/assets/graphics/hp-01.png"
   entry_caption: Lorem ipsum!
-  entry_link: "1"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-02.png"
   entry_caption: Dolor sit amet!
-  entry_link: "2"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-03.png"
   entry_caption: ''
-  entry_link: "3"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-04.png"
   entry_caption: ''
   entry_link: "4"
