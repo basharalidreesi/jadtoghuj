@@ -104,9 +104,7 @@ const jad = {
                         }, { passive: true });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
-                        let oldRange = 1;
-                        let newRange = 0.4;
-                        let scaleRatio = ((newRange * -1) * clampedHeaderYRatio) + (oldRange - newRange);
+                        let scaleRatio = jad.util.linear(-0.4, clampedHeaderYRatio, 0.6);
                         console.log(scaleRatio);
                 },
 
@@ -247,6 +245,10 @@ const jad = {
 			/* https://www.desmos.com/calculator */
 			return a * (x + b) ** 2 + c;
 		},
+                linear: function(a, x, b) {
+                        /* https://www.desmos.com/calculator */
+                        return (a * x) + b;
+                }
 		randomIntBetween: function(min, max) {
 			min = Math.ceil(min);
 			max = Math.floor(max);
