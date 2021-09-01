@@ -166,7 +166,7 @@ const jad = {
                 transformTouch: function(transformedTouchX, transformedTouchY, event) {
                         if (Math.abs(transformedTouchX) > Math.abs(transformedTouchY)) { return; }
                         event.preventDefault();
-                        let retardationValue = -7.5;
+                        let retardationValue = -10;
                         jad.lexicon.carousel.scrollLeft += transformedTouchY / retardationValue;
                 },
                 displayCpAndConsole: function() {
