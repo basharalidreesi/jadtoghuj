@@ -166,7 +166,7 @@ const jad = {
                         });
                 },
                 transformTouch: function(transformedTouchX, transformedTouchY) {
-                        let retardationValue = 5;
+                        let retardationValue = -5;
                         jad.lexicon.carousel.scrollLeft += (transformedTouchX + transformedTouchY) / retardationValue;
                 },
                 displayCpAndConsole: function() {
