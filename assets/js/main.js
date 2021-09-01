@@ -104,7 +104,7 @@ const jad = {
                         }, { passive: true });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
-                        let scaleRatio = jad.util.linear(-0.4, clampedHeaderYRatio, 1);
+                        let scaleRatio = jad.util.line(-0.4, clampedHeaderYRatio, 1);
                         console.log(scaleRatio);
                 },
 
@@ -245,7 +245,7 @@ const jad = {
 			/* https://www.desmos.com/calculator */
 			return a * (x + b) ** 2 + c;
 		},
-                linear: function(a, x, b) {
+                line: function(a, x, b) {
                         /* https://www.desmos.com/calculator */
                         return (a * x) + b;
                 }
