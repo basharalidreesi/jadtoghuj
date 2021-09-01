@@ -105,7 +105,10 @@ const jad = {
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
                         let scaleRatio = jad.util.line(-0.4, clampedHeaderYRatio, 1);
-                        console.log(scaleRatio);
+                        jad.header.scaleHeader(scaleRatio);
+                },
+                scaleHeader: function(scaleRatio) {
+                        jad.lexicon.header.style.setProperty("transform", "scale(" + scaleRatio + ")");
                 },
 
         },
