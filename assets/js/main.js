@@ -104,7 +104,13 @@ const jad = {
                         }, { passive: true });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
-                        let scaleRatio = jad.util.line(-0.4, clampedHeaderYRatio, 1);
+                        var lineSlope = 0;
+                        if (jad.util.queryMedia("(max-width: 512px)")) {
+                                lineSlope = -0.25;
+                        } else {
+                                lineSlope = -0.4;
+                        }
+                        let scaleRatio = jad.util.line(lineSlope, clampedHeaderYRatio, 1);
                         jad.header.scaleHeader(scaleRatio);
                 },
                 scaleHeader: function(scaleRatio) {
