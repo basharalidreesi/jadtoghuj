@@ -150,8 +150,6 @@ const jad = {
                         if (event.target.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
                         jad.lexicon.carousel.scrollLeft += event.deltaY;
                 },
-                transformedTouchX: 0,
-                transformedTouchY: 0,
                 trackTouch: function() {
                         var touchX = 0;
                         var touchY = 0;
@@ -160,9 +158,9 @@ const jad = {
                                 touchY = event.touches[0].clientY;
                         }, { passive: true });
                         window.addEventListener("touchmove", (event) => {
-                                jad.carousel.transformedTouchX = event.changedTouches[0].clientX - touchX;
-                                jad.carousel.transformedTouchY = event.changedTouches[0].clientY - touchY;
-                                jad.carousel.transformTouch(jad.carousel.transformedTouchX, jad.carousel.transformedTouchY);
+                                let transformedTouchX = event.changedTouches[0].clientX - touchX;
+                                let transformedTouchY = event.changedTouches[0].clientY - touchY;
+                                jad.carousel.transformTouch(transformedTouchX, transformedTouchY);
                         });
                 },
                 transformTouch: function(transformedTouchX, transformedTouchY) {
