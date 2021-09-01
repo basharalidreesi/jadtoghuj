@@ -248,7 +248,7 @@ const jad = {
                 line: function(a, x, b) {
                         /* https://www.desmos.com/calculator */
                         return (a * x) + b;
-                }
+                },
 		randomIntBetween: function(min, max) {
 			min = Math.ceil(min);
 			max = Math.floor(max);
