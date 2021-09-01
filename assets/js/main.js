@@ -162,7 +162,7 @@ const jad = {
                         window.addEventListener("touchmove", (event) => {
                                 let transformedTouchX = event.changedTouches[0].clientX - touchX;
                                 let transformedTouchY = event.changedTouches[0].clientY - touchY;
-                                jad.carousel.transformTouch(transformedTouchX, transformedTouchY, event);
+                                jad.util.throttle(jad.carousel.transformTouch(transformedTouchX, transformedTouchY, event), 50);
                         }, { passive: false });
                 },
                 transformTouch: function(transformedTouchX, transformedTouchY, event) {
