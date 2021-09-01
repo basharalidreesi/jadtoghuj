@@ -76,27 +76,7 @@ const jad = {
 
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
-                        // jad.header.reportHeaderDelta();
                         jad.header.trackHeaderY();
-                },
-                trackHeaderY: function() {
-                        if (!document.querySelector(".homepageShowcase")) { return; }
-                        window.addEventListener("scroll", () => {
-                                let headerOffsetTop = jad.lexicon.header.offsetTop;
-                                let headerHeight = jad.lexicon.header.getBoundingClientRect().height;
-                                let windowHeight = window.innerHeight;
-                                let headerYPos = (15 + headerOffsetTop + (headerHeight / 2)) / windowHeight;
-                                let headerYRatio = (headerYPos - 0.5) * 2;
-                                let invertedHeaderYRatio = 1 / headerYRatio;
-                                let clampedHeaderYRatio = jad.util.clamp(0 , invertedHeaderYRatio, 1);
-                                jad.header.reportHeaderY(clampedHeaderYRatio);
-                        }, { passive: true });
-                },
-                reportHeaderY: function(clampedHeaderYRatio) {
-                        let oldRange = 1;
-                        let newRange = 0.4;
-                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + (oldRange - newRange);
-                        console.log(scaleRatio);
                 },
                 pickRandomLogo: function() {
                         let logos = new Array(
@@ -111,30 +91,23 @@ const jad = {
                         jad.lexicon.logo.src = randomLogo;
                         SVGInject(jad.lexicon.logo);
                 },
-                reportHeaderDelta: function() {
+                trackHeaderY: function() {
                         if (!document.querySelector(".homepageShowcase")) { return; }
                         window.addEventListener("scroll", () => {
-                                let headerBottom = jad.lexicon.header.getBoundingClientRect().bottom;
-                                let navTop = jad.lexicon.nav.getBoundingClientRect().top;
-                                let deltaRatio = jad.util.clamp(0, (navTop - headerBottom - 15) / ((window.innerHeight - 30 - jad.lexicon.header.getBoundingClientRect().height) / 2), 1);
-                                jad.header.scaleHeader(deltaRatio);
-                                console.log(deltaRatio);
-                        });
+                                let headerOffsetTop = jad.lexicon.header.offsetTop;
+                                let headerHeight = jad.lexicon.header.getBoundingClientRect().height;
+                                let windowHeight = window.innerHeight;
+                                let headerYPos = (15 + headerOffsetTop + (headerHeight / 2)) / windowHeight;
+                                let headerYRatio = (headerYPos - 0.5) * 2;
+                                let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
+                                jad.header.processHeaderY(clampedHeaderYRatio);
+                        }, { passive: true });
                 },
-                scaleHeader: function(deltaRatio) {
-                        var modifier = 0;
-                        var initialHeight = 0;
-                        if (jad.util.queryMedia("(max-width: 512px)")) {
-                                modifier = 15;
-                                initialHeight = 60;
-                        } else {
-                                modifier = 30;
-                                initialHeight = 75;
-                        }
-                        let height = (initialHeight - modifier) + (deltaRatio * modifier);
-                        let margin = "calc(var(--vh, 1vh) * 50 - 1rem - " + (height / 2) + "px) 1rem";
-                        jad.lexicon.header.style.setProperty("height", `${height}px`);
-                        jad.lexicon.header.style.setProperty("margin", margin);
+                processHeaderY: function(clampedHeaderYRatio) {
+                        let oldRange = 1;
+                        let newRange = 0.4;
+                        let scaleRatio = ((clampedHeaderYRatio * newRange) / oldRange) + (oldRange - newRange);
+                        console.log(scaleRatio);
                 },
 
         },
