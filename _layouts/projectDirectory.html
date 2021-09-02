@@ -77,8 +77,8 @@ style:
                                                                 Filters
                                                         </legend>
                                                         {%- for tag in tag_array %}
-                                                        <input type="radio" id="{{ tag | downcase | slugify }}" name="tag" />
-                                                        <label for="{{ tag | downcase | slugify }}">
+                                                        <input type="radio" id="{{ tag | slugify }}" name="tag" />
+                                                        <label for="{{ tag | slugify }}">
                                                                 {{ tag | downcase }}
                                                         </label>
                                                         {%- endfor %}
