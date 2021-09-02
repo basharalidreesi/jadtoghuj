@@ -99,7 +99,7 @@
                         width: 100%;
                         & > div {
                                 height: calc(5rem + 2px);
-                                width: calc(2.5rem + 2px);
+                                width: calc(3rem + 2px);
                                 border: 1px solid var(--color-text--light);
                         }
                         & > div:first-child {
@@ -116,7 +116,7 @@
                                 align-items: flex-start;
                                 justify-content: flex-start;
                                 min-width: 0;
-                                max-width: calc(100% - 5rem);
+                                max-width: calc(100% - 6rem);
                                 margin-bottom: 2rem;
                                 overflow-x: auto;
                                 border-top: 1px solid var(--color-text--light);
