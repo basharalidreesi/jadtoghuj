@@ -98,9 +98,9 @@
                         justify-content: center;
                         width: 100%;
                         & > div {
-                                height: calc(5rem + 2px);
-                                width: calc(2.5rem + 2px);
-                                background: yellow;
+                                height: 5rem;
+                                width: 2.5rem;
+                                border: 1px solid var(--color-text--light);
                         }
                         & > div:first-child {
                                 margin: 0 0 0 auto;
