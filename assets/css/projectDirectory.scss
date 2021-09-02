@@ -94,7 +94,14 @@
                 &__projectFilters {
                         display: flex;
                         flex-flow: row nowrap;
-                        overflow-x: auto;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        min-width: 0;
+                        max-width: 100%;
+                        margin-bottom: 2rem;
+                        overflow-x: scroll;
+                        border: 1px solid var(--color-text--light);
+                        border-radius: 9999px;
                         legend {
                                 display: none;
                         }
@@ -106,6 +113,7 @@
                         }
                         label {
                                 padding: 2rem;
+                                border-right: 1px solid var(--color-text--light);
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
                                 white-space: nowrap;
