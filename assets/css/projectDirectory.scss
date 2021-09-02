@@ -97,32 +97,13 @@
                         align-items: flex-start;
                         justify-content: center;
                         width: 100%;
-                        & > div:first-of-type,
-                        & > div:last-of-type {
-                                height: calc(5rem + 2px);
-                                width: calc(3rem + 2px);
-                                border: 1px solid var(--color-text--light);
-                        }
-                        & > div:first-of-type {
-                                margin: 0 0 0 auto;
-                                border-radius: 9999px 0 0 9999px;
-                        }
-                        & > div:last-of-type {
-                                margin: 0 auto 0 0;
-                                border-radius: 0 9999px 9999px 0;
-                        }
-                        & > div:nth-of-type(2) {
+                        div {
                                 display: flex;
                                 flex-flow: row nowrap;
                                 align-items: flex-start;
                                 justify-content: flex-start;
-                                max-width: calc(100% - 6rem);
-                                margin-bottom: 2rem;
+                                max-width: 100%;
                                 overflow-x: auto;
-                                border-top: 1px solid var(--color-text--light);
-                                border-bottom: 1px solid var(--color-text--light);
-                                border-left: none;
-                                border-right: none;
                                 scrollbar-width: none;
                                 -ms-overflow-style: none;
                                 &::-webkit-scrollbar {
@@ -135,8 +116,7 @@
                                         }
                                 }
                                 label {
-                                        padding: 2rem;
-                                        border-right: 1px solid var(--color-text--light);
+                                        padding: 1.5rem;
                                         font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                         font-weight: 300;
                                         white-space: nowrap;
