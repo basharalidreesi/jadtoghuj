@@ -94,6 +94,7 @@
                 &__projectFilters {
                         display: flex;
                         flex-flow: row nowrap;
+                        overflow-x: auto;
                         legend {
                                 display: none;
                         }
@@ -107,6 +108,7 @@
                                 padding: 2rem;
                                 font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
                                 font-weight: 300;
+                                white-space: nowrap;
                                 cursor: help;
                         }
                 }
