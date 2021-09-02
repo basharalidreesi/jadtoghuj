@@ -70,13 +70,17 @@ style:
                                                 {%- endif -%}
                                         {%- endfor -%}
                                         {%- assign tag_array = tag_array | uniq | sort %}
-                                        <div class="generic--hidden">
+                                        <fieldset class="projectDirectory__projectFilters">
+                                                <legend>
+                                                        Filters
+                                                </legend>
                                                 {%- for tag in tag_array %}
-                                                <span>
+                                                <input type="radio" id="{{ tag | downcase }}" name="tag" />
+                                                <label for="{{ tag | downcase }}">
                                                         {{ tag | downcase }}
-                                                </span>
+                                                </label>
                                                 {%- endfor %}
-                                        </div>
+                                        </fieldset>
                                         {%- for project in site.data.projectDirectory.projects %}
                                         <article class="projectDirectory__projectCard">
                                                 <h4 class="generic--hidden">
