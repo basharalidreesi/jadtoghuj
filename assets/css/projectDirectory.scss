@@ -94,37 +94,55 @@
                 &__projectFilters {
                         display: flex;
                         flex-flow: row nowrap;
-                        align-items: flex-start;
-                        justify-content: flex-start;
-                        min-width: 0;
-                        max-width: calc(100% - 5rem);
-                        margin-bottom: 2rem;
-                        overflow-x: scroll;
-                        border-top: 1px solid var(--color-text--light);
-                        border-bottom: 1px solid var(--color-text--light);
-                        border-left: none;
-                        border-right: none;
-                        scrollbar-width: none;
-                        -ms-overflow-style: none;
-                        &::-webkit-scrollbar {
-                                display: none;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        & > div {
+                                height: 5rem;
+                                width: 2.5rem;
+                                background: yellow;
                         }
-                        legend {
-                                display: none;
+                        & > div:first-child {
+                                margin: 0 0 0 auto;
                         }
-                        input {
-                                display: none;
-                                &:checked + label {
-                                        --color-text: var(--color-special);
+                        & > div:nth-last-child {
+                                margin: 0 auto 0 0;
+                        }
+                        fieldset {
+                                display: flex;
+                                flex-flow: row nowrap;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                min-width: 0;
+                                max-width: calc(100% - 5rem);
+                                margin-bottom: 2rem;
+                                overflow-x: scroll;
+                                border-top: 1px solid var(--color-text--light);
+                                border-bottom: 1px solid var(--color-text--light);
+                                border-left: none;
+                                border-right: none;
+                                scrollbar-width: none;
+                                -ms-overflow-style: none;
+                                &::-webkit-scrollbar {
+                                        display: none;
                                 }
-                        }
-                        label {
-                                padding: 2rem;
-                                border-right: 1px solid var(--color-text--light);
-                                font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-                                font-weight: 300;
-                                white-space: nowrap;
-                                cursor: help;
+                                legend {
+                                        display: none;
+                                }
+                                input {
+                                        display: none;
+                                        &:checked + label {
+                                                --color-text: var(--color-special);
+                                        }
+                                }
+                                label {
+                                        padding: 2rem;
+                                        border-right: 1px solid var(--color-text--light);
+                                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                        font-weight: 300;
+                                        white-space: nowrap;
+                                        cursor: help;
+                                }
                         }
                 }
 

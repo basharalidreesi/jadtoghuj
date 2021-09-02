@@ -70,17 +70,21 @@ style:
                                                 {%- endif -%}
                                         {%- endfor -%}
                                         {%- assign tag_array = tag_array | uniq | sort %}
-                                        <fieldset class="projectDirectory__projectFilters">
-                                                <legend>
-                                                        Filters
-                                                </legend>
-                                                {%- for tag in tag_array %}
-                                                <input type="radio" id="{{ tag | downcase }}" name="tag" />
-                                                <label for="{{ tag | downcase }}">
-                                                        {{ tag | downcase }}
-                                                </label>
-                                                {%- endfor %}
-                                        </fieldset>
+                                        <div class="projectDirectory__projectFilters">
+                                                <div></div>
+                                                <fieldset>
+                                                        <legend>
+                                                                Filters
+                                                        </legend>
+                                                        {%- for tag in tag_array %}
+                                                        <input type="radio" id="{{ tag | downcase }}" name="tag" />
+                                                        <label for="{{ tag | downcase }}">
+                                                                {{ tag | downcase }}
+                                                        </label>
+                                                        {%- endfor %}
+                                                </fieldset>
+                                                <div></div>
+                                        </div>
                                         {%- for project in site.data.projectDirectory.projects %}
                                         <article class="projectDirectory__projectCard">
                                                 <h4 class="generic--hidden">
