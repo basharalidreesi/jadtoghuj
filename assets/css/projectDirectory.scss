@@ -91,6 +91,15 @@
                         }
                 }
 
+                &__projectFilters {
+                        input {
+                                display: none;
+                                &:checked + label {
+                                        --color-text: var(--color-special);
+                                }
+                        }
+                }
+
                 #projectDirectory__lookToggle,
                 #projectDirectory__projectToggle {
                         display: none;
