@@ -72,17 +72,14 @@ style:
                                         {%- assign tag_array = tag_array | uniq | sort %}
                                         <div class="projectDirectory__projectFilters">
                                                 <div></div>
-                                                <fieldset>
-                                                        <legend>
-                                                                Filters
-                                                        </legend>
+                                                <div>
                                                         {%- for tag in tag_array %}
                                                         <input type="radio" id="{{ tag | slugify }}" name="tag" />
                                                         <label for="{{ tag | slugify }}">
                                                                 {{ tag | downcase }}
                                                         </label>
                                                         {%- endfor %}
-                                                </fieldset>
+                                                </div>
                                                 <div></div>
                                         </div>
                                         {%- for project in site.data.projectDirectory.projects %}

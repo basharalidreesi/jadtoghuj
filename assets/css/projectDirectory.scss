@@ -97,20 +97,21 @@
                         align-items: flex-start;
                         justify-content: center;
                         width: 100%;
-                        & > div {
+                        & > div:first-of-type,
+                        & > div:last-of-type {
                                 height: calc(5rem + 2px);
                                 width: calc(3rem + 2px);
                                 border: 1px solid var(--color-text--light);
                         }
-                        & > div:first-child {
+                        & > div:first-of-type {
                                 margin: 0 0 0 auto;
                                 border-radius: 9999px 0 0 9999px;
                         }
-                        & > div:last-child {
+                        & > div:last-of-type {
                                 margin: 0 auto 0 0;
                                 border-radius: 0 9999px 9999px 0;
                         }
-                        fieldset {
+                        & > div:nth-of-type(2) {
                                 display: flex;
                                 flex-flow: row nowrap;
                                 align-items: flex-start;
@@ -126,9 +127,6 @@
                                 scrollbar-width: none;
                                 -ms-overflow-style: none;
                                 &::-webkit-scrollbar {
-                                        display: none;
-                                }
-                                legend {
                                         display: none;
                                 }
                                 input {
