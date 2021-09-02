@@ -143,7 +143,7 @@ const jad = {
                         jad.carousel.listenToConsoleClick();
                 },
                 trackWheel: function() {
-                        window.addEventListener("wheel", jad.util.throttle(jad.carousel.transformWheel(event), 50));
+                        window.addEventListener("wheel", jad.carousel.transformWheel);
                 },
                 transformWheel: function(event) {
                         if (!event.deltaY) { return; }
