@@ -71,7 +71,6 @@ style:
                                         {%- endfor -%}
                                         {%- assign tag_array = tag_array | uniq | sort %}
                                         <div class="projectDirectory__projectFilters">
-                                                <div></div>
                                                 <div>
                                                         {%- for tag in tag_array %}
                                                         <input type="radio" id="{{ tag | slugify }}" name="tag" />
@@ -80,7 +79,6 @@ style:
                                                         </label>
                                                         {%- endfor %}
                                                 </div>
-                                                <div></div>
                                         </div>
                                         {%- for project in site.data.projectDirectory.projects %}
                                         <article class="projectDirectory__projectCard">
