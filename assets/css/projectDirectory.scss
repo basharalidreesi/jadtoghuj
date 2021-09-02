@@ -114,6 +114,7 @@
                                         display: none;
                                         &:checked + label {
                                                 --color-text: var(--color-special);
+                                                --color-text--light: var(--color-special);
                                         }
                                 }
                                 label {
