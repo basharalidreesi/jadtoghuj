@@ -72,9 +72,13 @@ style:
                                         {%- assign tag_array = tag_array | uniq | sort %}
                                         <div class="projectDirectory__projectFilters">
                                                 <div>
+                                                        <input type="radio" id="tag__all" name="tag" checked="checked" />
+                                                        <label for="tag__all">
+                                                                all projects
+                                                        </label>
                                                         {%- for tag in tag_array %}
-                                                        <input type="radio" id="{{ tag | slugify }}" name="tag" />
-                                                        <label for="{{ tag | slugify }}">
+                                                        <input type="radio" id="tag__{{ tag | slugify }}" name="tag" />
+                                                        <label for="tag__{{ tag | slugify }}">
                                                                 {{ tag | downcase }}
                                                         </label>
                                                         {%- endfor %}
