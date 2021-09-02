@@ -68,8 +68,15 @@ style:
                                                                 {%- assign tag_array = tag_array | push: tag -%}
                                                         {%- endfor -%}
                                                 {%- endif -%}
-                                        {%- endfor %}
-                                        <div class="generic--hidden">{{ tag_array }}</div>
+                                        {%- endfor -%}
+                                        {%- assign tag_array = tag_array | uniq | sort %}
+                                        <div class="generic--hidden">
+                                                {%- for tag in tag_array %}
+                                                <span>
+                                                        {{ tag | downcase }}
+                                                </span>
+                                                {%- endfor %}
+                                        </div>
                                         {%- for project in site.data.projectDirectory.projects %}
                                         <article class="projectDirectory__projectCard">
                                                 <h4 class="generic--hidden">
