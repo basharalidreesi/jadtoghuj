@@ -92,11 +92,20 @@
                 }
 
                 &__projectFilters {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        legend {
+                                display: none;
+                        }
                         input {
                                 display: none;
                                 &:checked + label {
                                         --color-text: var(--color-special);
                                 }
+                        }
+                        label {
+                                padding: 2rem;
+                                cursor: help;
                         }
                 }
 
