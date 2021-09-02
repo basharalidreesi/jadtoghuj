@@ -62,13 +62,13 @@ style:
                                                 </label>
                                         </div>
                                         {%- assign tag_array = "" | split: " " -%}
-                                        {%- for project.site.data.projectDirectory.projects -%}
+                                        {%- for project in site.data.projectDirectory.projects -%}
                                                 {%- if project.project_tags and project.project_tags.size != 0 -%}
                                                         {%- for tag in project.project_tags -%}
                                                                 {%- assign tag_array = tag_array | push: tag -%}
                                                         {%- endfor -%}
                                                 {%- endif -%}
-                                        {%- endfor -%}
+                                        {%- endfor %}
                                         <div class="generic--hidden">{{ tag_array }}</div>
                                         {%- for project in site.data.projectDirectory.projects %}
                                         <article class="projectDirectory__projectCard">
