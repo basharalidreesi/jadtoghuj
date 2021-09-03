@@ -164,6 +164,10 @@ body {
                                         background: var(--color-top--light);
                                         transition: box-shadow 0.25s;
                                         cursor: cell;
+                                        -webkit-user-select: none;
+                                        -moz-user-select: none;
+                                        -ms-user-select: none;
+                                        user-select: none;
                                         @media (any-hover: hover) {
                                                 &:hover {
                                                         opacity: 1;
