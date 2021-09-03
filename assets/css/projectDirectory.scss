@@ -363,6 +363,11 @@
                                         }
                                 }
                         }
+
+                        &--active {
+                                background: yellow !important;
+                        }
+
                 }
 
                 #projectDirectory__allProjects {
