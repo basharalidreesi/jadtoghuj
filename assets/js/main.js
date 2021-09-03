@@ -318,8 +318,8 @@ const jad = {
 
                 initFooterScripts: function() {
                         if (!jad.lexicon.footer) { return; }
-                        jad.footer.makeFooterSticky();
-                        jad.footer.observeFooter();
+                        // jad.footer.makeFooterSticky();
+                        // jad.footer.observeFooter();
                 },
                 makeFooterSticky: function() {
                         jad.lexicon.footer.classList.add("footer--sticky");
