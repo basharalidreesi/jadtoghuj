@@ -137,7 +137,7 @@ const jad = {
 
                 initProjectDirectoryScripts: function() {
                         jad.projectDirectory.listenToTagChange();
-                        // jad.projectDirectory.listenToProjectToggleChange();
+                        jad.projectDirectory.listenToProjectToggleChange();
                 },
                 listenToTagChange: function() {
                         jad.lexicon.projectTags.forEach((tag) => {
@@ -152,11 +152,18 @@ const jad = {
                 },
                 listenToProjectToggleChange: function() {
                         jad.lexicon.projectToggle.addEventListener("change", () => {
-                                if (jad.lexicon.projectToggle.checked) {
+                                var anyTagIsChecked = false;
+                                jad.lexicon.projectTags.forEach((tag) => {
+                                        if (tag.checked) {
+                                                anyTagIsChecked = true;
+                                        }
+                                });
+                                if (jad.lexicon.projectToggle.checked && !anyTagIsChecked) {
                                         let change = new Event("change");
                                         document.querySelector("#tag__all").checked = true;
                                         document.querySelector("#tag__all").dispatchEvent(change);
-                                } else {
+                                }
+                                if (!jad.lexicon.projectToggle.checked) {
                                         jad.lexicon.projectTags.forEach((tag) => {
                                                 let change = new Event("change");
                                                 tag.checked = false;
