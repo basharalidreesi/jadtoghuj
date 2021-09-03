@@ -100,7 +100,7 @@
                                 z-index: -1;
                                 background:
                                         {%- assign rems = 0 -%}
-                                        {%- assign pixels = 0 -%}
+                                        {%- assign pixels = -1 -%}
                                         {%- for project in site.data.projectDirectory.projects -%}
                                         {%- assign modulo = forloop.index | modulo: 2 -%}
                                         {%- assign rems = rems | plus: 5 -%}
