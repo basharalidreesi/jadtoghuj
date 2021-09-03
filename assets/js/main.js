@@ -29,6 +29,7 @@ const jad = {
                 carouselConsoleToggle: document.querySelector("#project__console__descriptionToggle"),
                 carouselConsolePanel: document.querySelector("#project__console__descriptionPanel"),
                 carouselConsoleLabel: document.querySelector("#project__console__descriptionLabel"),
+                footer: document.querySelector("#footer"),
         },
 
         initAllScripts: function() {
@@ -37,6 +38,7 @@ const jad = {
                 jad.header.initHeaderScripts();
                 jad.projectDirectory.initProjectDirectoryScripts();
                 jad.carousel.initCarouselScripts();
+                jad.footer.initFooterScripts();
         },
 
         main: {
@@ -308,6 +310,22 @@ const jad = {
                                 }
                         });
                 },
+
+        },
+
+        footer: {
+
+                initFooterScripts: function() {
+                        if (!jad.lexicon.footer) { return; }
+                        jad.footer.makeFooterSticky();
+                },
+                makeFooterSticky: function() {
+                        window.addEventListener("scroll", () => {
+                                if (document.querySelector("#main").getBoundingClientRect().bottom >= jad.lexicon.footer.getBoundingClientRect().height / 2) {
+                                        console.log("woop!");
+                                }
+                        });
+                }
 
         },
 
