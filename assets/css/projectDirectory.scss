@@ -387,6 +387,16 @@
                 }
 
                 #projectDirectory__allProjects {
+                        margin-top: 2rem;
+                        border: 1px solid var(--color-text--light);
+                        border-radius:100%;
+                        width: 5.25rem;
+                        @media (any-hover: hover) {
+                                &:hover {
+                                        --color-text: var(--color-special);
+                                        --color-text--light: var(--color-special);
+                                }
+                        }
                         &:nth-child(4) {
                                 display: none;
                         }
@@ -398,17 +408,11 @@
                                 font-size: 2.5rem;
                                 text-align: center;
                                 cursor: cell;
-                                background: linear-gradient(to right, transparent, var(--color-bottom--light), transparent);
+                                // background: linear-gradient(to right, transparent, var(--color-bottom--light), transparent);
                                 -webkit-user-select: none;
                                 -moz-user-select: none;
                                 -ms-user-select: none;
                                 user-select: none;
-                                @media (any-hover: hover) {
-                                        &:hover {
-                                                --color-text: var(--color-special);
-                                                --color-text--light: var(--color-special);
-                                        }
-                                }
                         }
                 }
 
