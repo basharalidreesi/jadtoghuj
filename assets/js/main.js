@@ -137,7 +137,7 @@ const jad = {
 
                 initProjectDirectoryScripts: function() {
                         jad.projectDirectory.listenToTagChange();
-                        jad.projectDirectory.listenToProjectToggleChange();
+                        // jad.projectDirectory.listenToProjectToggleChange();
                 },
                 listenToTagChange: function() {
                         jad.lexicon.projectTags.forEach((tag) => {
