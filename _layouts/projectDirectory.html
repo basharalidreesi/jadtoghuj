@@ -73,12 +73,12 @@ style:
                                         <div class="generic--jsOnly projectDirectory__projectFilters">
                                                 <div>
                                                         <input type="radio" id="tag__all" class="projectDirectory__projectTag" name="tag" autocomplete="off" />
-                                                        <label for="tag__all">
+                                                        <label for="tag__all" title="See all projects">
                                                                 all projects
                                                         </label>
                                                         {%- for tag in tag_array %}
                                                         <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" autocomplete="off" />
-                                                        <label for="tag__{{ tag | slugify }}" title="See {{ tag | downcase }} projects">
+                                                        <label for="tag__{{ tag | slugify }}" title="See all {{ tag | downcase }} projects">
                                                                 {{ tag | downcase }}
                                                         </label>
                                                         {%- endfor %}
