@@ -285,7 +285,7 @@ body {
 		min-height: calc((var(--vh, 1vh) * 100) + 1px);
 		margin-bottom: -1rem;
 		&::before {
-			// content: "";
+			content: "";
 			display: block;
 			position: absolute;
 			left: -2rem;
