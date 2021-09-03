@@ -364,8 +364,8 @@
                                 }
                         }
 
-                        &--active {
-                                background: yellow !important;
+                        &--disabled {
+                                display: none !important;
                         }
 
                 }
