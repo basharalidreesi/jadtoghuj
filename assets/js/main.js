@@ -156,6 +156,12 @@ const jad = {
                                         let change = new Event("change");
                                         document.querySelector("#tag__all").checked = true;
                                         document.querySelector("#tag__all").dispatchEvent(change);
+                                } else {
+                                        jad.lexicon.projectTags.forEach((tag) => {
+                                                let change = new Event("change");
+                                                tag.checked = false;
+                                                tag.dispatchEvent(change);
+                                        });
                                 }
                         });
                 },
