@@ -1,47 +1,38 @@
 ---
 entries:
 - entry_image: "/assets/graphics/hp-01.png"
-  entry_caption: Lorem ipsum!
   entry_link: ''
 - entry_image: "/assets/graphics/hp-02.png"
-  entry_caption: Dolor sit amet!
   entry_link: ''
 - entry_image: "/assets/graphics/hp-03.png"
-  entry_caption: ''
   entry_link: ''
 - entry_image: "/assets/graphics/hp-04.png"
-  entry_caption: ''
-  entry_link: "4"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-05.png"
-  entry_caption: ''
-  entry_link: "5"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-06.png"
-  entry_caption: ''
-  entry_link: "6"
+  entry_link: ''
 - entry_image: "/assets/graphics/second-07.png"
-  entry_caption: ''
-  entry_link: "7"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-08.png"
-  entry_caption: ''
-  entry_link: "8"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-09.png"
-  entry_caption: ''
-  entry_link: "9"
+  entry_link: ''
 - entry_image: "/assets/graphics/second-10.png"
-  entry_caption: ''
-  entry_link: "10"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-11.png"
-  entry_caption: ''
-  entry_link: "11"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-12.png"
-  entry_caption: ''
   entry_link: https://open.spotify.com/track/3DPFmwFtV5ElQaTniLOdgk?si=ea1580ad4c9949b6
 - entry_image: "/assets/graphics/second-13.png"
-  entry_caption: ''
   entry_link: ''
 - entry_image: "/assets/graphics/second-14.png"
-  entry_caption: ''
   entry_link: ''
 - entry_image: "/assets/graphics/second-15.png"
-  entry_caption: ''
+  entry_link: ''
+- entry_image: "/assets/graphics/hp-01.png"
+  entry_link: ''
+- entry_image: "/assets/graphics/hp-02.png"
+  entry_link: ''
+- entry_image: "/assets/graphics/hp-03.png"
   entry_link: ''
