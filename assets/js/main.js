@@ -150,7 +150,7 @@ const jad = {
                                         }
                                         if (tag.checked) {
                                                 jad.lexicon.projectCards.forEach((card) => {
-                                                        if (!card.getAttribute("data-jad-project-tags").indexOf(tag.getAttribute("data-jad-tag-benchmark")) > -1) {
+                                                        if (!card.getAttribute("data-jad-project-tags").indexOf(", " + tag.getAttribute("data-jad-tag-benchmark")) > -1) {
                                                                 card.style.display = "none";
                                                         }
                                                 });
