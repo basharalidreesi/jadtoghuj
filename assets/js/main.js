@@ -17,6 +17,7 @@ const jad = {
                 navToggle: document.querySelector("#nav__toggle"),
                 projectToggle: document.querySelector("#projectDirectory__projectToggle"),
                 projectTags: document.querySelectorAll(".projectDirectory__projectTag"),
+                projectCards: document.querySelectorAll(".projectDirectory__projectCard"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
@@ -148,7 +149,11 @@ const jad = {
                                                 jad.lexicon.projectToggle.dispatchEvent(change);
                                         }
                                         if (tag.checked) {
-                                                
+                                                jad.lexicon.projectCards.forEach((card) => {
+                                                        if (!card.getAttribute("data-jad-project-tags").indexOf(tag.getAttribute("data-jad-tag-benchmark")) > -1) {
+                                                                card.style.display = "none";
+                                                        }
+                                                });
                                         }
                                 });
                         });

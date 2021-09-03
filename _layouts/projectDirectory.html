@@ -77,7 +77,7 @@ style:
                                                                 all projects
                                                         </label>
                                                         {%- for tag in tag_array %}
-                                                        <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" />
+                                                        <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" />
                                                         <label for="tag__{{ tag | slugify }}">
                                                                 {{ tag | downcase }}
                                                         </label>
@@ -85,7 +85,7 @@ style:
                                                 </div>
                                         </div>
                                         {%- for project in site.data.projectDirectory.projects %}
-                                        <article class="projectDirectory__projectCard">
+                                        <article class="projectDirectory__projectCard" data-jad-project-tags="{%- for tag in project.project_tags -%} {{ tag | downcase }} {%- unless forloop.last -%}, {% endunless -%} {%- endfor -%}">
                                                 <h4 class="generic--hidden">
                                                         {{ project.project_name }}
                                                 </h4>
