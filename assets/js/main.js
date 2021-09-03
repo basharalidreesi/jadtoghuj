@@ -325,7 +325,7 @@ const jad = {
                 },
                 observeFooter: function() {
                         window.addEventListener("scroll", () => {
-                                if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footer.getBoundingClientRect().height / 2) {
+                                if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footer.getBoundingClientRect().height / 3) {
                                         console.log("woop!");
                                 }
                         });
