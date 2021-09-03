@@ -328,6 +328,11 @@ body {
 		}
 	}
 
+	.footer--sticky {
+		position: sticky;
+		bottom: 0;
+	}
+
 	.generic--hidden {
 		position: absolute !important;
 		top: -9999px !important;

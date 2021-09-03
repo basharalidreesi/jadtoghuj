@@ -318,14 +318,18 @@ const jad = {
                 initFooterScripts: function() {
                         if (!jad.lexicon.footer) { return; }
                         jad.footer.makeFooterSticky();
+                        jad.footer.observeFooter();
                 },
                 makeFooterSticky: function() {
+                        jad.lexicon.footer.classList.add("footer--sticky");
+                },
+                observeFooter: function() {
                         window.addEventListener("scroll", () => {
                                 if (document.querySelector("#main").getBoundingClientRect().bottom >= jad.lexicon.footer.getBoundingClientRect().height / 2) {
                                         console.log("woop!");
                                 }
                         });
-                }
+                },
 
         },
 
