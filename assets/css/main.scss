@@ -344,7 +344,9 @@ body {
 	}
 	.footer--visible {
 		opacity: 1;
-		pointer-events: auto !important;
+		* {
+			pointer-events: auto !important;	
+		}
 	}
 
 	.generic--hidden {
