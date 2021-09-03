@@ -2,9 +2,9 @@
 entries:
 - entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
-- entry_image: "/assets/graphics/hp-02.png"
+- entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
-- entry_image: "/assets/graphics/hp-03.png"
+- entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
 - entry_image: "/assets/graphics/hp-04.png"
   entry_link: ''
@@ -32,7 +32,7 @@ entries:
   entry_link: ''
 - entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
-- entry_image: "/assets/graphics/hp-02.png"
+- entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
-- entry_image: "/assets/graphics/hp-03.png"
+- entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
