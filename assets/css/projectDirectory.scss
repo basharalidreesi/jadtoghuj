@@ -106,12 +106,13 @@
                                         {%- assign rems = rems | plus: 5 -%}
                                         {%- assign pixels = pixels | plus: 1 -%}
                                         {%- if modulo == 0 %}
-                                        linear-gradient(90deg, transparent, var(--color-bottom--light), transparent) top/100% calc(({{ rems }} + 5rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, transparent, var(--color-bottom--light), transparent) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- else -%}
-                                        linear-gradient(90deg, transparent, var(--color-top--light), transparent) top/100% calc(({{ rems }} + 10rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, transparent, var(--color-top--light), transparent) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- endif -%}
                                         {%- endfor %}
                                 ;
+                                background-repeat: no-repeat;
                         }
                 }
 
