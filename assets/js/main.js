@@ -30,6 +30,7 @@ const jad = {
                 carouselConsolePanel: document.querySelector("#project__console__descriptionPanel"),
                 carouselConsoleLabel: document.querySelector("#project__console__descriptionLabel"),
                 footer: document.querySelector("#footer"),
+                footerSentinel: document.querySelector("#footer__sentinel"),
         },
 
         initAllScripts: function() {
@@ -325,7 +326,7 @@ const jad = {
                 },
                 observeFooter: function() {
                         window.addEventListener("scroll", () => {
-                                if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footer.getBoundingClientRect().height / 3) {
+                                if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footerSentinel.getBoundingClientRect().top) {
                                         console.log("woop!");
                                 }
                         });
