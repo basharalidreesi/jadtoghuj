@@ -78,7 +78,7 @@ style:
                                                         </label>
                                                         {%- for tag in tag_array %}
                                                         <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" />
-                                                        <label for="tag__{{ tag | slugify }}">
+                                                        <label for="tag__{{ tag | slugify }}" title="See {{ tag | downcase }} projects">
                                                                 {{ tag | downcase }}
                                                         </label>
                                                         {%- endfor %}
