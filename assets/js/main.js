@@ -327,7 +327,7 @@ const jad = {
                 observeFooter: function() {
                         let observer = new IntersectionObserver((entries) => {
                                 entries.forEach((entry) => {
-                                        if (entry.isIntersecting) {
+                                        if (entry.isIntersecting && document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footerSentinel.getBoundingClientRect().top) {
                                                 jad.lexicon.footer.classList.add("footer--visible");
                                         } else {
                                                 jad.lexicon.footer.classList.remove("footer--visible");
