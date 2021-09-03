@@ -338,6 +338,9 @@ body {
 		pointer-events: none;
 		opacity: 0;
 		transition: opacity 0.5s;
+		&::before {
+			content: none !important;
+		}
 	}
 	.footer--visible {
 		opacity: 1;
