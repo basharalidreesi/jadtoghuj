@@ -97,8 +97,8 @@
                                 width: 100%;
                                 height: calc(100% - 13rem - 3px);
                                 border-top: 1px solid var(--color-text--light);
-                                z-index: -1;
-                                background:
+                                /* z-index: -1; */
+                                /* background:
                                         {%- assign rems = 0 -%}
                                         {%- assign pixels = -1 -%}
                                         {%- for project in site.data.projectDirectory.projects -%}
@@ -111,8 +111,8 @@
                                         linear-gradient(90deg, var(--color-top), var(--color-top--light), var(--color-top)) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- endif -%}
                                         {%- endfor %}
-                                ;
-                                background-repeat: no-repeat;
+                                ; */
+                                /* background-repeat: no-repeat; */
                         }
                 }
 
