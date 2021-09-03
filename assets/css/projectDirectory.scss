@@ -64,14 +64,6 @@
 
 }
 
-body {
-        @media (any-hover: none) {
-                &::before {
-                        z-index: -2;
-                }
-        }
-}
-
 #main {
 
         .projectDirectory {
@@ -100,27 +92,11 @@ body {
                         &::after {
                                 content: "";
                                 position: absolute;
-                                top: calc(13rem + 3px);
+                                top: calc(13rem + 2px);
                                 left: 0;
                                 width: 100%;
-                                height: calc(100% - 13rem - 3px);
-                                border-top: 1px solid var(--color-text--light);
-                                z-index: -1;
-                                /* background:
-                                        {%- assign rems = 0 -%}
-                                        {%- assign pixels = -1 -%}
-                                        {%- for project in site.data.projectDirectory.projects -%}
-                                        {%- assign modulo = forloop.index | modulo: 2 -%}
-                                        {%- assign rems = rems | plus: 5 -%}
-                                        {%- assign pixels = pixels | plus: 1 -%}
-                                        {%- if modulo == 0 %}
-                                        linear-gradient(90deg, var(--color-bottom), var(--color-bottom--light), var(--color-bottom)) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
-                                        {%- else -%}
-                                        linear-gradient(90deg, var(--color-top), var(--color-top--light), var(--color-top)) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
-                                        {%- endif -%}
-                                        {%- endfor %}
-                                ; */
-                                /* background-repeat: no-repeat; */
+                                height: 1px;
+                                background: var(--color-text--light);
                         }
                 }
 
