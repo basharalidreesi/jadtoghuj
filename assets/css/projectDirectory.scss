@@ -99,16 +99,16 @@
                                 border-top: 1px solid var(--color-text--light);
                                 z-index: -1;
                                 background:
-                                        {%- assign rems = 1 -%}
+                                        {%- assign rems = 0 -%}
                                         {%- assign pixels = 0 -%}
                                         {%- for project in site.data.projectDirectory.projects -%}
                                         {%- assign modulo = forloop.index | modulo: 2 -%}
-                                        {%- assign rems = rems | plus: 1 -%}
+                                        {%- assign rems = rems | plus: 5 -%}
                                         {%- assign pixels = pixels | plus: 1 -%}
                                         {%- if modulo == 0 %}
-                                        linear-gradient(90deg, transparent, var(--color-bottom--light), transparent) top/100% calc(({{ rems }} * 5rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, transparent, var(--color-bottom--light), transparent) top/100% calc(({{ rems }} + 5rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- else -%}
-                                        linear-gradient(90deg, transparent, var(--color-top--light), transparent) top/100% calc(({{ rems }} * 10rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, transparent, var(--color-top--light), transparent) top/100% calc(({{ rems }} + 10rem) + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- endif -%}
                                         {%- endfor %}
                                 ;
