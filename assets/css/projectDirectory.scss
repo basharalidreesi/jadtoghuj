@@ -106,9 +106,9 @@
                                         {%- assign rems = rems | plus: 5 -%}
                                         {%- assign pixels = pixels | plus: 1 -%}
                                         {%- if modulo == 0 %}
-                                        linear-gradient(90deg, white, pink, white) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, var(--color-bottom), var(--color-bottom--light), var(--color-bottom)) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- else -%}
-                                        linear-gradient(90deg, white, yellow, white) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
+                                        linear-gradient(90deg, var(--color-top), var(--color-top--light), var(--color-top)) top/100% calc({{ rems }}rem + {{ pixels }}px) {%- unless forloop.last -%}, {% endunless -%}
                                         {%- endif -%}
                                         {%- endfor %}
                                 ;
