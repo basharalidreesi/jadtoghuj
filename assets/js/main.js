@@ -137,6 +137,7 @@ const jad = {
 
                 initProjectDirectoryScripts: function() {
                         jad.projectDirectory.listenToTagChange();
+                        jad.projectDirectory.listenToProjectToggleChange();
                 },
                 listenToTagChange: function() {
                         jad.lexicon.projectTags.forEach((tag) => {
@@ -147,6 +148,15 @@ const jad = {
                                                 jad.lexicon.projectToggle.dispatchEvent(change);
                                         }
                                 });
+                        });
+                },
+                listenToProjectToggleChange: function() {
+                        jad.lexicon.projectToggle.addEventListener("change", () => {
+                                if (jad.lexicon.projectToggle.checked) {
+                                        let change = new Event("change");
+                                        document.querySelector("#tag__all").checked = true;
+                                        document.querySelector("#tag__all").dispatchEvent(change);
+                                }
                         });
                 },
 
