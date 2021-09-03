@@ -179,6 +179,9 @@ const jad = {
                                                 tag.checked = false;
                                                 tag.dispatchEvent(change);
                                         });
+                                        jad.lexicon.projectCards.forEach((card) => {
+                                                card.classList.remove("projectDirectory__projectCard--disabled");
+                                        });
                                 }
                         });
                 },
