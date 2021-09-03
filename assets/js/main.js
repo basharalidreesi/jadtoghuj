@@ -15,6 +15,8 @@ const jad = {
                 logo: document.querySelector("#header__logo"),
                 nav: document.querySelector("#nav"),
                 navToggle: document.querySelector("#nav__toggle"),
+                projectToggle: document.querySelector("#projectDirectory__projectToggle"),
+                projectTags: document.querySelectorAll(".projectDirectory__projectTag"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
@@ -32,6 +34,7 @@ const jad = {
                 jad.main.initMainScripts();
                 jad.viewport.initViewportScripts();
                 jad.header.initHeaderScripts();
+                jad.projectDirectory.initProjectDirectoryScripts();
                 jad.carousel.initCarouselScripts();
         },
 
@@ -128,6 +131,25 @@ const jad = {
                                 jad.lexicon.navToggle.dispatchEvent(change);
                         }
                 },
+        },
+
+        projectDirectory: {
+
+                initProjectDirectoryScripts: function() {
+                        jad.projectDirectory.listenToTagChange();
+                },
+                listenToTagChange: function() {
+                        jad.lexicon.projectTags.forEach((tag) => {
+                                tag.addEventListener("change", () => {
+                                        if (tag.checked && !jad.lexicon.projectToggle.checked) {
+                                                let change = new Event("change");
+                                                jad.lexicon.projectToggle.checked = true;
+                                                jad.lexicon.projectToggle.dispatchEvent(change);
+                                        }
+                                });
+                        });
+                },
+
         },
 
         carousel: {
