@@ -125,6 +125,8 @@
                                         &:checked + label {
                                                 opacity: 1;
                                                 --color-text: var(--color-special);
+                                                outline: 0.5px solid var(--color-special);
+                                                outline-offset: -1px;
                                         }
                                 }
                                 label {
