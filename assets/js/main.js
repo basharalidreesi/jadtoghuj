@@ -327,7 +327,9 @@ const jad = {
                 observeFooter: function() {
                         window.addEventListener("scroll", () => {
                                 if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footerSentinel.getBoundingClientRect().top) {
-                                        console.log("woop!");
+                                        jad.lexicon.footer.classList.add("footer--visible");
+                                } else {
+                                        jad.lexicon.footer.classList.remove("#footer--visible");
                                 }
                         });
                 },

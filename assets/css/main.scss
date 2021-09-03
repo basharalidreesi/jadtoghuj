@@ -284,6 +284,10 @@ body {
 		flex-flow: column nowrap;
 		min-height: calc((var(--vh, 1vh) * 100) + 1px);
 		margin-bottom: -1rem;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 		&::before {
 			content: "";
 			display: block;
@@ -331,6 +335,12 @@ body {
 	.footer--sticky {
 		position: sticky !important;
 		bottom: 0;
+		pointer-events: none;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.footer--visible {
+		opacity: 1;
 	}
 
 	.generic--hidden {
