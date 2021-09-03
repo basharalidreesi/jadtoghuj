@@ -337,7 +337,7 @@ body {
 		bottom: 0;
 		pointer-events: none;
 		opacity: 0;
-		transition: opacity 0.5s;
+		transition: opacity 0.25s;
 		&::before {
 			content: none !important;
 		}
