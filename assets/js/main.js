@@ -334,10 +334,6 @@ const jad = {
                                         }
                                 });
 
-                        }, {
-                                root: document.querySelector("#main"),
-                                rootMargin: '0px',
-                                threshold: 1.0
                         });
                         observer.observe(jad.lexicon.footerSentinel);
                 },
