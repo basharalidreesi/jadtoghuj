@@ -147,6 +147,9 @@ const jad = {
                                                 jad.lexicon.projectToggle.checked = true;
                                                 jad.lexicon.projectToggle.dispatchEvent(change);
                                         }
+                                        if (tag.checked) {
+                                                
+                                        }
                                 });
                         });
                 },
