@@ -325,13 +325,19 @@ const jad = {
                         jad.lexicon.footer.classList.add("footer--sticky");
                 },
                 observeFooter: function() {
-                        window.addEventListener("scroll", () => {
-                                if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footerSentinel.getBoundingClientRect().top) {
-                                        jad.lexicon.footer.classList.add("footer--visible");
-                                } else {
-                                        jad.lexicon.footer.classList.remove("footer--visible");
-                                }
+                        let observer = new IntersectionObserver((entries) => {
+                                entries.forEach((entry) => {
+                                        if (entry.isIntersecting) {
+                                                jad.lexicon.footer.classList.add("footer--visible");
+                                        } else {
+                                                jad.lexicon.footer.classList.remove("footer--visible");
+                                        }
+                                });
+
+                        }, {
+                                root: document.querySelector("#main"),
                         });
+                        observer.observe(jad.lexicon.footerSentinel);
                 },
 
         },
