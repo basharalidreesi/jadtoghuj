@@ -329,7 +329,7 @@ const jad = {
                                 if (document.querySelector("#main").getBoundingClientRect().bottom <= jad.lexicon.footerSentinel.getBoundingClientRect().top) {
                                         jad.lexicon.footer.classList.add("footer--visible");
                                 } else {
-                                        jad.lexicon.footer.classList.remove("#footer--visible");
+                                        jad.lexicon.footer.classList.remove("footer--visible");
                                 }
                         });
                 },
