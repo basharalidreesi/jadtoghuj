@@ -17,7 +17,7 @@ const jad = {
                 navToggle: document.querySelector("#nav__toggle"),
                 projectToggle: document.querySelector("#projectDirectory__projectToggle"),
                 projectTags: document.querySelectorAll(".projectDirectory__projectTag"),
-                projectCards: document.querySelectorAll(".projectDirectory__projectCard"),
+                projectCards: document.querySelectorAll(".projectDirectory__projectCard:not(#projectDirectory__allProjects)"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
