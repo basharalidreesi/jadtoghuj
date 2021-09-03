@@ -126,10 +126,13 @@
                                         border: 0.5px solid var(--color-text);
                                         border-radius: 9999px;
                                         opacity: 0.5;
+                                        box-shadow: inset 0 -0.75rem 0 0 var(--color-bottom--light);
+                                        transition: box-shadow 0.25s;
                                         cursor: cell;
                                         @media (any-hover: hover) {
                                                 &:hover {
                                                         opacity: 1;
+                                                        box-shadow: inset 0 -0.5rem 0 0 var(--color-bottom--light);
                                                 }
                                         }
                                 }
