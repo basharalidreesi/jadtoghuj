@@ -137,6 +137,7 @@ const jad = {
         projectDirectory: {
 
                 initProjectDirectoryScripts: function() {
+                        if (!document.querySelector(".projectDirectory")) { return; }
                         jad.projectDirectory.listenToTagChange();
                         jad.projectDirectory.listenToProjectToggleChange();
                 },
