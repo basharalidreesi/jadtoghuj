@@ -125,7 +125,7 @@
                                         &:checked + label {
                                                 opacity: 1;
                                                 --color-text: var(--color-special);
-                                                box-shadow: inset 0 0 0 1px var(--color-special), inset 0 -0.75rem 0 0 var(--color-bottom--light);
+                                                box-shadow: inset 0 0 0 1px var(--color-special), inset 0 -0.75rem 0 0 var(--color-bottom--light) !important;
                                         }
                                 }
                                 label {
