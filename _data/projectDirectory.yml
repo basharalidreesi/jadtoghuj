@@ -1,6 +1,6 @@
 ---
 projects:
-- project_name: Break The Fourth Wall
+- project_name: Break the Fourth Wall
   project_description: ''
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
   project_tags:
@@ -46,7 +46,7 @@ projects:
     look_cover: ''
 - project_name: sisi on a mission
   project_description: ''
-  project_page: _styling-and-creative-direction/SISI-on-a-mission.html
+  project_page: _styling-and-creative-direction/sisi-on-a-mission.html
   project_tags:
   - experimental
   - test shoot
