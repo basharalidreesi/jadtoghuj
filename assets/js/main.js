@@ -108,6 +108,7 @@ const jad = {
                                 let headerYRatio = (headerYPos - 0.5) * 2;
                                 let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
                                 jad.header.processHeaderY(clampedHeaderYRatio);
+                                jad.header.handleArrow(clampedHeaderYRatio);
                         });
                 },
                 processHeaderY: function(clampedHeaderYRatio) {
@@ -122,6 +123,9 @@ const jad = {
                 },
                 scaleHeader: function(scaleRatio) {
                         jad.lexicon.header.style.setProperty("transform", "scale(" + scaleRatio + ")");
+                },
+                handleArrow: function(clampedHeaderYRatio) {
+                        console.log(clampedHeaderYRatio);
                 },
 
         },
