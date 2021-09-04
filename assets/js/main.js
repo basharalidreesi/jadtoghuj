@@ -126,8 +126,11 @@ const jad = {
                         jad.lexicon.header.style.setProperty("transform", "scale(" + scaleRatio + ")");
                 },
                 handleArrow: function(clampedHeaderYRatio) {
-                        let opacificationRate = jad.util.line(-2, clampedHeaderYRatio, 1);
+                        let opacificationRate = jad.util.clamp(0, jad.util.line(-2, clampedHeaderYRatio, 1), 1);
                         jad.lexicon.arrow.style.opacity = opacificationRate;
+                        if (opacificationRate == 0) {
+                                jad.lexicon.arrow.style.display = "none !important";
+                        }
                 },
 
         },
