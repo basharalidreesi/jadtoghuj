@@ -58,7 +58,14 @@ const jad = {
                 handleMoon: function() {
                         if (!jad.lexicon.moon) { return; }
                         jad.lexicon.moon.addEventListener("click", () => {
-                                jad.lexicon.root.classList.toggle("nightMode");
+                                if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
+                                        jad.lexicon.root.classList.toggle("dayMode");
+                                        jad.lexicon.root.classList.remove("nightMode");
+                                }
+                                if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                        jad.lexicon.root.classList.toggle("nightMode");
+                                        jad.lexicon.root.classList.remove("dayMode");
+                                }
                         });
                 },
 	},
