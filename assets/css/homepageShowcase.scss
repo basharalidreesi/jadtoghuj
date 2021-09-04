@@ -52,7 +52,21 @@
                 border: 1px solid var(--color-text--light);
                 border-radius: 100%;
                 // background: yellow;
-                animation: fadeIn 10s, bounce 2.5s infinite;
+                animation: appear 10s, bounce 2.5s infinite;
+                @keyframes appear {
+                        0% {
+                                opacity: 0;
+        		}
+        		80% {
+                                opacity: 0;
+        		}
+        		90% {
+                                opacity: 0.5;
+        		}
+        		100% {
+                                opacity: 1;
+        		}
+                }
                 @keyframes bounce {
         		0% {
         			transform: translate(-50%, -100%);
