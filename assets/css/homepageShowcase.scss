@@ -39,6 +39,17 @@
                 }
         }
 
+        #arrow {
+                position: absolute;
+                top: calc(var(--vh, 1vh) * 100 - 2rem);
+                left: 50%;
+                transform: translate(-50%, -100%);
+                display: block;
+                width: 2rem;
+                height: 2rem;
+                background: yellow;
+        }
+
         #nav {
 
                 &__label {
