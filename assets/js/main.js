@@ -135,6 +135,7 @@ const jad = {
                         }
                 },
                 activateArrowScroll: function() {
+                        if (!jad.lexicon.arrow) { return; }
                         jad.lexicon.arrow.addEventListener("click", () => {
                                 window.scrollTo(0, jad.lexicon.nav.offsetTop + 15 + (jad.lexicon.nav.getBoundingClientRect().height / 2) - (window.innerHeight / 2));
                         });
