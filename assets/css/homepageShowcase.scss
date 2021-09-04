@@ -51,8 +51,10 @@
                 margin: 0;
                 border: 1px solid var(--color-text--light);
                 border-radius: 100%;
-                // background: yellow;
+                background: var(--color-top--light);
+                box-shadow: inset 0 -0.75rem 0 0 var(--color-bottom--light);
                 animation: appear 10s, bounce 2.5s infinite;
+                transition: box-shadow 0.25s;
                 @keyframes appear {
                         0% {
                                 opacity: 0;
@@ -82,6 +84,7 @@
                         &:hover {
                                 --color-text: var(--color-special);
                                 --color-text--light: var(--color-special);
+                                box-shadow: inset 0 -0.5rem 0 0 var(--color-bottom--light);
                         }
                 }
                 &::before {
