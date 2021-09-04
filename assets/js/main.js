@@ -60,8 +60,10 @@ const jad = {
                         jad.lexicon.moon.addEventListener("click", () => {
                                 if (jad.util.queryMedia("(prefers-colors-scheme: dark)")) {
                                         jad.lexicon.root.classList.toggle("dayMode");
+                                        jad.lexicon.root.classList.remove("nightMode");
                                 } else {
                                         jad.lexicon.root.classList.toggle("nightMode");
+                                        jad.lexicon.root.classList.remove("dayMode");
                                 }
                         });
                 },
