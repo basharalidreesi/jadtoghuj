@@ -56,8 +56,13 @@ const jad = {
 			});
 		},
                 handleMoon: function() {
+                        if (!jad.lexicon.moon) { return; }
                         jad.lexicon.moon.addEventListener("click", () => {
-                                jad.lexicon.root.classList.toggle("nightMode");
+                                if (jad.util.queryMedia("(prefers-colors-scheme: dark)")) {
+                                        jad.lexicon.root.classList.toggle("dayMode");
+                                } else {
+                                        jad.lexicon.root.classList.toggle("nightMode");
+                                }
                         });
                 },
 	},
