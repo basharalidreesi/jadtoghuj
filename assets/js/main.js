@@ -130,7 +130,7 @@ const jad = {
                 handleArrow: function(clampedHeaderYRatio) {
                         let opacificationRate = jad.util.clamp(0, jad.util.line(-2.75, clampedHeaderYRatio, 1), 1);
                         jad.lexicon.arrow.style.opacity = opacificationRate;
-                        if (opacificationRate == 0) {
+                        if (opacificationRate < 0.05) {
                                 jad.lexicon.arrow.remove();
                         }
                 },
