@@ -47,6 +47,7 @@ const jad = {
         main: {
 		initMainScripts: function() {
 			jad.main.displayJsOnly();
+                        jad.main.handleNightMode();
                         jad.main.handleMoon();
 		},
 		displayJsOnly: function() {
@@ -55,7 +56,7 @@ const jad = {
 				jsOnly.classList.remove("generic--jsOnly");
 			});
 		},
-                handeNightMode: function() {
+                handleNightMode: function() {
                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                 jad.lexicon.root.classList.add("nightMode");
                         }
