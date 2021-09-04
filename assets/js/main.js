@@ -13,6 +13,7 @@ const jad = {
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
+                arrow: document.querySelector("#arrow"),
                 nav: document.querySelector("#nav"),
                 navToggle: document.querySelector("#nav__toggle"),
                 projectToggle: document.querySelector("#projectDirectory__projectToggle"),
@@ -126,7 +127,7 @@ const jad = {
                 },
                 handleArrow: function(clampedHeaderYRatio) {
                         let opacificationRate = jad.util.line(-2, clampedHeaderYRatio, 1);
-                        document.querySelector("#arrow").style.opacity = opacificationRate;
+                        jad.lexicon.arrow.style.opacity = opacificationRate;
                 },
 
         },
