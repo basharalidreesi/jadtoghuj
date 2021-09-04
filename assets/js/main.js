@@ -128,7 +128,7 @@ const jad = {
                         jad.lexicon.header.style.setProperty("transform", "scale(" + scaleRatio + ")");
                 },
                 handleArrow: function(clampedHeaderYRatio) {
-                        let opacificationRate = jad.util.clamp(0, jad.util.line(-2.5, clampedHeaderYRatio, 1), 1);
+                        let opacificationRate = jad.util.clamp(0, jad.util.line(-2.75, clampedHeaderYRatio, 1), 1);
                         jad.lexicon.arrow.style.opacity = opacificationRate;
                         if (opacificationRate == 0) {
                                 jad.lexicon.arrow.remove();
