@@ -85,6 +85,7 @@ const jad = {
                 initHeaderScripts: function() {
                         // jad.header.pickRandomLogo();
                         jad.header.trackHeaderY();
+                        jad.header.activateArrowScroll();
                 },
                 pickRandomLogo: function() {
                         // let logos = new Array(
@@ -132,6 +133,11 @@ const jad = {
                         if (opacificationRate == 0) {
                                 jad.lexicon.arrow.remove();
                         }
+                },
+                activateArrowScroll: function() {
+                        jad.lexicon.arrow.addEventListener("click", () => {
+                                window.scrollTo(0, jad.lexicon.nav.offsetTop + 15 + (jad.lexicon.nav.getBoundingClientRect().height / 2) - (window.innerHeight / 2));
+                        });
                 },
 
         },
