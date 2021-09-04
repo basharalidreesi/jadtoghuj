@@ -24,8 +24,30 @@
 		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}66; // 40%
 		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_dark }};
 	}
+        &.dayMode {
+		--color-top: {{ site.data.colors.styling_and_creative_direction.top_color_light }};
+		--color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_light }}1A; // 10%
+	        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }};
+		--color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_light }}40; // 25%
+		--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+		--color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_light }};
+		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_light }}66; // 40%
+		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_light }};
+	}
+	&.nightMode {
+		--color-top: {{ site.data.colors.styling_and_creative_direction.top_color_dark }};
+		--color-top--light: {{ site.data.colors.styling_and_creative_direction.top_color_dark }}1A; // 10%
+	        --color-bottom: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }};
+		--color-bottom--light: {{ site.data.colors.styling_and_creative_direction.bottom_color_dark }}40; // 25%
+		--color-text: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--redundant: {{ site.data.colors.styling_and_creative_direction.text_color_dark }};
+		--color-text--light: {{ site.data.colors.styling_and_creative_direction.text_color_dark }}66; // 40%
+		--color-special: {{ site.data.colors.styling_and_creative_direction.special_color_dark }};
+		#moon {
+			--color-text--light: var(--color-special);
+		}
+	}
         {%- endif %}
-
         &.nightMode {
                 .project {
                         isolation: isolate;
