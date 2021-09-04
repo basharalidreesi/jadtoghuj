@@ -41,7 +41,7 @@
 
         #arrow {
                 position: absolute;
-                top: calc(var(--vh, 1vh) * 100 - 6rem);
+                top: calc(var(--vh, 1vh) * 100 - 4rem);
                 left: 50%;
                 transform: translate(-50%, -100%);
                 display: flex;
