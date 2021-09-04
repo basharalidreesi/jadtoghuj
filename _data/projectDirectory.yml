@@ -5,7 +5,7 @@ projects:
   project_page: _styling-and-creative-direction/SISI-on-a-mission.html
   project_tags:
   - experimental
-  - personal
+  - test shoot
   media:
   - template: look
     look_name: Look 01
@@ -15,7 +15,10 @@ projects:
 - project_name: Nedaa Sharara for ET Bil Arabi
   project_description: ''
   project_page: _styling-and-creative-direction/nedaa-sharara-for-et-bil-arabi.html
-  project_tags: []
+  project_tags:
+  - editorial
+  - client
+  - personal
   media:
   - template: look
     look_cover: "/assets/graphics/nedaa-et-look-01.png"
@@ -97,6 +100,7 @@ projects:
   project_tags:
   - experimental
   - editorial
+  - test shoot
   media:
   - template: image-s
     images:
@@ -142,6 +146,7 @@ projects:
   project_tags:
   - experimental
   - editorial
+  - test shoot
   media:
   - template: look
     look_name: Look 01
@@ -199,6 +204,7 @@ projects:
   project_tags:
   - menswear
   - music video
+  - client
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
@@ -208,6 +214,7 @@ projects:
   project_tags:
   - menswear
   - music video
+  - client
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
@@ -217,6 +224,7 @@ projects:
   project_tags:
   - menswear
   - music video
+  - client
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
@@ -228,6 +236,7 @@ projects:
   - commercial
   - campaign
   - personal
+  - jewelry
   media:
   - template: image-s
     images:
@@ -308,7 +317,9 @@ projects:
 - project_name: Simply Personal
   project_description: ''
   project_page: _styling-and-creative-direction/simply-personal.html
-  project_tags: []
+  project_tags:
+  - test shoot
+  - personal
   media:
   - template: image-s
     images:
@@ -324,6 +335,7 @@ projects:
   project_tags:
   - editorial
   - experimental
+  - test shoot
   media:
   - template: look
     look_name: Look 01
@@ -357,6 +369,7 @@ projects:
   - commercial
   - client
   - campaign
+  - jewelry
   media:
   - template: image-s
     images:
@@ -371,6 +384,7 @@ projects:
   project_tags:
   - experimental
   - editorial
+  - test shoot
   media:
   - template: image-s
     images:
@@ -387,7 +401,10 @@ projects:
 - project_name: Conquering Magenta
   project_description: ''
   project_page: _styling-and-creative-direction/conquering-magenta.html
-  project_tags: []
+  project_tags:
+  - experimental
+  - editorial
+  - test shoot
   media:
   - template: image-s
     images:
@@ -407,6 +424,7 @@ projects:
   - editorial
   - experimental
   - bridal
+  - test shoot
   media:
   - template: image-s
     images:
@@ -423,6 +441,7 @@ projects:
   project_page: _styling-and-creative-direction/a-very-pink-october.html
   project_tags:
   - personal
+  - commercial
   media:
   - template: look
     look_name: Look 01
@@ -440,6 +459,7 @@ projects:
   project_tags:
   - editorial
   - experimental
+  - test shoot
   media:
   - template: image-s
     images:
@@ -506,6 +526,8 @@ projects:
   project_page: _styling-and-creative-direction/salissant-charme.html
   project_tags:
   - editorial
+  - experimental
+  - test shoot
   media:
   - template: look
     look_name: Look 01
