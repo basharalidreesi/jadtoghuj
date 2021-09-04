@@ -59,17 +59,18 @@ const jad = {
                 handleNightMode: function() {
                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                 jad.lexicon.root.classList.add("nightMode");
+                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                jad.lexicon.root.classList.add("dayMode");
                         }
                 },
                 handleMoon: function() {
                         if (!jad.lexicon.moon) { return; }
                         jad.lexicon.moon.addEventListener("click", () => {
-                                if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
-                                        jad.lexicon.root.classList.toggle("dayMode");
+                                if (jad.lexicon.root.classList.contains("nightMode")) {
+                                        jad.lexicon.root.classList.add("dayMode");
                                         jad.lexicon.root.classList.remove("nightMode");
-                                }
-                                if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
-                                        jad.lexicon.root.classList.toggle("nightMode");
+                                } else if (jad.lexicon.root.classList.contains("dayMode")) {
+                                        jad.lexicon.root.classList.add("nightMode");
                                         jad.lexicon.root.classList.remove("dayMode");
                                 }
                         });
