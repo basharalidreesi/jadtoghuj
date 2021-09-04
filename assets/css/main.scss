@@ -298,6 +298,7 @@ body {
 			background: var(--color-text--light);
 		}
 		span {
+			position: relative;
 			font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 			font-weight: 300;
 			text-align: center;
@@ -330,22 +331,14 @@ body {
 		span:only-of-type {
 			margin: auto 0;
 		}
-	}
-
-	.footer--sticky {
-		position: sticky !important;
-		bottom: 0;
-		pointer-events: none;
-		opacity: 0;
-		transition: opacity 0.25s;
-		&::before {
-			content: none !important;
-		}
-	}
-	.footer--visible {
-		opacity: 1;
-		* {
-			pointer-events: auto !important;	
+		#moon {
+			position: absolute;
+			bottom: 2rem;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 2rem;
+			height: 2rem;
+			background: yellow;
 		}
 	}
 
