@@ -11,6 +11,7 @@ const jad = {
         lexicon: {
                 root: document.documentElement,
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
+                moon: document.querySelector("#moon"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 arrow: document.querySelector("#arrow"),
@@ -46,6 +47,7 @@ const jad = {
         main: {
 		initMainScripts: function() {
 			jad.main.displayJsOnly();
+                        jad.main.handleMoon();
 		},
 		displayJsOnly: function() {
 			if (!jad.lexicon.jsOnly) { return; }
@@ -53,6 +55,11 @@ const jad = {
 				jsOnly.classList.remove("generic--jsOnly");
 			});
 		},
+                handleMoon: function() {
+                        jad.lexicon.moon.addEventListener("click", () => {
+                                jad.lexicon.root.classList.toggle("nightMode");
+                        });
+                },
 	},
 
         viewport: {

@@ -346,7 +346,7 @@ body {
 		}
 		#moon {
 			position: absolute;
-			bottom: 4rem;
+			bottom: 2rem;
 			left: 50%;
 			transform: translateX(-50%);
 			display: flex;
@@ -359,6 +359,7 @@ body {
 			border: 1px solid var(--color-text--light);
 			border-radius: 100%;
 			transition: box-shadow 0.25s;
+			cursor: cell;
 			&::before {
 				content: "";
 				display: block;
