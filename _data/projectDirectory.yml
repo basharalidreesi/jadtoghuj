@@ -1,5 +1,49 @@
 ---
 projects:
+- project_name: Break The Fourth Wall
+  project_description: ''
+  project_page: _styling-and-creative-direction/break-the-fourth-wall.html
+  project_tags:
+  - experimental
+  - editorial
+  - self styling
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/break-the-fourth-wall-look-01.png"
+    look_images:
+    - "/assets/graphics/btfw-7.jpg"
+    - "/assets/graphics/btfw-8.jpg"
+    look_description: ''
+  - template: look
+    look_name: Look 02
+    look_images:
+    - "/assets/graphics/btfw-4.jpg"
+    - "/assets/graphics/btfw-3.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 03
+    look_images:
+    - "/assets/graphics/btfw-10.jpg"
+    - "/assets/graphics/btfw-11.jpg"
+    - "/assets/graphics/btfw-9.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 04
+    look_images:
+    - "/assets/graphics/btfw-5-1.jpg"
+    - "/assets/graphics/btfw-6-1.jpg"
+    look_description: ''
+    look_cover: ''
+  - template: look
+    look_name: Look 05
+    look_images:
+    - "/assets/graphics/btfw-2.jpg"
+    - "/assets/graphics/btfw-1.jpg"
+    look_description: ''
+    look_cover: ''
 - project_name: sisi on a mission
   project_description: ''
   project_page: _styling-and-creative-direction/SISI-on-a-mission.html
@@ -366,10 +410,10 @@ projects:
   project_description: ''
   project_page: _styling-and-creative-direction/fly-to-milan-with-pandora.html
   project_tags:
-  - commercial
   - client
   - campaign
   - jewelry
+  - commercial
   media:
   - template: image-s
     images:
