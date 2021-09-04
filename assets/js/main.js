@@ -109,6 +109,7 @@ const jad = {
                                 let headerYRatio = (headerYPos - 0.5) * 2;
                                 let clampedHeaderYRatio = jad.util.clamp(0 , headerYRatio, 1);
                                 jad.header.processHeaderY(clampedHeaderYRatio);
+                                if (!document.querySelector("#arrow")) { return; }
                                 jad.header.handleArrow(clampedHeaderYRatio);
                         });
                 },
@@ -129,7 +130,7 @@ const jad = {
                         let opacificationRate = jad.util.clamp(0, jad.util.line(-2, clampedHeaderYRatio, 1), 1);
                         jad.lexicon.arrow.style.opacity = opacificationRate;
                         if (opacificationRate == 0) {
-                                jad.lexicon.arrow.style.display = "none !important";
+                                jad.lexicon.arrow.remove();
                         }
                 },
 
