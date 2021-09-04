@@ -26,6 +26,12 @@
 	}
         {%- endif %}
 
+        &.darkMode {
+                .project {
+                        isolation: isolate;
+                }
+        }
+
 }
 
 body {
@@ -52,9 +58,6 @@ body {
                 .project {
                         position: relative;
                         height: calc(var(--vh, 1vh) * 100 - 10rem - 2px);
-                        @media (prefers-color-scheme: dark) {
-                                isolation: isolate;
-                        }
                         &__carousel {
                                 display: flex;
                                 flex-flow: row nowrap;
