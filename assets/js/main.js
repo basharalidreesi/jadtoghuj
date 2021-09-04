@@ -59,7 +59,7 @@ const jad = {
                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                 jad.lexicon.root.classList.add("nightMode");
                         }
-                }
+                },
                 handleMoon: function() {
                         if (!jad.lexicon.moon) { return; }
                         jad.lexicon.moon.addEventListener("click", () => {
