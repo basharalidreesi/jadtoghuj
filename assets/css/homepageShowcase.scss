@@ -52,13 +52,13 @@
                 border: 1px solid var(--color-text--light);
                 border-radius: 100%;
                 // background: yellow;
-                animation: bounce 2.5s infinite;
+                animation: fadeIn 5s, bounce 2.5s infinite;
                 @keyframes bounce {
         		0% {
         			transform: translate(-50%, -100%);
         		}
         		50% {
-        			transform: translate(-50%, -200%);
+        			transform: translate(-50%, -150%);
         		}
         		100% {
         			transform: translate(-50%, -100%);
