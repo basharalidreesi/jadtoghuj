@@ -64,13 +64,14 @@ const jad = {
                         jad.theme.handleMoon();
                 },
                 handleNightMode: function() {
-                        if (jad.util.queryMedia("(prefers-color-scheme: dark)") || localStorage.getItem("theme") == "night") {
+                        if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                 jad.lexicon.root.classList.add("nightMode");
                                 jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
-                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)") || localStorage.getItem("theme") == "day") {
+                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
                                 jad.lexicon.root.classList.add("dayMode");
                                 jad.lexicon.moon.setAttribute("title", "Activate night mode");
                         }
+                        console.log(localStorage.getItem("theme"));
                 },
                 handleMoon: function() {
                         if (!jad.lexicon.moon) { return; }
