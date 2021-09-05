@@ -78,9 +78,11 @@ const jad = {
                                 if (jad.lexicon.root.classList.contains("nightMode")) {
                                         jad.lexicon.root.classList.add("dayMode");
                                         jad.lexicon.root.classList.remove("nightMode");
+                                        jad.lexicon.moon.setAttribute("title", "Activate night mode");
                                 } else if (jad.lexicon.root.classList.contains("dayMode")) {
                                         jad.lexicon.root.classList.add("nightMode");
                                         jad.lexicon.root.classList.remove("dayMode");
+                                        jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
                                 }
                         });
                 },
