@@ -66,8 +66,10 @@ const jad = {
                 handleNightMode: function() {
                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                 jad.lexicon.root.classList.add("nightMode");
+                                jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
                         } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
                                 jad.lexicon.root.classList.add("dayMode");
+                                jad.lexicon.moon.setAttribute("title", "Activate night mode");
                         }
                 },
                 handleMoon: function() {
