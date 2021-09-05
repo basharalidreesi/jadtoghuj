@@ -64,10 +64,10 @@ const jad = {
                         jad.theme.handleMoon();
                 },
                 handleNightMode: function() {
-                        if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
+                        if (jad.util.queryMedia("(prefers-color-scheme: dark)") || localStorage.getItem("theme") == "night") {
                                 jad.lexicon.root.classList.add("nightMode");
                                 jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
-                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)") || localStorage.getItem("theme") == "day") {
                                 jad.lexicon.root.classList.add("dayMode");
                                 jad.lexicon.moon.setAttribute("title", "Activate night mode");
                         }
@@ -79,10 +79,20 @@ const jad = {
                                         jad.lexicon.root.classList.add("dayMode");
                                         jad.lexicon.root.classList.remove("nightMode");
                                         jad.lexicon.moon.setAttribute("title", "Activate night mode");
+                                        if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
+                                                localStorage.setItem("theme", "day");
+                                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                                localStorage.setItem("theme", "night");
+                                        }
                                 } else if (jad.lexicon.root.classList.contains("dayMode")) {
                                         jad.lexicon.root.classList.add("nightMode");
                                         jad.lexicon.root.classList.remove("dayMode");
                                         jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
+                                        if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
+                                                localStorage.setItem("theme", "night");
+                                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                                localStorage.setItem("theme", "day");
+                                        }
                                 }
                         });
                 },
