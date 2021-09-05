@@ -91,7 +91,7 @@ const jad = {
                                         jad.lexicon.moon.setAttribute("title", "Activate night mode");
                                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                                 localStorage.setItem("theme", "day");
-                                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                        } else {
                                                 localStorage.setItem("theme", "night");
                                         }
                                 } else if (jad.lexicon.root.classList.contains("dayMode")) {
@@ -100,7 +100,7 @@ const jad = {
                                         jad.lexicon.moon.setAttribute("title", "Deactivate night mode");
                                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                                 localStorage.setItem("theme", "night");
-                                        } else if (jad.util.queryMedia("(prefers-color-scheme: light)")) {
+                                        } else {
                                                 localStorage.setItem("theme", "day");
                                         }
                                 }
