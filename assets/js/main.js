@@ -92,7 +92,7 @@ const jad = {
                                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                                 localStorage.setItem("theme", "day");
                                         } else {
-                                                localStorage.setItem("theme", "night");
+                                                localStorage.removeItem("theme");
                                         }
                                 } else if (jad.lexicon.root.classList.contains("dayMode")) {
                                         jad.lexicon.root.classList.add("nightMode");
@@ -101,7 +101,7 @@ const jad = {
                                         if (jad.util.queryMedia("(prefers-color-scheme: dark)")) {
                                                 localStorage.setItem("theme", "night");
                                         } else {
-                                                localStorage.setItem("theme", "day");
+                                                localStorage.removeItem("theme");
                                         }
                                 }
                         });
