@@ -1,6 +1,6 @@
 ---
 projects:
-- project_name: Break The Fourth Wall
+- project_name: Break the Fourth Wall
   project_description: ''
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
   project_tags:
@@ -53,7 +53,7 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/sisi-on-a-mission-look-01.jpg"
+    look_cover: "/assets/graphics/sisi-on-a-mission-look-02.png"
     look_description: ''
     look_images: []
 - project_name: Nedaa Sharara for ET Bil Arabi
