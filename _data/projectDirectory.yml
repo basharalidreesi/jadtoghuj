@@ -246,9 +246,9 @@ projects:
   project_description: ''
   project_page: _styling-and-creative-direction/raja-otaqui-dina-music-video.html
   project_tags:
-  - menswear
   - music video
   - client
+  - menswear
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=7Wes6U1d9BA
@@ -256,9 +256,9 @@ projects:
   project_description: ''
   project_page: _styling-and-creative-direction/zaid-khaled-shoftek-abel-shway-music-video.html
   project_tags:
-  - menswear
   - music video
   - client
+  - menswear
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=5HnU0XxAz9k
@@ -266,9 +266,9 @@ projects:
   project_description: ''
   project_page: _styling-and-creative-direction/zaid-khaled-x-the-synaptik-lal-nour-music-video.html
   project_tags:
-  - menswear
   - music video
   - client
+  - menswear
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
