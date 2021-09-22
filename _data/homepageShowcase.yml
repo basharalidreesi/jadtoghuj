@@ -1,11 +1,5 @@
 ---
 entries:
-- entry_image: "/assets/graphics/hp-01.png"
-  entry_link: ''
-- entry_image: "/assets/graphics/hp-01.png"
-  entry_link: ''
-- entry_image: "/assets/graphics/hp-01.png"
-  entry_link: ''
 - entry_image: "/assets/graphics/hp-04.png"
   entry_link: ''
 - entry_image: "/assets/graphics/hp-05.png"
@@ -29,10 +23,4 @@ entries:
 - entry_image: "/assets/graphics/second-14.png"
   entry_link: ''
 - entry_image: "/assets/graphics/second-15.png"
-  entry_link: ''
-- entry_image: "/assets/graphics/hp-01.png"
-  entry_link: ''
-- entry_image: "/assets/graphics/hp-01.png"
-  entry_link: ''
-- entry_image: "/assets/graphics/hp-01.png"
   entry_link: ''
