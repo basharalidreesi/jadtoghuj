@@ -216,7 +216,7 @@ body {
 
                 #project__console {
                         position: absolute;
-                        bottom: 0;
+                        bottom: env(safe-area-inset-bottom);
                         left: 50%;
                         transform: translate(-50%, -100%);
                         --color-text: white;
