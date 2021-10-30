@@ -44,9 +44,6 @@ sections:
 - type: document
   path: _data/colors.yml
   label: Colors
-- type: document
-  path: _data/logos.yml
-  label: Logos
 upload_dir: assets/graphics
 public_path: "/assets/graphics"
 front_matter_path: ''
