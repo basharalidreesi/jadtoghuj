@@ -35,12 +35,12 @@
 
         #header {
 		height: 5rem;
-		margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
-                // margin: calc(50vh - 1rem - 2.5rem) 1rem;
+		// margin: calc(var(--vh, 1vh) * 50 - 1rem - 2.5rem) 1rem;
+                margin: calc(50vh - 1rem - 2.5rem) 1rem;
                 @media (max-width: 512px) {
                         height: 4rem;
-                        margin: calc(var(--vh, 1vh) * 50 - 1rem - 2rem) 1rem;
-                        // margin: calc(50vh - 1rem - 2rem) 1rem;
+                        // margin: calc(var(--vh, 1vh) * 50 - 1rem - 2rem) 1rem;
+                        margin: calc(50vh - 1rem - 2rem) 1rem;
                 }
         }
 
