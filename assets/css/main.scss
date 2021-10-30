@@ -33,7 +33,7 @@ $font-size: 15px !default;
 
 :root,
 html {
-	touch-action: manipulation;
+	touch-action: pan-x pan-y;
 }
 
 html,
