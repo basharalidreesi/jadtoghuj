@@ -47,7 +47,8 @@
         #arrow {
                 position: absolute;
                 // top: calc(var(--vh, 1vh) * 100 - 4rem);
-                top: calc(100vh - 4rem - env(safe-area-inset-bottom));
+                // top: calc(100vh - 4rem - env(safe-area-inset-bottom));
+                bottom: calc(1rem + env(safe-area-inset-bottom));
                 left: 50%;
                 transform: translate(-50%, -100%);
                 display: flex;
