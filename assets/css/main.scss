@@ -32,7 +32,10 @@ $font-size: 15px !default;
 }
 
 :root,
-html {
+html,
+*,
+*::before,
+*::after {
 	touch-action: pan-x pan-y;
 }
 
