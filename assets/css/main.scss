@@ -43,12 +43,12 @@ body {
 	font-style: normal;
 	line-height: 1.0;
 	text-align: left;
-	@supports(padding:max(0px)) {
-		padding-top: min(0vmin, env(safe-area-inset-top));
-        	padding-right: min(0vmin, env(safe-area-inset-right));
-		padding-bottom: min(0vmin, env(safe-area-inset-bottom));
-		padding-left: min(0vmin, env(safe-area-inset-left));
-	}
+	// @supports(padding:max(0px)) {
+	// 	padding-top: min(0vmin, env(safe-area-inset-top));
+        // 	padding-right: min(0vmin, env(safe-area-inset-right));
+	// 	padding-bottom: min(0vmin, env(safe-area-inset-bottom));
+	// 	padding-left: min(0vmin, env(safe-area-inset-left));
+	// }
 }
 *,
 *::before,
