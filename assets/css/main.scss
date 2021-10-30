@@ -31,6 +31,11 @@ $font-size: 15px !default;
 
 }
 
+:root,
+html {
+	touch-action: pan-x pan-y;
+}
+
 html,
 body {
 	top: 0;
@@ -73,7 +78,6 @@ body {
 	text-rendering: geometricPrecision;
 	-webkit-font-smoothing: subpixel-antialiased;
 	word-break: break-word;
-	touch-action: manipulation;
 }
 
 img {
