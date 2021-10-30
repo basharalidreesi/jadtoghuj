@@ -55,8 +55,7 @@ body {
                 .project {
                         position: relative;
                         // height: calc(var(--vh, 1vh) * 100 - 10rem - 2px);
-                        // height: calc(100vh - 10rem - 2px);
-                        height: calc(var(--vh, 1vh) * 100 - 10rem - 2px + env(safe-area-inset-bottom));
+                        height: calc(100vh - 10rem - 2px);
                         @media (prefers-color-scheme: dark) {
                                 isolation: isolate;
                         }
