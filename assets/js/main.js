@@ -11,7 +11,7 @@ const jad = {
         lexicon: {
                 root: document.documentElement,
                 jsOnly: document.querySelectorAll(".generic--jsOnly"),
-                moon: document.querySelector("#moon"),
+                // moon: document.querySelector("#moon"),
                 header: document.querySelector("#header"),
                 logo: document.querySelector("#header__logo"),
                 arrow: document.querySelector("#arrow"),
@@ -31,18 +31,18 @@ const jad = {
                 carouselConsoleToggle: document.querySelector("#project__console__descriptionToggle"),
                 carouselConsolePanel: document.querySelector("#project__console__descriptionPanel"),
                 carouselConsoleLabel: document.querySelector("#project__console__descriptionLabel"),
-                footer: document.querySelector("#footer"),
-                footerSentinel: document.querySelector("#footer__sentinel"),
+                // footer: document.querySelector("#footer"),
+                // footerSentinel: document.querySelector("#footer__sentinel"),
         },
 
         initAllScripts: function() {
                 jad.main.initMainScripts();
-                jad.theme.initThemeScripts();
+                // jad.theme.initThemeScripts();
                 jad.viewport.initViewportScripts();
                 jad.header.initHeaderScripts();
                 jad.projectDirectory.initProjectDirectoryScripts();
                 jad.carousel.initCarouselScripts();
-                jad.footer.initFooterScripts();
+                // jad.footer.initFooterScripts();
         },
 
         main: {
