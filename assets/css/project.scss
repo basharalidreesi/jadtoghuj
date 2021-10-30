@@ -216,7 +216,7 @@ body {
 
                 #project__console {
                         position: absolute;
-                        bottom: env(safe-area-inset-bottom);
+                        bottom: calc(100vh - var(--vh, 1vh) * 100);
                         left: 50%;
                         transform: translate(-50%, -100%);
                         --color-text: white;
