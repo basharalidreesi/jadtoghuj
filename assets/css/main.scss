@@ -36,8 +36,8 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	// min-height: calc(var(--vh, 1vh) * 100 - 2rem);
-	min-height: calc(100vh - 2rem);
+	min-height: calc(var(--vh, 1vh) * 100 - 2rem);
+	// min-height: calc(100vh - 2rem);
 	font-size: $font-size;
 	font-weight: 400;
 	font-style: normal;
