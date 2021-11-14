@@ -206,10 +206,19 @@ body {
 			&--current {
 				display: none;
 			}
-			&--styling {
+			// &--styling {
+			// 	order: 1;
+			// }
+			// &--about {
+			// 	order: 2;
+			// }
+			// &--architecture {
+			// 	order: 3;
+			// }
+			&--about {
 				order: 1;
 			}
-			&--about {
+			&--styling {
 				order: 2;
 			}
 			&--architecture {
