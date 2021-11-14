@@ -225,8 +225,11 @@ body {
 				order: 3;
 			}
 			.nav__label--parent {
-				order: 0;
+				// order: 0;
 				--color-text: var(--color-special);
+				@media (max-width: 768px) {
+					order: 0;
+				}
 			}
 			.nav__label--active {
 				--color-text: var(--color-special);
