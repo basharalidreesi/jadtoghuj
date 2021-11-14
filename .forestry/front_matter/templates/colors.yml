@@ -207,7 +207,7 @@ fields:
       field: custom
       value: true
   label: Styling & Creative Direction
-- name: social_media_and_content_creation
+- name: architecture
   type: field_group
   config: {}
   fields:
@@ -254,6 +254,6 @@ fields:
     showOnly:
       field: custom
       value: true
-  label: Social Media & Content Creation
+  label: Architecture
 pages:
 - _data/colors.yml

@@ -212,7 +212,7 @@ body {
 			&--about {
 				order: 2;
 			}
-			&--social {
+			&--architecture {
 				order: 3;
 			}
 			.nav__label--parent {
@@ -234,7 +234,7 @@ body {
 				&--styling {
 					order: 2;
 				}
-				&--social {
+				&--architecture {
 					order: 3;
 				}
 				.nav__label--parent {
@@ -261,7 +261,7 @@ body {
 			&--current,
 			&--styling,
 			&--about,
-			&--social {
+			&--architecture {
 				flex: 1;
 				padding: 2rem;
 				font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;

@@ -2,8 +2,8 @@
 title: Jad Toghuj
 timezone: JO
 collections:
-  social-media-and-content-creation:
-    title: Social Media & Content Creation
+  architecture:
+    title: Architecture
     output: true
     permalink: "/:collection/:path/"
   styling-and-creative-direction:
@@ -26,9 +26,9 @@ defaults:
     layout: project
 - scope:
     path: ""
-    type: social-media-and-content-creation
+    type: architecture
   values:
-    layout: client
+    layout: architecture
 baseurl:
 url: https://jadtoghuj.com
 include:
