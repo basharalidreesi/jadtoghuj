@@ -2,3 +2,5 @@
 label: Architecture
 hide_body: true
 fields: []
+pages:
+- _architecture/sample-project.html
