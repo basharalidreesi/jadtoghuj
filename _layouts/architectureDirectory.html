@@ -85,7 +85,7 @@ style:
 							{%- endfor %}
 						</div>
 					</div>
-					{%- for project in site.data.projectDirectory.projects %}
+					{%- for project in site.data.architectureDirectory.projects %}
 					<article class="projectDirectory__projectCard" data-jad-project-tags="{%- for tag in project.project_tags -%} {{ tag | downcase }} {%- unless forloop.last -%}, {% endunless -%} {%- endfor -%}">
 						<h4 class="generic--hidden">
 							{{ project.project_name }}
