@@ -4,3 +4,97 @@ style:
   - nav
   - architecture
 ---
+
+	{%- comment -%} copy of project.html {%- endcomment -%}
+	<article class="project">
+				{%- for project in site.data.architectureDirectory.projects -%}
+				{%- if project.project_page == page.path %}
+				<h2 class="generic--hidden">
+					{{ project.project_name }}
+				</h2>
+				<div id="project__cp" class="generic--jsOnly generic--notVisible generic--zeroOpacity" role="presentation">
+					<div id="project__cp__left" class="generic--notVisible" title="Previous slide">
+						←
+					</div>
+					<div id="project__cp__counter" title="Current slide">
+						?? / ??
+					</div>
+					<div id="project__cp__right" title="Next slide">
+						→
+					</div>
+				</div>
+				<div class="project__carousel">
+					<header class="project__carouselItem project__carouselTitle" data-jad-cp-label="">
+						<span id="project__title">
+							{{ project.project_name }}
+						</span>
+						{%- if project.project_description and project.project_description.size != 0 %}
+						<span>
+							{{ project.project_description }}
+						</span>
+						{%- endif %}
+					</header>
+					{%- for media in project.media -%}
+					{%- if media.template == "look" -%}
+					{%- for image in media.look_images -%}
+					{%- if image and image.size != 0 %}
+					<figure class="project__carouselItem" data-jad-cp-label="{{ media.look_name }}" {%- if media.look_description and media.look_description.size != 0 %} data-jad-cp-description="{{ media.look_description }}" {%- endif -%}>
+						<img src="{{ image }}" title="{{ media.look_name }}" />
+						<figcaption class="generic--hidden">
+							<span>
+								{{ media.look_name }}
+							</span>
+							<span>
+								{{ media.look_description }}
+							</span>
+						</figcaption>
+					</figure>
+					{%- endif -%}
+					{%- endfor -%}
+					{%- endif -%}
+					{%- if media.template == "image-s" -%}
+					{%- for image in media.images -%}
+					{%- if image and image.size != 0 %}
+					<figure class="project__carouselItem" data-jad-cp-label="{{ media.image_s_name }}" {%- if media.image_s_description and media.image_s_description.size != 0 %} data-jad-cp-description="{{ media.image_s_description }}" {%- endif -%}>
+						<img src="{{ image }}" title="{%- if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- endif -%}" />
+						<figcaption class="generic--hidden">
+							<span>
+								{% if media.image_s_name and media.image_s_name.size != 0 -%} {{ project.media.image_s_name }} {%- else -%} {{ project.project_name }} {%- endif %}
+							</span>
+						</figcaption>
+					</figure>
+					{%- endif -%}
+					{%- endfor -%}
+					{%- endif -%}
+					{%- if media.template == "video" -%}
+					{%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" or media.video_url contains "vimeo.com" %}
+					<figure class="project__carouselItem project__carouselVideo" data-jad-cp-label="">
+						{%- if media.video_url contains "youtube.com" or media.video_url contains "youtu.be" %}
+						<div>
+							<iframe width="560" height="315" src="{{ media.video_url | replace: 'youtube.com/watch?v=', 'youtube.com/embed/' | replace: 'youtu.be/', 'youtube.com/embed/' }}" title="{{ project.project_name }}" frameborder="0" modestbranding="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<a href="{{ media.video_url }}" title="{{ project.project_name }}" target="_blank"></a>
+						</div>
+						{%- elsif media.video_url contains "vimeo.com" %}
+						{%- endif %}
+						<figcaption class="generic--hidden">
+							<span>
+								{{ project.project_name }}
+							</span>
+						</figcaption>
+					</figure>
+					{%- endif -%}
+					{%- endif -%}
+					{%- endfor %}
+					<footer class="project__carouselItem project__carouselFooter" data-jad-cp-label="">
+						{{ site.data.generalConfiguration.footer_text }}
+						<!-- <div id="moon" class="generic--jsOnly" title="Night mode"></div> -->
+					</footer>
+				</div>
+				<div id="project__console" class="generic--jsOnly generic--notVisible generic--zeroOpacity generic--displayNone" role="presentation">
+					<input type="checkbox" id="project__console__descriptionToggle" autocomplete="off" />
+					<div id="project__console__descriptionPanel"></div>
+					<label for="project__console__descriptionToggle" id="project__console__descriptionLabel" title="Slide description"></label>
+				</div>
+				{%- endif -%}
+				{%- endfor %}
+			</article>
