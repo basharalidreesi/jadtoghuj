@@ -63,7 +63,7 @@ style:
 						</label>
 					</div>
 					{%- assign tag_array = "" | split: " " -%}
-					{%- for project in site.data.projectDirectory.projects -%}
+					{%- for project in site.data.architectureDirectory.projects -%}
 						{%- if project.project_tags and project.project_tags.size != 0 -%}
 							{%- for tag in project.project_tags -%}
 								{%- assign tag_array = tag_array | push: tag -%}
