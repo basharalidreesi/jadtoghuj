@@ -5,18 +5,115 @@ style:
   - architectureDirectory
 ---
 
-        <article class="architectureDirectory">
-                                <h2 class="generic--hidden">
-                                        Architecture
-                                </h2>
-                                <div style="
-                                        height: calc(var(--vh, 1vh) * 100 - 4rem);
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        text-align: center;
-                                        font-family: 'Telegraf', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-                                ">
-                                        This page is under construction.
-                                </div>
-                        </article>
+	{%- comment -%} copy of projectDirectory {%- endcomment -%}
+	<article class="projectDirectory">
+				<h2 class="generic--hidden">
+					Architecture
+				</h2>
+				<section class="projectDirectory__looks">
+					<h3 class="generic--hidden">
+						Browse by Graphic
+					</h3>
+					<input type="checkbox" id="projectDirectory__lookToggle" autocomplete="off" />
+					<div id="projectDirectory__lookLabel">
+						<label for="projectDirectory__lookToggle" title="See all graphics" role="presentation">
+							Browse by Graphic
+						</label>
+					</div>
+					{%- for project in site.data.architectureDirectory.projects -%}
+					{%- for media in project.media -%}
+					{%- if media.template == "look" %}
+					<article class="projectDirectory__lookCard--outer">
+						<h4 class="generic--hidden">
+							{{ media.look_name }}, {{ project.project_name }}
+						</h4>
+						<a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ media.look_name }}, {{ project.project_name }}">
+							<div class="projectDirectory__lookCard--inner">
+								<figure class="projectDirectory__lookCard--image">
+									<img src="{{ media.look_cover }}" title="{{ media.look_name }}, {{ project.project_name }}" />
+									<figcaption class="generic--hidden">
+										<span>
+											{{ media.look_name }}
+										</span>
+										<span>
+											{{ project.project_name }}
+										</span>
+									</figcaption>
+								</figure>
+							</div>
+						</a>
+					</article>
+					{%- endif -%}
+					{%- endfor -%}
+					{%- endfor %}
+					<div id="projectDirectory__allLooks" class="projectDirectory__lookCard--outer">
+						<label for="projectDirectory__lookToggle" title="See all graphics" class="projectDirectory__lookCard--inner" role="presentation">
+							+
+						</label>
+					</div>
+				</section>
+				<section class="projectDirectory__projects">
+					<h3 class="generic--hidden">
+						Browse by Project
+					</h3>
+					<input type="checkbox" id="projectDirectory__projectToggle" autocomplete="off" />
+					<div id="projectDirectory__projectLabel">
+						<label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
+							Browse by Project
+						</label>
+					</div>
+					{%- assign tag_array = "" | split: " " -%}
+					{%- for project in site.data.projectDirectory.projects -%}
+						{%- if project.project_tags and project.project_tags.size != 0 -%}
+							{%- for tag in project.project_tags -%}
+								{%- assign tag_array = tag_array | push: tag -%}
+							{%- endfor -%}
+						{%- endif -%}
+					{%- endfor -%}
+					{%- assign tag_array = tag_array | uniq | sort %}
+					<div class="generic--jsOnly projectDirectory__projectFilters">
+						<div>
+							<input type="radio" id="tag__all" class="projectDirectory__projectTag" name="tag" autocomplete="off" />
+							<label for="tag__all" title="See all projects">
+								all projects
+							</label>
+							{%- for tag in tag_array %}
+							<input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" autocomplete="off" />
+							<label for="tag__{{ tag | slugify }}" title="See {{ tag | downcase }} projects">
+								{{ tag | downcase }}
+							</label>
+							{%- endfor %}
+						</div>
+					</div>
+					{%- for project in site.data.projectDirectory.projects %}
+					<article class="projectDirectory__projectCard" data-jad-project-tags="{%- for tag in project.project_tags -%} {{ tag | downcase }} {%- unless forloop.last -%}, {% endunless -%} {%- endfor -%}">
+						<h4 class="generic--hidden">
+							{{ project.project_name }}
+						</h4>
+						<a href="{{ project.project_page | replace_first: '_', '/' | replace: '.html', '/'  }}" title="{{ project.project_name }}">
+							{{ project.project_name }}
+						</a>
+						<span style="display: none;">
+							{%- for tag in project.project_tags %}
+							{{ tag }}
+							{%- endfor %}
+						</span>
+					</article>
+					{%- endfor %}
+					<div id="projectDirectory__allProjects" class="projectDirectory__projectCard">
+						<label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
+							+
+						</label>
+					</div>
+					<noscript>
+						<style>
+							.projectDirectory__projects::after {
+								content: none !important;
+							}
+							.projectDirectory__projectCard:first-of-type {
+								border-top: 1px solid var(--color-text--light);
+							}
+						</style>
+					</noscript>
+				</section>
+			</article>
