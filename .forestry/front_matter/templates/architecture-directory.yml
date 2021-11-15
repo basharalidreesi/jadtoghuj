@@ -1,0 +1,39 @@
+---
+label: Architecture Directory
+hide_body: true
+fields:
+- type: field_group_list
+  name: projects
+  label: projects
+  fields:
+  - type: text
+    name: project_name
+    label: project_name
+  - type: text
+    name: project_description
+    label: project_description
+  - type: text
+    name: project_page
+    label: project_page
+  - type: list
+    name: project_tags
+    label: project_tags
+  - type: field_group_list
+    name: media
+    label: media
+    fields:
+    - type: text
+      name: template
+      label: template
+    - type: text
+      name: look_name
+      label: look_name
+    - type: file
+      name: look_cover
+      label: look_cover
+    - type: image_gallery
+      name: look_images
+      label: look_images
+    - type: text
+      name: look_description
+      label: look_description
