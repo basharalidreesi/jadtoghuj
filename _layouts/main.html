@@ -7,6 +7,7 @@
 		{{- site.data.generalConfiguration.author -}}
 		{%- unless page.layout == "homepageShowcase" -%}
 			{%- if page.layout == "project" %} | {%- for project in site.data.projectDirectory.projects -%} {%- if project.project_page == page.path %} {{ project.project_name }} {%- endif -%} {%- endfor -%}
+			{%- elsif page.layout == "architecture" %} | {%- for project in site.data.architectureDirectory.projects -%} {%- if project.project_page == page.path %} {{ project.project_name }} {%- endif -%} {%- endfor -%}
 			{%- else %} | {{ page.title }} {%- endif -%}
 		{%- endunless -%}
 	</title>
@@ -84,6 +85,15 @@
 				{%- if page.layout == "project" %}
 				<span id="nav__label--current" class="nav__label--active">
 					{%- for project in site.data.projectDirectory.projects -%}
+					{%- if project.project_page == page.path %}
+					{{ project.project_name }}
+					{%- endif -%}
+					{%- endfor %}
+				</span>
+				{%- endif %}
+				{%- if page.layout == "architecture" %}
+				<span id="nav__label--current" class="nav__label--active">
+					{%- for project in site.data.architectureDirectory.projects -%}
 					{%- if project.project_page == page.path %}
 					{{ project.project_name }}
 					{%- endif -%}
