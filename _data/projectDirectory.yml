@@ -129,7 +129,11 @@ projects:
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
-    look_description: ''
+    look_description: A mirror of "Look 03", this look features a cropped blazer and
+      skirt ensemble by <a href=“https://www.instagram.com/corebysujood/?hl=en” target=“_blank”>Core
+      By Sujoud</a>, white stockings, custom black suede and silver metal detail sandals,
+      and statement earring and ring by <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
+      target=“_blank”>Run Naked</a>.
     look_images: []
   - template: look
     look_name: Look 05
