@@ -147,7 +147,12 @@ projects:
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
     look_images: []
-    look_description: ''
+    look_description: To compliment "Look 05", this bright pink dress by <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en”
+      target=“_blank”>Laith Maalouf</a> features the same peekaboo neckline but in
+      black. In reference to ski fashion, this look is complete with custom black
+      nylon thigh-high puffer leg warmers, styled over black stockings. The look was
+      complete with <a href=“https://www.instagram.com/omaiajallad/?hl=en” target=“_blank”>Omaia
+      Jallad</a> jewelry.
   - template: image-s
     image_s_name: Looks 05 & 06
     images:
