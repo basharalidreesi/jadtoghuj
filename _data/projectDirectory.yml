@@ -103,7 +103,12 @@ projects:
     look_cover: "/assets/graphics/savoire-flaire-look-1.png"
   - template: look
     look_name: Look 02
-    look_description: ''
+    look_description: Also inspired by high fashion ski attire, this look was designed
+      by me, referencing warm sporty bodysuits, with a royal blue silk satin <a href=“https://www.instagram.com/xia.thelabel/?hl=en”
+      target=“_blank”>XIA</a> mini dress on top, the look was completed with a custom
+      designed puffer cropped cape in black nylon. The look features fine jewelry
+      by ethical multidisciplinary designer <a href=“https://www.instagram.com/nujoudoweis/?hl=en”
+      target=“_blank”>Nujoud Oweis</a>.
     look_cover: "/assets/graphics/savoir-flaire-look-2.png"
     look_images: []
   - template: image-s
