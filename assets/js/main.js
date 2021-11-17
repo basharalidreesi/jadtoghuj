@@ -366,11 +366,13 @@ const jad = {
                         });
                 },
                 listenToConsoleClick: function() {
-                        jad.lexicon.carouselConsolePanel.addEventListener("click", () => {
+                        jad.lexicon.carouselConsolePanel.addEventListener("click", (event) => {
                                 if (jad.lexicon.carouselConsole.classList.contains("generic--halfOpacity")) {
                                         jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                                 } else {
-                                        jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
+                                        if (event.target.tagName != "A") {
+                                                jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");        
+                                        }
                                 }
                         });
                 },
