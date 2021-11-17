@@ -139,7 +139,10 @@ projects:
     look_name: Look 05
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
     look_images: []
-    look_description: ''
+    look_description: Stunning bright yellow and royal blue dress by couture designer
+      <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en” target=“_blank”>Laith
+      Maalouf</a>, complete with Mugler inspired custom royal blue gloves and leg
+      pieces.
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
