@@ -121,37 +121,37 @@ projects:
     look_cover: "/assets/graphics/savoir-flaire-look-4.png"
     look_images:
     - "/assets/graphics/dsc_8048.jpg"
-    look_description: Winter chic in this <a href=“https://www.instagram.com/nafsikaskourti/?hl=en”
-      target=“_blank”>Nafsika Skourti</a> skirt suit, the look was complete with custom
+    look_description: Winter chic in this <a href="https://www.instagram.com/nafsikaskourti”
+      target="_blank”>Nafsika Skourti</a> skirt suit, the look was complete with custom
       white suede and bronze metal detailed sandals, statement earrings and rings
-      are courtesy of <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
-      target=“_blank”>Run Naked</a>.
+      are courtesy of <a href="https://www.instagram.com/runnakedofficial”
+      target="_blank”>Run Naked</a>.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
     look_description: A mirror of "Look 03", this look features a cropped blazer and
-      skirt ensemble by <a href=“https://www.instagram.com/corebysujood/?hl=en” target=“_blank”>Core
+      skirt ensemble by <a href="https://www.instagram.com/corebysujood” target="_blank”>Core
       By Sujoud</a>, white stockings, custom black suede and silver metal detail sandals,
-      and statement earring and ring by <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
-      target=“_blank”>Run Naked</a>.
+      and statement earring and ring by <a href="https://www.instagram.com/runnakedofficial”
+      target="_blank”>Run Naked</a>.
     look_images: []
   - template: look
     look_name: Look 05
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
     look_images: []
     look_description: Stunning bright yellow and royal blue dress by couture designer
-      <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en” target=“_blank”>Laith
+      <a href="https://www.instagram.com/laithmaalouf_official” target="_blank”>Laith
       Maalouf</a>, complete with Mugler inspired custom royal blue gloves and leg
       pieces.
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
     look_images: []
-    look_description: To compliment "Look 05", this bright pink dress by <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en”
-      target=“_blank”>Laith Maalouf</a> features the same peekaboo neckline but in
+    look_description: To compliment "Look 05", this bright pink dress by <a href="https://www.instagram.com/laithmaalouf_official”
+      target="_blank”>Laith Maalouf</a> features the same peekaboo neckline but in
       black. In reference to ski fashion, this look is complete with custom black
       nylon thigh-high puffer leg warmers, styled over black stockings. The look was
-      complete with <a href=“https://www.instagram.com/omaiajallad/?hl=en” target=“_blank”>Omaia
+      complete with <a href="https://www.instagram.com/omaiajallad” target="_blank”>Omaia
       Jallad</a> jewelry.
   - template: image-s
     image_s_name: Looks 05 & 06
