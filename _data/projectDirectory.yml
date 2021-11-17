@@ -121,7 +121,11 @@ projects:
     look_cover: "/assets/graphics/savoir-flaire-look-4.png"
     look_images:
     - "/assets/graphics/dsc_8048.jpg"
-    look_description: ''
+    look_description: Winter chic in this <a href=“https://www.instagram.com/nafsikaskourti/?hl=en”
+      target=“_blank”>Nafsika Skourti</a> skirt suit, the look was complete with custom
+      white suede and bronze metal detailed sandals, statement earrings and rings
+      are courtesy of <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
+      target=“_blank”>Run Naked</a>.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
