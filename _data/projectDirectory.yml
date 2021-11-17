@@ -81,10 +81,10 @@ projects:
     - "/assets/graphics/dsc_8418.jpg"
     - "/assets/graphics/dsc_8338.jpg"
     image_s_name: Look 02
-    image_s_description: A custom jacket designed specially for Nedaa by <a href=“https://www.instagram.com/ahmad_khrabsha/?hl=en”
-      target=“_blank”>Ahmad Kharabsheh</a> matched with oversized custom <a href=“https://www.instagram.com/fadifzumot/?hl=en”
-      target=“_blank”>Fadi Zumot</a> trousers, and periwinkle belt by <a href=“https://www.instagram.com/edelina.joyce/?hl=en”
-      target=“_blank”>Edelina Joyce</a>
+    image_s_description: A custom jacket designed specially for Nedaa by <a href="https://www.instagram.com/ahmad_khrabsha"
+      target="_blank">Ahmad Kharabsheh</a> matched with oversized custom <a href="https://www.instagram.com/fadifzumot"
+      target="_blank">Fadi Zumot</a> trousers, and periwinkle belt by <a href="https://www.instagram.com/edelina.joyce"
+      target="_blank">Edelina Joyce</a>
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
