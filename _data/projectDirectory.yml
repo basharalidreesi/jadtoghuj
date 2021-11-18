@@ -541,8 +541,10 @@ projects:
     - "/assets/graphics/_66a0792.jpg"
     - "/assets/graphics/_66a0648.jpg"
     - "/assets/graphics/_66a0766.jpg"
-    image_s_name: ''
-    image_s_description: ''
+    image_s_name: Look 01 & Look 02
+    image_s_description: |-
+      Look 01 (on the left); a cropped plaid shirt is styled under a black knit brallete, high waisted black jeans, crystal necklace and a black western hat.
+      Look 02 (on the right); a nude shirt styled with nude velour belt created out of a HMD dust bag, styled with high waisted blue denim and a brown western hat.
 - project_name: Club Kids of the 00s
   project_description: ''
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
