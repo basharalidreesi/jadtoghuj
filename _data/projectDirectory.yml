@@ -106,7 +106,7 @@ projects:
     look_name: Look 01
     look_description: A nod to ski fashion, this look was inspired by Moncler and
       high fashion ski attire, this look was custom designed by me and came to life
-      by the talent of <a href="https://www.instagram.com/xia.thelabel/?hl=en" target="_blank">XIA</a>,
+      by the talent of <a href="https://www.instagram.com/xia.thelabel/" target="_blank">XIA</a>,
       the look features a "puffer belt" custom designed in rich blue locally sourced
       moire, and complete with a ski mask and goggles.
     look_images: []
@@ -114,10 +114,10 @@ projects:
   - template: look
     look_name: Look 02
     look_description: Also inspired by high fashion ski attire, this look was designed
-      by me, referencing warm sporty bodysuits, with a royal blue silk satin <a href="https://www.instagram.com/xia.thelabel/?hl=en"
+      by me, referencing warm sporty bodysuits, with a royal blue silk satin <a href="https://www.instagram.com/xia.thelabel/"
       target="_blank">XIA</a> mini dress on top, the look was completed with a custom
       designed puffer cropped cape in black nylon. The look features fine jewelry
-      by ethical multidisciplinary designer <a href="https://www.instagram.com/nujoudoweis/?hl=en"
+      by ethical multidisciplinary designer <a href="https://www.instagram.com/nujoudoweis/"
       target="_blank">Nujoud Oweis</a>.
     look_cover: "/assets/graphics/savoir-flaire-look-2.png"
     look_images: []
@@ -131,18 +131,18 @@ projects:
     look_cover: "/assets/graphics/savoir-flaire-look-4.png"
     look_images:
     - "/assets/graphics/dsc_8048.jpg"
-    look_description: Winter chic in this <a href="https://www.instagram.com/nafsikaskourti/?hl=en"
+    look_description: Winter chic in this <a href="https://www.instagram.com/nafsikaskourti/"
       target="_blank">Nafsika Skourti</a> skirt suit, the look was complete with custom
       white suede and bronze metal detailed sandals, statement earrings and rings
-      are courtesy of <a href="https://www.instagram.com/runnakedofficial/?hl=en"
+      are courtesy of <a href="https://www.instagram.com/runnakedofficial/"
       target="_blank">Run Naked</a>.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
     look_description: A mirror of "Look 03", this look features a cropped blazer and
-      skirt ensemble by <a href="https://www.instagram.com/corebysujood/?hl=en" target="_blank">Core
+      skirt ensemble by <a href="https://www.instagram.com/corebysujood/" target="_blank">Core
       By Sujoud</a>, white stockings, custom black suede and silver metal detail sandals,
-      and statement earring and ring by <a href="https://www.instagram.com/runnakedofficial/?hl=en"
+      and statement earring and ring by <a href="https://www.instagram.com/runnakedofficial/"
       target="_blank">Run Naked</a>.
     look_images: []
   - template: look
@@ -150,18 +150,18 @@ projects:
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
     look_images: []
     look_description: Stunning bright yellow and royal blue dress by couture designer
-      <a href="https://www.instagram.com/laithmaalouf_official/?hl=en" target="_blank">Laith
+      <a href="https://www.instagram.com/laithmaalouf_official/" target="_blank">Laith
       Maalouf</a>, complete with Mugler inspired custom royal blue gloves and leg
       pieces.
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
     look_images: []
-    look_description: To compliment "Look 05", this bright pink dress by <a href="https://www.instagram.com/laithmaalouf_official/?hl=en"
+    look_description: To compliment "Look 05", this bright pink dress by <a href="https://www.instagram.com/laithmaalouf_official/"
       target="_blank">Laith Maalouf</a> features the same peekaboo neckline but in
       black. In reference to ski fashion, this look is complete with custom black
       nylon thigh-high puffer leg warmers, styled over black stockings. The look was
-      complete with <a href="https://www.instagram.com/omaiajallad/?hl=en" target="_blank">Omaia
+      complete with <a href="https://www.instagram.com/omaiajallad/" target="_blank">Omaia
       Jallad</a> jewelry.
   - template: image-s
     image_s_name: Looks 05 & 06
@@ -416,11 +416,11 @@ projects:
 - project_name: Editorial on Red
   project_description: |-
     Model:
-    <a href="https://www.instagram.com/lindahammoodeh/?hl=en" target="_blank">Linda Hammoudeh</a>.<br>
+    <a href="https://www.instagram.com/lindahammoodeh/" target="_blank">Linda Hammoudeh</a>.<br>
 
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
 
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.
   project_page: _styling-and-creative-direction/editorial-on-red.html
   project_tags:
   - editorial
@@ -433,9 +433,9 @@ projects:
     - "/assets/graphics/1-edited-1.jpg"
     - "/assets/graphics/1-edited-12.jpg"
     - "/assets/graphics/1-edited-3.jpg"
-    look_description: High glamour look in a full <a href="https://www.instagram.com/nafsikaskourti/?hl=en"
+    look_description: High glamour look in a full <a href="https://www.instagram.com/nafsikaskourti/"
       target="_blank">Nafsika Skourti</a> Ensemble, this look features their iconic
-      Hollywood Top in purple brocade. The look was complete with <a href="https://www.instagram.com/indirajewelry/?hl=en"
+      Hollywood Top in purple brocade. The look was complete with <a href="https://www.instagram.com/indirajewelry/"
       target="_blank">Indira</a> earrings.
     look_cover: "/assets/graphics/look-1-editorial-on-red-1.png"
   - template: look
@@ -460,15 +460,15 @@ projects:
     Billboard campaign with Pandora.<br><br>
 
     Talent:
-    <a href="https://www.instagram.com/globetrotting_blonde/?hl=en" target="_blank">Duha Awamleh</a>.<br>
+    <a href="https://www.instagram.com/globetrotting_blonde/" target="_blank">Duha Awamleh</a>.<br>
 
-    Director: <a href="https://www.instagram.com/shamekhbluwi/?hl=en" target="_blank">Shamekh Bluwi</a>.<br>
+    Director: <a href="https://www.instagram.com/shamekhbluwi/" target="_blank">Shamekh Bluwi</a>.<br>
 
-    Photography: <a href="https://www.instagram.com/zaidallozi/?hl=en" target="_blank">Zaid Al-Lozi</a>.<br>
+    Photography: <a href="https://www.instagram.com/zaidallozi/" target="_blank">Zaid Al-Lozi</a>.<br>
 
-    Makeup: <a href="https://www.instagram.com/yelkagutierrez/?hl=en" target="_blank">Yelka Gutierrez</a>.<br>
+    Makeup: <a href="https://www.instagram.com/yelkagutierrez/" target="_blank">Yelka Gutierrez</a>.<br>
 
-    Hair: <a href="https://www.instagram.com/nasserbayariofficial/?hl=en" target="_blank">Nasser Bayari</a>.<br>
+    Hair: <a href="https://www.instagram.com/nasserbayariofficial/" target="_blank">Nasser Bayari</a>.<br>
   project_page: _styling-and-creative-direction/fly-to-milan-with-pandora.html
   project_tags:
   - client
@@ -484,10 +484,10 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Le Chez Moi Perdu 1974
-  project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/?hl=en\"
-    target=\"_blank\">Layan Qarain</a>.<br>\n\nProduction: <a href=\"https://www.instagram.com/xiv.image/?hl=en\"
-    target=\"_blank\">XIV</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/eyepaintbyclara/?hl=en\"
-    target=\"_blank\">Clara</a>.<br>\n \nFilm: <a href=\"https://www.instagram.com/ojodallah/?hl=en\"
+  project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/\"
+    target=\"_blank\">Layan Qarain</a>.<br>\n\nProduction: <a href=\"https://www.instagram.com/xiv.image/\"
+    target=\"_blank\">XIV</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/eyepaintbyclara/\"
+    target=\"_blank\">Clara</a>.<br>\n \nFilm: <a href=\"https://www.instagram.com/ojodallah/\"
     target=\"_blank\">Omar Jodallah</a>.<br>"
   project_page: _styling-and-creative-direction/le-chez-moi-perdu-1974.html
   project_tags:
@@ -512,11 +512,11 @@ projects:
     An experiment with lights and materials.<br><br>
 
     Model:
-    <a href="https://www.instagram.com/lara.m.mehyar/?hl=en" target="_blank">Lara Mehyar</a>.<br>
+    <a href="https://www.instagram.com/lara.m.mehyar/" target="_blank">Lara Mehyar</a>.<br>
 
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
 
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
   project_page: _styling-and-creative-direction/conquering-magenta.html
   project_tags:
   - experimental
@@ -535,10 +535,10 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: White in Raw Nature
-  project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/joannaarida/?hl=en\"
-    target=\"_blank\">Joanna Arida</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/?hl=en\"
-    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/?hl=en\"
-    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/?hl=en\"
+  project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/joannaarida/\"
+    target=\"_blank\">Joanna Arida</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/\"
+    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/\"
     target=\"_blank\">Aleen Markarian</a>.<br>"
   project_page: _styling-and-creative-direction/white-in-raw-nature.html
   project_tags:
@@ -556,14 +556,14 @@ projects:
     - "/assets/graphics/_66a0141.jpg"
     - "/assets/graphics/_66a0283.jpg"
     image_s_name: Look 01
-    image_s_description: A vision of a <a href="https://www.instagram.com/fadifzumot/?hl=en"
+    image_s_description: A vision of a <a href="https://www.instagram.com/fadifzumot/"
       target="_blank">Fadi Zumot</a> bride; this look focuses on the beauty of Fadi's
       magical creations, and his take on a bridal gown, the look was complete with
       a bouquet of baby breath flowers.
 - project_name: A Very Pink October
-  project_description: "Pink October with Nina.<br><br>\n\nModel: \n<a href=\"https://www.instagram.com/ninamahmoudofficial/?hl=en\"
-    target=\"_blank\">Nina Mahmoud</a>.<br>\n\nPhotography: \n<a href=\"https://www.instagram.com/zaidallozi/?hl=en\"
-    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nFashion:\n<a href=\"https://www.instagram.com/raz_district/?hl=en\"
+  project_description: "Pink October with Nina.<br><br>\n\nModel: \n<a href=\"https://www.instagram.com/ninamahmoudofficial/\"
+    target=\"_blank\">Nina Mahmoud</a>.<br>\n\nPhotography: \n<a href=\"https://www.instagram.com/zaidallozi/\"
+    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nFashion:\n<a href=\"https://www.instagram.com/raz_district/\"
     target=\"_blank\">Raz District</a>.<br>"
   project_page: _styling-and-creative-direction/a-very-pink-october.html
   project_tags:
@@ -585,11 +585,11 @@ projects:
       gold sandals.
     look_images: []
 - project_name: Rogue Nation Gals
-  project_description: "Models:\n<a href=\"https://www.instagram.com/joannaarida/?hl=en\"
-    target=\"_blank\">Joanna Arida</a> \n\n& \n\n<a href=\"https://www.instagram.com/natashadodokh/?hl=en\"
-    target=\"_blank\">Natasha Dodokh</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/?hl=en\"
-    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/?hl=en\"
-    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/?hl=en\"
+  project_description: "Models:\n<a href=\"https://www.instagram.com/joannaarida/\"
+    target=\"_blank\">Joanna Arida</a> \n\n& \n\n<a href=\"https://www.instagram.com/natashadodokh/\"
+    target=\"_blank\">Natasha Dodokh</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/\"
+    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/\"
     target=\"_blank\">Aleen Markarian</a>.<br>"
   project_page: _styling-and-creative-direction/rogue-nation-gals.html
   project_tags:
@@ -611,27 +611,27 @@ projects:
   project_description: |-
     Club kid culture personified.<br><br>
 
-    Models: <a href="https://www.instagram.com/itsjenanotjina/?hl=en" target="_blank">Banah Jena Fakhoury</a>,<br>
+    Models: <a href="https://www.instagram.com/itsjenanotjina/" target="_blank">Banah Jena Fakhoury</a>,<br>
 
-    <a href="https://www.instagram.com/mira.saw/?hl=en" target="_blank">Mira Saw</a>,<br>
+    <a href="https://www.instagram.com/mira.saw/" target="_blank">Mira Saw</a>,<br>
 
-    <a href="https://www.instagram.com/judeomeish/?hl=en" target="_blank">Jude Omeish</a>,<br>
+    <a href="https://www.instagram.com/judeomeish/" target="_blank">Jude Omeish</a>,<br>
 
-    <a href="https://www.instagram.com/aliafaris/?hl=en" target="_blank">Alia Faris</a>,<br>
+    <a href="https://www.instagram.com/aliafaris/" target="_blank">Alia Faris</a>,<br>
 
-    <a href="https://www.instagram.com/sabine_zureikat/?hl=en" target="_blank">Sabine Zuriekat</a>,<br>
+    <a href="https://www.instagram.com/sabine_zureikat/" target="_blank">Sabine Zuriekat</a>,<br>
 
-    <a href="https://www.instagram.com/a_takrouri/?hl=en" target="_blank">Ahmad Takrouri</a>,<br>
+    <a href="https://www.instagram.com/a_takrouri/" target="_blank">Ahmad Takrouri</a>,<br>
 
-    <a href="https://www.instagram.com/yamn_fawwaz/?hl=en" target="_blank">Yamen Fawwaz</a>,<br>
+    <a href="https://www.instagram.com/yamn_fawwaz/" target="_blank">Yamen Fawwaz</a>,<br>
 
-    and <a href="https://www.instagram.com/mustafa.sammarraie/?hl=en" target="_blank">Mustafa Sammarraie</a>,<br>
+    and <a href="https://www.instagram.com/mustafa.sammarraie/" target="_blank">Mustafa Sammarraie</a>,<br>
 
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
 
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
 
-    Client: <a href="https://www.instagram.com/xisfound/?hl=en" target="_blank">X is Found</a>.<br>
+    Client: <a href="https://www.instagram.com/xisfound/" target="_blank">X is Found</a>.<br>
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
   project_tags:
   - editorial
@@ -656,7 +656,7 @@ projects:
     - "/assets/graphics/_q3a4103.jpg"
     - "/assets/graphics/_q3a4051.jpg"
     look_description: A black and white alien housewife illusion is achieved with
-      the amazing talent of the makeup artist; <a href="https://www.instagram.com/makeupbyrashed/?hl=en"
+      the amazing talent of the makeup artist; <a href="https://www.instagram.com/makeupbyrashed/"
       target="_blank">Rashed Toghuj</a>, the look features a little black dress with
       a faux fur trim collar, complete with sheer black stockings and navy print headscarf.
   - template: look
@@ -666,7 +666,7 @@ projects:
     - "/assets/graphics/_q3a3163.jpg"
     - "/assets/graphics/_q3a3138.jpg"
     - "/assets/graphics/_q3a3116.jpg"
-    look_description: Character Blank; this <a href="https://www.instagram.com/fadifzumot/?hl=en"
+    look_description: Character Blank; this <a href="https://www.instagram.com/fadifzumot/"
       target="_blank">Fadi Zumot</a> skirt from his Mutiny Collection is styled as
       a cape poncho, creating the illusion of a mini dress, with opaque black gloves,
       leggings and face mask to create the illusion of a black canvas.
@@ -676,7 +676,7 @@ projects:
     look_images:
     - "/assets/graphics/_q3a3417.jpg"
     - "/assets/graphics/_q3a3382.jpg"
-    look_description: Layered to avant garde perfection; this look is a full <a href="https://www.instagram.com/wenin_official/?hl=en"
+    look_description: Layered to avant garde perfection; this look is a full <a href="https://www.instagram.com/wenin_official/"
       target="_blank">Wenin</a> ensemble, the look was finished high braided ponytail
       adorned with red zip ties.
   - template: image-s
@@ -695,12 +695,12 @@ projects:
     image_s_description: ''
 - project_name: Salissant Charme
   project_description: |-
-    Dirty Glamour with <a href="https://www.instagram.com/fashionhouseamman/?hl=en" target="_blank">Fashion House Amman</a>.<br><br>
+    Dirty Glamour with <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br><br>
 
-    Model: <a href="https://www.instagram.com/itsjenanotjina/?hl=en" target="_blank">Banah Jena Fakhoury</a>.<br>
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
-    Fashion: <a href="https://www.instagram.com/fashionhouseamman/?hl=en" target="_blank">Fashion House Amman</a>.<br>
+    Model: <a href="https://www.instagram.com/itsjenanotjina/" target="_blank">Banah Jena Fakhoury</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
+    Fashion: <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br>
   project_page: _styling-and-creative-direction/salissant-charme.html
   project_tags:
   - editorial
