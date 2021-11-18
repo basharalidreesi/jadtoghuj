@@ -417,7 +417,10 @@ projects:
     - "/assets/graphics/1-edited-1.jpg"
     - "/assets/graphics/1-edited-12.jpg"
     - "/assets/graphics/1-edited-3.jpg"
-    look_description: ''
+    look_description: High glamour look in a full <a href="https://www.instagram.com/nafsikaskourti/?hl=en"
+      target="_blank">Nafsika Skourti</a> Ensemble, this look features their iconic
+      Hollywood Top in purple brocade. The look was complete with <a href="https://www.instagram.com/indirajewelry/?hl=en"
+      target="_blank">Indira</a> earrings.
     look_cover: "/assets/graphics/look-1-editorial-on-red-1.png"
   - template: look
     look_name: Look 02
