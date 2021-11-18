@@ -589,7 +589,9 @@ projects:
     look_images:
     - "/assets/graphics/_q3a3417.jpg"
     - "/assets/graphics/_q3a3382.jpg"
-    look_description: ''
+    look_description: Layered to avant garde perfection; this look is a full <a href=“https://www.instagram.com/wenin_official/?hl=en”
+      target=“_blank”>Wenin</a> ensemble, the look was finished high braided ponytail
+      adorned with red zip ties.
   - template: image-s
     images:
     - "/assets/graphics/_q3a4518.jpg"
