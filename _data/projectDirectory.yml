@@ -1,9 +1,12 @@
 ---
 projects:
-- project_name: Mods
-  project_description: ''
+- project_name: Mods by Fadi
+  project_description: "Going Back to the 60s\n\n"
   project_page: _styling-and-creative-direction/Mods.html
-  project_tags: []
+  project_tags:
+  - client
+  - commercial
+  - campaign
   media:
   - template: video
     video_url: https://www.youtube.com/watch?v=mV81M5TekZo
