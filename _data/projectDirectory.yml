@@ -508,8 +508,11 @@ projects:
     - "/assets/graphics/_66a0156.jpg"
     - "/assets/graphics/_66a0141.jpg"
     - "/assets/graphics/_66a0283.jpg"
-    image_s_name: ''
-    image_s_description: ''
+    image_s_name: Look 01
+    image_s_description: A vision of a <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> bride; this look focuses on the beauty of Fadi's
+      magical creations, and his take on a bridal gown, the look was complete with
+      a bouquet of baby breath flowers.
 - project_name: A Very Pink October
   project_description: ''
   project_page: _styling-and-creative-direction/a-very-pink-october.html
