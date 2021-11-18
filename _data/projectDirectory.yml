@@ -476,7 +476,15 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Conquering Magenta
-  project_description: ''
+  project_description: |-
+    An experiment with lights and materials.<br><br>
+
+    Model:
+    <a href="https://www.instagram.com/lara.m.mehyar/?hl=en" target="_blank">Lara Mehyar</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
   project_page: _styling-and-creative-direction/conquering-magenta.html
   project_tags:
   - experimental
