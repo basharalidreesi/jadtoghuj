@@ -520,7 +520,9 @@ projects:
   - template: look
     look_name: Look 01
     look_cover: "/assets/graphics/look-2-nina-1.png"
-    look_description: ''
+    look_description: A nod to early 2000s fashion; this all pink outfit is a combination
+      of a dusty pink spaghetti strap top, complete with a faux fur trim on the neckline,
+      a pink denim mini skirt, with graphic pink socks and pink ruffle heels.
     look_images: []
   - template: look
     look_name: Look 02
