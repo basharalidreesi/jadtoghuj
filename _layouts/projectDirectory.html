@@ -13,7 +13,7 @@ style:
                                         <h3 class="generic--hidden">
                                                 Browse by Look
                                         </h3>
-                                        <input type="checkbox" id="projectDirectory__lookToggle" autocomplete="off" />
+                                        <input type="checkbox" id="projectDirectory__lookToggle" autocomplete="on" />
                                         <div id="projectDirectory__lookLabel">
                                                 <label for="projectDirectory__lookToggle" title="See all looks" role="presentation">
                                                         Browse by Look
@@ -55,7 +55,7 @@ style:
                                         <h3 class="generic--hidden">
                                                 Browse by Project
                                         </h3>
-                                        <input type="checkbox" id="projectDirectory__projectToggle" autocomplete="off" />
+                                        <input type="checkbox" id="projectDirectory__projectToggle" autocomplete="on" />
                                         <div id="projectDirectory__projectLabel">
                                                 <label for="projectDirectory__projectToggle" title="See all projects" role="presentation">
                                                         Browse by Project
@@ -72,12 +72,12 @@ style:
                                         {%- assign tag_array = tag_array | uniq | sort %}
                                         <div class="generic--jsOnly projectDirectory__projectFilters">
                                                 <div>
-                                                        <input type="radio" id="tag__all" class="projectDirectory__projectTag" name="tag" autocomplete="off" />
+                                                        <input type="radio" id="tag__all" class="projectDirectory__projectTag" name="tag" autocomplete="on" />
                                                         <label for="tag__all" title="See all projects">
                                                                 all projects
                                                         </label>
                                                         {%- for tag in tag_array %}
-                                                        <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" autocomplete="off" />
+                                                        <input type="radio" id="tag__{{ tag | slugify }}" class="projectDirectory__projectTag" name="tag" data-jad-tag-benchmark="{{ tag | downcase}}" autocomplete="on" />
                                                         <label for="tag__{{ tag | slugify }}" title="See {{ tag | downcase }} projects">
                                                                 {{ tag | downcase }}
                                                         </label>
