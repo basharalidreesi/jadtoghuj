@@ -495,7 +495,11 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: White in Raw Nature
-  project_description: ''
+  project_description: "Model:\n<a href=\"https://www.instagram.com/joannaarida/?hl=en\"
+    target=\"_blank\">Joanna Arida</a> \n\nPhotography: <a href=\"https://www.instagram.com/avomoses/?hl=en\"
+    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/?hl=en\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/?hl=en\"
+    target=\"_blank\">Aleen Markarian</a>.<br>"
   project_page: _styling-and-creative-direction/white-in-raw-nature.html
   project_tags:
   - editorial
@@ -517,14 +521,10 @@ projects:
       magical creations, and his take on a bridal gown, the look was complete with
       a bouquet of baby breath flowers.
 - project_name: A Very Pink October
-  project_description: |-
-    Pink October with Nina.<br><br>
-
-    Model: <a href="https://www.instagram.com/ninamahmoudofficial/?hl=en" target="_blank">Nina Mahmoud</a>.<br>
-
-    Photography: <a href="https://www.instagram.com/zaidallozi/?hl=en" target="_blank">Zaid Al-Lozi</a>.<br>
-
-    Fashion: <a href="https://www.instagram.com/raz_district/?hl=en" target="_blank">Raz District</a>.<br>
+  project_description: "Pink October with Nina.<br><br>\n\nModel: \n<a href=\"https://www.instagram.com/ninamahmoudofficial/?hl=en\"
+    target=\"_blank\">Nina Mahmoud</a>.<br>\n\nPhotography: \n<a href=\"https://www.instagram.com/zaidallozi/?hl=en\"
+    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nFashion:\n<a href=\"https://www.instagram.com/raz_district/?hl=en\"
+    target=\"_blank\">Raz District</a>.<br>"
   project_page: _styling-and-creative-direction/a-very-pink-october.html
   project_tags:
   - personal
@@ -545,11 +545,12 @@ projects:
       gold sandals.
     look_images: []
 - project_name: Rogue Nation Gals
-  project_description: |-
-    Models: <a href="https://www.instagram.com/joannaarida/?hl=en" target="_blank">Joanna Arida</a> & <a href="https://www.instagram.com/natashadodokh/?hl=en" target="_blank">Natasha Dodokh</a>.<br>
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
-    Co-Director: <a href="https://www.instagram.com/aleenmarkarian/?hl=en" target="_blank">Aleen Markarian</a>.<br>
+  project_description: "Models:\n<a href=\"https://www.instagram.com/joannaarida/?hl=en\"
+    target=\"_blank\">Joanna Arida</a> \n\n& \n\n<a href=\"https://www.instagram.com/natashadodokh/?hl=en\"
+    target=\"_blank\">Natasha Dodokh</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/?hl=en\"
+    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/?hl=en\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/?hl=en\"
+    target=\"_blank\">Aleen Markarian</a>.<br>"
   project_page: _styling-and-creative-direction/rogue-nation-gals.html
   project_tags:
   - editorial
