@@ -404,7 +404,13 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Editorial on Red
-  project_description: ''
+  project_description: |-
+    Model:
+    <a href="https://www.instagram.com/lindahammoodeh/?hl=en" target="_blank">Linda Hammoudeh</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.
   project_page: _styling-and-creative-direction/editorial-on-red.html
   project_tags:
   - editorial
