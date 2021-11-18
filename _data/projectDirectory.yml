@@ -2,7 +2,7 @@
 projects:
 - project_name: Mods by Fadi
   project_description: "Going Back to the 60s\n\n"
-  project_page: _styling-and-creative-direction/Mods.html
+  project_page: _styling-and-creative-direction/mods-by-fadi.html
   project_tags:
   - client
   - commercial
@@ -80,21 +80,21 @@ projects:
     look_images:
     - "/assets/graphics/dsc_8210.jpg"
     - "/assets/graphics/dsc_8261.jpg"
-    look_description: Nedaa styled in a blue shirt by <a href=“https://www.instagram.com/corebysujood/?hl=en”
-      target=“_blank”>Core by Sujoud</a>, <a href=“https://www.instagram.com/ahmad_khrabsha/?hl=en”
-      target=“_blank”>Ahmad Kharabsheh</a> exaggerated black suit trousers and a thrifted
-      blazer, complete with rings by Egyptian jewelry brand <a href=“https://www.instagram.com/indirajewelry/?hl=en”
-      target=“_blank”>Indira</a>.
+    look_description: Nedaa styled in a blue shirt by <a href="https://www.instagram.com/corebysujood/?hl=en"
+      target="_blank">Core by Sujoud</a>, <a href="https://www.instagram.com/ahmad_khrabsha/?hl=en"
+      target="_blank">Ahmad Kharabsheh</a> exaggerated black suit trousers and a thrifted
+      blazer, complete with rings by Egyptian jewelry brand <a href="https://www.instagram.com/indirajewelry/?hl=en"
+      target="_blank">Indira</a>.
   - template: image-s
     images:
     - "/assets/graphics/dsc_8355.jpg"
     - "/assets/graphics/dsc_8418.jpg"
     - "/assets/graphics/dsc_8338.jpg"
     image_s_name: Look 02
-    image_s_description: A custom jacket designed specially for Nedaa by <a href=“https://www.instagram.com/ahmad_khrabsha/?hl=en”
-      target=“_blank”>Ahmad Kharabsheh</a> matched with oversized custom <a href=“https://www.instagram.com/fadifzumot/?hl=en”
-      target=“_blank”>Fadi Zumot</a> trousers, and periwinkle belt by <a href=“https://www.instagram.com/edelina.joyce/?hl=en”
-      target=“_blank”>Edelina Joyce</a>
+    image_s_description: A custom jacket designed specially for Nedaa by <a href="https://www.instagram.com/ahmad_khrabsha/?hl=en"
+      target="_blank">Ahmad Kharabsheh</a> matched with oversized custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> trousers, and periwinkle belt by <a href="https://www.instagram.com/edelina.joyce/?hl=en"
+      target="_blank">Edelina Joyce</a>
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
   project_page: _styling-and-creative-direction/all-jordanian-fashion-editorial.html
@@ -106,7 +106,7 @@ projects:
     look_name: Look 01
     look_description: A nod to ski fashion, this look was inspired by Moncler and
       high fashion ski attire, this look was custom designed by me and came to life
-      by the talent of <a href=“https://www.instagram.com/xia.thelabel/?hl=en” target=“_blank”>XIA</a>,
+      by the talent of <a href="https://www.instagram.com/xia.thelabel/?hl=en" target="_blank">XIA</a>,
       the look features a "puffer belt" custom designed in rich blue locally sourced
       moire, and complete with a ski mask and goggles.
     look_images: []
@@ -114,11 +114,11 @@ projects:
   - template: look
     look_name: Look 02
     look_description: Also inspired by high fashion ski attire, this look was designed
-      by me, referencing warm sporty bodysuits, with a royal blue silk satin <a href=“https://www.instagram.com/xia.thelabel/?hl=en”
-      target=“_blank”>XIA</a> mini dress on top, the look was completed with a custom
+      by me, referencing warm sporty bodysuits, with a royal blue silk satin <a href="https://www.instagram.com/xia.thelabel/?hl=en"
+      target="_blank">XIA</a> mini dress on top, the look was completed with a custom
       designed puffer cropped cape in black nylon. The look features fine jewelry
-      by ethical multidisciplinary designer <a href=“https://www.instagram.com/nujoudoweis/?hl=en”
-      target=“_blank”>Nujoud Oweis</a>.
+      by ethical multidisciplinary designer <a href="https://www.instagram.com/nujoudoweis/?hl=en"
+      target="_blank">Nujoud Oweis</a>.
     look_cover: "/assets/graphics/savoir-flaire-look-2.png"
     look_images: []
   - template: image-s
@@ -131,37 +131,37 @@ projects:
     look_cover: "/assets/graphics/savoir-flaire-look-4.png"
     look_images:
     - "/assets/graphics/dsc_8048.jpg"
-    look_description: Winter chic in this <a href=“https://www.instagram.com/nafsikaskourti/?hl=en”
-      target=“_blank”>Nafsika Skourti</a> skirt suit, the look was complete with custom
+    look_description: Winter chic in this <a href="https://www.instagram.com/nafsikaskourti/?hl=en"
+      target="_blank">Nafsika Skourti</a> skirt suit, the look was complete with custom
       white suede and bronze metal detailed sandals, statement earrings and rings
-      are courtesy of <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
-      target=“_blank”>Run Naked</a>.
+      are courtesy of <a href="https://www.instagram.com/runnakedofficial/?hl=en"
+      target="_blank">Run Naked</a>.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
     look_description: A mirror of "Look 03", this look features a cropped blazer and
-      skirt ensemble by <a href=“https://www.instagram.com/corebysujood/?hl=en” target=“_blank”>Core
+      skirt ensemble by <a href="https://www.instagram.com/corebysujood/?hl=en" target="_blank">Core
       By Sujoud</a>, white stockings, custom black suede and silver metal detail sandals,
-      and statement earring and ring by <a href=“https://www.instagram.com/runnakedofficial/?hl=en”
-      target=“_blank”>Run Naked</a>.
+      and statement earring and ring by <a href="https://www.instagram.com/runnakedofficial/?hl=en"
+      target="_blank">Run Naked</a>.
     look_images: []
   - template: look
     look_name: Look 05
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
     look_images: []
     look_description: Stunning bright yellow and royal blue dress by couture designer
-      <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en” target=“_blank”>Laith
+      <a href="https://www.instagram.com/laithmaalouf_official/?hl=en" target="_blank">Laith
       Maalouf</a>, complete with Mugler inspired custom royal blue gloves and leg
       pieces.
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
     look_images: []
-    look_description: To compliment "Look 05", this bright pink dress by <a href=“https://www.instagram.com/laithmaalouf_official/?hl=en”
-      target=“_blank”>Laith Maalouf</a> features the same peekaboo neckline but in
+    look_description: To compliment "Look 05", this bright pink dress by <a href="https://www.instagram.com/laithmaalouf_official/?hl=en"
+      target="_blank">Laith Maalouf</a> features the same peekaboo neckline but in
       black. In reference to ski fashion, this look is complete with custom black
       nylon thigh-high puffer leg warmers, styled over black stockings. The look was
-      complete with <a href=“https://www.instagram.com/omaiajallad/?hl=en” target=“_blank”>Omaia
+      complete with <a href="https://www.instagram.com/omaiajallad/?hl=en" target="_blank">Omaia
       Jallad</a> jewelry.
   - template: image-s
     image_s_name: Looks 05 & 06
@@ -484,7 +484,7 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Le Chez Moi Perdu 1974
-  project_description: "An experimental brial editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/?hl=en\"
+  project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/?hl=en\"
     target=\"_blank\">Layan Qarain</a>.<br>\n\nProduction: <a href=\"https://www.instagram.com/xiv.image/?hl=en\"
     target=\"_blank\">XIV</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/eyepaintbyclara/?hl=en\"
     target=\"_blank\">Clara</a>.<br>\n \nFilm: <a href=\"https://www.instagram.com/ojodallah/?hl=en\"
