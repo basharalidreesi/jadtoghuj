@@ -80,10 +80,10 @@ projects:
     look_images:
     - "/assets/graphics/dsc_8210.jpg"
     - "/assets/graphics/dsc_8261.jpg"
-    look_description: Nedaa styled in a blue shirt by <a href="https://www.instagram.com/corebysujood"
-      target="_blank">Core by Sujoud</a>, an <a href="https://www.instagram.com/ahmad_khrabsha"
+    look_description: Nedaa styled in a blue shirt by <a href="https://www.instagram.com/corebysujood/"
+      target="_blank">Core by Sujoud</a>, <a href="https://www.instagram.com/ahmad_khrabsha/"
       target="_blank">Ahmad Kharabsheh</a> exaggerated black suit trousers, and a
-      thrifted blazer, complete with rings by Egyptian jewelry brand <a href="https://www.instagram.com/indirajewelry"
+      thrifted blazer, complete with rings by Egyptian jewelry brand <a href="https://www.instagram.com/indirajewelry/"
       target="_blank">Indira</a>.
   - template: image-s
     images:
@@ -91,9 +91,9 @@ projects:
     - "/assets/graphics/dsc_8418.jpg"
     - "/assets/graphics/dsc_8338.jpg"
     image_s_name: Look 02
-    image_s_description: A custom jacket designed specially for Nedaa by <a href="https://www.instagram.com/ahmad_khrabsha"
-      target="_blank">Ahmad Kharabsheh</a> matched with oversized custom <a href="https://www.instagram.com/fadifzumot"
-      target="_blank">Fadi Zumot</a> trousers and a periwinkle belt by <a href="https://www.instagram.com/edelina.joyce"
+    image_s_description: A custom jacket designed specially for Nedaa by <a href="https://www.instagram.com/ahmad_khrabsha/"
+      target="_blank">Ahmad Kharabsheh</a> matched with oversized custom <a href="https://www.instagram.com/fadifzumot/"
+      target="_blank">Fadi Zumot</a> trousers and a periwinkle belt by <a href="https://www.instagram.com/edelina.joyce/"
       target="_blank">Edelina Joyce</a>.
 - project_name: All-Jordanian Fashion Editorial
   project_description: ''
