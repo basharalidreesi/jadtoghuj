@@ -538,7 +538,11 @@ projects:
       gold sandals.
     look_images: []
 - project_name: Rogue Nation Gals
-  project_description: ''
+  project_description: |-
+    Models: <a href="https://www.instagram.com/joannaarida/?hl=en" target="_blank">Joanna Arida</a> & <a href="https://www.instagram.com/natashadodokh/?hl=en" target="_blank">Natasha Dodokh</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
+    Co-Director: <a href="https://www.instagram.com/aleenmarkarian/?hl=en" target="_blank">Aleen Markarian</a>.<br>
   project_page: _styling-and-creative-direction/rogue-nation-gals.html
   project_tags:
   - editorial
@@ -557,10 +561,10 @@ projects:
       Look 02 (on the right); a nude shirt styled with nude velour belt created out of a HMD dust bag, a crystal belt worn as a collar choker, styled with high waisted blue denim and a brown western hat.
 - project_name: Club Kids of the 00s
   project_description: |-
-    Models: <a href="https://www.instagram.com/joannaarida/?hl=en" target="_blank">Joanna Arida</a> & <a href="https://www.instagram.com/natashadodokh/?hl=en" target="_blank">Natasha Dodokh</a>
-    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>
-    Co-Director: <a href="https://www.instagram.com/aleenmarkarian/?hl=en" target="_blank">Aleen Markarian</a>
+    Models: <a href="https://www.instagram.com/joannaarida/?hl=en" target="_blank">Joanna Arida</a> & <a href="https://www.instagram.com/natashadodokh/?hl=en" target="_blank">Natasha Dodokh</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/?hl=en" target="_blank">Avo Moses</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/?hl=en" target="_blank">Rashed Toghuj</a>.<br>
+    Co-Director: <a href="https://www.instagram.com/aleenmarkarian/?hl=en" target="_blank">Aleen Markarian</a>.<br>
   project_page: _styling-and-creative-direction/club-kids-of-the-00s.html
   project_tags:
   - editorial
