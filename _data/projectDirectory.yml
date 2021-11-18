@@ -1,5 +1,12 @@
 ---
 projects:
+- project_name: Mods
+  project_description: ''
+  project_page: _styling-and-creative-direction/Mods.html
+  project_tags: []
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=mV81M5TekZo
 - project_name: Break the Fourth Wall
   project_description: ''
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
