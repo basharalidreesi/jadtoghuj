@@ -579,7 +579,10 @@ projects:
     - "/assets/graphics/_q3a3163.jpg"
     - "/assets/graphics/_q3a3138.jpg"
     - "/assets/graphics/_q3a3116.jpg"
-    look_description: ''
+    look_description: Character Blank; this <a href=“https://www.instagram.com/fadifzumot/?hl=en”
+      target=“_blank”>Fadi Zumot</a> skirt from his Mutiny Collection is styled as
+      a cape poncho, creating the illusion of a mini dress, with opaque black gloves,
+      leggings and face mask to create the illusion of a black canvas.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/look-2-club-kids-1.png"
