@@ -440,13 +440,19 @@ projects:
     look_description: ''
     look_cover: "/assets/graphics/3-edited-1update.png"
 - project_name: Fly To Milan with Pandora
-  project_description: "Billboard campaign with Pandora.<br><br>\n\nTalent:\n<a href=\"https://www.instagram.com/globetrotting_blonde/?hl=en\"
-    target=\"_blank\">Duha Awamleh</a>.<br>\n\nDirector: <a href=\"https://www.instagram.com/shamekhbluwi/?hl=en\"
-    target=\"_blank\">Shamekh Bluwi</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/zaidallozi/?hl=en\"
-    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/yelkagutierrez/?hl=en\"
-    target=\"_blank\">Yelka Gutierrez</a>.<br>\n\nHair: <a href=\"https://www.instagram.com/nasserbayariofficial/?hl=en\"
-    target=\"_blank\">Nasser Bayari</a>.<br>\n \nFilm: <a href=\"https://www.instagram.com/ojodallah/?hl=en\"
-    target=\"_blank\">Omar Jodallah</a>.<br>"
+  project_description: |-
+    Billboard campaign with Pandora.<br><br>
+
+    Talent:
+    <a href="https://www.instagram.com/globetrotting_blonde/?hl=en" target="_blank">Duha Awamleh</a>.<br>
+
+    Director: <a href="https://www.instagram.com/shamekhbluwi/?hl=en" target="_blank">Shamekh Bluwi</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/zaidallozi/?hl=en" target="_blank">Zaid Al-Lozi</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/yelkagutierrez/?hl=en" target="_blank">Yelka Gutierrez</a>.<br>
+
+    Hair: <a href="https://www.instagram.com/nasserbayariofficial/?hl=en" target="_blank">Nasser Bayari</a>.<br>
   project_page: _styling-and-creative-direction/fly-to-milan-with-pandora.html
   project_tags:
   - client
