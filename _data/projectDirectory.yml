@@ -527,7 +527,9 @@ projects:
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/look-1-nina-1.png"
-    look_description: ''
+    look_description: A more elevated casual take on the all pink look, this outfit
+      is a light pink chiffon dress, that features a ruched mini skirt effect, and
+      gold sandals.
     look_images: []
 - project_name: Rogue Nation Gals
   project_description: ''
