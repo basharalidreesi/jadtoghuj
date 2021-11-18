@@ -553,7 +553,10 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_description: ''
+    look_description: Fetish couture; red plaid trousers are styled with matching
+      lace up gloves and mask, the mask was finished with a laser cut faux leather
+      ponytail. The look is finished with a crisp white shirt and a faux patent leather
+      harness.
     look_cover: "/assets/graphics/look-3-club-kids-1.png"
     look_images:
     - "/assets/graphics/_q3a3658.jpg"
@@ -565,7 +568,10 @@ projects:
     look_images:
     - "/assets/graphics/_q3a4103.jpg"
     - "/assets/graphics/_q3a4051.jpg"
-    look_description: ''
+    look_description: A black and white alien housewife illusion is achieved with
+      the amazing talent of the makeup artist; <a href=“https://www.instagram.com/makeupbyrashed/?hl=en”
+      target=“_blank”>Rashed Toghuj</a>, the look features a little black dress with
+      a faux fur trim collar, complete with sheer black stockings and navy print headscarf.
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/look-1-club-kids-1.png"
