@@ -456,7 +456,11 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Le Chez Moi Perdu 1974
-  project_description: ''
+  project_description: "An experimental brial editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/?hl=en\"
+    target=\"_blank\">Layan Qarain</a>.<br>\n\nProduction: <a href=\"https://www.instagram.com/xiv.image/?hl=en\"
+    target=\"_blank\">XIV</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/eyepaintbyclara/?hl=en\"
+    target=\"_blank\">Clara</a>.<br>\n \nFilm: <a href=\"https://www.instagram.com/ojodallah/?hl=en\"
+    target=\"_blank\">Omar Jodallah</a>.<br>"
   project_page: _styling-and-creative-direction/le-chez-moi-perdu-1974.html
   project_tags:
   - experimental
