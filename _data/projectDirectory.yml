@@ -512,8 +512,12 @@ projects:
     - "/assets/graphics/adjustments-jpeg.jpg"
     - "/assets/graphics/screen-shot-2019-11-29-at-11-34-19-pm-png.PNG"
     - "/assets/graphics/screen-shot-2019-11-29-at-11-33-56-pm-png.PNG"
-    image_s_name: ''
-    image_s_description: ''
+    image_s_name: Look 01
+    image_s_description: Custom couture gown by <a href="https://www.instagram.com/nour_muhtaseb/?hl=en"
+      target="_blank">Nour Muhtaseb</a> paired with fully functional human size wings
+      created by Nour Muhtaseb's team. The look is inspired by the visuals of the
+      campaign ad poster and features wings directly mimicked from the wings in the
+      visuals of the campaign.
 - project_name: Le Chez Moi Perdu 1974
   project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/layanqarain/\"
     target=\"_blank\">Layan Qarain</a>.<br>\n\nProduction: <a href=\"https://www.instagram.com/xiv.image/\"
