@@ -260,7 +260,23 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Lola's Bridal Editorial
-  project_description: A Fantasy Bridal Editorial.
+  project_description: |-
+    A Fantasy Bridal Editorial.<br><br>
+
+    Models:
+    <a href="https://www.instagram.com/mira.saw/" target="_blank">Mira Saw</a>.<br>
+
+    <a href="https://www.instagram.com/christinagoussous/" target="_blank">Christina Goussous</a>.<br>
+
+    <a href="https://www.instagram.com/fayrouzyousef_/" target="_blank">Fayrouz Yousef</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/aspire_photo/" target="_blank">Aspire Photo - Ali Saadi</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/manal.makeup/" target="_blank">Manal</a>.<br>
+
+    Hair: <a href="https://www.instagram.com/nasserbayariofficial/" target="_blank">Nasser Bayari</a>.<br>
+
+    Tablescape: <a href="https://www.instagram.com/myeventdesign/" target="_blank">My Event Design</a>.
   project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
   project_tags:
   - commercial
