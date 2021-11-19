@@ -227,7 +227,7 @@ projects:
     look_images:
     - "/assets/graphics/img_1108.jpg"
     - "/assets/graphics/img_1105.jpg"
-    look_description: Winter glam in a blue and black <a href="https://www.instagram.com/byraneem/?hl=en"
+    look_description: Winter affair in a blue and black <a href="https://www.instagram.com/byraneem/?hl=en"
       target="_blank">By Raneem</a> corset and sleeve combo, styled with wide leg
       <a href="https://www.instagram.com/fadifzumot/?hl=en" target="_blank">Fadi Zumot</a>
       trousers and black mules.
@@ -236,7 +236,10 @@ projects:
     look_images:
     - "/assets/graphics/img_1121.jpg"
     look_cover: "/assets/graphics/look-4-christina-1.png"
-    look_description: ''
+    look_description: Goth glam in a full <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> ensemble, this outfit consists of their signature
+      Huzma Bag styled as a top and Mutiny 004 Black Collar Shirt styled as a skirt,
+      paired with black opera gloves and navy stockings.
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/look-5-christina-1.png"
