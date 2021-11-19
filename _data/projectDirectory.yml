@@ -235,7 +235,9 @@ projects:
   - template: look
     look_name: Look 01
     look_cover: "/assets/graphics/with-a-bang-look-01.png"
-    look_description: ''
+    look_description: Manipulating the vision of the body with a Marine Serre black
+      and red body top and leggings, with hand sewn pink bows varying in size to create
+      the full illusion.
     look_images: []
   - template: look
     look_name: Look 02
