@@ -11,7 +11,7 @@ projects:
   - template: video
     video_url: https://www.youtube.com/watch?v=mV81M5TekZo
 - project_name: Break the Fourth Wall
-  project_description: ''
+  project_description: Welcome to My Digital World.
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
   project_tags:
   - experimental
