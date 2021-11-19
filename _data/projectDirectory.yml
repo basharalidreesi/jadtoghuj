@@ -261,19 +261,8 @@ projects:
       target="_blank">Core by Sujoud</a> pink top is styled as a purse here, to compliment
       the pink satin shirt styled under a <a href="https://www.instagram.com/byraneem/?hl=en"
       target="_blank">By Raneem</a> lace up corset, and black men suiting trousers.
-    look_images: []
-  - template: image-s
-    images:
-    - "/assets/graphics/dsc_5464.jpg"
-    - "/assets/graphics/img_3526.jpg"
-    - "/assets/graphics/dsc_55011.jpg"
-    - "/assets/graphics/dsc_5523-copy.jpg"
-    - "/assets/graphics/dsc_5518.jpg"
-    - "/assets/graphics/img_3500.jpg"
-    - "/assets/graphics/dsc_5542.jpg"
+    look_images:
     - "/assets/graphics/dsc_5582.jpg"
-    image_s_name: ''
-    image_s_description: ''
 - project_name: Lola's Bridal Editorial
   project_description: |-
     A Fantasy Bridal Editorial.<br><br>
