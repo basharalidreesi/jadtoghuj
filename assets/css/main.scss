@@ -109,6 +109,9 @@ body {
 	background: linear-gradient(to bottom, var(--color-top) 10%, var(--color-bottom) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+body {
 	@media (any-hover: none) {
 		background: var(--color-bottom);
 		&::before {
