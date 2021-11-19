@@ -355,7 +355,9 @@ projects:
     - "/assets/graphics/image-176.jpg"
     - "/assets/graphics/image-149.jpg"
     image_s_name: ''
-    image_s_description: ''
+    image_s_description: This editorial features 2 different look on each of the talents,
+      all looks feature a mix of vintage and thrifted menswear pieces, varying from
+      suits, to shirts and trench coats.
 - project_name: An Editorial for Indira
   project_description: First ever jewelry editorial in collaboration with Egyptian
     jewelry brand <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>.
