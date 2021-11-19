@@ -218,7 +218,9 @@ projects:
     look_cover: "/assets/graphics/look-2-christina-1.png"
     look_images:
     - "/assets/graphics/img_1110.jpg"
-    look_description: ''
+    look_description: Aubergine patent leather short and jacket set by <a href="https://www.instagram.com/ahmad_khrabsha/?hl=en"
+      target="_blank">Ahmad Kharabsheh</a> styled over a blue mesh top and blue stockings
+      with an Alexander Wang belt styled as a garter.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/look-3-christina-1.png"
