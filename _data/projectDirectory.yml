@@ -225,7 +225,15 @@ projects:
     - "/assets/graphics/img_1106.jpg"
     look_description: ''
 - project_name: "\U0001F337 With a Bang \U0001F337"
-  project_description: ''
+  project_description: |-
+    Pink Experiments with Aysha.<br><br>
+
+    Talent:
+    <a href="https://www.instagram.com/tigersdontfly/" target="_blank">Aysha Shahaltough</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/zaidallozi/" target="_blank">Zaid Al-Lozi</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/zaina.makeup.artist/" target="_blank">Zaina Al-Lozi</a>.
   project_page: _styling-and-creative-direction/with-a-bang.html
   project_tags:
   - experimental
