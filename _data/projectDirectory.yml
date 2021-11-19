@@ -227,7 +227,10 @@ projects:
     look_images:
     - "/assets/graphics/img_1108.jpg"
     - "/assets/graphics/img_1105.jpg"
-    look_description: ''
+    look_description: Winter glam in a blue and black <a href="https://www.instagram.com/byraneem/?hl=en"
+      target="_blank">By Raneem</a> corset and sleeve combo, styled with wide leg
+      <a href="https://www.instagram.com/fadifzumot/?hl=en" target="_blank">Fadi Zumot</a>
+      trousers and black mules.
   - template: look
     look_name: Look 05
     look_images:
