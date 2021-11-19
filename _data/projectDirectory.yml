@@ -242,7 +242,10 @@ projects:
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/with-a-bang-look-02.png"
-    look_description: ''
+    look_description: This look feature a bright red biker jacket styled underneath
+      an ultra feminine ruched top by <a href="https://www.instagram.com/corebysujood/?hl=en"
+      target="_blank">Core by Sujoud</a> and pink trousers, complete with red stockings
+      and sandals.
     look_images: []
   - template: look
     look_name: Look 03
