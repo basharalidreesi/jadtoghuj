@@ -377,7 +377,7 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Manal Wedding Glam
-  project_description: ''
+  project_description: Personal styling for a wedding occasion.
   project_page: _styling-and-creative-direction/manal-wedding-glam.html
   project_tags:
   - personal
@@ -391,7 +391,9 @@ projects:
     - "/assets/graphics/18a0075c-c6da-4093-8109-75386369f177.jpg"
     - "/assets/graphics/e18b9444-32c9-4cf4-9f21-1d6e0df44f10.jpg"
     - "/assets/graphics/be5b6872-5449-42b2-96de-11636a601450.jpg"
-    look_description: ''
+    look_description: Manal was styled in a <a href="zeinaaliworld" target="_blank">Zeina
+      Ali</a> metallic orange jersey dress, and black exaggerated shoulder detail.
+      Complete with a black So Kate Louboutins.
   - template: image-s
     images:
     - "/assets/graphics/a1d462b4-a367-4ceb-9ee4-5874c2645e6f.jpg"
