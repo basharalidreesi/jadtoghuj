@@ -383,8 +383,17 @@ projects:
       all looks feature a mix of vintage and thrifted menswear pieces, varying from
       suits, to shirts and trench coats.
 - project_name: An Editorial for Indira
-  project_description: First ever jewelry editorial in collaboration with Egyptian
-    jewelry brand <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>.
+  project_description: |
+    First ever jewelry editorial in collaboration with Egyptian jewelry brand <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>.<br><br>
+
+    Models:
+    <a href="https://www.instagram.com/mira.saw/" target="_blank">Mira Saw</a>.<br>
+
+    <a href="https://www.instagram.com/petramubarak/" target="_blank">Petra Mubarak</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/omarsha3/" target="_blank">Omar Sha3</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
   project_page: _styling-and-creative-direction/an-editorial-for-indira.html
   project_tags:
   - client
