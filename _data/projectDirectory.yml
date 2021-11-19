@@ -377,7 +377,13 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Manal Wedding Glam
-  project_description: Personal styling for a wedding occasion.
+  project_description: |-
+    Personal styling for a wedding occasion.<br><br>
+
+    Client:
+    <a href="https://www.instagram.com/joannaarida/" target="_blank">Joanna Arida</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/zaidallozi/" target="_blank">Zaid Al-Lozi</a>.<br>
   project_page: _styling-and-creative-direction/manal-wedding-glam.html
   project_tags:
   - personal
