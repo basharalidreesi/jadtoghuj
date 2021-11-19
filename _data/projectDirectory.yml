@@ -260,7 +260,7 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Lola's Bridal Editorial
-  project_description: ''
+  project_description: A Fantasy Bridal Editorial.
   project_page: _styling-and-creative-direction/lolas-bridal-editorial.html
   project_tags:
   - commercial
@@ -281,7 +281,10 @@ projects:
     - "/assets/graphics/lola-532b.jpg"
     - "/assets/graphics/lola-522b.jpg"
     image_s_name: ''
-    image_s_description: ''
+    image_s_description: Bridal styling with a twist, all the looks were styled with
+      sleeves/gloves that were custom made to match the vibe of each dress, yet with
+      an experimental twist, inspired by Mugler, Alexander McQueen and Giambattista
+      Valli.
 - project_name: Raja Otaqui — Dina Music Video
   project_description: ''
   project_page: _styling-and-creative-direction/raja-otaqui-dina-music-video.html
