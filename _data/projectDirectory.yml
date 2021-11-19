@@ -134,8 +134,8 @@ projects:
     look_description: Winter chic in this <a href="https://www.instagram.com/nafsikaskourti/"
       target="_blank">Nafsika Skourti</a> skirt suit, the look was complete with custom
       white suede and bronze metal detailed sandals, statement earrings and rings
-      are courtesy of <a href="https://www.instagram.com/runnakedofficial/"
-      target="_blank">Run Naked</a>.
+      are courtesy of <a href="https://www.instagram.com/runnakedofficial/" target="_blank">Run
+      Naked</a>.
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
@@ -399,7 +399,7 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Simply Personal
-  project_description: ''
+  project_description: Denim with Joanna
   project_page: _styling-and-creative-direction/simply-personal.html
   project_tags:
   - test shoot
@@ -411,8 +411,9 @@ projects:
     - "/assets/graphics/b.JPG"
     - "/assets/graphics/d.JPG"
     - "/assets/graphics/a.JPG"
-    image_s_name: ''
-    image_s_description: ''
+    image_s_name: Look 01
+    image_s_description: A simple blue jeans and grey bodysuit complete with sharp
+      sunglasses.
 - project_name: Editorial on Red
   project_description: |-
     Model:
