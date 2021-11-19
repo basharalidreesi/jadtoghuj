@@ -179,7 +179,11 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: 'Experimenting with Christina '
-  project_description: ''
+  project_description: "High Fashion Experimental Editorial.<br><br> \n\nModel: <a
+    href=\"https://www.instagram.com/christina.goussous/\" target=\"_blank\">Christina
+    Goussous</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/zaidallozi/\"
+    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/zaina.makeup.artist/\"
+    target=\"_blank\">Zaina Al-Lozi</a>.<br>"
   project_page: _styling-and-creative-direction/experimenting-with-christina.html
   project_tags:
   - experimental
@@ -198,7 +202,12 @@ projects:
     look_cover: "/assets/graphics/look-1-christina-1.png"
     look_images:
     - "/assets/graphics/img_1111.jpg"
-    look_description: ''
+    look_description: A reworked <a href="https://www.instagram.com/byraneem/?hl=en"
+      target="_blank">By Raneem</a> strapless corset is styled with the <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> Violet Skirt, which was ruched using ribbon,
+      with warm pink stockings and black lace up sandals. The look was accessorized
+      with <a href="https://www.instagram.com/yasminesbrain/?hl=en" target="_blank">Yasmine's
+      Brain</a> butterfly resin rings and pink headscarf.
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/look-2-christina-1.png"
