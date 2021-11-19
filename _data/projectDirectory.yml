@@ -334,7 +334,18 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Idreesi and Abdulla for MyKali
-  project_description: ''
+  project_description: |+
+    A trip to vintage Amman with the boys.<br><br>
+
+
+    Magazine:
+    <a href="https://www.instagram.com/mykali/" target="_blank">MyKali</a>.<br>
+
+    Talents: <a href="https://www.instagram.com/iidreesii/" target="_blank">Idreesi</a>.<br>
+    <a href="https://www.instagram.com/thereal.abdulla/" target="_blank">Muhammad Abdullah</a>.<br>
+
+    Photographer: <a href="https://www.instagram.com/omarsha3/" target="_blank">Omar Sha3</a>.<br>
+
   project_page: _styling-and-creative-direction/idreesi-and-abdulla-for-mykali.html
   project_tags:
   - editorial
