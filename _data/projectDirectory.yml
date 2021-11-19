@@ -399,7 +399,15 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: Simply Personal
-  project_description: Denim with Joanna
+  project_description: |-
+    Denim with Joanna.<br><br>
+
+    Model:
+    <a href="https://www.instagram.com/joannaarida/" target="_blank">Joanna Arida</a>.<br>
+
+    Photography: <a href="https://www.instagram.com/majdsalsa/" target="_blank">Majd Salsa</a>.<br>
+
+    Makeup: <a href="https://www.instagram.com/glambymasa/" target="_blank">Masa Khurma</a>.
   project_page: _styling-and-creative-direction/simply-personal.html
   project_tags:
   - test shoot
