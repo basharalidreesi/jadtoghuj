@@ -488,8 +488,8 @@ projects:
     - "/assets/graphics/d2.jpg"
     image_s_name: Look 01 & Look 02
     image_s_description: |-
-      Look 01 (on Petra); A vintage men's suit cropped and with extra shoulder pads, this look gives off power vibes.<br>
-      Look 02 (on Mira); A men's trench coat with a beige suede belt to accentuate the waist area.<br>
+      Look 01 (on Petra); A vintage men\'s suit cropped and with extra shoulder pads, this look gives off power vibes.<br>
+      Look 02 (on Mira); A men\'s trench coat with a beige suede belt to accentuate the waist area.<br>
       Both looks were complete with wine red stockings.
 - project_name: Manal Wedding Glam
   project_description: |-
