@@ -464,7 +464,12 @@ projects:
     - "/assets/graphics/2-edited-1-1.jpg"
     - "/assets/graphics/2-edited-2-1.jpg"
     - "/assets/graphics/2-edited-3-1.jpg"
-    look_description: ''
+    look_description: "A love story of lilac and black, this look features the <a
+      href=\"https://www.instagram.com/nafsikaskourti/\" target=\"_blank\">Nafsika
+      Skourti</a> As If Blouse and Slit Trousers in matching lilac colors, and black
+      fabric belt. styled with <a href=\"https://www.instagram.com/liudmilahq/\" target=\"_blank\">Liudmila</a>
+      Tiger Pony Heartbreaker shoes and <a href=\"https://www.instagram.com/indirajewelry/\"
+      target=\"_blank\">Indira</a>  jewelry. \n"
     look_cover: "/assets/graphics/look-2-editorial-on-red.png"
   - template: look
     look_name: Look 03
