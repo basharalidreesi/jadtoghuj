@@ -67,7 +67,11 @@ projects:
     look_description: ''
     look_images: []
 - project_name: Nedaa Sharara for ET Bil Arabi
-  project_description: ''
+  project_description: "Photographer:\n<a href=\"https://www.instagram.com/faris.photos/\"
+    target=\"_blank\">Faris Zuhair</a>.<br>\n\nTalent: \n<a href=\"https://www.instagram.com/nedaashararaofficial/?hl=en\"
+    target=\"_blank\">Nedaa Sharara</a>.<br>\n\nMakeup: \n<a href=\"https://www.instagram.com/makeupbyrashed/?hl=en\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n\nAssistant Stylists: \n<a href=\"https://www.instagram.com/jesuis_dana/\"
+    target=\"_blank\">Dana Bogomolova</a>.<br> "
   project_page: _styling-and-creative-direction/nedaa-sharara-for-et-bil-arabi.html
   project_tags:
   - editorial
