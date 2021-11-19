@@ -250,7 +250,10 @@ projects:
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/with-a-bang-look-03.png"
-    look_description: ''
+    look_description: The same <a href="https://www.instagram.com/corebysujood/?hl=en"
+      target="_blank">Core by Sujoud</a> pink top is styled as a purse here, to compliment
+      the pink satin shirt styled under a <a href="https://www.instagram.com/byraneem/?hl=en"
+      target="_blank">By Raneem</a> lace up corset, and black men suiting trousers.
     look_images: []
   - template: image-s
     images:
