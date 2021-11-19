@@ -478,7 +478,11 @@ projects:
     - "/assets/graphics/3-edited-4.jpg"
     - "/assets/graphics/3-edited-3.jpg"
     - "/assets/graphics/3-edited-11.jpg"
-    look_description: ''
+    look_description: "Casual couture take on a fancy look, a <a href=\"https://www.instagram.com/nafsikaskourti/\"
+      target=\"_blank\">Nafsika Skourti</a> black taffeta skirt is styled with purple
+      and yellow gradient top,  styled with <a href=\"https://www.instagram.com/liudmilahq/\"
+      target=\"_blank\">Liudmila</a> White Snake Starry Eyed 100 sandals and <a href=\"https://www.instagram.com/indirajewelry/\"
+      target=\"_blank\">Indira</a>  jewelry. \n"
     look_cover: "/assets/graphics/3-edited-1update.png"
 - project_name: Fly To Milan with Pandora
   project_description: |-
