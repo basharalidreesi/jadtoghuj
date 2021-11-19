@@ -357,7 +357,8 @@ projects:
     image_s_name: ''
     image_s_description: ''
 - project_name: An Editorial for Indira
-  project_description: ''
+  project_description: First ever jewelry editorial in collaboration with Egyptian
+    jewelry brand <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>.
   project_page: _styling-and-creative-direction/an-editorial-for-indira.html
   project_tags:
   - client
