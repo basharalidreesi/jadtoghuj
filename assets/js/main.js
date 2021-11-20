@@ -260,16 +260,16 @@ const jad = {
 			});
 		},
 		scoutNewProjects: function() {
-			//jad.lexicon.lookCards.forEach((card) => {
-			//	let date = card.getAttribute("data-jad-date-published").split("-");
-			//	let datePublished = new Date(date[2], date[1] - 1, date[0]);
-			//	let monthFromDatePublished = new Date(date[2], date[1] - 1, date[0]);
-			//	monthFromDatePublished.setDate(monthFromDatePublished.getMonth() + 1);
-			//	let today = new Date();
-			//	if (today.getTime() < monthFromDatePublished.getTime()) {
-			//		card.classList.add("projectDirectory__lookCard--new");
-			//	}
-			//});
+			jad.lexicon.lookCards.forEach((card) => {
+				let date = card.getAttribute("data-jad-date-published").split("-");
+				let datePublished = new Date(date[2], date[1] - 1, date[0]);
+				let monthFromDatePublished = new Date(date[2], date[1] - 1, date[0]);
+				monthFromDatePublished.setMonth(monthFromDatePublished.getMonth() + 1);
+				let today = new Date();
+				if (today.getTime() < monthFromDatePublished.getTime()) {
+					card.classList.add("projectDirectory__lookCard--new");
+				}
+			});
 		},
 
 	},
