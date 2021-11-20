@@ -22,7 +22,7 @@ style:
                                         {%- for project in site.data.projectDirectory.projects -%}
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" %}
-                                        <article class="projectDirectory__lookCard--outer">
+                                        <article class="projectDirectory__lookCard--outer" data-jad-date-published="{{ project.date_published }}">
                                                 <h4 class="generic--hidden">
                                                         {{ media.look_name }}, {{ project.project_name }}
                                                 </h4>
@@ -85,7 +85,7 @@ style:
                                                 </div>
                                         </div>
                                         {%- for project in site.data.projectDirectory.projects %}
-                                        <article class="projectDirectory__projectCard" data-jad-project-tags="{%- for tag in project.project_tags -%} {{ tag | downcase }} {%- unless forloop.last -%}, {% endunless -%} {%- endfor -%}">
+                                        <article class="projectDirectory__projectCard" data-jad-project-tags="{%- for tag in project.project_tags -%} {{ tag | downcase }} {%- unless forloop.last -%}, {% endunless -%} {%- endfor -%}" data-jad-date-published="{{ project.date_published }}">
                                                 <h4 class="generic--hidden">
                                                         {{ project.project_name }}
                                                 </h4>
