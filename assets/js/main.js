@@ -261,13 +261,13 @@ const jad = {
                 },
                 scoutNewProjects: function() {
                         jad.lexicon.lookCards.forEach((card) => {
-                                let nextMonth = new Date();
-                                nextMonth.setMonth(nextMonth.getMonth() + 1);
+                                let previousMonth = new Date();
+                                previousMonth.setMonth(nextMonth.getMonth() - 1);
                                 let datePublished = card.getAttribute("data-jad-date-published").split("-");
                                 let processedDatePublished = new Date(datePublished[2], datePublished[1] - 1, datePublished[0]);
                                 let processedDateTimestamp = processedDatePublished.getTime();
-                                let nextMonthTimestamp = nextMonth.getTime();
-                                if (processedDateTimestamp < nextMonthTimestamp) {
+                                let previousMonthTimestamp = previousMonth.getTime();
+                                if (processedDateTimestamp - previousMonthTimestamp > 0) {
                                         card.classList.add("projectDirectory__lookCard--new");
                                 }
                         });
