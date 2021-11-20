@@ -20,6 +20,7 @@ const jad = {
                 projectToggle: document.querySelector("#projectDirectory__projectToggle"),
                 projectTags: document.querySelectorAll(".projectDirectory__projectTag"),
                 projectCards: document.querySelectorAll(".projectDirectory__projectCard:not(#projectDirectory__allProjects)"),
+                lookCards: document.querySelectorAll(".projectDirectory__lookCard--outer:not(#projectDirectory__allLooks)"),
                 carousel: document.querySelector(".project__carousel"),
                 projectTitle: document.querySelector("#project__title"),
                 carouselItems: document.querySelectorAll(".project__carouselItem"),
@@ -206,6 +207,7 @@ const jad = {
                         if (!document.querySelector(".projectDirectory")) { return; }
                         jad.projectDirectory.listenToTagChange();
                         jad.projectDirectory.listenToProjectToggleChange();
+                        jad.projectDirectory.scoutNewProjects();
                 },
                 listenToTagChange: function() {
                         jad.lexicon.projectTags.forEach((tag) => {
@@ -254,6 +256,17 @@ const jad = {
                                         jad.lexicon.projectCards.forEach((card) => {
                                                 card.classList.remove("projectDirectory__projectCard--disabled");
                                         });
+                                }
+                        });
+                },
+                scoutNewProjects: function() {
+                        jad.lexicon.lookCards.forEach((card) => {
+                                let date = card.getAttribute("data-jad-date-published").split("-");
+                                let processedDate = new Date(date[2], date[1] - 1, date[0]);
+                                let nextMonth = new Date().getTime() + (30 * 24 * 60 * 60 * 1000);
+                                let timestamp = processedDate.getTime();
+                                if (timestamp < nextMonth) {
+                                        card.classList.add("projectDirectory__lookCard--new");
                                 }
                         });
                 },
@@ -371,7 +384,7 @@ const jad = {
                                         jad.lexicon.carouselConsole.classList.remove("generic--halfOpacity");
                                 } else {
                                         if (event.target.tagName != "A") {
-                                                jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");        
+                                                jad.lexicon.carouselConsole.classList.add("generic--halfOpacity");
                                         }
                                 }
                         });
