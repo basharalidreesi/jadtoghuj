@@ -261,8 +261,8 @@ const jad = {
                 },
                 scoutNewProjects: function() {
                         jad.lexicon.lookCards.forEach((card) => {
-                                let today = new Date();
-                                let nextMonth = today.setMonth(today.getMonth() + 1);
+                                let nextMonth = new Date();
+                                nextMonth.setMonth(nextMonth.getMonth() + 1);
                                 let datePublished = card.getAttribute("data-jad-date-published").split("-");
                                 let processedDatePublished = new Date(datePublished[2], datePublished[1] - 1, datePublished[0]);
                                 let processedDateTimestamp = processedDatePublished.getTime();
