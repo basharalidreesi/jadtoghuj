@@ -265,7 +265,7 @@ const jad = {
                                 let nextMonth = today.setMonth(today.getMonth() + 1);
                                 let datePublished = card.getAttribute("data-jad-date-published").split("-");
                                 let processedDatePublished = new Date(datePublished[2], datePublished[1] - 1, datePublished[0]);
-                                let processedDateTimestamp = processedDate.getTime();
+                                let processedDateTimestamp = processedDatePublished.getTime();
                                 let nextMonthTimestamp = nextMonth.getTime();
                                 if (processedDateTimestamp < nextMonthTimestamp) {
                                         card.classList.add("projectDirectory__lookCard--new");
