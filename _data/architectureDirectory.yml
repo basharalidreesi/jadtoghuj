@@ -1,5 +1,15 @@
 ---
 projects:
+- project_name: Fashion and Textile Museum
+  project_description: ''
+  project_page: _architecture/Fashion-and-Textile-Museum.html
+  project_tags: []
+  media:
+  - template: look
+    look_name: Fashion and Textile Museum - Design 3 Course
+    look_cover: "/assets/graphics/circulation-diagram-design-4.png"
+    look_description: ''
+    look_images: []
 - project_name: Sample Project
   project_description: A test project
   project_page: _architecture/sample-project.html
