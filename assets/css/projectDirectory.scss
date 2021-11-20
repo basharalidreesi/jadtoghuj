@@ -244,6 +244,17 @@
                 }
 
                 &__lookCard {
+                        &--new::after {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                height: 2rem;
+                                width: 2rem;
+                                background: var(--color-special);
+                                border-radius: 100%;
+                                pointer-events: none;
+                        }
                         &--outer {
                                 flex-basis: calc(100% / var(--columns-projectDirectory));
                                 position: relative;
