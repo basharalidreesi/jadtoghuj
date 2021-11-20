@@ -261,9 +261,10 @@ const jad = {
                 },
                 scoutNewProjects: function() {
                         jad.lexicon.lookCards.forEach((card) => {
-                                let date = card.getAttribute("data-jad-date-published").split("-");
-                                let processedDate = new Date(date[2], date[1] - 1, date[0]);
-                                let nextMonth = new Date(date[2], date[1] - 1, date[0] + 30);
+                                let today = new Date();
+                                let nextMonth = today.setMonth(today.getMonth() + 1);
+                                let datePublished = card.getAttribute("data-jad-date-published").split("-");
+                                let processedDatePublished = new Date(datePublished[2], datePublished[1] - 1, datePublished[0]);
                                 let processedDateTimestamp = processedDate.getTime();
                                 let nextMonthTimestamp = nextMonth.getTime();
                                 if (processedDateTimestamp < nextMonthTimestamp) {
