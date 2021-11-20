@@ -263,9 +263,10 @@ const jad = {
                         jad.lexicon.lookCards.forEach((card) => {
                                 let date = card.getAttribute("data-jad-date-published").split("-");
                                 let processedDate = new Date(date[2], date[1] - 1, date[0]);
-                                let nextMonth = new Date().getTime() + (30 * 24 * 60 * 60 * 1000);
-                                let timestamp = processedDate.getTime();
-                                if (timestamp < nextMonth) {
+                                let nextMonth = new Date(date[2], date[1] - 1, date[0] + 30);
+                                let processedDateTimestamp = processedDate.getTime();
+                                let nextMonthTimestamp = nextMonth.getTime();
+                                if (processedDateTimestamp < nextMonthTimestamp) {
                                         card.classList.add("projectDirectory__lookCard--new");
                                 }
                         });
