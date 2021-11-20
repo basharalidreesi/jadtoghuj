@@ -260,15 +260,15 @@ const jad = {
                         });
                 },
                 scoutNewProjects: function() {
-                        jad.lexicon.lookCards.forEach((card) => {
-                                let date = card.getAttribute("data-jad-date-published").split("-");
-                                let datePublished = new Date(date[2], date[1] - 1, date[0]);
-                                let thirtyDaysFromDatePublished = new Date(date[2], date[1] - 1, date[0] + 30);
-                                let today = new Date();
-                                if (thirtyDaysFromDatePublished.getTime() - today.getTime() > 0) {
-                                        card.classList.add("projectDirectory__lookCard--new");
-                                }
-                        });
+                        // jad.lexicon.lookCards.forEach((card) => {
+                        //         let date = card.getAttribute("data-jad-date-published").split("-");
+                        //         let datePublished = new Date(date[2], date[1] - 1, date[0]);
+                        //         let thirtyDaysFromDatePublished = new Date(date[2], date[1] - 1, date[0] + 30);
+                        //         let today = new Date();
+                        //         if (thirtyDaysFromDatePublished.getTime() - today.getTime() > 0) {
+                        //                 card.classList.add("projectDirectory__lookCard--new");
+                        //         }
+                        // });
                 },
 
         },
