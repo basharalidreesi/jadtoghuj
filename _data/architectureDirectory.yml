@@ -1,7 +1,9 @@
 ---
 projects:
 - project_name: Fashion and Textile Museum
-  project_description: ''
+  project_description: |-
+    Design 3 Course.<br>
+    Supervised by Architect Lamis Shaban.
   project_page: _architecture/Fashion-and-Textile-Museum.html
   project_tags: []
   media:
@@ -10,6 +12,25 @@ projects:
     look_cover: "/assets/graphics/circulation-diagram-design-4.png"
     look_description: ''
     look_images: []
+  - template: image-s
+    images:
+    - "/assets/graphics/final-submission_page-0017.jpg"
+    - "/assets/graphics/final-submission_page-0016.jpg"
+    - "/assets/graphics/final-submission_page-0015.jpg"
+    - "/assets/graphics/final-submission_page-0014.jpg"
+    - "/assets/graphics/final-submission_page-0013.jpg"
+    - "/assets/graphics/final-submission_page-0012.jpg"
+    - "/assets/graphics/final-submission_page-0011.jpg"
+    - "/assets/graphics/final-submission_page-0010.jpg"
+    - "/assets/graphics/final-submission_page-0009.jpg"
+    - "/assets/graphics/final-submission_page-0008.jpg"
+    - "/assets/graphics/final-submission_page-0007.jpg"
+    - "/assets/graphics/final-submission_page-0006.jpg"
+    - "/assets/graphics/final-submission_page-0005.jpg"
+    - "/assets/graphics/final-submission_page-0004.jpg"
+    - "/assets/graphics/final-submission_page-0003.jpg"
+    image_s_name: ''
+    image_s_description: ''
 - project_name: Sample Project
   project_description: A test project
   project_page: _architecture/sample-project.html
