@@ -299,6 +299,7 @@ const jad = {
 			var touchX = 0;
 			var touchY = 0;
 			window.addEventListener("touchstart", (event) => {
+				if (event.touches.length > 1) { return; }
 				jad.carousel.touchElement = event.target;
 				touchX = event.touches[0].clientX;
 				touchY = event.touches[0].clientY;
