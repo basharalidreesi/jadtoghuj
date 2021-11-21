@@ -305,6 +305,7 @@ const jad = {
 				touchY = event.touches[0].clientY;
 			});
 			window.addEventListener("touchmove", (event) => {
+				if (event.touches.length > 1) { return; }
 				let transformedTouchX = event.changedTouches[0].clientX - touchX;
 				let transformedTouchY = event.changedTouches[0].clientY - touchY;
 				// jad.util.throttle(jad.carousel.transformTouch(transformedTouchX, transformedTouchY, event), 50);
