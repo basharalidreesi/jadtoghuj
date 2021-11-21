@@ -316,7 +316,7 @@ const jad = {
 			if (jad.carousel.touchElement && jad.carousel.touchElement.id == "project__console__descriptionPanel" && jad.lexicon.carouselConsolePanel.scrollHeight > jad.lexicon.carouselConsolePanel.clientHeight) { return; }
 			if (Math.abs(transformedTouchX) > Math.abs(transformedTouchY)) { return; }
 			event.preventDefault();
-			let retardationValue = -10;
+			let retardationValue = -9;
 			jad.lexicon.carousel.scrollLeft += transformedTouchY / retardationValue;
 		},
 		displayCpAndConsole: function() {
