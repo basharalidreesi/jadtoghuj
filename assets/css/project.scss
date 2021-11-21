@@ -38,7 +38,12 @@ body {
 
 #mother {
 
+        margin: 0 1rem;
+
         #nav {
+
+                margin: 2rem -1rem 1rem -1rem;
+
                 &__toggle:checked + #nav__label {
                         &::before {
                                 top: 10rem;
