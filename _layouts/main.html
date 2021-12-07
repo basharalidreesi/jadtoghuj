@@ -37,13 +37,6 @@
 	<!-- <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script> -->
 </head>
 <body>
-        {%- if site.data.generalConfiguration.notice and site.data.generalConfiguration.notice.size != 0 %}
-	<div id="notice">
-		{%- for notice in site.notice %}
-		{{ notice }}
-		{%- endfor %}
-	</div>
-	{%- endif %}
 	<div id="mother">
 		<h1 class="generic--hidden">
 			{{ site.data.generalConfiguration.author }}
