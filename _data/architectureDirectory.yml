@@ -31,16 +31,3 @@ projects:
     - "/assets/graphics/final-submission_page-0017.jpg"
     image_s_name: ''
     image_s_description: ''
-- project_name: Sample Project
-  project_description: A test project
-  project_page: _architecture/sample-project.html
-  project_tags:
-  - sample
-  - project
-  media:
-  - template: look
-    look_name: Graphic 01
-    look_description: A sample graphic with the number 01.
-    look_cover: "/assets/graphics/placeimg_640_480_arch.jpg"
-    look_images:
-    - "/assets/graphics/placeimg_640_480_arch-1.jpg"
