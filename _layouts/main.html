@@ -72,10 +72,13 @@
 				Coming Soon
 			</marquee>
 		</header>
+		
+		{% comment %}
+		
 		{%- if page.layout == "homepageShowcase" %}
-		<!-- <div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down"></div> -->
+		<div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down"></div>
 		{%- endif %}
-		<!-- <nav id="nav">
+		<nav id="nav">
 			<h2 class="generic--hidden">
 				Navigation
 			</h2>
@@ -109,18 +112,21 @@
 					Architecture
 				</a>
 			</label>
-		</nav> -->
-		<!-- <main id="main">
+		</nav>
+		<main id="main">
 			{{ content }}
-		</main> -->
+		</main>
 		{%- unless page.layout == "project" %}
-                <!-- <footer id="footer">
+                <footer id="footer">
 			<h2 class="generic--hidden">
 				Footer
 			</h2>
 			{{ site.data.generalConfiguration.footer_text }}
-		</footer> -->
+		</footer>
 		{%- endunless %}
+		
+		{% endcomment %}
+		
 	</div>
 </body>
 </html>
