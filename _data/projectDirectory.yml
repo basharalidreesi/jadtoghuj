@@ -71,7 +71,8 @@ projects:
     look_description: A red ensemble styled and designed on spot entirely out of three
       bright red stockings, layered to accentuate and alter different parts of the
       body.
-    look_images: []
+    look_images:
+    - "/assets/graphics/img_5335.jpg"
   date_published: 2021-10-01
 - project_name: Nedaa Sharara for ET Bil Arabi
   project_description: "Talent: \n<a href=\"https://www.instagram.com/nedaashrara_official/?hl=en\"
