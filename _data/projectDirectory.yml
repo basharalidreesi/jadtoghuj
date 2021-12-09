@@ -2,8 +2,11 @@
 projects:
 - project_name: Chickens and Joanna
   project_description: ''
-  project_page: []
-  project_tags: []
+  project_page: _styling-and-creative-direction/chickens-and-joanna.html
+  project_tags:
+  - experimental
+  - personal
+  - editorial
   date_published: 2021-12-09
   media:
   - template: look
