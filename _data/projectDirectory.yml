@@ -18,6 +18,11 @@ projects:
       rings.
     look_cover: "/assets/graphics/jaonna-chicken-1.png"
     look_images: []
+  - template: look
+    look_name: Look 02
+    look_description: ''
+    look_cover: ''
+    look_images: []
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
@@ -47,6 +52,15 @@ projects:
       styled as an overskirt.
     look_cover: "/assets/graphics/break-the-fourth-wall-2.png"
   - template: look
+    look_name: Look 04
+    look_images:
+    - "/assets/graphics/btfw-5-1.jpg"
+    - "/assets/graphics/btfw-6-1.jpg"
+    look_description: Mugler inspired wrap gloves styled over a custom byraneem graphic
+      lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> trousers.
+    look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
+  - template: look
     look_name: Look 03
     look_images:
     - "/assets/graphics/btfw-10.jpg"
@@ -59,15 +73,6 @@ projects:
       with this Roberto Cavalli necklace courtesy of <a href="https://www.instagram.com/fashionhouseamman/"
       target="_blank">Fashion House Amman</a>.
     look_cover: "/assets/graphics/break-the-fourth-wall-3.png"
-  - template: look
-    look_name: Look 04
-    look_images:
-    - "/assets/graphics/btfw-5-1.jpg"
-    - "/assets/graphics/btfw-6-1.jpg"
-    look_description: Mugler inspired wrap gloves styled over a custom byraneem graphic
-      lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
-      target="_blank">Fadi Zumot</a> trousers.
-    look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
   - template: image-s
     image_s_name: Look 05
     image_s_description: Plaid shirt with shoulder pads styled under my custom designed
