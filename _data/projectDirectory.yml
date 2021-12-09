@@ -1,7 +1,7 @@
 ---
 projects:
 - project_name: Chickens and Joanna
-  project_description: ''
+  project_description: COMING SOON
   project_page: _styling-and-creative-direction/chickens-and-joanna.html
   project_tags:
   - experimental
@@ -10,6 +10,13 @@ projects:
   date_published: 2021-12-09
   media:
   - template: look
+    look_name: Look 02
+    look_description: A nude colored top is styled with two tone denim/chino trousers
+      in shades of beige, styled with Bottega Veneta Puddle Boots and a Zara Home
+      blanket.
+    look_cover: "/assets/graphics/jaonna-chicken-2.png"
+    look_images: []
+  - template: look
     look_name: Look 01
     look_description: Layered stockings in different nude shades to create a full
       body base, with shimmer nude stockings on top to give shimmer, jersey fabric
@@ -17,13 +24,6 @@ projects:
       many <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>
       rings.
     look_cover: "/assets/graphics/jaonna-chicken-1.png"
-    look_images: []
-  - template: look
-    look_name: Look 02
-    look_description: A nude colored top is styled with two tone denim/chino trousers
-      in shades of beige, styled with Bottega Veneta Puddle Boots and a Zara Home
-      blanket.
-    look_cover: "/assets/graphics/jaonna-chicken-2.png"
     look_images: []
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
