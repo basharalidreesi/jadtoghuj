@@ -34,7 +34,9 @@ projects:
     look_images:
     - "/assets/graphics/btfw-4.jpg"
     - "/assets/graphics/btfw-3.jpg"
-    look_description: ''
+    look_description: A modern take on the classic combo of red and black, an inverted
+      tweed blazer is style with custom Fadi Zumot Trousers with his signature shirt
+      worn as an overskirt.
     look_cover: "/assets/graphics/break-the-fourth-wall-2.png"
   - template: look
     look_name: Look 03
