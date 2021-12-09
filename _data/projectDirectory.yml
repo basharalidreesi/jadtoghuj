@@ -25,7 +25,10 @@ projects:
     look_images:
     - "/assets/graphics/btfw-7.jpg"
     - "/assets/graphics/btfw-8.jpg"
-    look_description: ''
+    look_description: 'A denim on denim ensemble with a Fadi Zumot multiple belt leg
+      harness.
+
+'
   - template: look
     look_name: Look 02
     look_images:
