@@ -32,7 +32,7 @@ projects:
     - "/assets/graphics/btfw-4.jpg"
     - "/assets/graphics/btfw-3.jpg"
     look_description: ''
-    look_cover: ''
+    look_cover: "/assets/graphics/break-the-fourth-wall-2.png"
   - template: look
     look_name: Look 03
     look_images:
