@@ -34,10 +34,12 @@ projects:
     - "/assets/graphics/btfw-10.jpg"
     - "/assets/graphics/btfw-11.jpg"
     - "/assets/graphics/btfw-9.jpg"
-    look_description: A nod to the classics, Core by sujoud exaggerated collar is
-      styled over a white shirt, with a custom corset by ByRaneem and black suit trousers.
-      The look was complete with this Cavali tooth necklace courtesy of Fashion House
-      amman.
+    look_description: A nod to the classics, <a href="https://www.instagram.com/corebysujood/?hl=en"
+      target="_blank">Core by Sujoud</a> exaggerated collar is styled over a white
+      shirt, with a custom corset by <a href="https://www.instagram.com/byraneem/?hl=en"
+      target="_blank">ByRaneem</a> and black suit trousers. The look was complete
+      with this Roberto Cavalli necklace courtesy of <a href="https://www.instagram.com/fashionhouseamman/"
+      target="_blank">Fashion House Amman</a>.
     look_cover: "/assets/graphics/break-the-fourth-wall-3.png"
   - template: look
     look_name: Look 04
@@ -45,7 +47,8 @@ projects:
     - "/assets/graphics/btfw-5-1.jpg"
     - "/assets/graphics/btfw-6-1.jpg"
     look_description: Mugler inspired wrap gloves styled over a custom byraneem graphic
-      lace up corset with custom fadi zumot trousers.
+      lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> trousers.
     look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
   - template: look
     look_name: Look 05
