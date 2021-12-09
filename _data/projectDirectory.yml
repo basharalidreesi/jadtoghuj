@@ -50,14 +50,13 @@ projects:
       lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> trousers.
     look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
-  - template: look
-    look_name: Look 05
-    look_images:
+  - template: image-s
+    image_s_name: Look 05
+    image_s_description: Plaid shirt with shoulder pads styled under my custom designed
+      corset made with recycled off-white bed sheets.
+    images:
     - "/assets/graphics/btfw-2.jpg"
     - "/assets/graphics/btfw-1.jpg"
-    look_description: Plaid shirt with shoulder pads styled under my custom designed
-      corset made with recycled off-white bed sheets.
-    look_cover: ''
   date_published: 2021-10-01
 - project_name: "\U0001F339sisi on a mission\U0001F339"
   project_description: "Photographer: \n<a href=\"https://www.instagram.com/omarsha3/?hl=en\"
