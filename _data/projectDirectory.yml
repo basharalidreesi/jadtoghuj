@@ -1,5 +1,20 @@
 ---
 projects:
+- project_name: Chickens and Joanna
+  project_description: ''
+  project_page: []
+  project_tags: []
+  date_published: 2021-12-09
+  media:
+  - template: look
+    look_name: Look 01
+    look_description: Layered stockings in different nude shades to create a full
+      body base, with shimmer nude stockings on top to give shimmer, jersey fabric
+      is draped on top to give an illusion of a dress, the look was complete with
+      many <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>
+      rings.
+    look_cover: "/assets/graphics/jaonna-chicken-1.png"
+    look_images: []
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
