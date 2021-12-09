@@ -40,14 +40,14 @@ projects:
     - "/assets/graphics/btfw-11.jpg"
     - "/assets/graphics/btfw-9.jpg"
     look_description: ''
-    look_cover: ''
+    look_cover: "/assets/graphics/break-the-fourth-wall-3.png"
   - template: look
     look_name: Look 04
     look_images:
     - "/assets/graphics/btfw-5-1.jpg"
     - "/assets/graphics/btfw-6-1.jpg"
     look_description: ''
-    look_cover: ''
+    look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
   - template: look
     look_name: Look 05
     look_images:
