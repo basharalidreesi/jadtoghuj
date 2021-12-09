@@ -1,5 +1,37 @@
 ---
 projects:
+- project_name: A Haven Inside
+  project_description: Clarity, Greenery and the Corporate Authority.
+  project_page: _architecture/A-Haven-Inside.html
+  project_tags: []
+  media:
+  - template: look
+    look_name: Clarity, Greenery and the Corporate Authority.
+    look_cover: "/assets/graphics/a-haven-inside-cover.png"
+    look_description: ''
+    look_images: []
+  - template: image-s
+    images:
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0002.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0003.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0004.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0005.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0006.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0007.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0008.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0009.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0010.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0011.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0012.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0013.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0017.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0018.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0019.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0014.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0016.jpg"
+    - "/assets/graphics/a-haven-inside-jad-yacoub-0181702-final-submission_page-0015.jpg"
+    image_s_name: ''
+    image_s_description: ''
 - project_name: Fashion and Textile Museum
   project_description: |-
     Design 3 Course.<br>
