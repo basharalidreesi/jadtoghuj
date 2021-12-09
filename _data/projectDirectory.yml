@@ -20,8 +20,10 @@ projects:
     look_images: []
   - template: look
     look_name: Look 02
-    look_description: ''
-    look_cover: ''
+    look_description: A nude colored top is styled with two tone denim/chino trousers
+      in shades of beige, styled with Bottega Veneta Puddle Boots and a Zara Home
+      blanket.
+    look_cover: "/assets/graphics/jaonna-chicken-2.png"
     look_images: []
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
