@@ -1,16 +1,5 @@
 ---
 projects:
-- project_name: Mods by Fadi
-  project_description: "Going Back to the 60s\n\n"
-  project_page: _styling-and-creative-direction/mods-by-fadi.html
-  project_tags:
-  - client
-  - commercial
-  - campaign
-  media:
-  - template: video
-    video_url: https://www.youtube.com/watch?v=mV81M5TekZo
-  date_published: 2021-10-01
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
@@ -25,8 +14,8 @@ projects:
     look_images:
     - "/assets/graphics/btfw-7.jpg"
     - "/assets/graphics/btfw-8.jpg"
-    look_description: 'A denim on denim ensemble with a Fadi Zumot multiple belt leg
-      harness.
+    look_description: 'A denim on denim ensemble with a <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> multiple belt leg harness.
 
 '
   - template: look
@@ -35,8 +24,9 @@ projects:
     - "/assets/graphics/btfw-4.jpg"
     - "/assets/graphics/btfw-3.jpg"
     look_description: A modern take on the classic combo of red and black, an inverted
-      tweed blazer is style with custom Fadi Zumot Trousers with his signature shirt
-      worn as an overskirt.
+      tweed blazer is style with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
+      target="_blank">Fadi Zumot</a> trousers with his signature shirt worn as an
+      overskirt.
     look_cover: "/assets/graphics/break-the-fourth-wall-2.png"
   - template: look
     look_name: Look 03
@@ -413,36 +403,6 @@ projects:
   - template: video
     video_url: https://www.youtube.com/watch?v=veBQSAZoXnE
   date_published: 2021-10-01
-- project_name: Ghada el Tally for Pandora
-  project_description: "Director:\n<a href=\"https://www.instagram.com/shamekhbluwi/\"
-    target=\"_blank\">Shamekh Bluwi</a>.<br>\n\nTalent: \n<a href=\"https://www.instagram.com/ghadaeltally/?hl=en\"
-    target=\"_blank\">Ghada EL Tally</a>.<br>\n\nJewelry Stylist:\n<a href=\"https://www.instagram.com/yaz.sab/?hl=en\"
-    target=\"_blank\">Yazan Sabbah</a>.<br>\n\nMakeup: \n<a href=\"https://www.instagram.com/larakanan/?hl=en\"
-    target=\"_blank\">Lara Kanan</a>.<br>\n\nAssistant Stylists: \n<a href=\"https://www.instagram.com/jesuis_dana/\"
-    target=\"_blank\">Dana Bogomolova</a>.<br> \n\n<a href=\"https://www.instagram.com/nujoudoweis/\"
-    target=\"_blank\">Nujoud Oweis</a>.\n"
-  project_page: _styling-and-creative-direction/ghada-el-tally-for-pandora.html
-  project_tags:
-  - client
-  - commercial
-  - campaign
-  - personal
-  - jewelry
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/skirt-1-story-2-06-47-pm.jpg"
-    - "/assets/graphics/skirt-2-story-2-06-47-pm.jpg"
-    - "/assets/graphics/skirt-1-closeup-post-story-2-06-47-pm.jpg"
-    - "/assets/graphics/suit-1-story-2-06-47-pm.jpg"
-    - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
-    - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
-    - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
-    image_s_name: ''
-    image_s_description: |-
-      Ghada is styled in three white, feminine looks, allowing her personality and the jewelry to be in full focus.<br>
-      The three looks feature a structured suit, a dress and a blouse and skirt combo.
-  date_published: 2021-10-01
 - project_name: Idreesi and Abdulla for MyKali
   project_description: |+
     A trip to vintage Amman with the boys.<br><br>
@@ -481,6 +441,47 @@ projects:
     image_s_description: This editorial features 2 different look on each of the talents,
       all looks feature a mix of vintage and thrifted menswear pieces, varying from
       suits, to shirts and trench coats.
+  date_published: 2021-10-01
+- project_name: Ghada el Tally for Pandora
+  project_description: "Director:\n<a href=\"https://www.instagram.com/shamekhbluwi/\"
+    target=\"_blank\">Shamekh Bluwi</a>.<br>\n\nTalent: \n<a href=\"https://www.instagram.com/ghadaeltally/?hl=en\"
+    target=\"_blank\">Ghada EL Tally</a>.<br>\n\nJewelry Stylist:\n<a href=\"https://www.instagram.com/yaz.sab/?hl=en\"
+    target=\"_blank\">Yazan Sabbah</a>.<br>\n\nMakeup: \n<a href=\"https://www.instagram.com/larakanan/?hl=en\"
+    target=\"_blank\">Lara Kanan</a>.<br>\n\nAssistant Stylists: \n<a href=\"https://www.instagram.com/jesuis_dana/\"
+    target=\"_blank\">Dana Bogomolova</a>.<br> \n\n<a href=\"https://www.instagram.com/nujoudoweis/\"
+    target=\"_blank\">Nujoud Oweis</a>.\n"
+  project_page: _styling-and-creative-direction/ghada-el-tally-for-pandora.html
+  project_tags:
+  - client
+  - commercial
+  - campaign
+  - personal
+  - jewelry
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/skirt-1-story-2-06-47-pm.jpg"
+    - "/assets/graphics/skirt-2-story-2-06-47-pm.jpg"
+    - "/assets/graphics/skirt-1-closeup-post-story-2-06-47-pm.jpg"
+    - "/assets/graphics/suit-1-story-2-06-47-pm.jpg"
+    - "/assets/graphics/suit-2-closeup-post-story-2-06-47-pm.jpg"
+    - "/assets/graphics/dress-1-post-2-06-47-pm.jpg"
+    - "/assets/graphics/dress-2-closeup-post-story-2-06-47-pm.jpg"
+    image_s_name: ''
+    image_s_description: |-
+      Ghada is styled in three white, feminine looks, allowing her personality and the jewelry to be in full focus.<br>
+      The three looks feature a structured suit, a dress and a blouse and skirt combo.
+  date_published: 2021-10-01
+- project_name: Mods by Fadi
+  project_description: "Going Back to the 60s\n\n"
+  project_page: _styling-and-creative-direction/mods-by-fadi.html
+  project_tags:
+  - client
+  - commercial
+  - campaign
+  media:
+  - template: video
+    video_url: https://www.youtube.com/watch?v=mV81M5TekZo
   date_published: 2021-10-01
 - project_name: An Editorial for Indira
   project_description: |
@@ -687,34 +688,6 @@ projects:
     image_s_name: ''
     image_s_description: ''
   date_published: 2021-10-01
-- project_name: Conquering Magenta
-  project_description: |-
-    An experiment with lights and materials.<br><br>
-
-    Model:
-    <a href="https://www.instagram.com/lara.m.mehyar/" target="_blank">Lara Mehyar</a>.<br>
-
-    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
-
-    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
-  project_page: _styling-and-creative-direction/conquering-magenta.html
-  project_tags:
-  - experimental
-  - editorial
-  - test shoot
-  media:
-  - template: image-s
-    images:
-    - "/assets/graphics/_q3a7553-edited.jpg"
-    - "/assets/graphics/_q3a7540-edited.jpg"
-    - "/assets/graphics/_q3a7880.jpg"
-    - "/assets/graphics/_q3a7783.jpg"
-    - "/assets/graphics/_q3a7426-edited.jpg"
-    - "/assets/graphics/_q3a7571.jpg"
-    - "/assets/graphics/_q3a7553-edited-bag-only.jpg"
-    image_s_name: ''
-    image_s_description: ''
-  date_published: 2021-10-01
 - project_name: White in Raw Nature
   project_description: "An experimental bridal editorial.<br><br>\n\nModel:\n<a href=\"https://www.instagram.com/joannaarida/\"
     target=\"_blank\">Joanna Arida</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/\"
@@ -742,54 +715,48 @@ projects:
       magical creations, and his take on a bridal gown, the look was complete with
       a bouquet of baby breath flowers.
   date_published: 2021-10-01
-- project_name: A Very Pink October
-  project_description: "Pink October with Nina.<br><br>\n\nModel: \n<a href=\"https://www.instagram.com/ninamahmoudofficial/\"
-    target=\"_blank\">Nina Mahmoud</a>.<br>\n\nPhotography: \n<a href=\"https://www.instagram.com/zaidallozi/\"
-    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nFashion:\n<a href=\"https://www.instagram.com/raz_district/\"
-    target=\"_blank\">Raz District</a>.<br>"
-  project_page: _styling-and-creative-direction/a-very-pink-october.html
-  project_tags:
-  - personal
-  - commercial
-  media:
-  - template: look
-    look_name: Look 01
-    look_cover: "/assets/graphics/look-2-nina-1.png"
-    look_description: A nod to early 2000s fashion; this all pink outfit is a combination
-      of a dusty pink spaghetti strap top, complete with a faux fur trim on the neckline,
-      a pink denim mini skirt, with graphic pink socks and pink ruffle heels.
-    look_images: []
-  - template: look
-    look_name: Look 02
-    look_cover: "/assets/graphics/look-1-nina-1.png"
-    look_description: A more elevated casual take on the all pink look, this outfit
-      is a light pink chiffon dress, that features a ruched mini skirt effect, and
-      gold sandals.
-    look_images: []
-  date_published: 2021-10-01
-- project_name: Rogue Nation Gals
-  project_description: "Models:\n<a href=\"https://www.instagram.com/joannaarida/\"
-    target=\"_blank\">Joanna Arida</a> \n\n& \n\n<a href=\"https://www.instagram.com/natashadodokh/\"
-    target=\"_blank\">Natasha Dodokh</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/\"
-    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/\"
-    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/\"
-    target=\"_blank\">Aleen Markarian</a>.<br>"
-  project_page: _styling-and-creative-direction/rogue-nation-gals.html
+- project_name: Salissant Charme
+  project_description: |-
+    Dirty Glamour with <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br><br>
+
+    Model: <a href="https://www.instagram.com/itsjenanotjina/" target="_blank">Banah Jena Fakhoury</a>.<br>
+    Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
+    Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
+    Fashion: <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br>
+  project_page: _styling-and-creative-direction/salissant-charme.html
   project_tags:
   - editorial
   - experimental
   - test shoot
   media:
-  - template: image-s
-    images:
-    - "/assets/graphics/_66a0673.jpg"
-    - "/assets/graphics/_66a0792.jpg"
-    - "/assets/graphics/_66a0648.jpg"
-    - "/assets/graphics/_66a0766.jpg"
-    image_s_name: Look 01 & Look 02
-    image_s_description: |-
-      Look 01 (on the left); a cropped plaid shirt is styled under a black knit bralette, high waisted black jeans, crystal necklace and a black western hat.
-      Look 02 (on the right); a nude shirt styled with nude velour belt created out of a HMD dust bag, a crystal belt worn as a collar choker, styled with high waisted blue denim and a brown western hat.
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/look-2-sallisant-charme-1.png"
+    look_images:
+    - "/assets/graphics/_66a2915.jpg"
+    - "/assets/graphics/_66a2935.jpg"
+    look_description: A contemporary take on luxury fashion, a white biker leather
+      jacket is styled with a luxury velour top and short set, finished with Casadei
+      pumps and a Roberto Cavali bag.
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/look-3-sallisant-charme-1.png"
+    look_images:
+    - "/assets/graphics/_66a3077.jpg"
+    - "/assets/graphics/_66a3089.jpg"
+    look_description: A chic yet daring look, a Balmain x HM blazer jacket styled
+      as a dress, belted with a vintage Moschino belt to accentuate the waist, the
+      look was accessorized with Jimmy Choo emerald suede pumps, a Gucci vintage ostrich
+      leather hand bag, and a Lanvin chunky stone & metal necklace.
+  - template: look
+    look_name: Look 03
+    look_cover: "/assets/graphics/look-1-sallisant-charme-1.png"
+    look_images:
+    - "/assets/graphics/_66a3146.jpg"
+    - "/assets/graphics/_66a3116.jpg"
+    look_description: A simple black crop top is styled with a pair of high waisted
+      plaid trousers, leopard print Dolce & Gabbana pumps, Celine phantom tote and
+      a YSL star bangle.
   date_published: 2021-10-01
 - project_name: Club Kids of the 00s
   project_description: |-
@@ -878,46 +845,80 @@ projects:
     image_s_name: ''
     image_s_description: ''
   date_published: 2021-10-01
-- project_name: Salissant Charme
+- project_name: Conquering Magenta
   project_description: |-
-    Dirty Glamour with <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br><br>
+    An experiment with lights and materials.<br><br>
 
-    Model: <a href="https://www.instagram.com/itsjenanotjina/" target="_blank">Banah Jena Fakhoury</a>.<br>
+    Model:
+    <a href="https://www.instagram.com/lara.m.mehyar/" target="_blank">Lara Mehyar</a>.<br>
+
     Photography: <a href="https://www.instagram.com/avomoses/" target="_blank">Avo Moses</a>.<br>
+
     Makeup: <a href="https://www.instagram.com/makeupbyrashed/" target="_blank">Rashed Toghuj</a>.<br>
-    Fashion: <a href="https://www.instagram.com/fashionhouseamman/" target="_blank">Fashion House Amman</a>.<br>
-  project_page: _styling-and-creative-direction/salissant-charme.html
+  project_page: _styling-and-creative-direction/conquering-magenta.html
+  project_tags:
+  - experimental
+  - editorial
+  - test shoot
+  media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_q3a7553-edited.jpg"
+    - "/assets/graphics/_q3a7540-edited.jpg"
+    - "/assets/graphics/_q3a7880.jpg"
+    - "/assets/graphics/_q3a7783.jpg"
+    - "/assets/graphics/_q3a7426-edited.jpg"
+    - "/assets/graphics/_q3a7571.jpg"
+    - "/assets/graphics/_q3a7553-edited-bag-only.jpg"
+    image_s_name: ''
+    image_s_description: ''
+  date_published: 2021-10-01
+- project_name: Rogue Nation Gals
+  project_description: "Models:\n<a href=\"https://www.instagram.com/joannaarida/\"
+    target=\"_blank\">Joanna Arida</a> \n\n& \n\n<a href=\"https://www.instagram.com/natashadodokh/\"
+    target=\"_blank\">Natasha Dodokh</a>.<br>\n\nPhotography: <a href=\"https://www.instagram.com/avomoses/\"
+    target=\"_blank\">Avo Moses</a>.<br>\n\nMakeup: <a href=\"https://www.instagram.com/makeupbyrashed/\"
+    target=\"_blank\">Rashed Toghuj</a>.<br>\n \nCo-Director: <a href=\"https://www.instagram.com/aleenmarkarian/\"
+    target=\"_blank\">Aleen Markarian</a>.<br>"
+  project_page: _styling-and-creative-direction/rogue-nation-gals.html
   project_tags:
   - editorial
   - experimental
   - test shoot
   media:
+  - template: image-s
+    images:
+    - "/assets/graphics/_66a0673.jpg"
+    - "/assets/graphics/_66a0792.jpg"
+    - "/assets/graphics/_66a0648.jpg"
+    - "/assets/graphics/_66a0766.jpg"
+    image_s_name: Look 01 & Look 02
+    image_s_description: |-
+      Look 01 (on the left); a cropped plaid shirt is styled under a black knit bralette, high waisted black jeans, crystal necklace and a black western hat.
+      Look 02 (on the right); a nude shirt styled with nude velour belt created out of a HMD dust bag, a crystal belt worn as a collar choker, styled with high waisted blue denim and a brown western hat.
+  date_published: 2021-10-01
+- project_name: A Very Pink October
+  project_description: "Pink October with Nina.<br><br>\n\nModel: \n<a href=\"https://www.instagram.com/ninamahmoudofficial/\"
+    target=\"_blank\">Nina Mahmoud</a>.<br>\n\nPhotography: \n<a href=\"https://www.instagram.com/zaidallozi/\"
+    target=\"_blank\">Zaid Al-Lozi</a>.<br>\n\nFashion:\n<a href=\"https://www.instagram.com/raz_district/\"
+    target=\"_blank\">Raz District</a>.<br>"
+  project_page: _styling-and-creative-direction/a-very-pink-october.html
+  project_tags:
+  - personal
+  - commercial
+  media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/look-2-sallisant-charme-1.png"
-    look_images:
-    - "/assets/graphics/_66a2915.jpg"
-    - "/assets/graphics/_66a2935.jpg"
-    look_description: A contemporary take on luxury fashion, a white biker leather
-      jacket is styled with a luxury velour top and short set, finished with Casadei
-      pumps and a Roberto Cavali bag.
+    look_cover: "/assets/graphics/look-2-nina-1.png"
+    look_description: A nod to early 2000s fashion; this all pink outfit is a combination
+      of a dusty pink spaghetti strap top, complete with a faux fur trim on the neckline,
+      a pink denim mini skirt, with graphic pink socks and pink ruffle heels.
+    look_images: []
   - template: look
     look_name: Look 02
-    look_cover: "/assets/graphics/look-3-sallisant-charme-1.png"
-    look_images:
-    - "/assets/graphics/_66a3077.jpg"
-    - "/assets/graphics/_66a3089.jpg"
-    look_description: A chic yet daring look, a Balmain x HM blazer jacket styled
-      as a dress, belted with a vintage Moschino belt to accentuate the waist, the
-      look was accessorized with Jimmy Choo emerald suede pumps, a Gucci vintage ostrich
-      leather hand bag, and a Lanvin chunky stone & metal necklace.
-  - template: look
-    look_name: Look 03
-    look_cover: "/assets/graphics/look-1-sallisant-charme-1.png"
-    look_images:
-    - "/assets/graphics/_66a3146.jpg"
-    - "/assets/graphics/_66a3116.jpg"
-    look_description: A simple black crop top is styled with a pair of high waisted
-      plaid trousers, leopard print Dolce & Gabbana pumps, Celine phantom tote and
-      a YSL star bangle.
+    look_cover: "/assets/graphics/look-1-nina-1.png"
+    look_description: A more elevated casual take on the all pink look, this outfit
+      is a light pink chiffon dress, that features a ruched mini skirt effect, and
+      gold sandals.
+    look_images: []
   date_published: 2021-10-01
