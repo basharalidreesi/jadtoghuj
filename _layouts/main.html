@@ -73,12 +73,10 @@
 			</marquee>
 		</header>
 
-		<!--
-
 		{%- if page.layout == "homepageShowcase" %}
-		<div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down"></div>
+		<div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down" style="display: none;"></div>
 		{%- endif %}
-		<nav id="nav">
+		<nav id="nav" style="display: none;">
 			<h2 class="generic--hidden">
 				Navigation
 			</h2>
@@ -113,19 +111,17 @@
 				</a>
 			</label>
 		</nav>
-		<main id="main">
+		<main id="main" style="display: none;">
 			{{ content }}
 		</main>
 		{%- unless page.layout == "project" %}
-                <footer id="footer">
+                <footer id="footer" style="display: none;">
 			<h2 class="generic--hidden">
 				Footer
 			</h2>
 			{{ site.data.generalConfiguration.footer_text }}
 		</footer>
 		{%- endunless %}
-
-		-->
 
 	</div>
 </body>
