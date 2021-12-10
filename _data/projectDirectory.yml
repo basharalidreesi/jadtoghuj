@@ -56,8 +56,8 @@ projects:
     look_name: Look 01
     look_cover: "/assets/graphics/break-the-fourth-wall-look-01.png"
     look_images:
-    - "/assets/graphics/btfw-7.jpg"
-    - "/assets/graphics/btfw-8.jpg"
+    - "/assets/graphics/7.jpg"
+    - "/assets/graphics/8.jpg"
     look_description: 'A denim on denim ensemble with a <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> multiple belt leg harness.
 
@@ -65,8 +65,8 @@ projects:
   - template: look
     look_name: Look 02
     look_images:
-    - "/assets/graphics/btfw-4.jpg"
-    - "/assets/graphics/btfw-3.jpg"
+    - "/assets/graphics/4.jpg"
+    - "/assets/graphics/3.jpg"
     look_description: A modern take on the classic combo of red and black, an inverted
       tweed blazer is style with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> trousers with their MUTINY 004 black collar shirt
