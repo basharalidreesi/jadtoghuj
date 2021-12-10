@@ -65,20 +65,12 @@
 					</g>
 				</svg>
 			</a>
-			{%- if page.layout == "homepageShowcase" %}
-			<marquee behavior="alternate" direction="left" style="position: absolute; width: 100%; top: -4rem; font-family: 'Telegraf', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;">
-				Coming Soon
-			</marquee>
-			<marquee behavior="alternate" direction="right" style="position: absolute; width: 100%; bottom: -4rem; font-family: 'Telegraf', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;">
-				Coming Soon
-			</marquee>
-			{%- endif %}
 		</header>
 
 		{%- if page.layout == "homepageShowcase" %}
-		<div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down" style="display: none;"></div>
+		<div id="arrow" class="generic--jsOnly" role="presentation" title="Scroll down"></div>
 		{%- endif %}
-		<nav id="nav" style="display: none;">
+		<nav id="nav">
 			<h2 class="generic--hidden">
 				Navigation
 			</h2>
@@ -113,11 +105,11 @@
 				</a>
 			</label>
 		</nav>
-		<main id="main" style="display: none;">
+		<main id="main">
 			{{ content }}
 		</main>
 		{%- unless page.layout == "project" or page.layout == "about" %}
-                <footer id="footer" style="display: none;">
+                <footer id="footer">
 			<h2 class="generic--hidden">
 				Footer
 			</h2>
