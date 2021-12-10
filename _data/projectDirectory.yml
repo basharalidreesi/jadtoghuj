@@ -11,11 +11,19 @@ projects:
   media:
   - template: look
     look_name: Look 01
-    look_cover: "/assets/graphics/g-drink1.png"
+    look_cover: "/assets/graphics/g-drink1-updated.png"
     look_description: Inspired and recreated from Moschino references, a white suit
       is hand painted with comic style black strokes, styled with white knee high
       boots with a hand sewn pink bow over it. The look was complete with Play nice
       accessories choker and earrings.
+    look_images: []
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/g-drink2.png"
+    look_description: In a continuation on experimenting with stockings as garments,
+      the same red stockings were used to recreate a more couture version of the look
+      created in "Sisi on a Mission", inspired by Balenciaga, a one shoulder satin
+      dress imitation was draped using red satin.
     look_images: []
 - project_name: Chickens and Joanna
   project_description: COMING SOON
