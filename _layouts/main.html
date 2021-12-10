@@ -114,7 +114,7 @@
 		<main id="main" style="display: none;">
 			{{ content }}
 		</main>
-		{%- unless page.layout == "project" %}
+		{%- unless page.layout == "project" or page.layout == "about" %}
                 <footer id="footer" style="display: none;">
 			<h2 class="generic--hidden">
 				Footer
