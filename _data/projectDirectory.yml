@@ -1,24 +1,5 @@
 ---
 projects:
-- project_name: Vogue Arabia with Tima Shomail
-  project_description: ''
-  project_page: _styling-and-creative-direction/Vogue-Arabia-with-Tima-Shomali.html
-  project_tags:
-  - editorial
-  - personal
-  date_published: 2021-11-29
-  media:
-  - template: image-s
-    image_s_name: Look 01
-    images:
-    - "/assets/graphics/222c4a9052-copy-1.jpg"
-    - "/assets/graphics/2c4a9009-2-copy-1.jpg"
-    image_s_description: ''
-  - template: image-s
-    image_s_name: Look 02
-    images:
-    - "/assets/graphics/tima_vogue.jpg"
-    image_s_description: ''
 - project_name: Chickens and Joanna
   project_description: COMING SOON
   project_page: _styling-and-creative-direction/chickens-and-joanna.html
@@ -120,6 +101,25 @@ projects:
     look_images:
     - "/assets/graphics/img_5335.jpg"
   date_published: 2021-10-01
+- project_name: Vogue Arabia with Tima Shomail
+  project_description: ''
+  project_page: _styling-and-creative-direction/Vogue-Arabia-with-Tima-Shomali.html
+  project_tags:
+  - editorial
+  - personal
+  date_published: 2021-11-29
+  media:
+  - template: image-s
+    image_s_name: Look 01
+    images:
+    - "/assets/graphics/222c4a9052-copy-1.jpg"
+    - "/assets/graphics/2c4a9009-2-copy-1.jpg"
+    image_s_description: ''
+  - template: image-s
+    image_s_name: Look 02
+    images:
+    - "/assets/graphics/tima_vogue.jpg"
+    image_s_description: ''
 - project_name: Nedaa Sharara for ET Bil Arabi
   project_description: "Talent: \n<a href=\"https://www.instagram.com/nedaashrara_official/?hl=en\"
     target=\"_blank\">Nedaa Sharara</a>.<br>\n\nPhotographer:\n<a href=\"https://www.instagram.com/faris.photos/\"
