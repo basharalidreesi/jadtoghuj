@@ -56,8 +56,8 @@ projects:
     look_name: Look 01
     look_cover: "/assets/graphics/break-the-fourth-wall-look-01.png"
     look_images:
-    - "/assets/graphics/7.jpg"
-    - "/assets/graphics/8.jpg"
+    - "/assets/graphics/btfw-7-blue.jpg"
+    - "/assets/graphics/btfw-8-blue.jpg"
     look_description: 'A denim on denim ensemble with a <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> multiple belt leg harness.
 
@@ -65,8 +65,8 @@ projects:
   - template: look
     look_name: Look 02
     look_images:
-    - "/assets/graphics/4.jpg"
-    - "/assets/graphics/3.jpg"
+    - "/assets/graphics/btfw-4-red.jpg"
+    - "/assets/graphics/btfw-3-red.jpg"
     look_description: A modern take on the classic combo of red and black, an inverted
       tweed blazer is style with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> trousers with their MUTINY 004 black collar shirt
@@ -75,8 +75,8 @@ projects:
   - template: look
     look_name: Look 04
     look_images:
-    - "/assets/graphics/btfw-5-1.jpg"
-    - "/assets/graphics/btfw-6-1.jpg"
+    - "/assets/graphics/btfw-5-black.jpg"
+    - "/assets/graphics/btfw-6-black.jpg"
     look_description: Mugler inspired wrap gloves styled over a custom byraneem graphic
       lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> trousers.
@@ -84,9 +84,9 @@ projects:
   - template: look
     look_name: Look 03
     look_images:
-    - "/assets/graphics/btfw-10.jpg"
-    - "/assets/graphics/btfw-11.jpg"
-    - "/assets/graphics/btfw-9.jpg"
+    - "/assets/graphics/btfw-10-whitw.jpg"
+    - "/assets/graphics/btfw-11-white.jpg"
+    - "/assets/graphics/btfw-9-white.jpg"
     look_description: A nod to the classics, <a href="https://www.instagram.com/corebysujood/?hl=en"
       target="_blank">Core by Sujoud</a> exaggerated collar is styled over a white
       shirt, with a custom corset by <a href="https://www.instagram.com/byraneem/?hl=en"
@@ -99,8 +99,8 @@ projects:
     image_s_description: Plaid shirt with shoulder pads styled under my custom designed
       corset made with recycled off-white bed sheets.
     images:
-    - "/assets/graphics/btfw-2.jpg"
-    - "/assets/graphics/btfw-1.jpg"
+    - "/assets/graphics/btfw-2-pink.jpg"
+    - "/assets/graphics/btfw-1-pink.jpg"
   date_published: 2021-10-01
 - project_name: "\U0001F339sisi on a mission\U0001F339"
   project_description: "Photographer: \n<a href=\"https://www.instagram.com/omarsha3/?hl=en\"
