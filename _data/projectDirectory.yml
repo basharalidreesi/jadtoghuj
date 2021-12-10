@@ -14,8 +14,8 @@ projects:
     look_cover: "/assets/graphics/g-drink1-updated.png"
     look_description: Inspired and recreated from Moschino references, a white suit
       is hand painted with comic style black strokes, styled with white knee high
-      boots with a hand sewn pink bow over it. The look was complete with Play nice
-      accessories choker and earrings.
+      boots with a hand sewn pink bow over it. The look was complete with <a href="https://www.instagram.com/playniceaccessories/"
+      target="_blank">Play Nice Accessories</a> choker and earrings.
     look_images: []
   - template: look
     look_name: Look 02
@@ -32,7 +32,7 @@ projects:
   - experimental
   - personal
   - editorial
-  date_published: 2021-12-09
+  date_published: 2021-11-02
   media:
   - template: look
     look_name: Look 02
