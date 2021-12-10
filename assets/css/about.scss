@@ -65,7 +65,8 @@
                         }
                         input:focus,
                         textarea:focus {
-                                outline: 1px solid var(--color-special);
+                                outline: 0;
+                                box-shadow: 0 0 1px 1px var(--color-special);
                         }
                         button {
                                 padding: 1rem 1.5rem;
@@ -81,7 +82,6 @@
                                 -moz-user-select: none;
                                 -ms-user-select: none;
                                 user-select: none;
-                                cursor: cell;
                                 transition: box-shadow 0.25s;
                                 @media (any-hover: hover) {
                                         &:hover {
