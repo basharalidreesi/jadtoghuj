@@ -59,6 +59,10 @@
                                 min-height: 10rem;
                                 padding: 1rem;
                         }
+                        input,
+                        textarea {
+                                background: var(--color-top);
+                        }
                         input:focus,
                         textarea:focus {
                                 outline: 1px solid var(--color-special);
