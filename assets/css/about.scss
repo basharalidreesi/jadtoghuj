@@ -7,7 +7,14 @@
 
 }
 
+#main {
+        display: flex;
+        flex: 1;
+}
+
 .about {
+        
+        margin: auto;
 
         &__container {
                 display: flex;
