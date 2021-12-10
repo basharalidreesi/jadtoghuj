@@ -31,8 +31,16 @@
                         display: flex;
                         flex-flow: row wrap;
                         justify-content: center;
+                        border: none;
                         & > input {
-                                width: 50%;
+                                width: calc(50% - 2rem);
+                                margin-bottom: 1rem;
+                                &:first-of-type {
+                                        margin-right: auto;
+                                }
+                                &:last-of-type {
+                                        margin-left: auto;
+                                }
                                 @media (max-width: 768px) {
                                         width: 100%;
                                 }
@@ -43,6 +51,7 @@
                 }
         }
         &__footer {
+                width: 100%;
                 display: flex;
                 flex-flow: column nowrap;
                 align-items: center;
