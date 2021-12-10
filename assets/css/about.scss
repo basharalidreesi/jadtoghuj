@@ -25,10 +25,12 @@
                 }
         }
         &__contactForm {
+                width: 100%;
                 margin-bottom: 2rem;
                 & > fieldset {
                         display: flex;
                         flex-flow: row wrap;
+                        justify-content: center;
                         & > input {
                                 width: 50%;
                                 @media (max-width: 768px) {
@@ -41,6 +43,40 @@
                 }
         }
         &__footer {
-
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                justify-content: center;
+                span {
+                        font-family: "Telegraf", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                        font-weight: 300;
+                        text-align: center;
+                        padding: 0.5rem 0;
+                        word-break: keep-all;
+                        a {
+                                text-decoration: underline;
+                                text-decoration-color: var(--color-text--light);
+                                text-decoration-thickness: 2px;
+                                word-break: keep-all;
+                                @media (any-hover: hover) {
+                                        &:hover {
+                                                --color-text: var(--color-special);
+                                                --color-text--light: var(--color-special);
+                                        }
+                                }
+                        }
+                }
+                span:not(:first-of-type):not(:last-of-type) {
+                        margin: auto 0;
+                }
+                span:first-of-type {
+                        margin: auto 0 0 0;
+                }
+                span:last-of-type {
+                        margin: 0 0 auto 0;
+                }
+                span:only-of-type {
+                        margin: auto 0;
+                }
         }
 }
