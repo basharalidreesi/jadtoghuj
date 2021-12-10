@@ -1,5 +1,22 @@
 ---
 projects:
+- project_name: G Drink Editorial
+  project_description: COMING SOON
+  project_page: _styling-and-creative-direction/G-Drink-Editorial.html
+  project_tags:
+  - client
+  - editorial
+  - experimental
+  date_published: 2021-10-31
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/g-drink1.png"
+    look_description: Inspired and recreated from Moschino references, a white suit
+      is hand painted with comic style black strokes, styled with white knee high
+      boots with a hand sewn pink bow over it. The look was complete with Play nice
+      accessories choker and earrings.
+    look_images: []
 - project_name: Chickens and Joanna
   project_description: COMING SOON
   project_page: _styling-and-creative-direction/chickens-and-joanna.html
