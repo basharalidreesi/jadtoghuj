@@ -9,7 +9,7 @@
 
 .about {
 
-        &__textContainer {
+        &__container {
                 display: flex;
                 flex-flow: column nowrap;
                 align-items: center;
@@ -23,5 +23,24 @@
                 @media (max-width: 768px) {
                         width: 100%;
                 }
+        }
+        &__contactForm {
+                margin-bottom: 2rem;
+                & > fieldset {
+                        display: flex;
+                        flex-flow: row wrap;
+                        & > input {
+                                width: 50%;
+                                @media (max-width: 768px) {
+                                        width: 100%;
+                                }
+                        }
+                        & > textarea {
+                                width: 100%;
+                        }
+                }
+        }
+        &__footer {
+
         }
 }
