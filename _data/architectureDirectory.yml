@@ -2,7 +2,7 @@
 projects:
 - project_name: A Haven Inside
   project_description: Clarity, Greenery and the Corporate Authority.
-  project_page: _architecture/A-Haven-Inside.html
+  project_page: _architecture/a-haven-inside.html
   project_tags: []
   media:
   - template: look
@@ -36,7 +36,7 @@ projects:
   project_description: |-
     Design 3 Course.<br>
     Supervised by Architect Lamis Shaban.
-  project_page: _architecture/Fashion-and-Textile-Museum.html
+  project_page: _architecture/fashion-and-textile-museum.html
   project_tags: []
   media:
   - template: look
