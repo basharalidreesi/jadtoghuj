@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Pages
+- type: document
+  path: about.html
+  label: About
+  match: "**/*"
 - type: directory
   path: _styling-and-creative-direction
   label: Styling & Creative Direction
