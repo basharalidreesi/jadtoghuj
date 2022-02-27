@@ -262,6 +262,12 @@
 					display: none;
 				}
 			}
+			&--wide {
+				@media (min-width: 256px) {
+					--aspectRatio-projectDirectory: (1 / 0.945);
+					flex-basis: calc(200% / var(--columns-projectDirectory));
+				}
+			}
 			&--inner {
 				position: absolute;
 				top: 1rem;
