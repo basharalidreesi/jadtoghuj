@@ -22,6 +22,9 @@ fields:
   config:
     maxSize: 5
   label: Look cover
+- name: wide_card
+  type: boolean
+  label: Wide card?
 - name: look_images
   type: image_gallery
   config: {}
