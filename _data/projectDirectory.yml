@@ -17,7 +17,8 @@ projects:
     look_description: 'A denim on denim ensemble with a <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> multiple belt leg harness.
 
-'
+      '
+    wide_card: true
   - template: look
     look_name: Look 02
     look_images:
@@ -28,6 +29,7 @@ projects:
       target="_blank">Fadi Zumot</a> trousers with their MUTINY 004 black collar shirt
       styled as an overskirt.
     look_cover: "/assets/graphics/break-the-fourth-wall-2.png"
+    wide_card: false
   - template: look
     look_name: Look 04
     look_images:
@@ -37,6 +39,7 @@ projects:
       lace up corset with custom <a href="https://www.instagram.com/fadifzumot/?hl=en"
       target="_blank">Fadi Zumot</a> trousers.
     look_cover: "/assets/graphics/break-the-fourth-wall-4.png"
+    wide_card: false
   - template: look
     look_name: Look 03
     look_images:
@@ -50,6 +53,7 @@ projects:
       with this Roberto Cavalli necklace courtesy of <a href="https://www.instagram.com/fashionhouseamman/"
       target="_blank">Fashion House Amman</a>.
     look_cover: "/assets/graphics/break-the-fourth-wall-3.png"
+    wide_card: false
   - template: image-s
     image_s_name: Look 05
     image_s_description: Plaid shirt with shoulder pads styled under my custom designed
@@ -75,6 +79,7 @@ projects:
       body.
     look_images:
     - "/assets/graphics/img_5335.jpg"
+    wide_card: false
   date_published: 2021-10-01
 - project_name: Vogue Arabia with Tima Shomali
   project_description: ''
@@ -118,6 +123,7 @@ projects:
       target="_blank">Ahmad Kharabsheh</a> exaggerated black suit trousers, and a
       thrifted blazer, complete with rings by Egyptian jewelry brand <a href="https://www.instagram.com/indirajewelry/"
       target="_blank">Indira</a>.
+    wide_card: false
   - template: image-s
     images:
     - "/assets/graphics/dsc_8355.jpg"
@@ -161,6 +167,7 @@ projects:
       moire, and complete with a ski mask and goggles.
     look_images: []
     look_cover: "/assets/graphics/savoire-flaire-look-1.png"
+    wide_card: false
   - template: look
     look_name: Look 02
     look_description: Also inspired by high fashion ski attire, this look was designed
@@ -171,6 +178,7 @@ projects:
       target="_blank">Nujoud Oweis</a>.
     look_cover: "/assets/graphics/savoir-flaire-look-2.png"
     look_images: []
+    wide_card: false
   - template: image-s
     image_s_name: Looks 01 & 02
     images:
@@ -186,6 +194,7 @@ projects:
       white suede and bronze metal detailed sandals, statement earrings and rings
       are courtesy of <a href="https://www.instagram.com/runnakedofficial/" target="_blank">Run
       Naked</a>.
+    wide_card: false
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/savoir-flaire-look-3.png"
@@ -195,6 +204,7 @@ projects:
       and statement earring and ring by <a href="https://www.instagram.com/runnakedofficial/"
       target="_blank">Run Naked</a>.
     look_images: []
+    wide_card: false
   - template: look
     look_name: Look 05
     look_cover: "/assets/graphics/savoir-flaire-look-5.png"
@@ -203,6 +213,7 @@ projects:
       <a href="https://www.instagram.com/laithmaalouf_official/" target="_blank">Laith
       Maalouf</a>, complete with Mugler inspired custom royal blue gloves and leg
       pieces.
+    wide_card: false
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/savoir-flaire-look-6.png"
@@ -213,6 +224,7 @@ projects:
       nylon thigh-high puffer leg warmers, styled over black stockings. The look was
       complete with <a href="https://www.instagram.com/omaiajallad/" target="_blank">Omaia
       Jallad</a> jewelry.
+    wide_card: false
   - template: image-s
     image_s_name: Looks 05 & 06
     images:
@@ -246,6 +258,7 @@ projects:
       boots with a hand sewn pink bow over it. The look was complete with <a href="https://www.instagram.com/playniceaccessories/"
       target="_blank">Play Nice Accessories</a> choker and earrings.
     look_images: []
+    wide_card: false
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/g-drink2.png"
@@ -254,6 +267,7 @@ projects:
       created in "Sisi on a Mission", inspired by Balenciaga, a one shoulder satin
       dress imitation was draped using red satin.
     look_images: []
+    wide_card: false
 - project_name: Chickens and Joanna
   project_description: COMING SOON
   project_page: _styling-and-creative-direction/chickens-and-joanna.html
@@ -270,6 +284,7 @@ projects:
       blanket.
     look_cover: "/assets/graphics/jaonna-chicken-2.png"
     look_images: []
+    wide_card: false
   - template: look
     look_name: Look 01
     look_description: Layered stockings in different nude shades to create a full
@@ -279,6 +294,7 @@ projects:
       rings.
     look_cover: "/assets/graphics/jaonna-chicken-1.png"
     look_images: []
+    wide_card: false
 - project_name: 'Experimenting with Christina '
   project_description: "High Fashion Experimental Editorial.<br><br> \n\nModel: <a
     href=\"https://www.instagram.com/christina.goussous/\" target=\"_blank\">Christina
@@ -314,6 +330,7 @@ projects:
       with warm pink stockings and black lace up sandals. The look was accessorized
       with <a href="https://www.instagram.com/yasminesbrain/?hl=en" target="_blank">Yasmine's
       Brain</a> butterfly resin rings and pink headscarf.
+    wide_card: false
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/look-2-christina-1.png"
@@ -322,6 +339,7 @@ projects:
     look_description: Aubergine patent leather short and jacket set by <a href="https://www.instagram.com/ahmad_khrabsha/?hl=en"
       target="_blank">Ahmad Kharabsheh</a> styled over a blue mesh top and blue stockings
       with an Alexander Wang belt styled as a garter.
+    wide_card: false
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/look-3-christina-1.png"
@@ -332,6 +350,7 @@ projects:
       target="_blank">By Raneem</a> corset and sleeve combo, styled with wide leg
       <a href="https://www.instagram.com/fadifzumot/?hl=en" target="_blank">Fadi Zumot</a>
       trousers and black mules.
+    wide_card: false
   - template: look
     look_name: Look 05
     look_images:
@@ -341,6 +360,7 @@ projects:
       target="_blank">Fadi Zumot</a> ensemble, this outfit consists of their signature
       Huzma Bag styled as a top and Mutiny 004 Black Collar Shirt styled as a skirt,
       paired with black opera gloves and navy stockings.
+    wide_card: false
   - template: look
     look_name: Look 06
     look_cover: "/assets/graphics/look-5-christina-1.png"
@@ -349,6 +369,7 @@ projects:
     look_description: An easier look, this mini lime dress is the Mini Threat dress
       by <a href="https://www.instagram.com/nafsikaskourti/?hl=en" target="_blank">Nafsika
       Skourti</a> styled over black stockings with black lace up sandals.
+    wide_card: false
   date_published: 2021-10-01
 - project_name: "\U0001F337 With a Bang \U0001F337"
   project_description: |-
@@ -377,6 +398,7 @@ projects:
     - "/assets/graphics/dsc_5464.jpg"
     - "/assets/graphics/dsc_5518.jpg"
     - "/assets/graphics/dsc_55011.jpg"
+    wide_card: false
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/with-a-bang-look-02.png"
@@ -388,6 +410,7 @@ projects:
     - "/assets/graphics/img_3500.jpg"
     - "/assets/graphics/img_3526.jpg"
     - "/assets/graphics/dsc_5542.jpg"
+    wide_card: false
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/with-a-bang-look-03.png"
@@ -397,6 +420,7 @@ projects:
       target="_blank">By Raneem</a> lace up corset, and black men suiting trousers.
     look_images:
     - "/assets/graphics/dsc_5582.jpg"
+    wide_card: false
   date_published: 2021-10-01
 - project_name: Lola's Bridal Editorial
   project_description: |-
@@ -612,6 +636,7 @@ projects:
     look_description: Manal was styled in a <a href="zeinaaliworld" target="_blank">Zeina
       Ali</a> metallic orange jersey dress, and black exaggerated shoulder detail.
       Complete with a black So Kate Louboutins.
+    wide_card: false
   - template: image-s
     images:
     - "/assets/graphics/a1d462b4-a367-4ceb-9ee4-5874c2645e6f.jpg"
@@ -674,6 +699,7 @@ projects:
       target="_blank">Indira</a> earrings and black patent <a href="https://www.instagram.com/liudmilahq/"
       target="_blank">Liudmila</a> Drury Lane 100s.
     look_cover: "/assets/graphics/look-1-editorial-on-red-1.png"
+    wide_card: false
   - template: look
     look_name: Look 02
     look_images:
@@ -687,6 +713,7 @@ projects:
       Tiger Pony Heartbreaker shoes and <a href=\"https://www.instagram.com/indirajewelry/\"
       target=\"_blank\">Indira</a>  jewelry. \n"
     look_cover: "/assets/graphics/look-2-editorial-on-red.png"
+    wide_card: false
   - template: look
     look_name: Look 03
     look_images:
@@ -700,6 +727,7 @@ projects:
       target=\"_blank\">Liudmila</a> White Snake Starry Eyed 100 sandals and <a href=\"https://www.instagram.com/indirajewelry/\"
       target=\"_blank\">Indira</a>  jewelry. \n"
     look_cover: "/assets/graphics/3-edited-1update.png"
+    wide_card: false
   date_published: 2021-10-01
 - project_name: Fly To Milan with Pandora
   project_description: |-
@@ -809,6 +837,7 @@ projects:
     look_description: A contemporary take on luxury fashion, a white biker leather
       jacket is styled with a luxury velour top and short set, finished with Casadei
       pumps and a Roberto Cavali bag.
+    wide_card: false
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/look-3-sallisant-charme-1.png"
@@ -819,6 +848,7 @@ projects:
       as a dress, belted with a vintage Moschino belt to accentuate the waist, the
       look was accessorized with Jimmy Choo emerald suede pumps, a Gucci vintage ostrich
       leather hand bag, and a Lanvin chunky stone & metal necklace.
+    wide_card: false
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/look-1-sallisant-charme-1.png"
@@ -828,6 +858,7 @@ projects:
     look_description: A simple black crop top is styled with a pair of high waisted
       plaid trousers, leopard print Dolce & Gabbana pumps, Celine phantom tote and
       a YSL star bangle.
+    wide_card: false
   date_published: 2021-10-01
 - project_name: Club Kids of the 00s
   project_description: |-
@@ -871,6 +902,7 @@ projects:
     - "/assets/graphics/_q3a3658.jpg"
     - "/assets/graphics/_q3a3572.jpg"
     - "/assets/graphics/_q3a3452.jpg"
+    wide_card: false
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/look-4-club-kids-1.png"
@@ -881,6 +913,7 @@ projects:
       the amazing talent of the makeup artist; <a href="https://www.instagram.com/makeupbyrashed/"
       target="_blank">Rashed Toghuj</a>, the look features a little black dress with
       a faux fur trim collar, complete with sheer black stockings and navy print headscarf.
+    wide_card: false
   - template: look
     look_name: Look 03
     look_cover: "/assets/graphics/look-1-club-kids-1.png"
@@ -892,6 +925,7 @@ projects:
       target="_blank">Fadi Zumot</a> skirt from his Mutiny Collection is styled as
       a cape poncho, creating the illusion of a mini dress, with opaque black gloves,
       leggings and face mask to create the illusion of a black canvas.
+    wide_card: false
   - template: look
     look_name: Look 04
     look_cover: "/assets/graphics/look-2-club-kids-1.png"
@@ -901,6 +935,7 @@ projects:
     look_description: Layered to avant garde perfection; this look is a full <a href="https://www.instagram.com/wenin_official/"
       target="_blank">Wenin</a> ensemble, the look was finished high braided ponytail
       adorned with red zip ties.
+    wide_card: false
   - template: image-s
     images:
     - "/assets/graphics/_q3a4518.jpg"
@@ -985,6 +1020,7 @@ projects:
       of a dusty pink spaghetti strap top, complete with a faux fur trim on the neckline,
       a pink denim mini skirt, with graphic pink socks and pink ruffle heels.
     look_images: []
+    wide_card: false
   - template: look
     look_name: Look 02
     look_cover: "/assets/graphics/look-1-nina-1.png"
@@ -992,4 +1028,5 @@ projects:
       is a light pink chiffon dress, that features a ruched mini skirt effect, and
       gold sandals.
     look_images: []
+    wide_card: false
   date_published: 2021-10-01
