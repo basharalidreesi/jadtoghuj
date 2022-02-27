@@ -23,7 +23,7 @@ style:
 					{%- for project in site.data.architectureDirectory.projects -%}
 					{%- for media in project.media -%}
 					{%- if media.template == "look" %}
-					<article class="projectDirectory__lookCard--outer">
+					<article class="projectDirectory__lookCard--outer {%- if media.wide_card %} projectDirectory__lookCard--wide {%- endif -%}">
 						<h4 class="generic--hidden">
 							{{ media.look_name }}, {{ project.project_name }}
 						</h4>
