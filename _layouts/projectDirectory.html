@@ -22,7 +22,7 @@ style:
                                         {%- for project in site.data.projectDirectory.projects -%}
                                         {%- for media in project.media -%}
                                         {%- if media.template == "look" %}
-                                        <article class="projectDirectory__lookCard--outer" data-jad-date-published="{{ project.date_published }}">
+                                        <article class="projectDirectory__lookCard--outer {%- if media.wide_card %} projectDirectory__lookCard--wide {%- endif -%}" data-jad-date-published="{{ project.date_published }}">
                                                 <h4 class="generic--hidden">
                                                         {{ media.look_name }}, {{ project.project_name }}
                                                 </h4>
