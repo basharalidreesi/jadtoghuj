@@ -1,5 +1,59 @@
 ---
 projects:
+- project_name: Chickens and Joanna
+  project_description: COMING SOON
+  project_page: _styling-and-creative-direction/chickens-and-joanna.html
+  project_tags:
+  - experimental
+  - personal
+  - editorial
+  date_published: 2021-11-02
+  media:
+  - template: look
+    look_name: Look 02
+    look_description: A nude colored top is styled with two tone denim/chino trousers
+      in shades of beige, styled with Bottega Veneta Puddle Boots and a Zara Home
+      blanket.
+    look_cover: "/assets/graphics/jaonna-chicken-2.png"
+    look_images: []
+    wide_card: false
+  - template: look
+    look_name: Look 01
+    look_description: Layered stockings in different nude shades to create a full
+      body base, with shimmer nude stockings on top to give shimmer, jersey fabric
+      is draped on top to give an illusion of a dress, the look was complete with
+      many <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>
+      rings.
+    look_cover: "/assets/graphics/jaonna-chicken-1.png"
+    look_images: []
+    wide_card: false
+- project_name: G Drink Editorial
+  project_description: COMING SOON
+  project_page: _styling-and-creative-direction/g-drink-editorial.html
+  project_tags:
+  - client
+  - editorial
+  - experimental
+  date_published: 2021-10-31
+  media:
+  - template: look
+    look_name: Look 01
+    look_cover: "/assets/graphics/g-drink1-updated.png"
+    look_description: Inspired and recreated from Moschino references, a white suit
+      is hand painted with comic style black strokes, styled with white knee high
+      boots with a hand sewn pink bow over it. The look was complete with <a href="https://www.instagram.com/playniceaccessories/"
+      target="_blank">Play Nice Accessories</a> choker and earrings.
+    look_images: []
+    wide_card: false
+  - template: look
+    look_name: Look 02
+    look_cover: "/assets/graphics/g-drink2.png"
+    look_description: In a continuation on experimenting with stockings as garments,
+      the same red stockings were used to recreate a more couture version of the look
+      created in "Sisi on a Mission", inspired by Balenciaga, a one shoulder satin
+      dress imitation was draped using red satin.
+    look_images: []
+    wide_card: false
 - project_name: Break the Fourth Wall
   project_description: Welcome to My Digital World.
   project_page: _styling-and-creative-direction/break-the-fourth-wall.html
@@ -241,60 +295,6 @@ projects:
     image_s_name: ''
     image_s_description: ''
   date_published: 2021-10-01
-- project_name: G Drink Editorial
-  project_description: COMING SOON
-  project_page: _styling-and-creative-direction/g-drink-editorial.html
-  project_tags:
-  - client
-  - editorial
-  - experimental
-  date_published: 2021-10-31
-  media:
-  - template: look
-    look_name: Look 01
-    look_cover: "/assets/graphics/g-drink1-updated.png"
-    look_description: Inspired and recreated from Moschino references, a white suit
-      is hand painted with comic style black strokes, styled with white knee high
-      boots with a hand sewn pink bow over it. The look was complete with <a href="https://www.instagram.com/playniceaccessories/"
-      target="_blank">Play Nice Accessories</a> choker and earrings.
-    look_images: []
-    wide_card: false
-  - template: look
-    look_name: Look 02
-    look_cover: "/assets/graphics/g-drink2.png"
-    look_description: In a continuation on experimenting with stockings as garments,
-      the same red stockings were used to recreate a more couture version of the look
-      created in "Sisi on a Mission", inspired by Balenciaga, a one shoulder satin
-      dress imitation was draped using red satin.
-    look_images: []
-    wide_card: false
-- project_name: Chickens and Joanna
-  project_description: COMING SOON
-  project_page: _styling-and-creative-direction/chickens-and-joanna.html
-  project_tags:
-  - experimental
-  - personal
-  - editorial
-  date_published: 2021-11-02
-  media:
-  - template: look
-    look_name: Look 02
-    look_description: A nude colored top is styled with two tone denim/chino trousers
-      in shades of beige, styled with Bottega Veneta Puddle Boots and a Zara Home
-      blanket.
-    look_cover: "/assets/graphics/jaonna-chicken-2.png"
-    look_images: []
-    wide_card: false
-  - template: look
-    look_name: Look 01
-    look_description: Layered stockings in different nude shades to create a full
-      body base, with shimmer nude stockings on top to give shimmer, jersey fabric
-      is draped on top to give an illusion of a dress, the look was complete with
-      many <a href="https://www.instagram.com/indirajewelry/" target="_blank">Indira</a>
-      rings.
-    look_cover: "/assets/graphics/jaonna-chicken-1.png"
-    look_images: []
-    wide_card: false
 - project_name: 'Experimenting with Christina '
   project_description: "High Fashion Experimental Editorial.<br><br> \n\nModel: <a
     href=\"https://www.instagram.com/christina.goussous/\" target=\"_blank\">Christina
