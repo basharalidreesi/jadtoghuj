@@ -1,5 +1,7 @@
 ---
 entries:
+- entry_image: "/assets/graphics/story-01.gif"
+  entry_link: ''
 - entry_image: "/assets/graphics/hp-04.png"
   entry_link: ''
 - entry_image: "/assets/graphics/hp-05.png"
